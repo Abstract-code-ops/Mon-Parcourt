@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
-import '@/public/assets/css/custom.css'
 import { usePopup } from "@/components/layout/PopupContext";
 import { useTranslation } from "react-i18next";
 
@@ -35,7 +34,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                 <div className="header-lower">
                   <div className="outer-box clearfix">
                     <div className="logo-box" style={{marginRight: '20px', paddingTop: '10px', paddingBottom: '20px'}}>
-                      <figure className="logo"><Link href="/"><Image src="/assets/images/logo.png" alt="Mon Parcourt logo" width={140} height={40} priority /></Link></figure>
+                      <figure className="logo"><Link href="/"><Image src="assets/images/logo.png" alt="Mon Parcourt logo" width={140} height={40} priority /></Link></figure>
                     </div>
                     <div className="nav-outer"  style={{width: 'calc(100% - 200px)', height: '100%'}}>
                       <div className="menu-area clearfix">
@@ -55,7 +54,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                         {t('header.appointment')}
                       </button>
                       <div className="support-box">
-                        <figure className="image-box"><img src="/assets/images/resource/support-1.jpg" alt="" /></figure>
+                        <figure className="image-box"><img src="assets/images/resource/support-1.jpg" alt="" /></figure>
                         <span>{t('header.enquiries')}</span>
                         <Link href="tel:+33613800304">+33 613800304</Link>
                       </div>
@@ -79,7 +78,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                   <div className="auto-container">
                     <div className="outer-box">
                       <div className="logo-box">
-                        <figure className="logo"><Link href="/"><Image src="/assets/images/logo.png" alt="Mon Parcourt logo" width={100} height={77} /></Link></figure>
+                        <figure className="logo"><Link href="/"><Image src="assets/images/logo.png" alt="Mon Parcourt logo" width={100} height={77} /></Link></figure>
                       </div>
                       <div className="menu-area clearfix">
                       <nav className="main-menu navbar-expand-md navbar-light clearfix" >
@@ -92,7 +91,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                         {t('header.appointment')}
                       </button>
                       <div className="support-box">
-                        <figure className="image-box"><img src="/assets/images/resource/support-1.jpg" alt="" /></figure>
+                        <figure className="image-box"><img src="assets/images/resource/support-1.jpg" alt="" /></figure>
                         <span>{t('header.enquiries')}</span>
                         <Link href="tel:+33613800304">+33 613800304</Link>
                       </div>

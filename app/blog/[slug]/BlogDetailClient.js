@@ -10,7 +10,6 @@ import WeatherWidget from "@/components/layout/WeatherWidget";
 import EventsComponent from "@/components/sections/events/EventsComponent";
 import { useTranslation } from 'react-i18next';
 import ImageLoadingWrapper from "@/components/layout/ImageLoadingWrapper";
-import '@/public/assets/css/blog-loading.css';
 
 export default function BlogDetailClient({ post, isEvent, loading=false }) {
     const { t } = useTranslation('blog');

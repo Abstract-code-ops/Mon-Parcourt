@@ -1,7 +1,6 @@
 'use client'
 import Link from "next/link";
 import Layout from "@/components/layout/Layout"
-import '@/public/assets/css/custom.css'
 import { useTranslation, Trans } from 'react-i18next'
 import ContactExp from "@/components/elements/contactExp";
 

@@ -2,6 +2,8 @@
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
 import ExamCalendar from '@/components/elements/ExamCalendar';
+import TestCenterMap from '@/components/elements/TestCenterMap';
+
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import ContactExp from "@/components/elements/contactExp";

@@ -76,7 +76,7 @@ export default function Banner() {
                                 <div className="content-box">
                                     <div className="experience-inner">
                                         <figure className="logo-imgag">
-                                            <Image src="/assets/images/icons/logo-1.png" alt="Experience Logo" width={222} height={222} />
+                                            <Image src="assets/images/icons/logo-1.png" alt="Experience Logo" width={222} height={222} />
                                         </figure>
                                         <div className="text" style={{ bottom: '25px' }}>{t('banner.experience.years')}</div>
                                         <span style={{ bottom: '10px' }}>{t('banner.experience.label')}</span>

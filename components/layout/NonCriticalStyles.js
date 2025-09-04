@@ -11,7 +11,7 @@ export default function NonCriticalStyles() {
 
     const links = [
       // Defer icon fonts CSS
-      '/assets/css/font-awesome-all.css',
+      'assets/css/font-awesome-all.css',
     ]
 
     links.forEach((href) => {

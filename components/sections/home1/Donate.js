@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import '../../../public/assets/css/elements-css/donate.css';
 import DonationButton from '../donation/DonationButton';
 import { useTranslation } from 'react-i18next';
 
@@ -65,12 +64,12 @@ const Donate = () => {
             <div className="decoration-circle decoration-circle-2"></div>
             <div className="decoration-pattern"></div>
             {/* Currency coins */}
-            <img src="/assets/images/icons/coin1_white.png" alt="coin" className="donation-coin coin-1" />
-            <img src="/assets/images/icons/coin2_white.png" alt="coin" className="donation-coin coin-2" />
-            <img src="/assets/images/icons/coin3_white.png" alt="coin" className="donation-coin coin-3" />
-            <img src="/assets/images/icons/coin4_white.png" alt="coin" className="donation-coin coin-4" />
-            <img src="/assets/images/icons/coin5_white.png" alt="coin" className="donation-coin coin-5" />
-            <img src="/assets/images/icons/coin6_white.png" alt="coin" className="donation-coin coin-6" />
+            <img src="assets/images/icons/coin1_white.png" alt="coin" className="donation-coin coin-1" />
+            <img src="assets/images/icons/coin2_white.png" alt="coin" className="donation-coin coin-2" />
+            <img src="assets/images/icons/coin3_white.png" alt="coin" className="donation-coin coin-3" />
+            <img src="assets/images/icons/coin4_white.png" alt="coin" className="donation-coin coin-4" />
+            <img src="assets/images/icons/coin5_white.png" alt="coin" className="donation-coin coin-5" />
+            <img src="assets/images/icons/coin6_white.png" alt="coin" className="donation-coin coin-6" />
           </div>
         </div>
       </div>

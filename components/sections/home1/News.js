@@ -97,7 +97,7 @@ export default function News() {
                                         <figure className="image-box">
                                             <Link href={safeLink(post)} target={post.type === "external" ? "_blank" : "_self"}>
                                                 <img 
-                                                    src={post.mainImage ? optimizedBlogListImage(post.mainImage, 453, 300) : '/assets/images/resource/default-453x300.png'} 
+                                                    src={post.mainImage ? optimizedBlogListImage(post.mainImage, 453, 300) : 'assets/images/resource/default-453x300.png'} 
                                                     alt={(post.mainImage && post.mainImage.alt) || post.title} 
                                                     width="453"
                                                     height="300"

@@ -13,9 +13,9 @@ export const metadata = {
     title: 'Mon Parcourt',
     description: 'Connection Aget Website',
     icons: {
-        icon: '/assets/images/favicon.ico',
-        shortcut: '/assets/images/favicon.ico',
-        apple: '/assets/images/favicon.ico'
+        icon: 'assets/images/favicon.ico',
+        shortcut: 'assets/images/favicon.ico',
+        apple: 'assets/images/favicon.ico'
     }
 }
 

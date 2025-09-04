@@ -7,10 +7,10 @@ export default function Dream() {
   const { t } = useTranslation('home');
   return (
     <section className="dream-section p_relative">
-      <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(/assets/images/background/dream-bg.jpg)' }}></div>
-      <div className="pattern-layer-2" style={{ backgroundImage: 'url(/assets/images/shape/shape-9.png)' }}></div>
-      <figure className="image-layer"><img src="/assets/images/resource/women-1.png" alt={t('dream.imageAlt')} /></figure>
-      <div className="pattern-layer" style={{ backgroundImage: 'url(/assets/images/shape/shape-8.png)' }}></div>
+      <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(assets/images/background/dream-bg.jpg)' }}></div>
+      <div className="pattern-layer-2" style={{ backgroundImage: 'url(assets/images/shape/shape-9.png)' }}></div>
+      <figure className="image-layer"><img src="assets/images/resource/women-1.png" alt={t('dream.imageAlt')} /></figure>
+      <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-8.png)' }}></div>
       <div className="auto-container">
         <div className="content_block_two">
           <div className="content-box p_relative d_block">

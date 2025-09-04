@@ -1,7 +1,6 @@
 'use client';
 import React, { useState } from 'react';
 import EventDonationModal from '../events/EventDonationModal';
-import "@/public/assets/css/custom.css";
 
 const DonationButton = ({ 
   buttonText = "Donate Now",

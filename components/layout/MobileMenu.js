@@ -42,7 +42,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar,
         <nav className="menu-box">
           <div className="nav-logo">
             <Link href="/">
-              <img src="/assets/images/logo.png" alt="" />
+              <img src="assets/images/logo.png" alt="" />
             </Link>
           </div>
           {/* Mobile-specific controls: appointment button and language selector */}
