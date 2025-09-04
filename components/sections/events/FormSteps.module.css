@@ -1,0 +1,365 @@
+.stepContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  overflow-y: auto;
+  min-height: 300px;
+}
+
+.stepContent {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.stepHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.stepTitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.3;
+}
+
+.stepDescription {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0 !important;
+  line-height: 1.5;
+}
+
+.form {
+  width: 100%;
+}
+
+.formItem {
+  margin-bottom: 1.5rem;
+}
+
+.formItem label {
+  font-weight: 500;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.input {
+  border-radius: 8px;
+  border: 1.5px solid #d9d9d9;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.input:hover {
+  border-color: var(--secondary-color);
+}
+
+.input:focus,
+.input:focus-within {
+  border-color: var(--main-color);
+  box-shadow: 0 0 0 3px rgba(3, 43, 102, 0.1);
+}
+
+.inputIcon {
+  color: #999;
+  font-size: 1rem;
+}
+
+.inputRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.radioButton {
+  font-size: 1rem;
+  color: #333;
+}
+
+.passportSection {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  margin-top: 0.5rem;
+}
+
+.buttonContainer {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.primaryButton {
+  background: linear-gradient(135deg, var(--main-color) 0%, var(--secondary-color) 100%);
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  height: 48px;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(3, 43, 102, 0.3);
+  transition: all 0.3s ease;
+}
+
+.primaryButton:hover {
+  background: linear-gradient(135deg, #021f4d 0%, #4a6387 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(3, 43, 102, 0.4);
+}
+
+.secondaryButton {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  color: #6c757d;
+  border-radius: 8px;
+  font-weight: 500;
+  height: 48px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.secondaryButton:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+  color: #495057;
+}
+
+/* Step 3 specific styles */
+.donationSection {
+  margin: 1.5rem 0;
+}
+
+.impactCard {
+  background: linear-gradient(135deg, var(--main-color) 0%, var(--secondary-color) 100%);
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 24px rgba(3, 43, 102, 0.3);
+}
+
+.impactIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.impactText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 !important;
+  color: white !important;
+}
+
+.finalButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.donateButton {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: 500;
+  height: 48px;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
+  transition: all 0.3s ease;
+}
+
+.donateButton:hover {
+  background: linear-gradient(135deg, #ff5252 0%, #d32f2f 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 107, 107, 0.4);
+  color: white;
+}
+
+/* Make the heart icon fill with the donate button's shadow color on hover */
+.donateButton .anticon svg path {
+  /* Start with no fill (outlined) so the fill effect is visible on hover */
+  fill: transparent;
+  stroke: currentColor;
+  stroke-width: 0.5px;
+  transition: fill 0.22s ease, stroke 0.22s ease, filter 0.22s ease;
+}
+
+.donateButton:hover .anticon svg path {
+  /* Use the same color as the button's shadow (semi-opaque red) as the fill */
+  fill: rgba(255, 107, 107, 0.4);
+  /* remove stroke so the filled heart looks solid */
+  stroke: rgba(255, 107, 107, 0);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .stepTitle {
+    font-size: 1.5rem;
+  }
+
+  .stepDescription {
+    font-size: 0.95rem;
+  }
+
+  .inputRow {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .buttonRow {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .primaryButton,
+  .secondaryButton,
+  .donateButton {
+    width: 100%;
+    height: 44px;
+  }
+
+  .actionButtons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .finalButtons {
+    gap: 1rem;
+  }
+
+  .impactCard {
+    padding: 1.5rem;
+  }
+
+  .impactIcon {
+    font-size: 2.5rem;
+  }
+
+  .impactText {
+    font-size: 1rem;
+  }
+
+  .passportSection {
+    padding: 1rem;
+  }
+
+  .radioGroup {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .stepHeader {
+    margin-bottom: 1.5rem;
+  }
+
+  .stepTitle {
+    font-size: 1.3rem;
+  }
+
+  .stepDescription {
+    font-size: 0.9rem;
+  }
+
+  .formItem {
+    margin-bottom: 1.2rem;
+  }
+
+  .primaryButton,
+  .secondaryButton,
+  .donateButton {
+    height: 42px;
+    font-size: 0.95rem;
+  }
+
+  .impactCard {
+    padding: 1.2rem;
+  }
+
+  .impactIcon {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .impactText {
+    font-size: 0.95rem;
+  }
+
+  .passportSection {
+    padding: 0.8rem;
+  }
+
+  .input {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .stepTitle {
+    font-size: 1.2rem;
+  }
+
+  .stepDescription {
+    font-size: 0.85rem;
+  }
+
+  .primaryButton,
+  .secondaryButton,
+  .donateButton {
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  .impactCard {
+    padding: 1rem;
+  }
+
+  .impactText {
+    font-size: 0.9rem;
+  }
+
+  .formItem label {
+    font-size: 0.9rem;
+  }
+
+  .input {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,941 @@
+{
+  "title": "Popular Exams",
+  "subtitle": "Choose your prep course",
+  "coursesLabel": "Courses",
+  "visaAltLabel": "Visa",
+  "cards": {
+    "ielts": "IELTS",
+    "toefl": "TOEFL",
+    "daf": "TestDaF",
+    "tcf": "TCF"
+  },
+  "details": { 
+    "common": {
+      "tabs": {
+        "working": "Working Visas",
+        "business": "Business Visas",
+        "education": "Education Visas",
+        "tourist": "Tourist Visas"
+      },
+      "sidebar": {
+        "unitedStates": "United States",
+        "luxembourg": "Luxembourg",
+        "canada": "Canada",
+        "china": "China",
+        "germany": "Germany",
+        "australia": "Australia",
+        "spain": "Spain",
+        "turkey": "Turkey",
+        "northCyprus": "North Cyprus",
+        "lithuania": "Lithuania",
+        "france": "France",
+        "uae": "UAE"
+      },
+      "widgets": {
+        "travelPass": {
+          "title": "Travel Pass",
+          "list": ["Application Form", "Checklist", "Guidelines"]
+        },
+        "download": {
+          "title": "Annual Report / Online Appointment"
+        }
+      },
+      "consultation": {
+        "title": "Get Our Consultation",
+        "text": "Get the best experience possible in travel processes with our services. Just contact us below to get an appointment and we will get back to you as soon as possible. We are looking forward to working with you!!."
+      },
+      "contact": {
+        "subTitle": "Let’s Connect",
+        "title": "Get a Call From Experts",
+        "form": {
+          "name": "Your Name",
+          "email": "Email Address",
+          "phone": "Phone Number",
+          "submit": "Submit"
+        }
+      }
+    },
+    "pages": {
+      "unitedStates": {
+        "breadcrumbTitle": "United States",
+        "sidebar": {
+          "current": "United States"
+        },
+        "downloads": {
+          "link1": { "label": "Application Form", "meta": "450kb" },
+          "link2": { "label": "Application Form", "meta": "450kb" }
+        },
+        "working": {
+          "title": "Working Visa for the United States",
+          "p1": "Securing a working visa for the United States involves a detailed and structured process. This visa allows foreign nationals to live and work in the U.S. legally, either temporarily or permanently depending on the visa type. Common categories include H-1B (Specialty Occupations), L-1 (Intra-Company Transfer), O-1 (Individuals with Extraordinary Ability), and others.",
+          "overviewTitle": "Working Visa Application Overview",
+          "p2": "The U.S. working visa process begins with an employer petitioning on behalf of the foreign national. Applicants must meet specific eligibility criteria depending on the visa category. Once approved, the applicant must complete the visa application and attend an interview at a U.S. embassy or consulate.",
+          "p3": "Processing times vary by visa type and location. It’s essential to follow all instructions carefully and provide accurate information to avoid delays or denials.",
+          "postText1": "The working visa process in the U.S. is employer-driven and requires compliance with specific documentation and government approvals. Applicants must ensure that all supporting materials are complete before scheduling their visa interview.",
+          "checklistTitle": "To apply for a U.S. working visa, you will need to prepare and submit several supporting documents. Below is a checklist to guide you:",
+          "checklist": [
+            "Valid passport (with at least six months validity beyond intended stay)",
+            "Approved Form I-129 (Notice of Approval - Form I-797)",
+            "Form DS-160 confirmation page",
+            "Receipt for visa application fee",
+            "Passport-sized photo (as per U.S. visa photo requirements)",
+            "Letter from the U.S. employer describing job offer and position details",
+            "Educational certificates and work experience proof",
+            "Any previous U.S. visa or immigration documents (if applicable)"
+          ]
+        },
+        "business": {
+  "title": "Business Visa for the United States",
+  "p1": "The U.S. Business Visa (B-1) allows foreign nationals to enter the United States temporarily for business-related activities such as attending meetings, conferences, negotiations, or conducting market research. This non-immigrant visa requires applicants to demonstrate that their visit is strictly business-oriented, for a limited duration, and that they will return to their home country after completing their professional activities.",
+  "overviewTitle": "Business Visa Application Overview",
+  "p2": "To apply for a business visa, applicants must complete the DS-160 form online and schedule a visa interview. During the interview, you must provide proof of your business purpose in the U.S., demonstrate strong ties to your home country, and show financial capability to cover your stay.",
+  "p3": "Decisions are made at the discretion of the U.S. consular officer. Submitting accurate documentation, including evidence of the business nature of your trip, significantly improves your chances of approval.",
+  "p4": "For more information on the U.S. Business Visa and its requirements, please refer to the official U.S. Citizenship and Immigration Services <a href=\"https://www.uscis.gov/\">USCIS Website</a>.",
+  "text": "Business visa applicants must prove that they do not intend to immigrate, that their travel is solely for legitimate business purposes, and that they will exit the U.S. after their authorized stay. Preparing your application carefully with truthful and complete details is essential for success.",
+  "checklist": [
+    "Valid passport (with at least six months validity beyond your intended stay)",
+    "Completed Form DS-160 confirmation page",
+    "Visa application fee payment receipt",
+    "Passport-sized photo as per U.S. visa requirements",
+    "Proof of financial means (bank statements, payslips, or sponsor letter)",
+    "Documentation supporting the business purpose of the trip (invitation letter, conference registration, meeting details)",
+    "Evidence of ties to home country (employment letter, family commitments, property documents)"
+  ]
+        },
+        "education": {
+          "title": "Student Visa for the United States",
+          "p1": "The United States offers F-1 and M-1 student visas for international students who wish to study full-time at an academic institution (F-1) or vocational program (M-1). To begin the process, you must first be accepted by a SEVP-approved school.",
+          "overviewTitle": "Student Visa Application Overview",
+          "p2": "Once accepted, your school will issue a Form I-20. You’ll then complete the DS-160 form, pay the SEVIS and visa fees, and schedule an interview at the U.S. embassy or consulate in your country. The visa interview is crucial—be prepared to demonstrate your academic intent, financial means, and ties to your home country.",
+          "p3": "The F-1 visa is the most common student visa. M-1 is typically issued for technical and vocational studies. Both visas require you to maintain full-time student status during your stay.",
+          "text": "To ensure a successful application, gather all necessary documents in advance and answer questions during your interview clearly and truthfully. U.S. student visas are granted based on your academic purpose, intent to return home, and financial stability.",
+          "checklist": [
+            "Valid passport (with at least six months validity beyond your intended stay)",
+            "Form I-20 issued by a SEVP-approved U.S. institution",
+            "Completed Form DS-160 confirmation page",
+            "Visa application fee receipt and SEVIS fee receipt",
+            "Passport-sized photograph as per U.S. guidelines",
+            "Academic transcripts, certificates, standardized test scores (if required)",
+            "Proof of financial support (bank statements, affidavits, scholarships, or sponsorships)",
+            "Strong intent to return home after studies (e.g., family, job offer, property)"
+          ]
+        },
+        "tourist": {
+          "title": "Tourist Visa for the United States",
+          "p1": "The U.S. Tourist Visa (B-2) is a non-immigrant visa issued to individuals who want to visit the United States for leisure, vacation, or to visit friends and family. It is typically granted for a stay of up to 6 months and does not allow for employment or study.",
+          "overviewTitle": "Tourist Visa Application Overview",
+          "p2": "To apply for a U.S. tourist visa, you must fill out Form DS-160 online, pay the visa fee, and schedule an appointment at the nearest U.S. embassy or consulate. During the interview, you’ll need to show strong ties to your home country, evidence of sufficient financial means, and a clear purpose for your visit.",
+          "p3": "Visa officers assess whether you are a genuine temporary visitor. Being well-prepared with the right documents and honest answers is key to a successful application.",
+          "text1": "A tourist visa does not allow you to work or study in the U.S. You must leave the country before your authorized stay expires. Extensions may be requested in certain cases, but approval is not guaranteed.",
+          "text2": "Before applying, ensure you have a valid passport with at least six months' validity beyond your intended stay, and gather all necessary documents to support your application.",
+          "preChecklist": "Below are the required documents before applying for a U.S. tourist visa:",
+          "checklist": [
+            "Valid passport (at least six months beyond your intended stay)",
+            "Completed Form DS-160 confirmation page",
+            "Visa application fee payment receipt",
+            "Passport-sized photograph per U.S. guidelines",
+            "Travel itinerary and accommodation details (if available)",
+            "Proof of sufficient financial means (bank statements, salary slips, etc.)",
+            "Evidence of strong ties to home country (job, property, family, etc.)",
+            "Invitation letter from family/friends in the U.S. (optional but helpful)"
+          ]
+        }
+      },
+      "luxembourg": {
+        "breadcrumbTitle": "Luxembourg",
+        "sidebar": {
+          "current": "Luxembourg"
+        },
+        "downloads": {
+          "link1": { "label": "Application Form", "meta": "450kb" },
+          "link2": { "label": "Application Form", "meta": "450kb" }
+        },
+        "working": {
+          "title": "Working Visa for Luxembourg",
+          "p1": "Securing a working visa for Luxembourg allows non-EU citizens to be legally employed in the country. Most work permits are tied to a specific employer and require a concrete job offer. Categories include highly qualified worker permits, EU Blue Card, and seasonal work authorizations.",
+          "overviewTitle": "Working Visa Application Overview",
+          "p2": "The process typically starts with the employer applying to the Directorate of Immigration on the worker's behalf. Once approved, the applicant must apply for a long-stay D visa at the Luxembourg consulate in their country of residence.",
+          "p3": "After arrival in Luxembourg, a residence permit must be obtained. Processing usually takes 8–12 weeks. Applicants must meet language, salary, and qualification criteria depending on the permit type.",
+          "preChecklist": "To apply for a Luxembourg working visa, prepare the following:",
+          "checklist": [
+            "Valid passport (valid at least 6 months beyond intended stay)",
+            "Work contract approved by the Ministry of Foreign and European Affairs",
+            "Proof of professional qualifications (diplomas, certificates)",
+            "Criminal record certificate from home country",
+            "Health insurance coverage proof",
+            "Proof of accommodation in Luxembourg"
+          ]
+        },
+        "business": {
+  "title": "Business Visa for Luxembourg",
+  "p1": "Luxembourg’s short-stay Schengen business visa (Type C) permits travelers to engage in professional activities such as attending meetings, conferences, trade fairs, or negotiating contracts. It allows a stay of up to 90 days within a 180-day period. Applicants must clearly demonstrate their intent to return before the visa expires and show sufficient financial resources to cover all expenses during their business stay.",
+  "overviewTitle": "Business Visa Application Overview",
+  "p2": "Applications should be submitted to the nearest Luxembourg consulate or authorized visa center. Standard processing takes about 15 calendar days, though it may take longer during busy seasons. Business travelers must also provide travel medical insurance and proof of their return to ensure compliance with Schengen rules. Early application is strongly recommended.",
+  "p3": "Applicants are required to present a valid passport, a duly completed visa application form, recent passport-sized photos, proof of accommodation, a detailed travel and business itinerary, and evidence of financial means. In addition, an official invitation letter from a Luxembourg-based company or organization is typically mandatory to validate the business purpose of the trip.",
+  "p4": "Applicants can follow up on the status of their business visa application either online or by contacting the respective consulate or visa center directly.",
+  "text": "Business visa applicants must provide clear evidence that their purpose of travel is strictly professional, that they will not overstay, and that they possess the financial ability to support themselves. Submitting complete and accurate documentation is essential to avoid delays or rejection.",
+  "checklist": [
+    "Completed and signed Schengen business visa application form",
+    "Two recent passport-sized photos",
+    "Valid passport (with at least 3 months' validity after intended departure from Luxembourg)",
+    "Travel medical insurance (minimum €30,000 coverage)",
+    "Proof of accommodation and business itinerary (hotel bookings, event registrations)",
+    "Invitation letter from a Luxembourg company or organization",
+    "Evidence of financial means (bank statements, employer letter, company sponsorship)",
+    "Round-trip flight reservation"
+  ]
+},
+        "education": {
+          "title": "Student Visa for Luxembourg",
+          "p1": "Students from non-EU countries must apply for a temporary authorization to stay before arriving. This is followed by applying for a long-stay student visa (Type D). Applicants must be enrolled in a recognized educational institution in Luxembourg.",
+          "overviewTitle": "Student Visa Application Overview",
+          "p2": "Once admitted to a program, students apply for authorization to stay. After approval, they submit a visa application at a consulate. Upon entry, students must undergo a medical check and apply for a residence permit within 3 months.",
+          "p3": "Processing times vary, so early application is recommended. Students must show proof of sufficient financial means, health insurance, and accommodation. Language proficiency may also be required depending on the program.",
+          "preChecklist": "Luxembourg tourist visa requirements:",
+          "checklist": [
+            "Authorization to stay issued by the Immigration Directorate",
+            "Valid passport and recent photos",
+            "Proof of enrollment in a Luxembourg institution",
+            "Proof of sufficient financial resources",
+            "Health insurance covering the full stay",
+            "Motivation letter explaining purpose of study"
+          ]
+        },
+        "tourist": {
+          "title": "Tourist Visa for Luxembourg",
+          "p1": "Luxembourg is part of the Schengen Zone, so tourists must apply for a Schengen Visa (Type C) for short stays up to 90 days. This visa is valid across all Schengen countries. The purpose can include sightseeing, visiting family, or cultural events.",
+          "overviewTitle": "Tourist Visa Application Overview",
+          "p2": "The visa application should be filed at the Luxembourg consulate or relevant visa center. You must apply at least 15 days before your intended travel date. Provide clear documentation proving the visit is temporary and financially supported.",
+          "p3": "Getting a Schengen visa is sometimes not straightforward and a lot of factors can come into action.",
+          "text1": "A Schengen visa does not allow you to work or study in Luxembourg. You must leave the country before your authorized stay expires. Extensions for a Schengen visa may be requested in certain cases, but approval is not guaranteed.",
+          "text2": "Before applying, ensure you have a valid passport with at least six months' validity beyond your intended stay, and gather all necessary documents to support your application.",
+          "preChecklist": "Below are the required documents before applying for a Luxembourg tourist visa:",
+          "checklist": [
+            "Valid passport with at least two blank pages",
+            "Completed and signed visa application form",
+            "Recent passport-sized photographs",
+            "Proof of travel insurance (minimum €30,000 coverage)",
+            "Flight itinerary and proof of accommodation",
+            "Evidence of financial means for entire stay",
+            "Tourist itinerary or invitation letter from host"
+          ]
+        }
+      },
+      "canada": {
+        "breadcrumbTitle": "Canada",
+        "sidebar": { "current": "Canada" },
+        "downloads": {
+          "link1": { "label": "Application Forms", "meta": "IRCC" },
+          "link2": { "label": "Check Status", "meta": "IRCC" }
+        },
+        "working": {
+          "title": "Work Permits for Canada",
+          "p1": "Canada offers several paths for foreign nationals to work legally in the country, primarily through the Temporary Foreign Worker Program (TFWP) and the International Mobility Program (IMP). Most applicants require a job offer from a Canadian employer and may need a Labour Market Impact Assessment (LMIA) to show that no Canadian worker is available for the job.",
+          "overviewTitle": "Work Permit Application Overview",
+          "p2": "The process begins with a Canadian employer providing a job offer. Depending on the stream, an LMIA may be required. Once these are secured, the applicant submits their work permit application to Immigration, Refugees and Citizenship Canada (IRCC). Biometrics are usually required.",
+          "p3": "Processing times vary by country of application and permit type. Some streams, like the Global Talent Stream, offer expedited processing. Successful applicants receive a port of entry letter of introduction.",
+          "preChecklist": "To apply for a Canadian Work Permit, prepare the following:",
+          "checklist": [
+            "Valid passport with at least one blank page",
+            "Completed Application for Work Permit Made Outside of Canada (IMM 1295)",
+            "Proof of financial support to cover your stay",
+            "A copy of a positive Labour Market Impact Assessment (LMIA), if applicable",
+            "A valid job offer letter from a Canadian employer",
+            "Proof of meeting the language requirements (English/French)",
+            "Evidence you will leave Canada at the end of your authorized stay"
+          ]
+        },
+        "business": {
+    "title": "Business Visa for Canada",
+    "p1": "A Canadian Business Visa, officially considered under the category of a Temporary Resident Visa (TRV), is designed for foreign nationals who want to enter Canada temporarily for business-related activities. This includes attending meetings, conferences, trade fairs, negotiating contracts, or exploring opportunities to establish business relationships in Canada. The visa does not permit direct entry into the Canadian labor market and does not authorize employment.",
+    "overviewTitle": "Business Visa Application Overview",
+    "p2": "Applications can be submitted online through the IRCC portal or at a Visa Application Centre (VAC). You must clearly demonstrate to the immigration officer that your visit is temporary, that you intend to leave Canada once your business activities are completed, and that you have sufficient financial resources to cover your stay and travel expenses. Evidence of business ties in your home country, such as company ownership, employment records, or partnership agreements, is essential.",
+    "p3": "Processing times may vary depending on your country of residence and the time of year. Since biometrics (fingerprints and a photograph) are mandatory for most applicants, it is strongly recommended to apply several weeks before your planned travel. A truthful and complete application significantly improves the chances of approval.",
+    "preChecklist": "To apply for a Canadian Business Visa, prepare the following:",
+    "checklist": [
+      "Completed Application for Visitor Visa (IMM 5257) indicating business purpose",
+      "Valid passport with at least six months validity and blank pages",
+      "Two recent passport-sized photos meeting Canadian specifications",
+      "Proof of financial support (bank statements, business account records, sponsorship letter)",
+      "Invitation letter from a Canadian business partner, conference organizer, or trade show authority",
+      "Documents showing your current business or professional status in your home country (company registration, employment verification, contracts)",
+      "Evidence of ties to your home country, ensuring your return after the trip"
+    ]
+  },
+        "education": {
+          "title": "Study Permits for Canada",
+          "p1": "A study permit is a document issued by IRCC that allows foreign nationals to study at designated learning institutions (DLIs) in Canada. Most international students need a study permit to study in Canada. Make sure you have all the necessary documents before you apply.",
+          "overviewTitle": "Study Permit Application Overview",
+          "p2": "The first step is to get a letter of acceptance from a DLI. Once you have this, you can apply for your study permit online or through a VAC. You must prove you have enough money to pay for your tuition fees, living expenses, and return transportation.",
+          "p3": "Applicants from certain countries may be eligible for faster processing through the Student Direct Stream (SDS). You must apply before you travel to Canada. A study permit is not a visa; you may also need a visitor visa or an eTA to enter Canada.",
+          "preChecklist": "To apply for a Canadian Study Permit, prepare the following:",
+          "checklist": [
+            "Proof of acceptance from a Designated Learning Institution (DLI)",
+            "Valid passport or travel document",
+            "Proof of financial support (GIC, bank statements, scholarship letter)",
+            "A letter of explanation detailing your academic goals",
+            "Medical exam results (if required)",
+            "Biometrics (fingerprints and photo)",
+            "Proof of language proficiency (if required by DLI)"
+          ]
+        },
+        "tourist": {
+          "title": "Tourist Visa for Canada",
+          "p1": "A tourist visa for Canada is the same as a visitor visa (Temporary Resident Visa - TRV). It is intended for individuals who wish to enter Canada for the purpose of tourism, such as sightseeing, vacationing, or visiting friends and family. You must satisfy an officer that you will leave Canada at the end of your stay.",
+          "overviewTitle": "Tourist Visa Application Overview",
+          "p2": "The application process requires you to submit specific forms and supporting documents to prove your eligibility. This includes showing you have sufficient funds for your trip, a clear travel itinerary, and strong ties to your home country that will ensure your return.",
+          "p3": "It's crucial to provide a truthful and complete application. Any misrepresentation can lead to refusal and a ban on applying for several years. Citizens of visa-exempt countries need an Electronic Travel Authorization (eTA) to fly to or transit through a Canadian airport.",
+          "preChecklist": "To apply for a Canadian Tourist Visa, prepare the following:",
+          "checklist": [
+            "A valid passport with at least two blank pages",
+            "Completed and signed visitor visa application form (IMM 5257)",
+            "Recent, compliant passport-sized photographs",
+            "Proof of financial means for your entire trip",
+            "Detailed travel itinerary, including flight and hotel bookings",
+            "Invitation letter from a host in Canada (if applicable)",
+            "Proof of your ties to your home country (job, family, property)"
+          ]
+        }
+      },
+      "china": {
+        "breadcrumbTitle": "China",
+        "sidebar": { "current": "China" },
+        "downloads": {
+          "link1": { "label": "Online Application", "meta": "CVASC" },
+          "link2": { "label": "Appointment & Status", "meta": "CVASC" }
+        },
+        "working": {
+          "title": "Work Visa (Z) for China",
+          "p1": "The Z-Visa is issued to foreign nationals who intend to work in China. This visa is the initial entry permit; upon arrival, the holder must apply for a Temporary Residence Permit within 30 days to legally work and live in China. The process is initiated by the employer in China.",
+          "overviewTitle": "Z-Visa Application Overview",
+          "p2": "A Chinese employer must first obtain a 'Notification Letter of Foreigner's Work Permit' from the local authorities. With this letter, the applicant can then apply for the Z-Visa at a Chinese Embassy or Consulate in their home country. An online application form and an appointment are typically required.",
+          "p3": "After entering China with the Z-Visa, the employee must complete a medical examination and apply for the Residence Permit at the local Public Security Bureau (PSB) Exit-Entry Administration.",
+          "preChecklist": "To apply for a Chinese Z-Visa, prepare the following:",
+          "checklist": [
+            "Original passport with at least six months of remaining validity",
+            "Completed Visa Application Form of the People's Republic of China",
+            "A recent, color passport photo against a light background",
+            "Notification Letter of Foreigner's Work Permit",
+            "Proof of legal stay or residence status (if applying outside your country of citizenship)",
+            "Previous Chinese passports or visas (if applicable)"
+          ]
+        },
+        "business": {
+  "title": "Business Visa (M) for China",
+  "p1": "The M-Visa is issued to foreign citizens who intend to go to China for commercial and trade-related purposes. To obtain this visa, applicants need to show supporting documents such as an official invitation letter from a Chinese business partner, trade fair registration confirmation, or proof of planned commercial activities during their stay.",
+  "overviewTitle": "M-Visa Application Overview",
+  "p2": "Applicants must complete the online visa application form and schedule an appointment at the nearest Chinese Visa Application Service Center (CVASC) or Embassy. You will need to submit your passport, the official invitation documents, and other required supporting materials at the appointment. Fingerprints are collected for most applicants.",
+  "p3": "Processing times vary depending on the workload of the consular office, so it is strongly advised to apply at least one month before your intended travel date. The visa’s validity, duration of stay, and number of entries will be determined by the consular officer based on the provided documentation and purpose of visit.",
+  "preChecklist": "To apply for a Chinese M-Visa, prepare the following:",
+  "checklist": [
+    "Original passport with at least two blank visa pages",
+    "Completed online visa application form and confirmation page",
+    "A recent, compliant passport photograph",
+    "Official invitation letter from a Chinese business partner or organization",
+    "Supporting documents related to the commercial or trade activities (e.g., contracts, trade fair registration)",
+    "Proof of financial means for the business trip may be requested"
+  ]
+},
+        "education": {
+          "title": "Student Visa (X) for China",
+          "p1": "The X-Visa is for foreign nationals coming to China for academic studies. It is divided into two categories: X1 for long-term studies (over 180 days) and X2 for short-term studies (up to 180 days). X1 visa holders must apply for a Temporary Residence Permit within 30 days of entry.",
+          "overviewTitle": "X-Visa Application Overview",
+          "p2": "Prospective students must first be accepted by a recognized educational institution in China. The institution will provide an Admission Notice and a 'Visa Application for Study in China' form (JW201 or JW202). These documents are essential for the visa application, which is submitted to a CVASC or Embassy.",
+          "p3": "Similar to other visa types, an online application and an appointment are required. Students on an X1 visa must undergo a medical check-up after arrival to complete their residence permit application.",
+          "preChecklist": "To apply for a Chinese X-Visa, prepare the following:",
+          "checklist": [
+            "Original passport with more than six months of validity",
+            "Completed online visa application form",
+            "A recent, compliant passport photograph",
+            "Original and photocopy of the Admission Notice from the school",
+            "Original and photocopy of 'Visa Application for Study in China' (Form JW201 or JW202)",
+            "Proof of financial support may be required"
+          ]
+        },
+        "tourist": {
+  "title": "Tourist Visa (L) for China",
+  "p1": "The L-Visa is issued to those who intend to travel to China for tourism, sightseeing, or visiting family and friends. It is strictly for leisure and personal visits, and it does not permit any work or business-related activities.",
+  "overviewTitle": "L-Visa Application Overview",
+  "p2": "The key document for an L-Visa application is proof of travel arrangements or an invitation letter. For tourists, this may include confirmed flight bookings, hotel reservations, or a detailed itinerary. For visiting relatives or friends, an invitation letter from the host in China, along with their identification or residence details, is required.",
+  "p3": "The application process follows the standard procedure of completing the online form, scheduling an appointment, and submitting the required documents at the designated CVASC or Embassy.",
+  "preChecklist": "To apply for a Chinese L-Visa, prepare the following:",
+  "checklist": [
+    "Original passport with at least six months of validity",
+    "Completed online visa application form",
+    "A recent, compliant passport photograph",
+    "Proof of travel arrangements (flight tickets and hotel bookings) or an invitation letter",
+    "If visiting family/friends, include a copy of their Chinese ID card or residence permit",
+    "Travel itinerary or supporting documents showing the purpose of visit"
+  ]
+}
+      },
+      "germany": {
+        "breadcrumbTitle": "Germany",
+        "sidebar": { "current": "Germany" },
+        "downloads": {
+          "link1": { "label": "Application Forms", "meta": "VIDEX" },
+          "link2": { "label": "Check Status", "meta": "VIDEX" }
+        },
+        "working": {
+          "title": "Work Visa for Germany",
+          "p1": "Germany offers several visa options for skilled professionals seeking employment, including the EU Blue Card for highly qualified individuals. A concrete job offer from a German employer and official recognition of your professional qualifications are typically the main prerequisites for obtaining a work visa.",
+          "overviewTitle": "Work Visa Application Overview",
+          "p2": "The process starts with securing a job contract. Your foreign university degree or vocational qualification must be recognized in Germany. You then apply for a national visa at the German embassy or consulate in your country. After arriving in Germany, you must register your address and apply for a residence permit at the local Foreigners' Authority (Ausländerbehörde).",
+          "preChecklist": "To apply for a German Work Visa, prepare the following:",
+          "checklist": [
+            "Valid national passport & two recent biometric photos",
+            "Completed national visa application form (VIDEX)",
+            "Signed contract from a German employer",
+            "Proof of recognition of your qualifications (Anabin printout or ZAB statement)",
+            "Proof of travel health insurance valid for the initial period",
+            "Curriculum Vitae (CV) and a cover letter"
+          ]
+        },
+        "business": {
+  "title": "Business Visa for Germany",
+  "p1": "A German Business Visa allows foreign nationals to stay in Germany and the wider Schengen Area for short periods of up to 90 days within any 180-day timeframe. This visa is intended exclusively for business-related purposes such as attending meetings, conferences, trade fairs, professional training sessions, or negotiating contracts. If Germany is your main destination for business activities, you must apply through the German consulate or its officially designated service provider.",
+  "overviewTitle": "Business Visa Application Overview",
+  "p2": "Applicants are required to submit their visa request either at the German diplomatic mission or through an authorized service provider such as VFS Global in their country of residence. The essential documentation includes a detailed business travel itinerary, proof of accommodation during your stay, and verifiable evidence of sufficient financial resources to cover all expenses. Additionally, an official invitation letter from the German business partner, conference organizer, or trade fair authority is usually mandatory. Comprehensive travel health insurance valid throughout the Schengen Area with coverage of at least €30,000 is compulsory. It is strongly recommended to apply well ahead of your planned travel date, but not earlier than six months before your intended trip.",
+  "preChecklist": "To apply for a German Business Visa, prepare the following:",
+  "checklist": [
+    "Completed and signed visa application form",
+    "Valid passport with at least two blank pages",
+    "Two recent biometric passport photographs",
+    "Proof of travel (flight reservations) and accommodation (hotel bookings)",
+    "Proof of financial means (e.g., bank statements, employer sponsorship)",
+    "Official invitation letter from a German business partner or event organizer",
+    "Schengen-compliant travel health insurance (minimum €30,000 coverage)",
+    "A cover letter detailing the purpose and duration of your business trip"
+  ]
+},
+        "education": {
+          "title": "Student Visa for Germany",
+          "p1": "International students who have been accepted into a German educational institution must apply for a national visa for the purpose of studying. This visa allows you to enter Germany and then apply for a residence permit to cover the duration of your studies.",
+          "overviewTitle": "Student Visa Application Overview",
+          "p2": "After receiving your admission letter from a German university, you must prove you have sufficient financial resources. This is typically done by depositing a required amount into a blocked bank account (Sperrkonto). With these documents, you apply for the visa at the German embassy in your home country. Upon arrival, you register your address and convert your visa into a residence permit.",
+          "preChecklist": "To apply for a German Student Visa, prepare the following:",
+          "checklist": [
+            "Valid passport and two biometric photos",
+            "Completed national visa application form",
+            "Letter of admission from a German university",
+            "Proof of financial resources (Blocked Account confirmation)",
+            "Proof of university entrance qualification (e.g., high school diploma)",
+            "Proof of health insurance coverage",
+            "Letter of motivation and CV"
+          ]
+        },
+        "tourist": {
+          "title": "Family Reunion and Tourist Visa for Germany",
+          "p1": "This visa allows spouses and minor children to join their family members living in Germany or allows tourists to visit the country. The family member in Germany must have a valid residence permit and sufficient income and living space to support the family. Spouses are often required to prove basic German language skills.",
+          "overviewTitle": "Family Reunion Visa Application Overview",
+          "p2": "The application must be filed at the German embassy or consulate in your home country. You will need to provide official documents like marriage and birth certificates, which usually require an Apostille or legalization. The process involves verification of the documents and the living conditions of the family member in Germany. Processing times can take several weeks or even months.",
+          "preChecklist": "To apply for a Family Reunion Visa, prepare the following:",
+          "checklist": [
+            "Valid passport and completed national visa application",
+            "Two recent biometric passport photos",
+            "Marriage certificate / Birth certificate (original with Apostille)",
+            "Proof of basic German language skills (A1 certificate) for spouses",
+            "Copy of the passport and residence permit of the family member in Germany",
+            "Proof of sufficient living space in Germany (e.g., rental contract)"
+          ]
+        }
+      },
+      "australia": {
+        "breadcrumbTitle": "Australia",
+        "sidebar": { "current": "Australia" },
+        "downloads": {
+          "link1": { "label": "Application Forms", "meta": "Home Affairs" },
+          "link2": { "label": "Check Status", "meta": "Home Affairs" }
+        },
+        "working": {
+          "title": "Work Visas for Australia",
+          "p1": "Australia has a range of visa options for skilled individuals looking to work. These visas are generally points-tested or employer-sponsored. Common pathways include the Temporary Skill Shortage (TSS) visa, Skilled Independent visa, and State Nominated visas. A positive skills assessment and competent English are fundamental requirements for most skilled visas.",
+          "overviewTitle": "Skilled Migration Application Overview",
+          "p2": "The process typically begins with checking if your occupation is on the relevant skilled occupation list. You must then obtain a positive skills assessment from a designated authority. For points-tested visas (like subclass 189 or 190), you submit an Expression of Interest (EOI) in SkillSelect and wait for an invitation to apply. For employer-sponsored visas (like subclass 482), your employer must first become an approved sponsor and then nominate you for a position.",
+          "preChecklist": "To apply for an Australian Work Visa, key documents often include:",
+          "checklist": [
+            "Valid passport & recent passport-sized photos",
+            "Positive skills assessment report",
+            "English language test results (e.g., IELTS, PTE Academic)",
+            "Educational qualification certificates and transcripts",
+            "Employment references and evidence of work experience",
+            "Health and character documents (police certificates)"
+          ]
+        },
+        "business": {
+  "title": "Business Visa (subclass 600) for Australia",
+  "p1": "The Business Visitor visa (subclass 600) allows you to travel to Australia for short-term business purposes. These purposes may include attending conferences, trade fairs, or seminars, engaging in negotiations, conducting exploratory business activities, or making general business or employment inquiries. It is important to note that this visa does not allow you to work in Australia or provide services to a business or organization based in the country.",
+  "overviewTitle": "Business Visa Application Overview",
+  "p2": "Applications are usually lodged online through ImmiAccount. You must prove that you are a genuine temporary entrant, which means your main intention is to stay in Australia only for legitimate business visitor purposes and that you will depart at the end of your visit. Essential to this is showing you have enough financial resources to support yourself during your stay and strong commitments in your home country that will ensure your return.",
+  "p3": "Processing times can vary depending on the volume of applications and individual circumstances. Therefore, it is highly advisable to apply well ahead of your planned travel date to avoid unexpected delays.",
+  "preChecklist": "To apply for an Australian Business Visitor Visa, prepare the following:",
+  "checklist": [
+    "Completed online application form in ImmiAccount",
+    "Valid passport with at least six months validity",
+    "Recent, clear passport-style photograph",
+    "Proof of sufficient funds (e.g., bank statements, pay slips)",
+    "Supporting documents detailing your business activities (e.g., conference registration, invitation from an Australian company)",
+    "Evidence of ties to your home country (e.g., employment contract, business ownership, family obligations)",
+    "Invitation letter from an Australian organization if applicable"
+  ]
+},
+        "education": {
+          "title": "Student Visa (subclass 500) for Australia",
+          "p1": "The Student visa (subclass 500) allows you to stay in Australia to study full-time in a registered course. You can generally stay for the duration of your course plus a short additional period. You must be enrolled in a course of study in Australia and hold Overseas Student Health Cover (OSHC).",
+          "overviewTitle": "Student Visa Application Overview",
+          "p2": "Once you are accepted into an Australian educational institution, they will issue a Confirmation of Enrolment (CoE). You will use this CoE to apply for your visa online. You must also provide evidence of your financial capacity, English proficiency, and write a Genuine Temporary Entrant (GTE) statement explaining your reasons for studying in Australia.",
+          "preChecklist": "To apply for an Australian Student Visa, prepare the following:",
+          "checklist": [
+            "Valid passport and digital photo",
+            "Confirmation of Enrolment (CoE) for all courses",
+            "Genuine Temporary Entrant (GTE) statement",
+            "Proof of sufficient funds for tuition, travel, and living costs",
+            "Evidence of English language skills (e.g., IELTS)",
+            "Proof of Overseas Student Health Cover (OSHC)",
+            "Health and character documents"
+          ]
+        },
+        "tourist": {
+          "title": "Tourist & Family Visas for Australia",
+          "p1": "This category primarily covers the Visitor Visa (subclass 600), which allows you to visit for tourism or to see family and friends. The Tourist stream is for holiday and recreational purposes. The Sponsored Family stream is for people who have an eligible family member in Australia to sponsor their visit. For partners seeking to live in Australia, a separate and more complex Partner visa pathway exists.",
+          "overviewTitle": "Tourist & Family Visa Application Overview",
+          "p2": "You must apply for this visa from outside Australia. The key is to prove your intention to visit is genuine and temporary. For the Sponsored Family stream, your sponsor must be an Australian citizen or permanent resident and may be required to pay a security bond. You must demonstrate you have adequate funds for your stay and an incentive to return home.",
+          "p3": "Check the latest requirements on the <a href=\"https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder\" target=\"_blank\">Department of Home Affairs website</a> as visa conditions can change.",
+          "preChecklist": "To apply for a Tourist or Family Stream Visa, prepare the following:",
+          "checklist": [
+            "Valid passport and a completed application form",
+            "A recent passport-style photograph",
+            "Proof of funds (bank statements) to cover your stay",
+            "Letter of invitation from family/friends in Australia",
+            "Proof of your sponsor's status (for Sponsored Family stream)",
+            "Itinerary of your planned activities in Australia",
+            "Evidence of your intent to return home (job, property, etc.)"
+          ]
+        }
+      },
+      "spain": {
+        "breadcrumbTitle": "Spain",
+        "sidebar": { "current": "Spain" },
+        "downloads": {
+          "link1": { "label": "Application Forms", "meta": "Ministry of Foreign Affairs" },
+          "link2": { "label": "Book Appointment", "meta": "Consular Services" }
+        },
+        "working": {
+          "title": "Work Visas for Spain",
+          "p1": "To work in Spain as a non-EU citizen, you must obtain a long-stay visa, which also serves as your residence permit. The process typically requires your employer in Spain to first obtain a work authorization on your behalf from the Spanish authorities. Once the authorization is granted, you can apply for your work visa at the Spanish Consulate or Embassy in your country of residence.",
+          "overviewTitle": "Work Visa Application Overview",
+          "p2": "There are several types of work visas, including those for highly-skilled professionals, seasonal workers, and self-employed individuals (autónomos). The key is the employment contract and the work permit approved by the Delegation or Sub-delegation of the Government in the province where the work will be carried out. The application must be submitted in person by the applicant.",
+          "preChecklist": "To apply for a Spanish Work Visa, key documents often include:",
+          "checklist": [
+            "National visa application form, completed and signed",
+            "Valid passport and a recent passport-sized photograph",
+            "Copy of the work and residence authorization",
+            "Employment contract stamped by the Foreigners' Office",
+            "Police clearance certificates from the last 5 years",
+            "Medical certificate proving you are free of quarantinable diseases"
+          ]
+        },
+        "business": {
+  "title": "Schengen Business Visa for Spain",
+  "p1": "As a member of the Schengen Area, Spain issues the uniform Schengen Business Visa that permits short-term stays of up to 90 days within any 180-day period. This visa is strictly intended for business-related purposes such as attending professional meetings, conferences, trade fairs, or negotiating contracts. It is not suitable for employment or long-term residency. Holders of this visa can also travel freely within all 27 Schengen countries during the authorized period of stay.",
+  "overviewTitle": "Schengen Business Visa Application Overview",
+  "p2": "Applicants must file their request at the Spanish Consulate or Embassy in their country of residence, or at the officially designated visa application center (such as BLS International). If you are planning to visit several Schengen countries for business purposes, you are required to apply at the consulate of the country where you will spend the most time conducting your professional activities. The application must clearly demonstrate the purpose of your business trip, provide evidence of your financial capability to cover expenses, and show proof of your strong intention to leave the Schengen Area once your visa validity ends.",
+  "preChecklist": "To apply for a Spanish Schengen Business Visa, prepare the following:",
+  "checklist": [
+    "Completed and signed Schengen business visa application form",
+    "Valid passport with at least 3 months validity beyond the intended stay",
+    "Two recent passport-sized photos meeting Schengen requirements",
+    "Proof of travel medical insurance covering a minimum of €30,000",
+    "Round-trip flight reservation and confirmed accommodation details",
+    "Proof of sufficient financial means for the duration of the business trip",
+    "Official invitation letter from a Spanish company or business partner, clearly outlining the purpose of the visit"
+  ]
+},
+        "education": {
+          "title": "Student Visa for Spain",
+          "p1": "If you plan to study in Spain for more than 90 days, you must apply for a long-stay student visa. This visa allows you to reside in Spain for the duration of your studies. You must first be accepted into a recognized educational institution in Spain before you can begin the visa application process.",
+          "overviewTitle": "Student Visa Application Overview",
+          "p2": "The application must be submitted well in advance of your intended travel date at the Spanish Consulate or Embassy in your home country. You will need to provide comprehensive documentation proving your enrollment, financial stability, and health status. Once in Spain, you must apply for a Student Residence Card (TIE) within one month of arrival.",
+          "preChecklist": "To apply for a Spanish Student Visa, prepare the following:",
+          "checklist": [
+            "National visa application form, completed and signed",
+            "Valid passport and a recent passport-sized photograph",
+            "Letter of acceptance from the Spanish educational institution",
+            "Proof of sufficient funds to cover your expenses",
+            "Proof of private or public health insurance",
+            "Medical certificate and police clearance certificate",
+            "Proof of accommodation in Spain"
+          ]
+        },
+        "tourist": {
+          "title": "Tourist & Family Visas for Spain",
+          "p1": "For tourism or visiting family for up to 90 days, you will need a Schengen visa (as detailed in the 'Schengen Visas' tab). For longer stays to join a family member who is a resident in Spain, you must apply for a long-stay family reunification visa (visado de reagrupación familiar). The process for the long-stay visa is initiated by your family member in Spain.",
+        "overviewTitle": "Tourist & Family Visa Application Overview",
+          "p2": "For a short-stay tourist visa, you must provide a detailed itinerary, hotel bookings, and proof of funds. If visiting family, an official Letter of Invitation ('Carta de Invitación') issued by the Police in Spain is often required instead of hotel bookings. For long-stay family visas, your relative in Spain must first get an authorization for family reunification before you can apply at the consulate.",
+          "preChecklist": "To apply for a Tourist or Family Stream Visa (Schengen), prepare the following:",
+          "checklist": [
+            "Schengen visa application form and a passport-style photo",
+            "Valid passport and copies of previous visas",
+            "Travel medical insurance with minimum €30,000 coverage",
+            "Round-trip flight reservation",
+            "Proof of accommodation (hotel bookings or 'Carta de Invitación')",
+            "Proof of financial means to support your stay",
+            "Proof of civil status (marriage certificate, birth certificates of children)"
+          ]
+        }
+      },
+      "turkey": {
+        "breadcrumbTitle": "Turkey",
+        "sidebar": { "current": "Turkey" },
+        "downloads": {
+          "link1": { "label": "Pre-Application", "meta": "Consular System" },
+          "link2": { "label": "Apply for e-Visa", "meta": "e-Visa System" }
+        },
+        "working": {
+          "title": "Work Visas for Turkey",
+          "p1": "Foreign nationals must obtain a work permit before they can begin working in Turkey. The application is typically made by the employer to the Ministry of Family, Labour and Social Services. Concurrently, the employee must apply for a work visa at a Turkish Embassy or Consulate in their country of residence or legal stay, submitting their own set of documents.",
+          "overviewTitle": "Work Visa Application Overview",
+          "p2": "Once the employer's application is approved by the Ministry, the employee will be granted a work visa. Upon arrival in Turkey (before starting work), the employee must register with the local authorities and obtain a residence permit. The work permit is usually issued for one year initially and can be extended.",
+          "preChecklist": "To apply for a Turkish Work Visa, key documents include:",
+          "checklist": [
+            "Visa application form and valid passport",
+            "A recent biometric photograph",
+            "Copy of the employment contract or job offer",
+            "Letter from the employer",
+            "Police clearance certificate",
+            "Proof of educational qualifications (often translated)"
+          ]
+        },
+        "business": {
+  "title": "Business Visa for Turkey",
+  "p1": "For professionals and entrepreneurs, obtaining a Turkish business visa is an essential step to engage in official meetings, attend conferences, or establish commercial partnerships. Depending on your nationality, you may be eligible for a business e-Visa that permits a stay of 30 or 90 days. If you are not eligible, you must apply for a traditional sticker visa through a Turkish Consulate. It is important to verify your eligibility on the official Turkish visa platforms before planning your trip.",
+  "overviewTitle": "Business e-Visa & Sticker Visa Application Overview",
+  "p2": "The business e-Visa application can be completed online in just a few minutes at www.evisa.gov.tr using a valid passport, email address, and credit/debit card. For a sticker visa, you must first register your application at the Consular Procedures website (www.konsolosluk.gov.tr) and then attend an appointment at the consulate with your supporting documents. Unlike the e-Visa, the sticker visa requires additional evidence such as proof of financial capacity, travel health insurance, business invitations, and accommodation details. This ensures that your stay is compliant with Turkish immigration requirements.",
+  "preChecklist": "To apply for a Turkish Business Visa, prepare the following:",
+  "checklist": [
+    "Passport valid for at least 6 months",
+    "(For e-Visa) A valid email address and payment card",
+    "(For Sticker Visa) Completed application form & photo",
+    "(For Sticker Visa) Proof of income and financial means",
+    "(For Sticker Visa) Flight and hotel reservations",
+    "(For Sticker Visa) Travel health insurance",
+    "(For Business) Invitation letter from a Turkish company"
+  ]
+},
+        "education": {
+          "title": "Student Visa for Turkey",
+          "p1": "Foreign students who wish to study in Turkey must obtain a student visa from a Turkish Consulate in their home country before traveling. This applies to all levels of education, including undergraduate, graduate, and language courses. You cannot come to Turkey on a tourist visa and then apply for a student residence permit.",
+          "overviewTitle": "Student Visa Application Overview",
+          "p2": "First, you must be accepted by a Turkish educational institution and receive an official acceptance letter. You will then use this letter to apply for the student visa at the nearest Turkish mission. After arriving in Turkey with your student visa, you must register at the local Provincial Directorate of Migration Management within 30 days to obtain your student residence permit.",
+          "preChecklist": "To apply for a Turkish Student Visa, prepare the following:",
+          "checklist": [
+            "Completed visa application form and valid passport",
+            "A recent biometric photograph",
+            "Official letter of acceptance from the Turkish institution",
+            "Proof of sufficient funds to support your studies and stay",
+            "Proof of valid health insurance for Turkey",
+            "Proof of accommodation (e.g., dormitory confirmation)",
+            "Copies of previous educational certificates"
+          ]
+        },
+        "tourist": {
+          "title": "Family & Other Visas for Turkey",
+          "p1": "Turkey offers long-stay visas for individuals seeking to join family members. The most common is the Family Reunification Visa, for foreign spouses or dependent children of a Turkish citizen or a foreign national legally residing in Turkey. Other long-stay visas exist for purposes such as medical treatment or scientific research.",
+          "overviewTitle": "Family Visa Application Overview",
+          "p2": "The application for a family visa is made at a Turkish Consulate abroad. The sponsoring family member in Turkey (the 'supporter') must meet certain conditions, including having adequate income and suitable accommodation. The applicant must provide official documents proving the family relationship, such as an internationally recognized marriage or birth certificate.",
+          "preChecklist": "To apply for a Family Reunification Visa, prepare the following:",
+          "checklist": [
+            "Visa application form, valid passport, and biometric photo",
+            "Original and copy of marriage certificate (for spouses)",
+            "Original and copy of birth certificate (for children)",
+            "Copy of the supporter's Turkish ID or residence/work permit",
+            "Proof of the supporter's sufficient and regular income",
+            "Proof of health insurance for all family members",
+            "Police clearance certificate for the applicant"
+          ]
+        }
+      },
+      "northCyprus": {
+        "breadcrumbTitle": "North Cyprus",
+        "sidebar": { "current": "North Cyprus" },
+        "downloads": {
+          "link1": { "label": "Pre-Application", "meta": "North Cyprus Consular System" },
+          "link2": { "label": "Apply for e-Visa", "meta": "North Cyprus e-Visa System" }
+        },
+        "working": {
+          "title": "Work Visas for North Cyprus",
+          "p1": "Foreign nationals seeking employment in North Cyprus must obtain a work permit before beginning work. The employer applies to the Ministry of Labor and Social Security of North Cyprus for the work permit. Concurrently, the employee applies for a work visa at a North Cyprus embassy or consulate.",
+          "overviewTitle": "Work Visa Application Overview",
+          "p2": "After approval of the employer's application, the employee is issued a work visa. Upon arrival, registration with local immigration authorities and obtaining a residence permit is mandatory. Work permits are generally issued for 1 year and can be extended upon renewal.",
+          "preChecklist": "To apply for a North Cyprus Work Visa, prepare the following documents:",
+          "checklist": [
+            "Completed visa application form and a valid passport",
+            "Recent biometric photograph",
+            "Employment contract or official job offer letter",
+            "Work permit approval letter from the Ministry",
+            "Police clearance certificate",
+            "Proof of qualifications and professional certificates"
+          ]
+        },
+        "business": {
+  "title": "Business Visas for North Cyprus",
+  "p1": "Foreign nationals intending to travel to North Cyprus for business-related purposes must obtain a Business Visa prior to their entry. Depending on nationality, applicants may be eligible to apply online for an e-Visa or may be required to apply for a sticker visa through a North Cyprus embassy or consulate. It is crucial to carefully verify the eligibility criteria, documentation requirements, and permitted duration of stay before starting the application process.",
+  "overviewTitle": "Business e-Visa & Sticker Visa Application Overview",
+  "p2": "The Business e-Visa application for North Cyprus is completed online through the official portal, requiring a valid passport, a functioning email address, and a payment card. Applicants not eligible for an e-Visa must instead apply for a sticker visa. This process involves a pre-application submission followed by a scheduled appointment at the embassy or consulate. Applicants must provide supporting documents such as proof of accommodation, round-trip flight reservations, travel health insurance, financial evidence, and an official invitation letter from a host company registered in North Cyprus.",
+  "preChecklist": "To apply for a Business Visa for North Cyprus, prepare the following:",
+  "checklist": [
+    "Passport valid for at least 6 months",
+    "(For e-Visa) Valid email address and payment card",
+    "(For Sticker Visa) Completed visa application form and recent passport-sized photo",
+    "(For Sticker Visa) Proof of accommodation and confirmed round-trip flight booking",
+    "Travel health insurance valid in North Cyprus",
+    "Official invitation letter from a host company registered in North Cyprus",
+    "Proof of sufficient financial means for the duration of stay"
+  ]
+},
+        "education": {
+          "title": "Student Visa for North Cyprus",
+          "p1": "Students admitted to higher education institutions in North Cyprus must obtain a student visa before arrival. Applications are made through North Cyprus embassies or consulates. Tourist visas cannot be converted to student visas after arrival.",
+          "overviewTitle": "Student Visa Application Overview",
+          "p2": "Applicants must present an official acceptance letter from a recognized North Cyprus educational institution. This is required to apply for a student visa at the nearest embassy. Upon arrival, students must register with local authorities to obtain their student residence permit within 30 days.",
+          "preChecklist": "To apply for a North Cyprus Student Visa, prepare these documents:",
+          "checklist": [
+            "Completed visa application form and valid passport",
+            "Recent biometric photograph",
+            "Official university acceptance letter",
+            "Proof of sufficient funds for tuition and living expenses",
+            "Valid health insurance for duration of stay",
+            "Proof of accommodation arrangements",
+            "Copies of previous education certificates"
+          ]
+        },
+        "tourist": {
+          "title": "Family & Other Visas for North Cyprus",
+          "p1": "North Cyprus offers long-term visas for family reunification and other specific purposes such as medical treatment or research. The Family Reunification Visa permits spouses and dependent children of residents or citizens to join their family. These applications are made at North Cyprus consulates abroad.",
+          "overviewTitle": "Family Visa Application Overview",
+          "p2": "Applicants must prove their family relationship with documentation such as marriage or birth certificates, recognized internationally. The resident sponsor in North Cyprus must provide proof of adequate income and suitable accommodation. Health insurance and police clearance certificates are also required.",
+          "preChecklist": "To apply for a Family Reunification Visa for North Cyprus, prepare the following documents:",
+          "checklist": [
+            "Completed visa application form, valid passport, and biometric photo",
+            "Marriage certificate for spouses (original and copies)",
+            "Birth certificates for children (original and copies)",
+            "Copy of sponsor’s North Cyprus residence or work permit",
+            "Evidence of sponsor’s income and accommodation",
+            "Health insurance covering all applicants",
+            "Police clearance certificate of applicant"
+          ]
+        }
+      },
+      
+      "lithuania": {
+        "breadcrumbTitle": "Lithuania",
+        "sidebar": { "current": "Lithuania" },
+        "downloads": {
+          "link1": { "label": "Application Forms", "meta": "Migration Department" },
+          "link2": { "label": "Book Appointment", "meta": "VFS Global" }
+        },
+        "working": {
+          "title": "Work Visas for Lithuania",
+          "p1": "To work in Lithuania, non-EU/EEA citizens must typically obtain a National Visa (D). The process usually starts with the Lithuanian employer, who must register the job vacancy and, in most cases, obtain a work permit or a decision on the compliance of the foreign worker's qualifications from the Lithuanian Employment Service. Once this is secured, the employee can apply for the National Visa (D) for work.",
+          "overviewTitle": "National Visa (D) Application Overview",
+          "p2": "The visa application is submitted at a Lithuanian Embassy, Consulate, or an accredited visa center (like VFS Global) in the applicant's country of residence. After receiving the visa and arriving in Lithuania, the worker must then apply for a Temporary Residence Permit to continue living and working in the country legally. Highly skilled professionals may follow a streamlined process (EU Blue Card).",
+          "preChecklist": "To apply for a Lithuanian Work Visa, key documents include:",
+          "checklist": [
+            "Completed electronic application form (from MIGRIS)",
+            "Valid passport and a recent passport-sized color photo",
+            "A valid work permit issued by the Employment Service",
+            "Mediation letter from the employer (e-visa number)",
+            "Proof of sufficient funds for living expenses",
+            "Valid travel medical insurance (minimum €30,000 coverage)"
+          ]
+        },
+        "business": {
+  "title": "Business Schengen Visa for Lithuania",
+  "p1": "As a full member of the Schengen Area, Lithuania issues Schengen (Type C) business visas for individuals who need to travel to Lithuania or other Schengen countries for short-term business purposes. This visa permits stays of up to 90 days within any 180-day period and is specifically intended for business-related travel such as attending conferences, participating in professional training sessions, negotiating contracts, visiting partner companies, or exploring potential commercial opportunities. The holder of this visa is allowed to move freely across the 27 Schengen countries for business engagements without the need for separate national visas.",
+  "overviewTitle": "Business Schengen Visa Application Overview",
+  "p2": "Applications for a Lithuanian business visa must be submitted through a Lithuanian Embassy, Consulate, or an officially recognized visa application center (for example, VFS Global) in the country where you legally reside. Applicants are required to apply at the mission of their primary destination, which in this case is Lithuania if it is the main focus of travel. The application process requires not only proof of sufficient funds, travel insurance, and accommodation but also specific business-related documentation. These include an official invitation letter from a company or organization in Lithuania, details of scheduled meetings or events, and evidence that the trip is strictly for professional purposes. Additionally, you must demonstrate a clear intention to return to your country of residence once the visa expires, which may be supported by employment contracts, property ownership, or family commitments.",
+  "preChecklist": "To apply for a Lithuanian Business Schengen Visa, prepare the following:",
+  "checklist": [
+    "Completed and signed application form",
+    "Passport valid for at least 3 months after your intended departure",
+    "One recent passport-sized color photo",
+    "Proof of travel medical insurance (minimum €30,000 coverage)",
+    "Round-trip flight reservation and proof of accommodation",
+    "Proof of sufficient financial means for the stay",
+    "Official invitation letter from a Lithuanian company or business partner",
+    "Documents showing the purpose of the business trip (e.g., contracts, event registrations, meeting schedules)"
+  ]
+},
+        "education": {
+          "title": "Student Visas for Lithuania",
+          "p1": "Foreign nationals intending to study in Lithuania for more than 90 days must apply for a National Visa (D) for studies. This visa allows you to enter and stay in Lithuania while you finalize your legal status. The primary requirement is an official letter of acceptance from a recognized Lithuanian educational institution.",
+          "overviewTitle": "Student Visa & Residence Permit Overview",
+          "p2": "After being accepted to a school, you apply for the National Visa (D) at a Lithuanian mission abroad. Upon arrival in Lithuania with this visa, you must immediately apply for a Temporary Residence Permit (TRP) at the Migration Department. The TRP will be your main legal document for the duration of your studies.",
+          "preChecklist": "To apply for a Lithuanian Student Visa, prepare the following:",
+          "checklist": [
+            "Completed electronic application form and valid passport",
+            "One recent passport-sized color photo",
+            "Mediation letter (e-visa number) from the Lithuanian school",
+            "Proof of sufficient funds (for tuition and ~€450/month living costs)",
+            "Valid travel medical insurance (minimum €30,000 coverage)",
+            "For minors, a notarized consent from parents/guardians"
+          ]
+        },
+        "tourist": {
+          "title": "Family & Other Visas for Lithuania",
+          "p1": "Foreign nationals who wish to join a family member (a spouse, registered partner, or parent of a minor child) who is a citizen or resident of Lithuania must apply for a visa based on family reunification. The process usually involves first obtaining a National Visa (D) to enter the country, and then applying for a Temporary Residence Permit upon arrival.",
+          "overviewTitle": "Family Reunification Application Overview",
+          "p2": "The family member residing in Lithuania (the sponsor) must provide a mediation letter (invitation) through the MIGRIS system. The applicant then uses this invitation to apply for the National Visa (D) at a Lithuanian mission abroad. The sponsor must prove they have sufficient funds and adequate accommodation for the family member.",
+          "preChecklist": "To apply for a Family Reunification Visa, prepare the following:",
+          "checklist": [
+            "Completed electronic application form and valid passport",
+            "A recent passport-sized color photo",
+            "Mediation letter from the sponsor in Lithuania",
+            "Documents proving family ties (e.g., marriage/birth certificates)",
+            "Proof of the sponsor's sufficient funds and accommodation",
+            "Valid travel medical insurance (minimum €30,000 coverage)"
+          ]
+        }
+      },
+
+      "france": {
+        "breadcrumbTitle": "France",
+        "sidebar": { "current": "France" },
+        "downloads": {
+          "link1": { "label": "Official Visa Website", "meta": "France-Visas" },
+          "link2": { "label": "Book Appointment", "meta": "Visa Centers (TLS/VFS)" }
+        },
+        "working": {
+          "title": "Work Visas for France",
+          "p1": "To work in France, non-EU/EEA/Swiss citizens must obtain a long-stay visa equivalent to a residence permit (VLS-TS) with the mention \"salarié\" (employee). The process must be initiated by the French employer, who needs to secure a work authorization from the relevant French authority (DIRECCTE). Only after this authorization is granted can the employee apply for their visa.",
+          "overviewTitle": "Work Visa Application Overview",
+          "p2": "The entire process starts on the official France-Visas website. After completing the online form, you schedule an appointment at the designated visa application center (e.g., VFS Global, TLScontact). Once you receive your visa and arrive in France, you must validate it online within three months to finalize your legal right to reside and work in the country.",
+          "preChecklist": "To apply for a French Work Visa, key documents include:",
+          "checklist": [
+            "Completed France-Visas form, receipt, and passport",
+            "Two recent passport-sized identity photos",
+            "Work authorization obtained by the employer",
+            "Copy of the employment contract",
+            "Proof of accommodation in France",
+            "The OFII form (French Office for Immigration and Integration)"
+          ]
+        },
+        "business": {
+  "title": "Business Schengen Visa for France",
+  "p1": "France, as a core founding member of the Schengen Area, issues a uniform Schengen (Type C) visa specifically for business-related short stays. This visa is intended for individuals traveling for professional purposes such as attending meetings, conferences, trade fairs, negotiations, or establishing commercial partnerships. It allows travel for up to 90 days within a 180-day period across all 27 Schengen member states, providing business travelers with flexibility and broad mobility within Europe.",
+  "overviewTitle": "Business Schengen Visa Application Overview",
+  "p2": "To apply for a French Business Schengen Visa, you must start your application on the official France-Visas platform. After carefully filling out the form and generating a personalized checklist of required documents, you must book an appointment with the official visa service provider for your region (such as VFS Global or TLScontact). At your appointment, you will be required to submit your documents along with biometric data. It is important to apply through the French consulate or visa center of your primary destination, especially if France is the country where you will spend the majority of your business trip.",
+  "preChecklist": "To apply for a French Business Schengen Visa, prepare the following:",
+  "checklist": [
+    "France-Visas application receipt and a valid passport",
+    "Two recent and compliant passport-sized photos",
+    "Proof of travel medical insurance with a minimum coverage of €30,000",
+    "A detailed travel itinerary, including flight reservations and proof of accommodation",
+    "Proof of sufficient financial means to cover expenses during the entire stay",
+    "An official invitation letter from a French company or organization hosting the business activity",
+    "A cover letter from your employer or company explaining the purpose of your trip and your role",
+    "Proof of socio-professional status such as an employment letter, company registration, or business license"
+  ]
+},
+        "education": {
+          "title": "Student Visas for France",
+          "p1": "For studies longer than three months, you must apply for a long-stay visa equivalent to a residence permit for students (VLS-TS \"étudiant\"). For many non-EU students, the process begins with a mandatory application through Campus France, the official agency for promoting French higher education. This step must be completed before the visa application.",
+          "overviewTitle": "Student Visa Application Overview",
+          "p2": "After receiving approval from Campus France (if applicable), you must complete your application on the France-Visas website. You will then book an appointment to submit your documents at the designated visa center. Upon arrival in France, you must validate your VLS-TS online to activate your residence permit.",
+          "preChecklist": "To apply for a French Student Visa, prepare the following:",
+          "checklist": [
+            "France-Visas receipt and valid passport",
+            "Two recent passport-sized photos",
+            "Official letter of acceptance from a French institution",
+            "Campus France authorization (if required for your country)",
+            "Proof of sufficient funds (currently €615/month)",
+            "Proof of accommodation for at least the first three months"
+          ]
+        },
+        "tourist": {
+          "title": "Family & Other Visas for France",
+          "p1": "France offers a long-stay visa for private and family life (VLS-TS \"vie privée et familiale\") for those wishing to join a family member. This category primarily applies to spouses of French nationals, parents of French minor children, and family members of EU/EEA/Swiss citizens. The specific requirements vary greatly depending on the nature of the family tie.",
+          "overviewTitle": "Family Visa Application Overview",
+          "p2": "Applications are submitted via the France-Visas portal. For spouses of French citizens, proof of marriage (a recent, full copy of the French marriage certificate) and proof of the spouse's nationality are paramount. The applicant must also demonstrate a genuine marital life and intent to settle in France. Upon arrival, the visa must be validated online.",
+          "preChecklist": "To apply for a Family Visa (e.g., as a spouse of a French national):",
+          "checklist": [
+            "France-Visas receipt, valid passport, and photos",
+            "Proof of the spouse's French nationality (e.g., national ID card)",
+            "Recent (less than 2 months old) full copy of French marriage certificate",
+            "If married abroad, transcription of the marriage certificate",
+            "Proof of a shared life (joint bills, photos, etc.)",
+            "Proof of accommodation in France"
+          ]
+        }
+      },
+
+      "uae": {
+        "breadcrumbTitle": "UAE",
+        "sidebar": { "current": "UAE" },
+        "downloads": {
+          "link1": { "label": "ICP Smart Services", "meta": "Federal Authority (ICP)" },
+          "link2": { "label": "Dubai Services", "meta": "GDRFA - Dubai" }
+        },
+        "working": {
+          "title": "Work Visas (Residence Permit) for UAE",
+          "p1": "To work in the UAE, foreign nationals must be sponsored by an employer. The employer is responsible for obtaining a work permit and residence visa for the employee. The process begins with the employer securing a work permit (or offer letter) from the Ministry of Human Resources & Emiratisation (MoHRE). This allows the employee to enter the UAE on an entry permit.",
+          "overviewTitle": "Work Visa Application Overview",
+          "p2": "Once in the UAE, the employee must undergo a medical fitness test and apply for an Emirates ID card. The employer then finalizes the process by getting the residence visa stamped in the employee's passport. This visa is typically valid for two years and is tied to the employment contract. The entire process is managed by the employer or their designated PRO.",
+          "preChecklist": "Key documents required from the employee include:",
+          "checklist": [
+            "Valid passport with at least six months validity",
+            "Recent passport-sized photographs with a white background",
+            "Educational certificates, attested by the UAE Embassy",
+            "Medical certificate from an approved health center in the UAE",
+            "Signed offer letter or employment contract"
+          ]
+        },
+        "business": {
+    "title": "Business Visa for UAE",
+    "p1": "The UAE offers a business visa that is specifically designed to facilitate foreign investors, entrepreneurs, and professionals who wish to explore, establish, or expand their business activities within the country. This visa category provides an official pathway to enter and remain in the UAE for the purpose of conducting business, attending corporate meetings, building partnerships, and evaluating potential investment opportunities. In most cases, applicants are required to demonstrate financial stability, provide proof of business experience, and present documentation that supports the legitimacy of their intended commercial activities. By securing a business visa, individuals gain the legal right to actively participate in the UAE’s dynamic economic environment.",
+    "overviewTitle": "Business Visa Application Overview",
+    "p2": "To begin the process, the applicant must first submit an application for an entry permit under the business visa category. After entering the UAE with this permit, the applicant generally has a period of 60 days to finalize all required formalities. These steps often include completing a medical fitness test, registering for an Emirates ID, and submitting supporting documents such as trade licenses or letters of intent from local partners. The residence visa will then be stamped in the applicant’s passport once approval is granted. Applications can be processed online through the official ICP platform or via the GDRFA portal in the case of Dubai, ensuring a streamlined and accessible procedure for foreign professionals and investors.",
+    "preChecklist": "To apply for a Business Visa, the applicant must provide:",
+    "checklist": [
+      "Applicant's passport copy and recent photographs",
+      "Completed business visa application form",
+      "Proof of financial capability (bank statements or financial records)",
+      "Business plan or proposal outlining intended activities in the UAE",
+      "Trade license copy or letter of support from a local sponsor or partner",
+      "Applicant's professional qualifications or CV demonstrating relevant experience"
+    ]
+  },
+        "education": {
+          "title": "Student Visas for UAE",
+          "p1": "Foreign students can study in the UAE if they are sponsored by a licensed university or college. The educational institution handles the visa application process on behalf of the student. Student visas are typically granted for one year at a time and can be renewed for the duration of the study program.",
+          "overviewTitle": "Student Visa Application Overview",
+          "p2": "After receiving an official admission letter, the student submits the required documents to the university's international student office. The university then applies for the student entry permit. Upon arrival, the student undergoes a medical test, and the university completes the residence visa stamping process. High-achieving students may be eligible for a longer-term 'Golden Visa'.",
+          "preChecklist": "To apply for a UAE Student Visa, prepare the following for your university:",
+          "checklist": [
+            "Passport copy and recent passport-sized photos",
+            "Official acceptance letter from the UAE university/college",
+            "Proof of payment for tuition and visa fees",
+            "Proof of sufficient funds or sponsorship letter",
+            "Attested educational certificates from your home country",
+            "Medical fitness test results (done in the UAE)"
+          ]
+        },
+        "tourist": {
+          "title": "Tourist Visas for UAE",
+          "p1": "The UAE offers several types of tourist visas, most commonly for 30 or 60 days. Citizens of many countries are eligible for a visa on arrival, while others must apply in advance. Pre-arranged visas are typically sponsored by a UAE-based entity, such as an airline (Etihad, Emirates), a hotel, or a registered travel agency.",
+          "overviewTitle": "Tourist Visa Application Overview",
+          "p2": "If you need to apply in advance, you can do so through your airline's website (if you are flying with them), your hotel, or a tour operator. Alternatively, you can apply directly through the official government portals: the ICP Smart Services website for all emirates, or the GDRFA website for visas specifically for Dubai. The process is entirely online.",
+          "preChecklist": "To apply for a UAE Tourist Visa, prepare the following:",
+          "checklist": [
+            "Scanned color copy of your passport (valid for 6+ months)",
+            "A recent color passport-sized photograph",
+            "Confirmed flight booking (if applying via an airline)",
+            "Proof of accommodation (if applying via a hotel)",
+            "Completed online application form",
+            "Visa fee payment"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+	"breadcrumb": "Entrons en contact avec— MonParcourt",
+	"quickContact": "Contact rapide",
+	"haveQuestions": {
+		"line1": "Des questions ?",
+		"line2": "N'hésitez pas à nous contacter"
+	},
+	"introText": "Nous sommes là pour vous aider. Que vous ayez besoin de plus d'informations ou d'assistance, n'hésitez pas à nous contacter. Notre équipe est prête à vous accompagner et à répondre à toutes vos questions.",
+	"location": {
+		"title": "Localisation",
+		"address": "87 Boulevard Diderot 75012 Paris"
+	},
+	"contactBox": {
+		"title": "Contact rapide",
+		"phoneLabel": "Téléphone :",
+		"emailLabel": "E-mail :",
+		"directCall": "Appel direct:"
+	},
+	"opening": {
+		"title": "Horaires d'ouverture",
+		"days": "Lun - Ven :",
+		"hours": "09h00 à 19h00"
+	},
+	"form": {
+		"letsConnect": "Restons en contact",
+		"title": "Envoyez votre message",
+		"subtitle": "Contactez-nous par e-mail et nous vous répondrons dans les plus brefs délais.",
+		"firstName": "Prénom",
+		"lastName": "Nom",
+		"email": "E-mail",
+		"phone": "Téléphone",
+		"message": "Votre message ici",
+		"partnershipSelect": "Souhaitez-vous devenir partenaire ?",
+		"partnershipMessage": "Quel service fournissez-vous ?",
+		"partnershipYes": "Oui",
+		"partnershipNo": "Non",
+		"submit": "Envoyer le message",
+		"sending": "Envoi...",
+		"success": "Message envoyé avec succès !",
+		"error": "Échec de l'envoi du message. Veuillez réessayer."
+	},
+	"faq": {
+		"title": "Questions Fréquemment Posées (FAQ)",
+		"subtitle": "Vos Questions, Nos Réponses",
+		"description": "Vous avez des questions sur l'expatriation, les visas ou la préparation linguistique ? Nous avons rassemblé les réponses aux questions les plus courantes pour vous aider à comprendre nos services, simplifier votre parcours et prendre des décisions éclairées concernant vos études, votre travail ou votre vie dans un nouveau pays.",
+		"questionsRight": [
+			{
+				"question": "Quels services fournissez-vous ?",
+				"answer": "Nous offrons une consultation complète en matière d'immigration pour les études, le travail, les affaires, le tourisme et les visites familiales en Europe, en Asie et en Amérique. De plus, nous proposons un coaching linguistique pour aider nos clients à se préparer aux entretiens de visa, aux opportunités professionnelles et à une meilleure intégration à l'étranger.",
+				"id": 1
+			},
+			{
+				"question": "Pouvez-vous m'aider à choisir le type de visa approprié ?",
+				"answer": "Oui. En fonction de votre objectif de voyage, de votre profil et de vos projets, nos consultants vous guideront pour sélectionner le type de visa le plus adapté et s'assurer que vous remplissez toutes les conditions requises.",
+				"id": 2
+			},
+			{
+				"question": "Fournissez-vous uniquement des conseils ou prenez-vous également en charge les demandes de visa ?",
+				"answer": "Nous faisons les deux. Nous vous accompagnons tout au long du processus, préparons vos documents et vous assistons pour les soumissions de demande, la réservation des rendez-vous et la préparation aux entretiens.",
+				"id": 3
+			},
+			{
+				"question": "Comment fonctionne votre coaching linguistique ?",
+				"answer": "Nos programmes de coaching linguistique sont adaptés au pays de destination. Nous mettons l'accent sur les compétences pratiques en communication, la préparation aux entretiens de visa et l'adaptation culturelle pour vous aider à réussir à l'étranger.",
+				"id": 4
+			},
+			{
+				"question": "Dans quels pays êtes-vous spécialisés ?",
+				"answer": "Nous aidons nos clients à s'installer dans un large éventail de pays en Europe, en Asie et en Amérique, y compris des destinations populaires telles que l'Allemagne, la France, le Canada, les États-Unis, Chypre du Nord, les Émirats Arabes Unis, la Chine, et bien d'autres.",
+				"id": 5
+			}
+		],
+		"questionsLeft": [
+			{
+				"question": "Garantissez-vous l'obtention du visa ?",
+				"answer": "Aucune agence de conseil ne peut garantir l'obtention d'un visa, car la décision finale revient aux ambassades et consulats concernés. Cependant, nous maximisons vos chances en veillant à ce que votre demande soit complète, précise et présentée de manière professionnelle.",
+				"id": 6
+			},
+			{
+				"question": "Combien de temps le processus prend-il généralement ?",
+				"answer": "Les délais de traitement varient selon le type de visa et le pays. Les visas étudiants et de travail peuvent prendre plusieurs semaines à plusieurs mois, tandis que les visas touristiques sont généralement plus rapides. Nous vous guidons sur les délais lors de votre consultation.",
+				"id": 7
+			},
+			{
+				"question": "Quels documents sont requis pour une demande de visa ?",
+				"answer": "Les documents requis dépendent du type de visa. En général, il s'agit d'un passeport valide, d'une preuve de ressources financières, de lettres d'invitation (si applicable), d'un itinéraire de voyage, de détails sur l'hébergement et de documents justificatifs tels qu'une lettre d'emploi ou d'admission.",
+				"id": 8
+			},
+			{
+				"question": "Combien coûtent vos services ?",
+				"answer": "Nos tarifs varient en fonction du type de service — conseil, gestion de la demande ou coaching linguistique. Nous fournissons un détail clair des coûts lors de la première consultation, afin qu'il n'y ait pas de frais cachés.",
+				"id": 9
+			},
+			{
+				"question": "Comment puis-je commencer ?",
+				"answer": "Il vous suffit de nous contacter via notre site web, par téléphone ou par e-mail pour réserver une consultation. Nous évaluerons votre situation, vous expliquerons vos options et créerons un plan personnalisé pour vos projets d'immigration ou de voyage.",
+				"id": 10
+			}
+		]
+	},
+	"signature": "Cordialement, développeur : "
+}

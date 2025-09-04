@@ -1,0 +1,39 @@
+{
+  "currentLanguage": "en",
+  "breadcrumb": {
+    "blogList": "Blog & Announcements",
+    "blogDetail": "Blog Post"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Keyword ..."
+  },
+  "categories": {
+    "title": "Category",
+    "clear": "Clear",
+    "blog": "Blog Post",
+    "announcement": "Announcement",
+    "event": "Event"
+  },
+  "affiliates": {
+    "title": "Affiliates",
+    "partner": "Partner",
+    "sponsor": "Sponsor"
+  },
+  "pagination": {
+    "prev": "Prev",
+    "next": "Next"
+  },
+  "post": {
+    "readMore": "Read More",
+    "tags": "Tags :",
+    "author": "Admin",
+    "externalLink": "external link"
+  },
+  "meta": {
+    "blogListTitle": "Blog & Announcements - Immigration Services",
+    "blogListDescription": "Stay updated with the latest immigration news, announcements, and helpful blog posts about visa services, coaching programs, and country information.",
+    "blogDetailTitle": "{{title}} - Immigration Blog",
+    "blogDetailDescription": "Read our detailed blog post about {{title}} and stay informed about immigration services and opportunities."
+  }
+}

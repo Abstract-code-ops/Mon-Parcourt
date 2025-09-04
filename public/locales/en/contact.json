@@ -1,0 +1,102 @@
+{
+	"breadcrumb": "Let's get in touch— MonParcourt",
+	"quickContact": "Quick Contact",
+	"haveQuestions": {
+		"line1": "Have Questions?",
+		"line2": "Don't Hesitate to Contact Us"
+	},
+	"introText": "We are here to help you. Whether you need more information or assistance, feel free to reach out. Our team is ready to provide support and answer any questions you may have.",
+	"location": {
+		"title": "Location",
+		"address": "87 Boulevard Diderot 75012 Paris"
+	},
+	"contactBox": {
+		"title": "Quick Contact",
+		"phoneLabel": "Phone:",
+		"emailLabel": "Email:",
+		"directCall": "Direct Call:"
+	},
+	"opening": {
+		"title": "Opening Hrs",
+		"days": "Mon - Friday:",
+		"hours": "09.00 am to 07.00 pm"
+	},
+	"form": {
+		"letsConnect": "Let’s Connect",
+		"title": "Send Your Message",
+		"subtitle": "Contact us with your email and we will get to you as soon as possible.",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"email": "Email",
+		"phone": "Phone",
+		"message": "Your message here",
+		"partnershipSelect": "Would you like to be a partner?",
+		"partnershipMessage": "What service are you providing ?",
+		"partnershipYes": "Yes",
+		"partnershipNo": "No",
+		"submit": "Send Message",
+		"sending": "Sending...",
+		"success": "Message sent successfully!",
+		"error": "Failed to send message. Please try again."
+	},
+	"faq": {
+		"title": "Frequently Asked Questions (FAQ's)",
+		"subtitle": "Your Questions, Answered",
+		"description": "Have questions about moving abroad, visas, or language preparation? We've compiled answers to the most common queries to help you understand our services, simplify your journey, and make informed decisions about studying, working, or living in a new country.",
+		"questionsRight": [
+			{
+				"question": "What services do you provide ?",
+				"answer": "We offer end-to-end immigration consultancy for study, work, business, tourism, and family visits across Europe, Asia, and America. Additionally, we provide language coaching to help clients prepare for visa interviews, job opportunities, and smoother integration abroad.",
+				"id": 1
+			},
+			{
+				"question": "Can you help me choose the right visa type?",
+				"answer": "Yes. Based on your travel purpose, background, and goals, our consultants will guide you in selecting the most suitable visa type and ensure you meet the requirements.",
+				"id": 2
+			},
+			{
+				"question": "Do you only provide consultancy, or do you also handle visa applications?",
+				"answer": "We provide both. We guide you through the entire process, prepare your documents, and assist with application submissions, appointment bookings, and interview preparation.",
+				"id": 3
+			},
+			{
+				"question": "How does your language coaching work?",
+				"answer": "Our language coaching programs are tailored to your destination country. We focus on practical communication skills, visa interview preparation, and cultural adaptation to help you succeed abroad.",
+				"id": 4
+			},
+			{
+				"question": "Which countries do you specialize in?",
+				"answer": "We assist clients moving to a wide range of countries in Europe, Asia, and America, including popular destinations such as Germany, France, Canada, USA, North Cyprus, UAE, China, and more.",
+				"id": 5
+			}]
+			,
+			"questionsLeft": [
+			{
+				"question": "Do you guarantee visa approval?",
+				"answer": "No consultancy can guarantee visa approval, as final decisions are made by the respective embassies and consulates. However, we maximize your chances by ensuring your application is complete, accurate, and professionally presented.",
+				"id": 6
+			},
+			{
+				"question": "How long does the process usually take?",
+				"answer": "Processing times vary depending on the type of visa and the country. Student and work visas may take weeks to months, while tourist visas are usually faster. We guide you on timelines during your consultation.",
+				"id": 7
+			},
+			{
+				"question": "What documents are required for a visa application?",
+				"answer": "The required documents depend on the visa type. Generally, they include a valid passport, proof of funds, invitation letters (if applicable), travel itinerary, accommodation details, and supporting documents like employment or admission letters.",
+				"id": 8
+			},
+			{
+				"question": "How much do your services cost?",
+				"answer": "Our fees vary depending on the type of service—consultancy, application handling, or language coaching. We provide a clear breakdown of costs during the initial consultation, so there are no hidden charges.",
+				"id": 9
+			},
+			{
+				"question": "How can I get started?",
+				"answer": "Simply contact us through our website, phone, or email to book a consultation. We’ll assess your situation, explain your options, and create a personalized plan for your immigration or travel goals.",
+				"id": 10
+			}
+		]
+	},
+	"signature": "Best Regards, developer: "
+}

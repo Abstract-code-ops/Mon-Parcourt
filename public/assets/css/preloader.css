@@ -1,0 +1,31 @@
+/* Loader for MON PARCOURT */
+.loaderWrap { padding: 12px 18px; }
+.content { display: flex; align-items: center; gap: 20px; }
+.text { font-family: Georgia, 'Times New Roman', serif; color: #1f2937; font-size: 28px; letter-spacing: 2px; display: inline-block; }
+.letter { display: inline-block; opacity: 0; transform: translateY(8px); animation: letterIn 480ms cubic-bezier(.2,.8,.2,1) forwards; }
+.space { width: 10px; }
+
+.spinner {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 3px solid rgba(31,41,55,0.08);
+  border-top-color: #0b5fff;
+  animation: spin 900ms linear infinite;
+  box-shadow: 0 0 0 4px rgba(11,95,255,0.06) inset;
+}
+
+@keyframes letterIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive scaling */
+@media (max-width: 480px) {
+  .text { font-size: 20px; }
+  .spinner { width: 26px; height: 26px; }
+}

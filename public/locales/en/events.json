@@ -1,0 +1,93 @@
+{
+  "overlay": {
+    "title": "Event Registration",
+    "donationTitle": "Support Our Cause",
+    "donationDescription": "Your donation helps us provide better services and support to our community.",
+    "thankYou": "Thank you for your support!"
+  },
+  "steps": {
+    "contact": "Contact Info",
+    "personal": "Personal Details",
+    "finish": "Finish"
+  },
+  "buttons": {
+    "back": "Back",
+    "donateNow": "Donate Now",
+    "completeRegistration": "Complete Registration",
+    "completingRegistration": "Completing Registration..."
+  },
+  "step3": {
+    "title": "Make a Difference",
+    "description": "Before we complete your registration, would you like to support our cause? Your donation helps us provide better services and support to our community.",
+    "impactText": "Every donation empowers us to reach new milestones and create positive impact in the lives of those we serve. Your support makes a real difference."
+  }
+  ,
+  "step1": {
+    "title": "Welcome to Our Event!",
+    "description": "Please enter your email address to start the registration process. This will be used for event updates and confirmations.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your.email@example.com",
+    "emailRequired": "Email address is required.",
+    "emailInvalid": "Please enter a valid email address.",
+    "continue": "Continue"
+  },
+  "step2": {
+    "title": "Personal Details",
+    "description": "Please provide us with some additional information to complete your registration.",
+    "firstName": "First Name",
+    "surname": "Surname",
+    "residence": "Place of Residence",
+    "hasPassport": "Do you have a valid passport?",
+    "yes": "Yes",
+    "no": "No",
+    "passportIssuance": "Passport Issuance Date",
+    "passportExpiry": "Passport Expiry Date",
+    "back": "Back",
+    "continue": "Continue"
+  }
+  ,
+  "cardForm": {
+    "title": "Bank Transfer Details",
+    "description": "Please transfer your donation amount to the account details below",
+    "accountInfoTitle": "Account Information",
+    "accountNameLabel": "Account Name:",
+    "bankNameLabel": "Bank Name:",
+    "ibanLabel": "IBAN:",
+    "cardNumberLabel": "Card Number:",
+    "routingNumberLabel": "Routing Number:",
+    "swiftCodeLabel": "Swift Code:",
+    "instructionsTitle": "Transfer Instructions:",
+    "instruction1": "Use the above account details to make your transfer",
+    "instruction2": "Include your name and email in the transfer reference",
+    "instruction3": "Once you've completed the transfer send us an email with your Transaction ID",
+    "done": "Done",
+    "backToOptions": "← Back to Payment Options"
+  },
+  "mobileForm": {
+    "title": "Mobile Money Transfer Details",
+    "description": "Use the details below to complete your mobile money transfer.",
+    "mobileInfoTitle": "Mobile Payment Information",
+    "recipientLabel": "Recipient Name:",
+    "mobileNumberLabel": "Mobile Number:",
+    "networkLabel": "Network:",
+    "instructionsTitle": "Transfer Instructions:",
+    "instruction1": "Send the donation amount to the mobile number above",
+    "instruction2": "Include your name and email in the transfer reference",
+    "instruction3": "Once you've completed the transfer send us an email with your Transaction ID",
+    "done": "Done",
+    "backToOptions": "← Back to Payment Options"
+  },
+  "errors": {
+    "submitUnexpected": "An unexpected error occurred. Please try again.",
+    "networkError": "A network error occurred. Please check your connection and try again."
+  },
+  "finishModal": {
+    "title": "Registration Successful!",
+    "message1": "Thank you for your participation! Your registration has been confirmed.",
+    "message2": "A confirmation email has been sent to your address with all the details you need.",
+    "goodLuck": "Good luck and we look forward to seeing you win!",
+    "emailLabel": "For more updates and information, please follow our email:",
+    "emailAddress": "contact@monparcourt.com",
+    "continue": "Continue"
+  }
+}

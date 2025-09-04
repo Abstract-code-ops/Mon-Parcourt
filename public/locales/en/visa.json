@@ -1,0 +1,166 @@
+{
+  "breadcrumb": {
+    "visaOverview": "Visa Overview",
+    "businessVisa": "Business Visa",
+    "workingVisas": "Working Visas",
+    "residenceVisas": "Residence Visas",
+    "studentVisas": "Student Visas",
+    "spouseFamilyVisas": "Spouse/Family Visas",
+    "touristVisas": "Tourist Visas"
+  },
+  "about": {
+    "title": "Understanding Visa Processes: A General Overview",
+    "p1": "Visa procedures can vary widely depending on the country and the type of visa being applied for. While there are common steps involved—such as submitting documents, undergoing background checks, or attending interviews—each country enforces its own specific rules and requirements.",
+    "p2": "This section provides a general understanding of how visa applications typically work. Due to variations in immigration policies, not all details can be covered here.",
+    "p3_prefix": "For more accurate and comprehensive guidance, please visit the ",
+    "p3_link": "Countries",
+    "p3_suffix": " section where we provide country-specific visa processes and requirements. Reviewing the information relevant to your destination is essential for a smooth and successful application.",
+    "p4": "We also provide coaching on a plethora of subjects to prepare you for the application processes."
+  },
+  "coaching": {
+    "subtitle": "OUR COACHING",
+    "title": "Your path to excellence starts here.",
+    "items": {
+      "toefl": {
+        "title": "TOEFL Coaching",
+        "desc": "Test of English as a Foreign Language a standardized academic English."
+      },
+      "german": {
+        "title": "Deutsch als Fremdsprache",
+        "desc": "German English Test for people aim to go Germany."
+      },
+      "sat": {
+        "title": "Scholastic Apti",
+        "desc": "A globally recognized standardized test primarily used for college admissions, particularly in the United States."
+      },
+      "tcf": {
+        "title": "Test de Connaissance du Français",
+        "desc": "It assesses general French language skills and is used for immigration, academic, and professional purposes."
+      }
+    }
+  },
+  "visa": {
+    "subtitle": "Visa Categories",
+    "title": "MonParcourt offers comprehensive <br/>immigration services.",
+    "items": {
+      "student": {
+        "title": "Student Visa",
+        "desc": "We offer student visas in various countries for achieving students.",
+        "readMore": "Read More"
+      },
+      "business": {
+        "title": "Business Visa",
+        "desc": "We provide business visa to people in a foreign country.",
+        "readMore": "Read More"
+      },
+      "tourist": {
+        "title": "Tourist Visa",
+        "desc": "We provide tourist visas to people who want to visit a foreign country for tourism.",
+        "readMore": "Read More"
+      },
+      "working": {
+        "title": "Working Visa",
+        "desc": "We provide woking visas to people who want to work abroad.",
+        "readMore": "Read More"
+      },
+      "residence": {
+        "title": "Residence Visa",
+        "desc": "We provide residence visas to people who want to live in a foreign country.",
+        "readMore": "Read More"
+      },
+      "visit": {
+        "title": "Visit Visa",
+        "desc": "We provide visit visas to people who want to visit a foreign country for tourism or business.",
+        "readMore": "Read More"
+      }
+    }
+  },
+  "testimonial": {
+    "subtitle": "Testimonial",
+    "title": "What people say <br/>about us"
+  },
+  "sidebar": {
+    "travelPass": "Travel Pass",
+    "applicationForm": "Application Form",
+    "checklist": "Checklist",
+    "guidelines": "Guidelines",
+    "eligibilityTitle": "Visa Elligibility / <br/>Online Appointment",
+    "eligibility": "Visa Eligibility",
+    "externalLink": "external link",
+    "onlineAppointment": "Online Appointment"
+  },
+  "pages": {
+    "business": {
+      "title": "Business Visa",
+      "intro": "Applying for a business visa involves several key steps and typically requires preparation of detailed documentation to establish the purpose and means of your trip. While the specific process may slightly vary by country.",
+      "lower": "Here you can get the general procedure where 60% of the travelers seeking to visit a foreign country for temporary business purposes usually need to apply for a business visa unless exempt by bilateral agreements or special programs. Understanding the common procedural steps can help streamline your application regardless of your destination.",
+      "leftTitle": "General Process for Applying for a Business Visa",
+      "leftP1": "Most business visa applications follow these key stages:",
+      "leftP2": " first <strong style=\"color: black\">Identify the type of business visa</strong>.Second <strong style=\"color: black\">Gather required documents</strong>, typically including: Completed visa application form, Valid passport with adequate validity period Recent passport-sized photos Invitation letter from your host company or business partner and lastly <strong style=\"color: black\">Submit your application</strong>.",
+      "rightTitle": "Examples of temporary business include:",
+      "r1": "1. Attending business meetings or consultations",
+      "r2": "2. Attending a business convention or conference",
+      "r3": "3. Negotiating contracts"
+    },
+    "working": {
+      "title": "Working Visa",
+      "intro": "Applying for a working visa requires careful preparation and submission of specific documentation proving your intent and eligibility to work in a foreign country. While each country has its own process, this guide outlines the general steps commonly required for obtaining a working visa.",
+      "lower": "Foreign nationals aiming to take up temporary or permanent employment abroad usually need a working visa unless part of a special exemption or agreement. Understanding the steps involved can help ensure a successful application regardless of the destination country.",
+      "leftTitle": "General Process for Applying for a Working Visa",
+      "leftP1": "Most working visa applications follow these key stages:",
+      "leftP2": "First, <strong style=\"color: black\">Determine the type of work visa</strong> applicable to your employment situation. Second, <strong style=\"color: black\">Gather required documents</strong>, which generally include: a valid job offer or employment contract, completed visa application, passport with sufficient validity, passport-sized photos, proof of qualifications or work experience, and <strong style=\"color: black\">Submit your application</strong> to the respective embassy or consulate.",
+      "rightTitle": "Examples of work activities include:",
+      "r1": "1. Full-time or part-time employment in a company",
+      "r2": "2. Participating in a skilled worker program",
+      "r3": "3. Temporary seasonal labor or contract-based work"
+    },
+    "residence": {
+      "title": "Residence Visa",
+      "intro": "Applying for a residence visa allows you to legally stay in a foreign country for an extended period, often for purposes such as work, family reunification, retirement, or long-term studies. Each country has its own eligibility criteria, but the general process shares common requirements across most destinations.",
+      "lower": "Individuals planning to live in another country for medium- to long-term durations typically require a residence visa. Understanding the application process and collecting the necessary documentation is essential for a smooth approval.",
+      "leftTitle": "General Process for Applying for a Residence Visa",
+      "leftP1": "Most residence visa applications follow these key stages:",
+      "leftP2": " First, <strong style=\"color: black\">Identify the appropriate type of residence visa</strong> based on your purpose (e.g., work, family, study, retirement). Then, <strong style=\"color: black\">Gather required documents</strong>, typically including: a completed visa application form, valid passport, proof of accommodation, evidence of financial stability, police clearance, and health insurance. Finally, <strong style=\"color: black\">Submit your application</strong> to the consulate or immigration authority.",
+      "rightTitle": "Examples of residence visa purposes include:",
+      "r1": "1. Joining a spouse or family member abroad",
+      "r2": "2. Long-term employment or intra-company transfer",
+      "r3": "3. Retirement or passive income residency programs"
+    },
+    "student": {
+      "title": "Student Visa",
+      "intro": "Applying for a student visa is a key step for international students who wish to pursue education abroad. This visa allows you to reside in a foreign country for the duration of your studies. While each country has specific requirements, the overall process tends to follow a similar path globally.",
+      "lower": "Foreign nationals who intend to attend academic programs, language courses, or vocational training abroad typically need to apply for a student visa. Preparing the correct documents and understanding the process can make the journey to studying abroad much easier.",
+      "leftTitle": "General Process for Applying for a Student Visa",
+      "leftP1": "Most student visa applications follow these key stages:",
+      "leftP2": "First, <strong style=\"color: black\">Apply and receive admission from a recognized institution</strong>. Then, <strong style=\"color: black\">Gather required documents</strong>, including: an official admission letter, completed visa application form, valid passport, proof of sufficient funds, passport-sized photographs, and a statement of purpose. Lastly, <strong style=\"color: black\">Submit your application</strong> to the relevant embassy or visa processing center.",
+      "rightTitle": "Examples of study-related purposes include:",
+      "r1": "1. Attending university or college programs",
+      "r2": "2. Enrolling in language courses",
+      "r3": "3. Participating in exchange or scholarship programs"
+    },
+    "spouse": {
+      "title": "Spouse/Family Visa",
+      "intro": "Applying for a spouse or family visa allows eligible family members to reunite and reside together in a foreign country. This visa category typically supports spouses, children, or other dependents of legal residents or citizens. Each destination may have unique criteria, but the general steps are consistent worldwide.",
+      "lower": "Family reunification is a common reason for immigration. Whether you're joining a spouse, parent, or child abroad, applying for a family visa involves proving your relationship, intent to live together, and financial support. Understanding the required steps can help ensure a successful outcome.",
+      "leftTitle": "General Process for Applying for a Spouse/Family Visa",
+      "leftP1": "Most spouse/family visa applications follow these key stages:",
+      "leftP2": " First, <strong style=\"color: black\">Determine the type of family visa</strong> based on your relationship (e.g., spouse, child, dependent parent). Then, <strong style=\"color: black\">Gather required documents</strong>, which usually include: a completed visa application form, valid passport, marriage or birth certificate, proof of relationship, proof of accommodation, and financial means. Finally, <strong style=\"color: black\">Submit your application</strong> through the relevant embassy or immigration authority.",
+      "rightTitle": "Examples of eligible relationships include:",
+      "r1": "1. Legally married spouse or civil partner",
+      "r2": "2. Minor children or adopted children",
+      "r3": "3. Elderly parents or other dependents"
+    },
+    "tourist": {
+      "title": "Tourist Visa",
+      "intro": "A tourist visa allows travelers to visit a foreign country for leisure, sightseeing, or visiting friends and family. These visas are typically short-term and do not permit employment or long-term stays. Although the process varies by country, most follow a similar structure.",
+      "lower": "Applicants seeking to explore another country temporarily for tourism purposes usually need to apply for a tourist visa unless exempt. Preparing the right documentation and understanding the steps involved can help ensure a smooth and enjoyable travel experience.",
+      "leftTitle": "General Process for Applying for a Tourist Visa",
+      "leftP1": "Most tourist visa applications follow these key stages:",
+      "leftP2": " First, <strong style=\"color: black\">Choose your destination and review visa requirements</strong>. Then, <strong style=\"color: black\">Gather required documents</strong>, such as: a completed visa application form, valid passport, recent passport-sized photos, travel itinerary, hotel bookings, proof of funds, and return flight reservation. Finally, <strong style=\"color: black\">Submit your application</strong> online or at the nearest embassy/consulate.",
+      "rightTitle": "Examples of tourist activities include:",
+      "r1": "1. Sightseeing and exploring cities or nature",
+      "r2": "2. Visiting friends or family members",
+      "r3": "3. Participating in cultural or recreational events"
+    }
+  }
+}

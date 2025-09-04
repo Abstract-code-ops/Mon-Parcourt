@@ -1,0 +1,101 @@
+{
+  "welcome_message": "Bienvenue à nos services d'immigration",
+  "notFound": {
+    "title": "Page non trouvée",
+    "description": "Désolé, la page que vous recherchez n'a pas pu être trouvée.",
+    "button": "Retour à l'accueil"
+  },
+  "menu": {
+    "home": "Accueil",
+    "visaServices": "Services de visa",
+    "visaOverview": "Aperçu des visas",
+    "countries": "Pays",
+    "countriesOverview": "Aperçu des pays",
+    "coaching": "coaching",
+    "coachingOverview": "Aperçu des coaching",
+    "blogEvents": "Blog & Événements",
+    "about": "À propos",
+    "faq": "FAQ",
+    "contactUs": "Contact"
+  },
+  "breadcrumb": {
+    "home": "Accueil"
+  },
+  "visas": {
+    "business": "Visa d'affaires",
+    "working": "Visa de travail",
+    "residence": "Visa de résidence",
+    "student": "Visa étudiant",
+    "tourist": "Visa touristique",
+    "spouseFamily": "Visa conjoint/famille"
+  },
+  "countriesList": {
+    "unitedStates": "États-Unis",
+    "luxembourg": "Luxembourg",
+    "canada": "Canada",
+    "china": "Chine",
+    "germany": "Allemagne",
+    "australia": "Australie",
+    "spain": "Espagne",
+    "turkey": "Turquie",
+    "northCyprus": "Chypre du Nord",
+    "lithuania": "Lituanie",
+    "france": "France",
+    "uae": "Émirats Arabes Unis"
+  },
+  "coaching": {
+    "ielts": "coaching IELTS",
+    "pte": "coaching PTE",
+    "tofel": "coaching TOEFL",
+    "daf": "coaching DAF",
+    "tcf": "coaching TCF",
+    "sat": "coaching SAT"
+  },
+  "header": {
+    "appointment": "Rendez-vous",
+    "enquiries": "Renseignements"
+  },
+  "footer": {
+    "tagline": "Construisez le pont entre vous et vos objectifs.",
+    "visaServices": "Services de visa",
+    "quickLinks": "Liens rapides",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Abonnez-vous pour recevoir les dernières mises à jour et offres.",
+    "newsletterPrivacy": "Nous respectons votre vie privée. Désinscription possible à tout moment.",
+  "subscribe": "S'abonner",
+  "emailPlaceholder": "Entrez votre e-mail"
+  },
+  "appointment": {
+    "make": "Prenez votre rendez-vous",
+    "emailPrivacy": "Votre adresse e-mail ne sera pas partagée.",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone (ex. +1234567890)",
+  "firstNameRequired": "Le prénom est requis",
+  "lastNameRequired": "Le nom est requis",
+  "validEmail": "Veuillez entrer une adresse e-mail valide",
+  "validPhone": "Veuillez entrer un numéro de téléphone valide",
+    "selectDate": "Sélectionnez la date :",
+    "selectTime": "Sélectionnez l'heure :",
+    "additionalMessage": "Message supplémentaire :",
+    "placeholderMessage": "Entrez des détails supplémentaires...",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi...",
+    "success": "Demande de rendez-vous envoyée ! Nous vous répondrons rapidement.",
+  "successTitle": "Rendez-vous envoyé",
+    "error": "Échec de l'envoi. Veuillez réessayer plus tard."
+  },
+  "contact": {
+    "subtitle": "Restons en contact",
+    "title": "Recevez un appel d'experts",
+    "name": "Votre nom",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "message": "Votre message",
+    "submit": "Envoyer",
+    "sending": "Envoi...",
+    "success": "Votre message a été envoyé avec succès !",
+    "error": "Échec de l'envoi de votre message. Veuillez vérifier et réessayer."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "breadcrumbTitle": "About Us",
+  "yearsExperience": "Years Experience",
+  "whoWeAre": "Who we are?",
+  "leadingFirm": "Leading firm for immigration services.",
+  "aboutParagraph": "At our firm, we specialize in providing expert immigration services tailored to your unique needs. Whether you are seeking visas, residency, or citizenship, our dedicated team guides you every step of the way. With years of experience, we ensure smooth and successful applications by navigating complex legal requirements efficiently. Our personalized approach guarantees clear communication and timely updates, making your immigration journey stress-free. Trust us to handle all your immigration concerns with professionalism and care. Let us help you open doors to new opportunities and a brighter future.",
+  "bullet": {
+    "overseasEducation": "Overseas education and study visa consultants.",
+    "topUniversities": "Top-ranked universities admissions."
+  },
+  "moreDetails": "More Details",
+  "feature": {
+    "visaTitle": "Visa",
+    "visaDesc": "We provide business visa, student visa, tourist visa and more.",
+    "coachingTitle": "Coaching",
+    "coachingDesc": "We help you get the right skills for travel.",
+    "immigrationTitle": "Immigration",
+    "immigrationDesc": "We make the immigration process easier and smoother for you.",
+    "englishTrainingTitle": "English training",
+    "englishTrainingDesc": "We help bridge the language barrier seamlessly for ease of communication."
+  },
+  "countriesWeOffer": "Countries We Offer",
+  "comprehensiveImmigration": "Comprehensive Immigration",
+  "categories": "Categories",
+  "visaConsultation": "Visa consultation and services.",
+  "competitivePrices": "Our competitive prices puts us on top.",
+  "percentagesNote": "Below are the percentages of visa consultaions we have done over the years.",
+  "progress": {
+    "studentVisa": "Student Visa",
+    "businessVisa": "Business Visa",
+    "workingVisa": "Working Visa",
+    "touristVisa": "Tourist Visa"
+  },
+  "meetFounder": "Meet The Founder",
+  "founderName": "I am Fabrice Fosso,",
+  "founderParagraph1": "Founder and Immigration consultant with over four years of experience. My commitment is to helping individuals and families realize their ambitions of settling abroad.",
+  "founderParagraph2": "My approach is based on empathy and in-depth expertise to ensure a tailor-made service. Each case is unique, which is why I provide personalized guidance and unwavering support to my clients, from the initial consultation to the completion of their project. My mission is to open doors to new opportunities and enable you to start a new chapter in your life, anywhere in the world.",
+  "ourPartners": "Our Partners",
+  "partnersHeadline": "Some of the Enterprises and Brands We are Partnered With.",
+  "letsConnect": "Let’s Connect",
+  "callFromExperts": "Get a Call From Experts",
+  "form": {
+    "yourName": "Your Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "submit": "Submit"
+  }
+}

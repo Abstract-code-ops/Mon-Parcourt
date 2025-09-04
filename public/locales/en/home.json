@@ -1,0 +1,247 @@
+{
+  "about": {
+    "subtitle": "About our Agency",
+    "title": "Leading firm for immigration consulting services.",
+    "tagline": "Since 2021, Reliable Service has been servicing its clients...",
+    "description": "Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum.Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor tempus feugiat dolor and lacinia"
+  },
+  "funfact": {
+    "offices": "Offices Worldwide",
+    "team": "Team Members",
+    "visa": "Visa Processed"
+  },
+  "chooseus": {
+    "subtitle": "Why Choose Us",
+    "title1": "Offer custom-made services that",
+    "title2": "our customers need.",
+    "blocks": {
+      "1":{
+        "title": "Direct Interviews",
+        "description": "We connect you directly with employers, skipping unnecessary steps in the hiring process."
+      },
+      "2":{
+        "title": "Faster Processing",
+        "description": "Our streamlined systems ensure that your application is handled quickly and efficiently."
+      },
+      "3":{
+        "title": "Visa Assistance",
+        "description": "Our experts guide you through every step of the visa process, making it smooth and stress-free."
+      },
+      "4":{
+        "title": "Cost-Effective",
+        "description": "We provide top-tier services at competitive prices, ensuring great value for your investment."
+      }
+    }
+  },
+  "clients": {
+    "subtitle": "Our Partners",
+    "title": "Some of the Enterprises and Brands We are Partnered With."
+  },
+  "coaching": {
+    "subtitle": "HOW WE HELP CLIENTS",
+    "title1": "Your immigration language test is right",
+    "title2": "Here with everything you need.",
+    "blocks": [
+      {
+        "image1": "assets/images/resource/coaching-1.jpg",
+        "image2": "assets/images/resource/coaching-2.jpg",
+        "staticTitle": "TOFEL <br />Coaching",
+        "overlayTitle": "TOFEL Coaching",
+        "description": "The TOEFL test measures English language proficiency for non-native speakers aiming to study or work in English-speaking environments.",
+        "link": "coaching-details-3"
+      },
+      {
+        "image1": "assets/images/resource/coaching-3.jpg",
+        "image2": "assets/images/resource/coaching-4.jpg",
+        "staticTitle": "PTE <br />Coaching",
+        "overlayTitle": "PTE Coaching",
+        "description": "The PTE test assesses English skills for non-native speakers planning to study, work, or migrate to English-speaking countries.",
+        "link": "coaching-details-2"
+      },
+      {
+        "image1": "assets/images/resource/coaching-5.jpg",
+        "image2": "assets/images/resource/coaching-6.jpg",
+        "staticTitle": "DAF <br />Coaching",
+        "overlayTitle": "DAF Coaching",
+        "description": "A standardized exam designed for non-native German speakers who want to study or work in Germany, particularly at universities.",
+        "link": "coaching-details-4"
+      }
+    ]
+  },
+  "countries":{
+    "subtitle": "Countries We Offer",
+    "title": "Best Countries to Travel"
+  },
+  "banner": {
+    "slides": [
+      {
+        "title": "Access Universities <0>Around</0> The World!...",
+        "description": "My experience opens doors for you."
+      },
+      {
+        "title": "Your <0>Visa</0> Our Commitment!...",
+        "description": "Enjoy exclusive discounts of 30% to 50% on your plane tickets."
+      },
+      {
+        "title": "Stay <0>Updated</0> with Our <0>Blogs & Events</0>!",
+        "description": "Stay up to date with us and participate in our exclusive events."
+      },
+      {
+        "title": "We offer top notch <0>Coaching</0> Services!",
+        "description": "Manage your exam bookings and benefit from our personalized support."
+      }
+    ],
+    "cta": "More Details",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram"
+    },
+    "experience": {
+      "years": "3+ Years",
+      "label": "Experience"
+    }
+  },
+  "donation": {
+    "title": "Help Us Make Dreams Come True",
+    "description": "Your generous contribution helps individuals and families achieve their immigration goals. Every donation brings hope and opens doors to new opportunities.",
+    "stats": {
+      "lives": { "number": "2,500+", "label": "Lives Changed" },
+      "success": { "number": "95%", "label": "Success Rate" }
+    },
+    "buttonText": "Donate Now",
+    "modalTitle": "Support Our Mission",
+    "modalDescription": "Your donation helps us provide free immigration assistance to those in need. Together, we can make a difference!",
+    "securityNote": "Secure payment"
+  },
+  "dream": {
+    "subtitle": "Reach Your Dream",
+    "title": "Get the Right Help",
+    "description": "Our aim is to become the bridge between yourself and the place of your future.",
+    "items": [
+      "Entering & Leaving From Country",
+      "Help & Support",
+      "Country Citizenship"
+    ],
+    "imageAlt": "Person reaching for their dream"
+  },
+  "education": {
+    "title": "Looking for Quality <0>Education In</0> Abroad?",
+    "description": "Explore the countries that we provide services in and find the best education for you.",
+    "imageAlt": "Student exploring study options",
+    "countries": [
+      { "name": "USA", "link": "countries-details", "flag": "/assets/images/icons/flag-17.png" },
+      { "name": "Canada", "link": "countries-details-3", "flag": "/assets/images/icons/flag-2.png" },
+      { "name": "China", "link": "countries-details-4", "flag": "/assets/images/icons/flag-3.png" },
+      { "name": "Australia", "link": "countries-details-6", "flag": "/assets/images/icons/flag-4.png" }
+    ]
+  },
+  "features": {
+    "items": [
+      {
+        "title": "Visa",
+        "description": "We provide business visa, student visa, tourist visa and more."
+      },
+      {
+        "title": "Passport",
+        "description": "We can work with passports of more than <0>112+</0> countries"
+      },
+      {
+        "title": "Immigration",
+        "description": "We make the immigration process easier and smoother for you."
+      },
+      {
+        "title": "Translation",
+        "description": "We help bridge the language barrier seamlessly for ease of communication."
+      }
+    ]
+  },
+  "passport": {
+    "subtitle": "Who are we ?",
+    "title": "Your Connection Agent",
+    "paragraphs": [
+      "Do you want to connect to a specific place, university, organization, company or country ? You name the place and we will deliver it to you. We are partnered with big enterprises and bridge the distance between you and the place you want to be.",
+      "Below are some of the universities we have partnered with to connect you with them. For more personalized services, contact us to help you."
+    ],
+    "appointment": "Appointment"
+  },
+  "news": {
+    "subtitle": "Updates",
+    "title": "Most Recent Blog & Announcements",
+    "readMore": "Read More",
+    "admin": "Admin"
+  },
+  "team": {
+    "subtitle": "Meet The Founder",
+    "title": "I'm Fabrice Fosso, ",
+    "p1": "Founder and Immigration consultant with over four years of experience. My commitment is to helping individuals and families realize their ambitions of settling abroad.",
+    "p2": "My approach is based on empathy and in-depth expertise to ensure a tailor-made service. Each case is unique, which is why I provide personalized guidance and unwavering support to my clients, from the initial consultation to the completion of their project. My mission is to open doors to new opportunities and enable you to start a new chapter in your life, anywhere in the world.",
+    "cta": "More Details"
+  },
+  "visa": {
+    "subtitle": "Visa Categories",
+    "title": "Assisting you in fulfilling your eligibility <br />for immigrant registration."
+  },
+  "visaSlider": {
+    "student": {
+      "alt": "Student Visa",
+      "title": "Student Visa",
+      "description": "While exact requirements vary by country, most student visa applications worldwide share these three core requirements:",
+      "items": [
+        "You must be accepted into a full-time program at a government-approved university or college.",
+        "You need to show that you can pay for tuition, living expenses, and sometimes return travel costs.",
+        "Your passport must be valid for the entire duration of your stay."
+      ]
+    },
+    "residence": {
+      "alt": "Residence Visa",
+      "title": "Residence Visa",
+      "description": "Residence visas are typically issued to individuals usually for purposes like work, family reunification, study, or investment. While exact rules vary by country, the 3 main universal requirements for a residence visa are:",
+      "items": [
+        "Purpose-Based Justification (Job, Family, Study, etc.)",
+        "Applicants must demonstrate they can support themselves without relying on public funds",
+        "Valid Passport and Background/Health Checks"
+      ]
+    },
+    "business": {
+      "alt": "Business Visa",
+      "title": "Business Visa",
+      "description": "A business visa allows individuals to enter a country temporarily for business-related activities—such as attending meetings. It does not usually permit full-time employment. the 3 main requirements commonly expected for a business are:",
+      "items": [
+        "A formal invitation letter from a host company or business partner in the destination country.",
+        "Documents showing your position in your current company",
+        "Travel, Financial, and Identity Documents"
+      ]
+    },
+    "tourist": {
+      "alt": "Tourist Visa",
+      "title": "Tourist Visa",
+      "description": "A tourist visa is issued for leisure travel, sightseeing, or visiting family and friends. It does not allow employment or business activities. The 3 main requirements commonly expected for a tourist visa are:",
+      "items": [
+        "Proof of accommodation or hotel bookings during your stay.",
+        "Round-trip flight reservation or travel itinerary.",
+        "Valid passport, financial proof, and travel insurance."
+      ]
+    },
+    "working": {
+      "alt": "Working Visa",
+      "title": "Working Visa",
+      "description": "A working visa permits individuals to live and work legally in a foreign country. The 3 main requirements commonly expected for a working visa are:",
+      "items": [
+        "Formal job offer or employment contract from a recognized company.",
+        "Valid passport with sufficient validity for the visa duration.",
+        "Work permit application or approval from the destination country."
+      ]
+    },
+    "family": {
+      "alt": "Spouse/Family Visa",
+      "title": "Spouse/Family Visa",
+      "description": "A spouse or family visa allows individuals to join their partner or family members residing legally in another country. The 3 main requirements commonly expected for a spouse/family visa are:",
+      "items": [
+        "Marriage certificate or proof of family relationship.",
+        "Proof of sponsor's legal residency and financial capability.",
+        "Valid passport, completed visa application, and medical clearance."
+      ]
+    }
+  }
+}

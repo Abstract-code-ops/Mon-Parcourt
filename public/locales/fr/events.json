@@ -1,0 +1,93 @@
+{
+  "overlay": {
+    "title": "Inscription à l'événement",
+    "donationTitle": "Soutenez notre cause",
+    "donationDescription": "Votre don nous aide à fournir de meilleurs services et à soutenir notre communauté.",
+    "thankYou": "Merci pour votre soutien !"
+  },
+  "steps": {
+    "contact": "Infos de contact",
+    "personal": "Détails personnels",
+    "finish": "Terminer"
+  },
+  "buttons": {
+    "back": "Retour",
+    "donateNow": "Faire un don",
+    "completeRegistration": "Terminer l'inscription",
+    "completingRegistration": "Finalisation de l'inscription..."
+  },
+  "step3": {
+    "title": "Faites la différence",
+    "description": "Avant de terminer votre inscription, souhaitez-vous soutenir notre cause ? Votre don nous aide à fournir de meilleurs services et à soutenir notre communauté.",
+    "impactText": "Chaque don nous permet d'atteindre de nouvelles étapes et d'avoir un impact positif dans la vie de ceux que nous servons. Votre soutien fait une réelle différence."
+  }
+  ,
+  "step1": {
+    "title": "Bienvenue à notre événement !",
+    "description": "Veuillez saisir votre adresse e-mail pour commencer le processus d'inscription. Cela sera utilisé pour les mises à jour et les confirmations de l'événement.",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "emailRequired": "L'adresse e-mail est requise.",
+    "emailInvalid": "Veuillez entrer une adresse e-mail valide.",
+    "continue": "Continuer"
+  },
+  "step2": {
+    "title": "Détails personnels",
+    "description": "Veuillez nous fournir des informations supplémentaires pour compléter votre inscription.",
+    "firstName": "Prénom",
+    "surname": "Nom",
+    "residence": "Lieu de résidence",
+    "hasPassport": "Avez-vous un passeport valide ?",
+    "yes": "Oui",
+    "no": "Non",
+    "passportIssuance": "Date de délivrance du passeport",
+    "passportExpiry": "Date d'expiration du passeport",
+    "back": "Retour",
+    "continue": "Continuer"
+  }
+  ,
+  "cardForm": {
+    "title": "Détails du virement bancaire",
+    "description": "Veuillez transférer le montant de votre don aux coordonnées bancaires ci-dessous",
+    "accountInfoTitle": "Informations sur le compte",
+    "accountNameLabel": "Nom du compte :",
+    "bankNameLabel": "Nom de la banque :",
+    "ibanLabel": "IBAN :",
+    "cardNumberLabel": "Numéro de carte :",
+    "routingNumberLabel": "Numéro de routage :",
+    "swiftCodeLabel": "Code SWIFT :",
+    "instructionsTitle": "Instructions de virement :",
+    "instruction1": "Utilisez les coordonnées ci-dessus pour effectuer votre virement",
+    "instruction2": "Incluez votre nom et votre e-mail dans la référence du virement",
+    "instruction3": "Une fois le virement effectué, envoyez-nous un e-mail avec votre identifiant de transaction",
+    "done": "Terminé",
+    "backToOptions": "← Retour aux options de paiement"
+  },
+  "mobileForm": {
+    "title": "Détails du paiement mobile",
+    "description": "Utilisez les détails ci-dessous pour compléter votre paiement mobile.",
+    "mobileInfoTitle": "Informations de paiement mobile",
+    "recipientLabel": "Nom du destinataire :",
+    "mobileNumberLabel": "Numéro mobile :",
+    "networkLabel": "Réseau :",
+    "instructionsTitle": "Instructions de virement :",
+    "instruction1": "Envoyez le montant du don au numéro mobile ci-dessus",
+    "instruction2": "Incluez votre nom et votre e-mail dans la référence du virement",
+    "instruction3": "Une fois le virement effectué, envoyez-nous un e-mail avec votre identifiant de transaction",
+    "done": "Terminé",
+    "backToOptions": "← Retour aux options de paiement"
+  },
+  "errors": {
+    "submitUnexpected": "Une erreur inattendue est survenue. Veuillez réessayer.",
+    "networkError": "Une erreur réseau s'est produite. Veuillez vérifier votre connexion et réessayer."
+  },
+  "finishModal": {
+    "title": "Inscription réussie !",
+    "message1": "Merci pour votre participation ! Votre inscription a été confirmée.",
+    "message2": "Un e-mail de confirmation a été envoyé à votre adresse avec tous les détails dont vous avez besoin.",
+    "goodLuck": "Bonne chance et nous avons hâte de vous voir gagner !",
+    "emailLabel": "Pour plus de mises à jour et d'informations, veuillez suivre notre e-mail :",
+    "emailAddress": "contact@monparcourt.com",
+    "continue": "Continuer"
+  }
+}

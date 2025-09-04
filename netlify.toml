@@ -1,0 +1,64 @@
+# Netlify configuration file for Next.js project
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# Use Netlify's Next.js plugin for SSR support
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Force HTTPS for all traffic
+[[redirects]]
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+  force = true
+
+# Redirect for SPA fallback (needed for client-side routing)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  
+# Uncomment and customize these redirects when you have your final domain
+# [[redirects]]
+#   from = "https://www.yourdomain.com/*"
+#   to = "https://yourdomain.com/:splat"
+#   status = 301
+#   force = true
+
+# Cache optimization for static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache optimization for _next/static
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Add comprehensive security headers (will be combined with middleware.ts headers)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY" # Stricter than SAMEORIGIN
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: blob:; font-src 'self' data: https:; connect-src 'self' https: wss:; frame-src 'self' https:; media-src 'self' https:; object-src 'none'; base-uri 'self';"
+
+# Environment variable configuration hints (these are commented out, add your values in Netlify UI)
+[build.environment]
+  # Use these environment variables in the Netlify UI, not here
+  # NEXT_PUBLIC_SANITY_PROJECT_ID = "your-project-id"
+  # NEXT_PUBLIC_SANITY_DATASET = "production"
+  # NEXT_PUBLIC_SANITY_API_VERSION = "2025-07-09"
+  
+  # Specify Node version for build
+  NODE_VERSION = "18"

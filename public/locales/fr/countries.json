@@ -1,0 +1,939 @@
+{
+  "title": "Examens populaires",
+  "subtitle": "Choisissez votre cours de préparation",
+  "coursesLabel": "Cours",
+  "visaAltLabel": "Visa",
+  "cards": {
+    "ielts": "IELTS",
+    "toefl": "TOEFL",
+    "daf": "TestDaF",
+    "tcf": "TCF"
+  },
+  "details": {
+    "common": {
+      "tabs": {
+        "working": "Visas de travail",
+        "business": "Visas d'affaires",
+        "education": "Visas d'éducation",
+        "tourist": "Visas de tourisme"
+      },
+      "sidebar": {
+        "unitedStates": "États-Unis",
+        "luxembourg": "Luxembourg",
+        "canada": "Canada",
+        "china": "Chine",
+        "germany": "Allemagne",
+        "australia": "Australie",
+        "spain": "Espagne",
+        "turkey": "Turquie",
+        "northCyprus": "Chypre du Nord",
+        "lithuania": "Lituanie",
+        "france": "France",
+        "uae": "EAU"
+      },
+      "widgets": {
+        "travelPass": {
+          "title": "Pass de voyage",
+          "list": ["Formulaire de demande", "Liste de contrôle", "Directives"]
+        },
+        "download": {
+          "title": "Rapport annuel / Rendez-vous en ligne"
+        }
+      },
+      "consultation": {
+        "title": "Obtenez notre consultation",
+        "text": "Vivez la meilleure expérience possible dans les démarches de voyage avec nos services. Contactez-nous ci-dessous pour prendre un rendez-vous et nous vous répondrons dès que possible. Nous avons hâte de travailler avec vous !"
+      },
+      "contact": {
+        "subTitle": "Restons en contact",
+        "title": "Recevez un appel d'experts",
+        "form": {
+          "name": "Votre nom",
+          "email": "Adresse e-mail",
+          "phone": "Numéro de téléphone",
+          "submit": "Envoyer"
+        }
+      }
+    },
+    "pages": {
+      
+      "unitedStates": {
+        "breadcrumbTitle": "États-Unis",
+        "sidebar": { "current": "États-Unis" },
+        "downloads": {
+          "link1": { "label": "Formulaire de demande", "meta": "450kb" },
+          "link2": { "label": "Formulaire de demande", "meta": "450kb" }
+        },
+        "working": {
+          "title": "Visa de travail pour les États-Unis",
+          "p1": "Obtenir un visa de travail pour les États-Unis implique un processus détaillé et structuré. Ce visa permet aux ressortissants étrangers de vivre et de travailler légalement aux États-Unis, temporairement ou définitivement selon le type de visa. Les catégories courantes incluent H-1B (professions spécialisées), L-1 (transfert intra-entreprise), O-1 (personnes aux capacités extraordinaires), et autres.",
+          "overviewTitle": "Aperçu de la demande de visa de travail",
+          "p2": "Le processus commence par une pétition de l'employeur au nom du ressortissant étranger. Les candidats doivent répondre à des critères d'éligibilité spécifiques selon la catégorie. Une fois approuvé, le demandeur doit remplir la demande de visa et passer un entretien à une ambassade ou un consulat des États-Unis.",
+          "p3": "Les délais de traitement varient selon le type de visa et l'emplacement. Il est essentiel de suivre toutes les instructions et de fournir des informations exactes pour éviter les retards ou refus.",
+          "checklistTitle": "Pour demander un visa de travail américain, préparez et soumettez les documents suivants :",
+          "postText1": "Le processus de visa de travail aux États-Unis est axé sur l'employeur et nécessite le respect de documents spécifiques et d'approbations gouvernementales. Les candidats doivent s'assurer que tous les documents justificatifs sont complets avant de planifier leur entretien de visa.",
+          "checklist": [
+            "Passeport valide (au moins six mois au-delà du séjour prévu)",
+            "Formulaire I-129 approuvé (avis d'approbation - Formulaire I-797)",
+            "Page de confirmation du formulaire DS-160",
+            "Reçu des frais de demande de visa",
+            "Photo d'identité conforme aux exigences américaines",
+            "Lettre de l'employeur décrivant l'offre et le poste",
+            "Diplômes et preuves d'expérience professionnelle",
+            "Anciens visas ou documents d'immigration américains (le cas échéant)"
+          ]
+        },
+        "business": {
+  "title": "Visa d'Affaires pour les États-Unis",
+  "p1": "Le visa d'affaires américain (B-1) permet aux ressortissants étrangers d'entrer temporairement aux États-Unis afin de réaliser des activités professionnelles légitimes telles que participer à des réunions, assister à des conférences, engager des négociations commerciales, signer des contrats ou encore effectuer des études de marché. Il s'agit d'un visa non-immigrant qui exige que le demandeur démontre que son séjour est limité dans le temps, qu'il est strictement consacré à des activités professionnelles et qu'il retournera dans son pays d'origine une fois ses obligations accomplies.",
+  "overviewTitle": "Aperçu de la Demande de Visa d'Affaires",
+  "p2": "Pour demander un visa d'affaires, le candidat doit remplir en ligne le formulaire DS-160 et prendre rendez-vous pour une entrevue consulaire. Lors de cette entrevue, il est impératif de prouver la finalité professionnelle du voyage, de démontrer des attaches solides avec son pays d'origine (famille, emploi, patrimoine), et de justifier de moyens financiers suffisants pour couvrir l'ensemble du séjour.",
+  "p3": "Les décisions sont prises à la discrétion de l'agent consulaire américain. Fournir des documents exacts et complets, ainsi que des preuves claires de l'objectif professionnel de votre déplacement, augmente de manière significative les chances d'obtenir une approbation. Une préparation minutieuse est fortement recommandée.",
+  "p4": "Pour des informations détaillées concernant le visa d'affaires B-1 et les conditions d'éligibilité, veuillez consulter le site officiel des Services de Citoyenneté et d'Immigration des États-Unis <a href=\"https://www.uscis.gov/\">Site officiel de l'USCIS</a>.",
+  "text": "Les demandeurs de visa d'affaires doivent prouver qu'ils n'ont pas l'intention d'immigrer, que leur voyage est exclusivement destiné à des objectifs professionnels légitimes (et non pour un emploi rémunéré local), et qu'ils quitteront les États-Unis à la fin de leur séjour autorisé. Il est essentiel de préparer soigneusement la demande, de fournir des informations honnêtes et détaillées, et de se munir de documents pertinents démontrant la nature professionnelle du voyage.",
+  "checklist": [
+    "Passeport valide (avec une validité d'au moins six mois après la durée prévue du séjour)",
+    "Page de confirmation du formulaire DS-160 dûment complété",
+    "Reçu du paiement des frais de demande de visa",
+    "Photo d'identité conforme aux exigences américaines pour les visas",
+    "Justificatifs de moyens financiers (relevés bancaires récents, fiches de paie, lettre de prise en charge d'un sponsor ou de l'entreprise)",
+    "Documents prouvant l'objet professionnel du voyage (lettre d'invitation d'une société américaine, confirmation d'inscription à une conférence, détails de réunions ou négociations prévues)",
+    "Preuves d'attaches solides avec le pays d'origine (contrat de travail ou attestation d'employeur, responsabilités familiales, actes de propriété ou autres documents patrimoniaux)"
+  ]
+},
+        "education": {
+          "title": "Visa étudiant pour les États-Unis",
+          "p1": "Les États-Unis proposent les visas F-1 et M-1 pour les études à temps plein. Vous devez d'abord être admis dans une école approuvée par le SEVP.",
+          "overviewTitle": "Aperçu de la demande de visa étudiant",
+          "p2": "Après acceptation, l'école délivre le formulaire I-20. Vous remplissez le DS-160, payez les frais SEVIS et de visa, puis planifiez un entretien à l'ambassade ou au consulat.",
+          "p3": "Le visa F-1 est le plus courant; le M-1 concerne les études techniques et professionnelles. Vous devez maintenir un statut d'étudiant à temps plein.",
+          "text": "Pour garantir une candidature réussie, rassemblez tous les documents nécessaires à l'avance et répondez aux questions de manière claire et honnête lors de votre entretien. Les visas étudiants américains sont accordés en fonction de votre objectif académique, de votre intention de rentrer chez vous et de votre stabilité financière.",
+          "checklist": [
+            "Passeport valide (au moins six mois au-delà du séjour prévu)",
+            "Formulaire I-20 délivré par un établissement approuvé SEVP",
+            "Page de confirmation du DS-160",
+            "Reçus des frais de visa et SEVIS",
+            "Photo conforme aux directives américaines",
+            "Relevés, diplômes, tests (si requis)",
+            "Preuve de moyens financiers",
+            "Intention de retour après les études"
+          ]
+        },
+        "tourist": {
+          "title": "Visa touristique pour les États-Unis",
+          "p1": "Le visa de tourisme (B-2) est délivré aux personnes souhaitant visiter les États-Unis pour le loisir, les vacances ou pour voir des proches.",
+          "overviewTitle": "Aperçu de la demande de visa touristique",
+          "p2": "Remplissez le DS-160, payez les frais, et planifiez un rendez-vous. Vous devez démontrer des liens solides avec votre pays, des moyens financiers et une raison claire.",
+          "p3": "Les agents évaluent si vous êtes un visiteur temporaire légitime.",
+          "text1": "Un visa touristique n'autorise pas à travailler ou étudier. Vous devez quitter le pays avant l'expiration de votre séjour autorisé.",
+          "text2": "Avant de postuler, assurez-vous d'avoir un passeport valide et tous les documents nécessaires.",
+          "preChecklist": "Documents requis pour une demande de visa touristique américain :",
+          "checklist": [
+            "Passeport valide (au moins six mois au-delà du séjour prévu)",
+            "Page de confirmation du DS-160",
+            "Reçu de paiement des frais de visa",
+            "Photographie conforme",
+            "Itinéraire et hébergement (si disponibles)",
+            "Preuve de moyens financiers",
+            "Preuve de liens solides avec le pays d'origine",
+            "Lettre d'invitation (facultative)"
+          ]
+        }
+      },
+
+      "northCyprus": {
+        "breadcrumbTitle": "Chypre du Nord",
+        "sidebar": { "current": "Chypre du Nord" },
+        "downloads": {
+          "link1": { "label": "Pré-demande", "meta": "Système consulaire de Chypre du Nord" },
+          "link2": { "label": "Demander un e-Visa", "meta": "Système e-Visa de Chypre du Nord" }
+        },
+        "working": {
+          "title": "Visas de travail pour Chypre du Nord",
+          "p1": "Les ressortissants étrangers souhaitant travailler à Chypre du Nord doivent impérativement obtenir un permis de travail avant de commencer leur activité professionnelle. L'employeur doit déposer la demande de permis auprès du ministère du Travail et de la Sécurité sociale de Chypre du Nord. Parallèlement à cette démarche administrative, le salarié doit présenter sa demande de visa de travail auprès de l'ambassade ou du consulat de Chypre du Nord compétent dans son pays de résidence.",
+          "overviewTitle": "Aperçu de la demande de visa de travail",
+          "p2": "Une fois la demande déposée par l'employeur et approuvée par les autorités compétentes, un visa de travail est délivré au salarié. À l'arrivée sur le territoire, il est obligatoire de s'enregistrer auprès des services locaux de l'immigration et d'obtenir un permis de séjour pour pouvoir résider et travailler légalement. Les permis de travail sont en général accordés pour une durée d'un an et peuvent être renouvelés selon les conditions et procédures en vigueur.",
+          "preChecklist": "Pour demander un visa de travail pour Chypre du Nord, préparez les documents suivants :",
+          "checklist": [
+            "Formulaire de demande de visa dûment rempli et passeport valide",
+            "Photographie biométrique récente",
+            "Contrat de travail ou lettre d'offre officielle",
+            "Lettre d'approbation du permis de travail émise par le ministère compétent",
+            "Certificat de casier judiciaire",
+            "Preuves de qualifications et certificats professionnels"
+          ]
+        },
+        "business": {
+  "title": "Visas d'Affaires pour la Chypre du Nord",
+  "p1": "Les ressortissants étrangers qui souhaitent se rendre en Chypre du Nord à des fins professionnelles doivent obligatoirement obtenir un visa d'affaires avant leur entrée sur le territoire. Selon leur nationalité, certains candidats peuvent être éligibles à une demande en ligne via l'e-Visa, tandis que d'autres devront déposer une demande de visa autocollant auprès d'une ambassade ou d'un consulat de Chypre du Nord. Il est fortement recommandé de vérifier attentivement les critères d'éligibilité, les documents requis ainsi que la durée de séjour autorisée avant de commencer la procédure de demande.",
+  "overviewTitle": "Aperçu de la Demande de Visa d'Affaires (e-Visa & Visa Autocollant)",
+  "p2": "La demande d'e-Visa d'affaires pour la Chypre du Nord s'effectue en ligne sur le portail officiel et nécessite un passeport valide, une adresse e-mail fonctionnelle et une carte de paiement. Les candidats non éligibles à l'e-Visa doivent obligatoirement déposer une demande de visa autocollant. Cette procédure comprend une pré-demande suivie d'un rendez-vous obligatoire à l'ambassade ou au consulat, au cours duquel il faut présenter plusieurs justificatifs : preuve d'hébergement, réservation de vol aller-retour, assurance santé voyage, justificatifs financiers, ainsi qu'une lettre officielle d'invitation émise par une entreprise hôte enregistrée en Chypre du Nord.",
+  "preChecklist": "Pour demander un visa d'affaires pour la Chypre du Nord, préparez les documents suivants :",
+  "checklist": [
+    "Passeport valide pendant au moins 6 mois",
+    "(Pour l'e-Visa) Adresse e-mail valide et carte de paiement",
+    "(Pour le visa autocollant) Formulaire de demande de visa dûment rempli et photo d'identité récente",
+    "(Pour le visa autocollant) Preuve d'hébergement et réservation confirmée de vol aller-retour",
+    "Assurance santé voyage valable en Chypre du Nord",
+    "Lettre officielle d'invitation émise par une entreprise hôte enregistrée en Chypre du Nord",
+    "Preuve de moyens financiers suffisants pour la durée du séjour"
+  ]
+},
+        "education": {
+          "title": "Visa étudiant pour Chypre du Nord",
+          "p1": "Les étudiants admis dans des établissements d'enseignement supérieur à Chypre du Nord doivent obligatoirement obtenir un visa étudiant avant leur arrivée. Les demandes s'effectuent auprès des ambassades ou consulats de Chypre du Nord ; un visa touristique ne peut pas être converti en visa étudiant après l'entrée sur le territoire.",
+          "overviewTitle": "Aperçu de la demande de visa étudiant",
+          "p2": "Les candidats doivent fournir une lettre d'admission officielle émise par un établissement reconnu à Chypre du Nord, document indispensable pour déposer une demande de visa étudiant auprès de l'ambassade la plus proche. Après l'arrivée dans le pays, les étudiants doivent s'enregistrer auprès des autorités locales et obtenir leur permis de séjour étudiant dans un délai de 30 jours pour régulariser leur situation.",
+          "preChecklist": "Pour demander un visa étudiant pour Chypre du Nord, préparez les documents suivants :",
+          "checklist": [
+            "Formulaire de demande de visa dûment complété et passeport valide",
+            "Photographie biométrique récente",
+            "Lettre d'admission officielle de l'université",
+            "Preuve de fonds suffisants pour couvrir frais de scolarité et frais de subsistance",
+            "Assurance santé valable pour la durée du séjour",
+            "Preuve d'hébergement (réservation, contrat, etc.)",
+            "Copies des diplômes et relevés de notes antérieurs"
+          ]
+        },
+        "tourist": {
+          "title": "Visas de regroupement familial et autres pour Chypre du Nord",
+          "p1": "Chypre du Nord propose des visas de longue durée pour le regroupement familial ainsi que pour d'autres motifs spécifiques tels que des soins médicaux ou des activités de recherche. Le visa de regroupement familial permet aux conjoints et aux enfants à charge de rejoindre un résident ou un citoyen de Chypre du Nord. Ces demandes se font auprès des consulats de Chypre du Nord à l'étranger.",
+          "overviewTitle": "Aperçu de la demande de visa familial",
+          "p2": "Les demandeurs doivent prouver l'existence du lien familial à l'aide de documents officiels (actes de mariage, actes de naissance) reconnus internationalement. Le garant résidant à Chypre du Nord doit fournir des preuves de revenus suffisants et d'un logement adapté. Des pièces complémentaires telles qu'une assurance santé couvrant les demandeurs et un certificat de casier judiciaire peuvent être exigées.",
+          "preChecklist": "Pour demander un visa de regroupement familial pour Chypre du Nord, préparez les documents suivants :",
+          "checklist": [
+            "Formulaire de demande de visa dûment rempli, passeport valide et photo biométrique",
+            "Acte de mariage pour le conjoint (original et copies)",
+            "Actes de naissance pour les enfants (original et copies)",
+            "Copie du titre de séjour ou du permis de travail du garant en Chypre du Nord",
+            "Preuves des revenus et de l'hébergement du garant",
+            "Assurance santé couvrant tous les demandeurs",
+            "Certificat de casier judiciaire du demandeur"
+          ]
+        }
+      },
+
+      "lithuania": {
+        "breadcrumbTitle": "Lituanie",
+        "sidebar": { "current": "Lituanie" },
+        "downloads": {
+          "link1": { "label": "Formulaires de demande", "meta": "Département des migrations" },
+          "link2": { "label": "Prendre rendez-vous", "meta": "VFS Global" }
+        },
+        "working": {
+          "title": "Visas de travail pour la Lituanie",
+          "p1": "Pour travailler en Lituanie, les ressortissants hors UE/EEE doivent généralement obtenir un visa national (D). Le processus commence habituellement par l'employeur lituanien qui enregistre l'offre d'emploi et, dans la plupart des cas, obtient un permis de travail ou une décision officielle confirmant que les qualifications du travailleur étranger sont conformes aux exigences nationales auprès du Service de l'emploi lituanien. Ce n'est qu'après l'autorisation de l'employeur et l'obtention des approbations requises que le travailleur étranger peut demander le visa national (D) pour travail. Les demandeurs doivent préparer des dossiers complets, prévoir plusieurs semaines de traitement selon le cas, et vérifier si des autorisations locales ou sectorielles supplémentaires sont nécessaires.",
+          "overviewTitle": "Aperçu de la demande de visa national (D)",
+          "p2": "La demande de visa se dépose auprès d'une ambassade lituanienne, d'un consulat ou d'un centre de demande de visa agréé (comme VFS Global) dans le pays de résidence légale du demandeur. Une fois le visa national (D) accordé et le demandeur arrivé en Lituanie, le travailleur étranger doit demander un permis de séjour temporaire (TRP) auprès du Département des migrations afin de continuer à vivre et travailler légalement dans le pays. Les étapes de traitement peuvent inclure la collecte de données biométriques et des vérifications d'antécédents. Les professionnels hautement qualifiés et les candidats répondant aux critères peuvent être éligibles à une voie accélérée ou alternative, telle que la Carte bleue de l'UE, qui comporte ses propres critères et avantages.",
+          "preChecklist": "Pour postuler à un visa de travail lituanien, les documents clés comprennent :",
+          "checklist": [
+            "Formulaire électronique (MIGRIS)",
+            "Passeport valide et photo couleur récente",
+            "Permis de travail délivré par le Service de l'emploi",
+            "Lettre de médiation de l'employeur (numéro e-visa)",
+            "Preuve de moyens de subsistance",
+            "Assurance médicale voyage (min. 30 000 €)"
+          ]
+        },
+        "business": {
+  "title": "Visa Schengen d'Affaires pour la Lituanie",
+  "p1": "En tant que membre à part entière de l'Espace Schengen, la Lituanie délivre des visas Schengen (type C) d'affaires aux personnes qui doivent se rendre en Lituanie ou dans d'autres pays de l'espace Schengen pour des raisons professionnelles de courte durée. Ce visa autorise des séjours allant jusqu'à 90 jours sur toute période de 180 jours et est destiné exclusivement aux déplacements liés aux affaires, tels que la participation à des conférences, des formations professionnelles, des négociations de contrats, des visites auprès d'entreprises partenaires ou encore l'exploration de nouvelles opportunités commerciales. Le titulaire de ce visa est autorisé à circuler librement dans les 27 pays de l'espace Schengen pour des activités professionnelles sans avoir besoin de visas nationaux distincts.",
+  "overviewTitle": "Aperçu de la Demande de Visa Schengen d'Affaires",
+  "p2": "Les demandes de visa d'affaires pour la Lituanie doivent être déposées auprès d'une ambassade, d'un consulat ou d'un centre officiel de demande de visa (par exemple VFS Global) dans le pays où vous résidez légalement. Les candidats doivent obligatoirement déposer leur demande auprès de la mission correspondant à leur destination principale, en l'occurrence la Lituanie si elle constitue l'objet principal du voyage. Le processus de demande exige non seulement la preuve de fonds suffisants, une assurance voyage et une confirmation d'hébergement, mais également des documents spécifiques liés aux affaires. Ceux-ci incluent une lettre d'invitation officielle émanant d'une entreprise ou d'une organisation en Lituanie, les détails des réunions ou événements programmés, ainsi que la preuve que le voyage est strictement professionnel. En outre, il est nécessaire de démontrer l'intention claire de retourner dans votre pays de résidence une fois le visa expiré, ce qui peut être appuyé par des contrats de travail, la possession d'un bien immobilier ou des attaches familiales.",
+  "preChecklist": "Pour demander un visa Schengen d'affaires pour la Lituanie, préparez les documents suivants :",
+  "checklist": [
+    "Formulaire de demande dûment complété et signé",
+    "Passeport valide au moins 3 mois après la date prévue de départ",
+    "Une photo récente en couleur au format passeport",
+    "Preuve d'une assurance médicale de voyage (couverture minimale de 30 000 €)",
+    "Réservation d'un vol aller-retour et preuve d'hébergement",
+    "Preuve de moyens financiers suffisants pour le séjour",
+    "Lettre d'invitation officielle d'une entreprise ou d'un partenaire commercial lituanien",
+    "Documents prouvant l'objet du voyage d'affaires (par exemple contrats, inscriptions à des événements, calendriers de réunions)"
+  ]
+},
+        "education": {
+          "title": "Visas étudiants pour la Lituanie",
+          "p1": "Les ressortissants étrangers qui prévoient d'étudier en Lituanie pour une durée supérieure à 90 jours doivent demander un visa national (D) pour études. Ce visa permet l'entrée et le séjour temporaire en Lituanie pendant que l'étudiant accomplit les démarches nécessaires pour régulariser son statut. L'exigence principale est une lettre d'acceptation officielle d'un établissement d'enseignement lituanien reconnu ; des documents supplémentaires tels que la preuve de ressources financières, l'hébergement et l'assurance maladie sont également généralement requis.",
+          "overviewTitle": "Aperçu du visa étudiant & du permis de séjour",
+          "p2": "Une fois admis dans un établissement d'enseignement lituanien, l'étudiant doit demander le visa national (D) au consulat ou à l'ambassade de Lituanie la plus proche. À son arrivée en Lituanie avec ce visa, l'étudiant doit rapidement déposer une demande de permis de séjour temporaire (TRP) auprès du Département des migrations ; le TRP servira de document juridique principal autorisant la résidence pendant la durée des études. Les délais et les pièces requises peuvent varier, il est donc recommandé de préparer le dossier à l'avance et de contacter le service international de l'établissement.",
+          "preChecklist": "Pour un visa étudiant lituanien, préparez :",
+          "checklist": [
+            "Formulaire électronique et passeport valide",
+            "Une photo couleur récente",
+            "Lettre de médiation (numéro e-visa) de l'école",
+            "Preuve de fonds (frais et ~450 €/mois)",
+            "Assurance médicale voyage (min. 30 000 €)",
+            "Pour les mineurs, consentement notarié des parents/tuteurs"
+          ]
+        },
+        "tourist": {
+          "title": "Visas famille & autres pour la Lituanie",
+          "p1": "Les ressortissants étrangers qui souhaitent rejoindre un membre de leur famille (par exemple un conjoint, un partenaire enregistré ou un parent d'un enfant mineur) qui est citoyen ou résident légal de Lituanie doivent demander un visa dans la catégorie du regroupement familial. En général, le processus commence par la délivrance d'un visa national (D) pour entrer en Lituanie ; après l'arrivée, le demandeur doit demander un permis de séjour temporaire pour régulariser son séjour. L'ensemble de la procédure exige des documents complets prouvant le lien familial et la capacité du parrain à subvenir aux besoins et à loger le membre de la famille.",
+          "overviewTitle": "Aperçu de la demande de regroupement familial",
+          "p2": "Le membre de la famille résidant en Lituanie (le parrain) doit fournir une lettre de médiation officielle (invitation) via le système en ligne MIGRIS. Le demandeur utilise cette invitation comme pièce du dossier pour la demande du visa national (D) auprès de l'ambassade ou du consulat de Lituanie. Le parrain devra fournir des preuves de moyens financiers suffisants et d'un hébergement adéquat pour le membre de la famille, ainsi que tout document attestant du statut légal et du lien familial.",
+          "preChecklist": "Pour un visa de regroupement familial, préparez :",
+          "checklist": [
+            "Formulaire électronique et passeport valide",
+            "Photo couleur récente",
+            "Lettre de médiation du parrain en Lituanie",
+            "Preuves de liens familiaux (mariage/naissance)",
+            "Preuve de moyens et de logement du parrain",
+            "Assurance médicale voyage (min. 30 000 €)"
+          ]
+        }
+      },
+
+      "france": {
+        "breadcrumbTitle": "France",
+        "sidebar": { "current": "France" },
+        "downloads": {
+          "link1": { "label": "Site officiel des visas", "meta": "France-Visas" },
+          "link2": { "label": "Prendre rendez-vous", "meta": "Centres de visa (TLS/VFS)" }
+        },
+        "working": {
+          "title": "Visas de travail pour la France",
+          "p1": "Pour travailler en France, les ressortissants hors UE/EEE/Suisse doivent obtenir un visa de long séjour valant titre de séjour (VLS-TS) portant la mention \"salarié\" (employé). La procédure doit être initiée par l'employeur français, qui doit obtenir une autorisation de travail auprès de l'autorité compétente (DIRECCTE). L'employeur dépose généralement la demande d'autorisation en fournissant des informations détaillées sur le poste, le salaire et le contrat. Ce n'est qu'après l'octroi de cette autorisation que le salarié peut constituer et déposer sa demande de visa, en joignant le contrat de travail, les justificatifs de qualification et les pièces d'identité requises. Selon les cas, des démarches complémentaires peuvent être nécessaires, comme des examens médicaux, des traductions certifiées ou des attestations supplémentaires; les délais de traitement varient, il est donc conseillé de prévoir suffisamment de temps avant la date prévue d'entrée.",
+          "overviewTitle": "Aperçu de la demande de visa de travail",
+          "p2": "La démarche complète débute sur le portail officiel France-Visas. Après avoir rempli le formulaire en ligne et obtenu la liste personnalisée des pièces à fournir, vous devez prendre rendez-vous auprès du centre de dépôt désigné (par exemple VFS ou TLScontact) pour déposer vos originaux et procéder à la prise d'empreintes biométriques. Lors de la prise de rendez-vous, on vous communiquera une checklist adaptée à votre nationalité et au type de visa. Une fois le visa délivré et après votre arrivée en France, vous devez valider votre VLS-TS en ligne dans un délai de trois mois ; cette validation déclenche les démarches d'enregistrement et peut nécessiter une inscription auprès de l'OFII ou de la préfecture locale. Conservez une copie de tous les documents et suivez attentivement les instructions figurant sur France-Visas.",
+          "preChecklist": "Pour un visa de travail français, pièces clés :",
+          "checklist": [
+            "Formulaire France-Visas, justificatif et passeport",
+            "Deux photos d'identité récentes",
+            "Autorisation de travail obtenue par l'employeur",
+            "Copie du contrat de travail",
+            "Preuve d'hébergement en France",
+            "Formulaire OFII (Office français de l'immigration et de l'intégration)"
+          ]
+        },
+        "business": {
+  "title": "Visa Schengen d'Affaires pour la France",
+  "p1": "La France, en tant que membre fondateur essentiel de l'Espace Schengen, délivre un visa Schengen uniforme (Type C) destiné exclusivement aux séjours de courte durée à caractère professionnel. Ce visa est conçu pour les personnes se rendant en France afin d'assister à des réunions, conférences, salons professionnels, négociations ou pour développer des partenariats commerciaux. Il autorise un séjour allant jusqu'à 90 jours sur une période de 180 jours dans l'ensemble des 27 États membres de l'espace Schengen, offrant ainsi aux voyageurs d'affaires flexibilité et mobilité élargie en Europe.",
+  "overviewTitle": "Aperçu de la Demande de Visa Schengen d'Affaires",
+  "p2": "Pour demander un visa Schengen d'affaires pour la France, vous devez commencer votre démarche sur la plateforme officielle France-Visas. Après avoir soigneusement rempli le formulaire et obtenu une liste personnalisée des documents requis, vous devrez prendre rendez-vous auprès du prestataire officiel de services de visa de votre région (tel que VFS Global ou TLScontact). Lors de votre rendez-vous, il vous sera demandé de soumettre vos documents ainsi que vos données biométriques. Il est essentiel de déposer la demande auprès du consulat ou du centre de visas français compétent, en particulier si la France est le pays où vous passerez la majeure partie de votre séjour professionnel.",
+  "preChecklist": "Pour demander un visa Schengen d'affaires pour la France, préparez les éléments suivants :",
+  "checklist": [
+    "Reçu de la demande France-Visas et passeport en cours de validité",
+    "Deux photos d'identité récentes et conformes",
+    "Preuve d'une assurance médicale de voyage avec une couverture minimale de 30 000 €",
+    "Un itinéraire de voyage détaillé comprenant les réservations de vol et la preuve d'hébergement",
+    "Justificatif de moyens financiers suffisants pour couvrir l'intégralité du séjour",
+    "Une lettre d'invitation officielle d'une entreprise ou organisation française accueillant l'activité professionnelle",
+    "Une lettre de votre employeur ou société expliquant l'objet du voyage et votre fonction",
+    "Une preuve de statut socio-professionnel telle qu'une attestation d'emploi, un extrait de registre du commerce ou une licence professionnelle"
+  ]
+},
+        "education": {
+          "title": "Visas étudiants pour la France",
+          "p1": "Pour des études de plus de trois mois, vous devez demander un visa de long séjour valant titre de séjour pour étudiant (VLS-TS \"étudiant\"). Pour de nombreux étudiants hors UE, la procédure commence par une démarche obligatoire via Campus France, l'agence officielle de promotion de l'enseignement supérieur français. Cette étape doit être complétée avant la demande de visa. En complément de Campus France, les candidats doivent obtenir une lettre d'acceptation officielle, prouver qu'ils disposent de ressources financières suffisantes et souscrire une assurance santé. Dans certains pays, des démarches préalables ou des certifications linguistiques peuvent être exigées. Commencez les démarches Campus France et France-Visas suffisamment tôt car les délais de traitement peuvent être longs.",
+          "overviewTitle": "Aperçu de la demande de visa étudiant",
+          "p2": "Après l'accord de Campus France (le cas échéant), complétez votre dossier sur le site France-Visas. Ensuite, prenez rendez-vous pour déposer vos pièces au centre désigné. À votre arrivée en France, vous devez valider votre VLS-TS en ligne afin d'activer votre titre de séjour. Pendant le rendez-vous, vous remettrez les originaux et les justificatifs demandés ainsi que le paiement des frais de visa et éventuels frais liés aux démarches étudiantes. Après la validation en ligne, vous devrez vous inscrire auprès de votre établissement et suivre les formalités éventuelles auprès des services locaux. Conservez toutes les confirmations et pièces justificatives relatives à votre dossier.",
+          "preChecklist": "Pour un visa étudiant français, préparez :",
+          "checklist": [
+            "Justificatif France-Visas et passeport",
+            "Deux photos récentes",
+            "Lettre d'acceptation d'un établissement français",
+            "Attestation Campus France (si requise)",
+            "Preuve de ressources (actuellement 615 €/mois)",
+            "Preuve d'hébergement pour au moins 3 mois"
+          ]
+        },
+        "tourist": {
+          "title": "Visas famille & autres pour la France",
+          "p1": "La France propose un visa de long séjour « vie privée et familiale » (VLS-TS) pour les personnes souhaitant rejoindre un proche. Cette catégorie concerne principalement les conjoints de ressortissants français, les parents d'enfants mineurs français et certains membres de la famille de citoyens de l'UE/EEE/Suisse. Les conditions spécifiques dépendent du lien familial et peuvent varier. Les demandeurs doivent fournir des documents d'état civil officiels, des preuves du lien familial et des éléments démontrant que le garant dispose d'un logement et de ressources suffisantes pour l'accueillir. Dans certains cas, des entretiens ou des vérifications complémentaires sont requis ; les pièces peuvent devoir être traduites et légalisées. Les délais de traitement peuvent être très variables selon les situations.",
+          "overviewTitle": "Aperçu du visa familial",
+          "p2": "Les demandes se font via le portail France-Visas. Pour les conjoints de Français : la preuve du mariage (copie intégrale récente de l'acte de mariage français) et la preuve de la nationalité du conjoint sont essentielles. Le demandeur doit également démontrer une vie commune réelle et l'intention de s'installer en France. À l'arrivée, le visa doit être validé en ligne. Si le mariage a été célébré à l'étranger, une transcription de l'acte peut être nécessaire pour la reconnaissance en France. Les autorités peuvent demander des preuves de vie commune (factures communes, photos, correspondances) et d'autres justificatifs. Après l'arrivée et la validation du visa, suivez les démarches complémentaires demandées par la préfecture locale, le cas échéant.",
+          "preChecklist": "Pour un visa familial (ex. conjoint de Français), fournissez :",
+          "checklist": [
+            "Justificatif France-Visas, passeport et photos",
+            "Preuve de nationalité du conjoint français (CNI, etc.)",
+            "Copie intégrale d'acte de mariage de < 2 mois",
+            "Si mariage à l'étranger, transcription de l'acte",
+            "Preuves de vie commune (factures, photos, etc.)",
+            "Preuve d'hébergement en France"
+          ]
+        }
+      },
+
+      "uae": {
+  "breadcrumbTitle": "EAU",
+  "sidebar": { "current": "EAU" },
+  "downloads": {
+    "link1": { "label": "ICP Smart Services", "meta": "Autorité fédérale (ICP)" },
+    "link2": { "label": "Services de Dubaï", "meta": "GDRFA - Dubaï" }
+  },
+  "working": {
+    "title": "Visas de travail (titre de séjour) pour les EAU",
+    "p1": "Pour travailler aux EAU, les ressortissants étrangers doivent être parrainés par un employeur. L'employeur est responsable d'obtenir à la fois un permis de travail et un visa de résidence pour le salarié. Le processus commence généralement lorsque l'employeur obtient une pré-approbation du permis de travail ou une lettre d'offre officielle auprès du Ministry of Human Resources & Emiratisation (MoHRE). Avec cette approbation, un permis d'entrée est délivré, autorisant le salarié à entrer légalement aux EAU afin d'achever les formalités de résidence.",
+    "overviewTitle": "Aperçu de la demande de visa de travail",
+    "p2": "Après l'entrée, le salarié doit effectuer un examen médical d'aptitude, enregistrer ses données biométriques pour l'Emirates ID et déposer les formulaires d'immigration requis. L'employeur finalise ensuite le dossier en faisant apposer le visa de résidence (souvent sous forme d'autocollant électronique) dans le passeport du salarié. Ce titre de séjour est généralement valable deux ans et est lié au contrat de travail sous-jacent ; il doit être maintenu ou annulé en cas de fin d'emploi. La plupart des étapes sont coordonnées par l'employeur ou son PRO (Public Relations Officer) désigné.",
+    "preChecklist": "Documents clés requis du salarié :",
+    "checklist": [
+      "Passeport valide avec au moins six mois de validité",
+      "Photos d'identité récentes sur fond blanc",
+      "Diplômes/attestations d'études, légalisés par l'ambassade des EAU",
+      "Certificat médical d'un centre agréé aux EAU",
+      "Lettre d'offre signée ou contrat de travail"
+    ]
+  },
+  "business": {
+    "title": "Visa d'affaires pour les Émirats arabes unis",
+    "p1": "Les Émirats arabes unis proposent un visa d'affaires spécialement conçu pour faciliter l'entrée des investisseurs étrangers, des entrepreneurs et des professionnels souhaitant explorer, établir ou développer leurs activités commerciales dans le pays. Cette catégorie de visa offre une voie officielle permettant d'entrer et de rester aux Émirats arabes unis dans le but de mener des affaires, de participer à des réunions d'entreprise, de créer des partenariats et d'évaluer des opportunités d'investissement potentielles. Dans la plupart des cas, les demandeurs doivent démontrer leur stabilité financière, fournir une preuve de leur expérience professionnelle et présenter des documents attestant de la légitimité de leurs activités commerciales envisagées. L'obtention d'un visa d'affaires donne aux individus le droit légal de participer activement à l'environnement économique dynamique des Émirats arabes unis.",
+    "overviewTitle": "Aperçu de la demande de visa d'affaires",
+    "p2": "Pour entamer la procédure, le demandeur doit d'abord soumettre une demande de permis d'entrée dans la catégorie des visas d'affaires. Après son arrivée aux Émirats arabes unis avec ce permis, il dispose généralement d'un délai de 60 jours pour finaliser toutes les formalités requises. Ces étapes incluent souvent la réalisation d'un examen médical de condition physique, l'enregistrement pour une carte d'identité Emirates ID et la soumission de documents justificatifs tels qu'une licence commerciale ou des lettres d'intention émanant de partenaires locaux. Le visa de résidence est ensuite apposé dans le passeport du demandeur une fois l'approbation accordée. Les demandes peuvent être traitées en ligne via la plateforme officielle ICP ou par le portail de la GDRFA dans le cas de Dubaï, garantissant une procédure simplifiée et accessible pour les professionnels et investisseurs étrangers.",
+    "preChecklist": "Pour demander un visa d'affaires, le demandeur doit fournir :",
+    "checklist": [
+      "Copie du passeport et photos récentes du demandeur",
+      "Formulaire de demande de visa d'affaires dûment rempli",
+      "Preuve de capacité financière (relevés bancaires ou documents financiers)",
+      "Plan d'affaires ou proposition décrivant les activités prévues aux Émirats arabes unis",
+      "Copie de la licence commerciale ou lettre de soutien d'un sponsor ou partenaire local",
+      "Qualifications professionnelles ou CV du demandeur démontrant une expérience pertinente"
+    ]
+  },
+  "education": {
+    "title": "Visas étudiants pour les EAU",
+    "p1": "Les étudiants étrangers peuvent étudier aux EAU lorsqu'ils sont parrainés par une université ou un collège agréé. L'établissement d'enseignement dépose la demande de visa au nom de l'étudiant et l'accompagne à chaque étape. Les titres de séjour étudiants sont en général délivrés par périodes d'un an et peuvent être renouvelés pendant toute la durée du programme, à condition que l'étudiant reste inscrit et en règle.",
+    "overviewTitle": "Aperçu de la demande de visa étudiant",
+    "p2": "Après réception de la lettre d'admission officielle, l'étudiant remet les pièces requises au service des étudiants internationaux de l'université, qui sollicite le permis d'entrée étudiant. À l'arrivée, l'étudiant effectue l'examen médical d'aptitude et la biométrie pour l'Emirates ID, puis l'université finalise l'apposition du visa de résidence. Les meilleurs profils académiques peuvent également prétendre à un « Golden Visa » de plus longue durée selon les critères applicables.",
+    "preChecklist": "Pour demander un visa étudiant des EAU, préparez ce qui suit pour votre université :",
+    "checklist": [
+      "Copie du passeport et photos d'identité récentes",
+      "Lettre d'admission officielle de l'université/école des EAU",
+      "Preuve de paiement des frais de scolarité et des frais de visa",
+      "Preuve de fonds suffisants ou lettre de parrainage",
+      "Diplômes attestés depuis votre pays d'origine",
+      "Résultats du test d'aptitude médicale (effectué aux EAU)"
+    ]
+  },
+  "tourist": {
+    "title": "Visas de tourisme pour les EAU",
+    "p1": "Les EAU proposent plusieurs types de visas de tourisme, le plus souvent pour des séjours de 30 ou 60 jours. De nombreuses nationalités reçoivent un visa à l'arrivée à la frontière, tandis que d'autres doivent l'obtenir à l'avance. Les visas touristiques préalablement arrangés sont généralement parrainés par une compagnie aérienne basée aux EAU (telle qu'Etihad ou Emirates), un hôtel ou une agence de voyage enregistrée, et peuvent être délivrés pour une entrée simple ou, dans certains cas, pour entrées multiples.",
+    "overviewTitle": "Aperçu de la demande de visa touristique",
+    "p2": "Si vous devez faire la demande à l'avance, vous pouvez passer par votre compagnie aérienne, votre hôtel ou votre tour-opérateur, ou directement via les portails officiels — ICP Smart Services pour l'ensemble des émirats et GDRFA pour Dubaï. La procédure est entièrement en ligne : vous téléversez vos documents, réglez les frais et recevez un visa électronique par e-mail. Assurez-vous que votre passeport restera valide au moins six mois après la date d'entrée prévue et que votre photo respecte les exigences spécifiées.",
+    "preChecklist": "Pour demander un visa de tourisme des EAU, préparez les éléments suivants :",
+    "checklist": [
+      "Copie couleur scannée de votre passeport (validité de 6 mois ou plus)",
+      "Photo d'identité couleur récente",
+      "Réservation de vol confirmée (si demande via une compagnie aérienne)",
+      "Preuve d'hébergement (si demande via un hôtel)",
+      "Formulaire de demande en ligne dûment rempli",
+      "Paiement des frais de visa"
+    ]
+  }
+      },
+      "luxembourg": {
+        "breadcrumbTitle": "Luxembourg",
+        "sidebar": { "current": "Luxembourg" },
+        "downloads": {
+          "link1": { "label": "Formulaire de demande", "meta": "450kb" },
+          "link2": { "label": "Formulaire de demande", "meta": "450kb" }
+        },
+        "working": {
+          "title": "Visa de travail pour le Luxembourg",
+          "p1": "L'obtention d'un visa de travail pour le Luxembourg permet aux citoyens non européens d'y travailler légalement. La plupart des permis de travail sont liés à un employeur spécifique et nécessitent une offre d'emploi concrète. Les catégories incluent les permis de travail pour travailleurs hautement qualifiés, la carte bleue européenne et les autorisations de travail saisonnier.",
+          "overviewTitle": "Aperçu de la demande de visa de travail",
+          "p2": "La procédure débute généralement par une demande de visa de long séjour D déposée par l'employeur auprès de la Direction de l'immigration au nom du travailleur. Une fois la demande approuvée, le demandeur doit déposer une demande de visa de long séjour D auprès du consulat du Luxembourg de son pays de résidence.",
+          "p3": "Après votre arrivée au Luxembourg, vous devrez obtenir un permis de séjour. Le traitement de votre demande prend généralement de 8 à 12 semaines. Les candidats doivent remplir les conditions de langue, de salaire et de qualification requises, selon le type de permis.",
+          "preChecklist": "Pour demander un visa de travail luxembourgeois, préparez :",
+          "checklist": [
+            "Passeport valide (au moins 6 mois après le séjour prévu)",
+            "Contrat de travail approuvé",
+            "Preuves de qualifications (diplômes, certificats)",
+            "Extrait de casier judiciaire",
+            "Preuve d'assurance maladie",
+            "Preuve d'hébergement au Luxembourg"
+          ]
+        },
+        "business": {
+  "title": "Visa d'affaires pour le Luxembourg",
+  "p1": "Le visa Schengen de court séjour pour affaires (type C) du Luxembourg permet aux voyageurs de participer à des activités professionnelles telles que la tenue de réunions, la participation à des conférences, des salons commerciaux, ou encore la négociation de contrats. Il autorise un séjour maximal de 90 jours sur une période de 180 jours. Les demandeurs doivent démontrer clairement leur intention de quitter le territoire avant l'expiration du visa et prouver qu'ils disposent de ressources financières suffisantes pour couvrir toutes les dépenses liées à leur déplacement professionnel.",
+  "overviewTitle": "Aperçu de la demande de visa d'affaires",
+  "p2": "Les demandes doivent être déposées auprès du consulat du Luxembourg ou du centre de visas agréé le plus proche. Le délai de traitement standard est généralement d'environ 15 jours calendaires, mais il peut être prolongé pendant les périodes de forte affluence. Les voyageurs d'affaires doivent également fournir une assurance médicale de voyage et une preuve de retour afin de respecter les règles Schengen. Il est fortement conseillé de déposer la demande le plus tôt possible.",
+  "p3": "Les demandeurs doivent présenter un passeport valide, un formulaire de demande de visa dûment complété, des photos d'identité récentes, une preuve d'hébergement, un itinéraire détaillé couvrant les déplacements et les rendez-vous professionnels, ainsi qu'une preuve de moyens financiers. En outre, une lettre officielle d'invitation émanant d'une entreprise ou d'un organisme basé au Luxembourg est généralement obligatoire afin de confirmer le caractère professionnel du voyage.",
+  "p4": "Les demandeurs peuvent suivre l'état d'avancement de leur demande de visa d'affaires en ligne ou en contactant directement le consulat ou le centre de visas compétent.",
+  "text": "Les candidats au visa d'affaires doivent fournir des preuves claires que leur séjour a un but strictement professionnel, qu'ils quitteront le Luxembourg avant l'expiration de leur visa et qu'ils possèdent les ressources nécessaires pour subvenir à leurs besoins. Il est essentiel de préparer un dossier complet et de fournir des informations exactes et véridiques afin d'éviter tout retard ou rejet.",
+  "checklist": [
+    "Formulaire de demande de visa Schengen pour affaires dûment rempli et signé",
+    "Deux photos d'identité récentes au format passeport",
+    "Passeport valide (avec au moins 3 mois de validité après la date prévue de départ du Luxembourg)",
+    "Assurance médicale de voyage (couverture minimale de 30 000 €)",
+    "Preuve d'hébergement et itinéraire professionnel détaillé (réservations d'hôtel, inscriptions à des événements)",
+    "Lettre d'invitation officielle d'une entreprise ou d'une organisation luxembourgeoise",
+    "Preuve de moyens financiers (relevés bancaires, attestation de l'employeur, prise en charge par l'entreprise)",
+    "Réservation de vol aller-retour"
+  ]
+},
+        "education": {
+          "title": "Visa étudiant pour le Luxembourg",
+          "p1": "Les étudiants originaires de pays hors UE doivent demander une autorisation de séjour temporaire avant leur arrivée. Ils doivent ensuite demander un visa étudiant de long séjour (type D). Les candidats doivent être inscrits dans un établissement d'enseignement reconnu au Luxembourg.",
+          "overviewTitle": "Aperçu de la demande de visa étudiant",
+          "p2": "Une fois admis à un programme, les étudiants demandent une autorisation de séjour. Après approbation, ils déposent une demande de visa auprès d'un consulat. À leur arrivée, ils doivent se soumettre à un examen médical et déposer une demande de permis de séjour dans un délai de 3 mois.",
+          "p3": "Les délais de traitement étant variables, il est recommandé de déposer une demande rapidement. Les étudiants doivent justifier de ressources financières suffisantes, d'une assurance maladie et d'un logement. La maîtrise de la langue peut également être exigée selon le programme.",
+          "text": "Pour demander un visa étudiant luxembourgeois, vous devez fournir une preuve d'inscription dans un établissement reconnu, de ressources financières suffisantes pour subvenir à vos besoins et d'une couverture maladie.",
+          "preChecklist": "Exigences en matière de visa touristique pour le Luxembourg:",
+          "checklist": [
+            "Autorisation de séjour de la Direction de l'immigration",
+            "Passeport valide et photos récentes",
+            "Preuve d'inscription",
+            "Preuve de ressources financières",
+            "Assurance maladie couvrant tout le séjour",
+            "Lettre de motivation"
+          ]
+        },
+        "tourist": {
+          "title": "Visa touristique pour le Luxembourg",
+          "p1": "Le Luxembourg fait partie de l'espace Schengen. Les touristes doivent donc demander un visa Schengen (type C) pour les courts séjours jusqu'à 90 jours. Ce visa est valable dans tous les pays Schengen. Il peut s'agir de visites touristiques, de visites familiales ou d'événements culturels.",
+          "overviewTitle": "Aperçu de la demande de visa touristique",
+          "p2": "The visa application should be filed at the Luxembourg consulate or relevant visa center. You must apply at least 15 days before your intended travel date. Provide clear documentation proving the visit is temporary and financially supported.",
+          "p3": "Obtenir un visa Schengen n'est parfois pas simple et de nombreux facteurs peuvent entrer en jeu.",
+          "text1": "Un visa Schengen ne vous autorise pas à travailler ou à étudier au Luxembourg. Vous devez quitter le pays avant l'expiration de votre séjour autorisé. Une prolongation de visa Schengen peut être demandée dans certains cas, mais son approbation n'est pas garantie.",
+          "text2": "Avant de postuler, assurez-vous d'avoir un passeport valide avec une validité d'au moins six mois au-delà de votre séjour prévu et rassemblez tous les documents nécessaires pour appuyer votre demande.",
+          "preChecklist": "Vous trouverez ci-dessous les documents requis avant de demander un visa touristique luxembourgeois:",
+          "checklist": [
+            "Passeport valide avec au moins deux pages libres",
+            "Formulaire de visa rempli et signé",
+            "Photos d'identité récentes",
+            "Preuve d'assurance voyage (min. 30 000 €)",
+            "Itinéraire de vol et preuve d'hébergement",
+            "Preuve de moyens financiers",
+            "Itinéraire touristique ou lettre d'invitation"
+          ]
+        }
+      },
+      "canada": {
+        "breadcrumbTitle": "Canada",
+        "sidebar": { "current": "Canada" },
+        "downloads": {
+          "link1": { "label": "Formulaires de demande", "meta": "IRCC" },
+          "link2": { "label": "Vérifier le statut", "meta": "IRCC" }
+        },
+        "working": {
+          "title": "Permis de travail pour le Canada",
+          "p1": "Le Canada offre plusieurs possibilités aux ressortissants étrangers pour travailler légalement au pays, principalement par l'intermédiaire du Programme des travailleurs étrangers temporaires (PTET) et du Programme de mobilité internationale (PMI). La plupart des candidats doivent obtenir une offre d'emploi d'un employeur canadien et peuvent avoir besoin d'une étude d'impact sur le marché du travail (EIMT) pour démontrer qu'aucun travailleur canadien n'est disponible pour le poste.",
+          "overviewTitle": "Aperçu de la demande de permis de travail",
+          "p2": "Le processus commence par une offre d'emploi présentée par un employeur canadien. Selon le volet, une EIMT peut être requise. Une fois ces études obtenues, le demandeur soumet sa demande de permis de travail à Immigration, Réfugiés et Citoyenneté Canada (IRCC). Des données biométriques sont généralement requises.",
+          "p3": "Les délais de traitement varient selon le pays de la demande et le type de permis. Certains volets, comme le volet Talents mondiaux, offrent un traitement accéléré. Les candidats retenus reçoivent une lettre d'introduction au point d'entrée.",
+          "preChecklist": "Pour demander un permis de travail canadien, préparez :",
+          "checklist": [
+            "Passeport valide avec au moins une page libre",
+            "Formulaire IMM 1295",
+            "Preuve de moyens financiers",
+            "Copie d'une EIMT positive (si applicable)",
+            "Offre d'emploi valide d'un employeur canadien",
+            "Preuve de compétences linguistiques (anglais/français)",
+            "Preuve que vous quitterez le Canada à la fin du séjour"
+          ]
+        },
+        "business": {
+    "title": "Visa d'Affaires pour le Canada",
+    "p1": "Un visa d'affaires canadien, officiellement classé dans la catégorie du Visa de Résident Temporaire (VRT), est destiné aux ressortissants étrangers qui souhaitent entrer temporairement au Canada pour des activités professionnelles. Cela comprend la participation à des réunions, conférences, salons commerciaux, la négociation de contrats ou encore l'exploration d'opportunités afin d'établir des relations d'affaires au Canada. Il est important de préciser que ce visa ne permet pas d'intégrer directement le marché du travail canadien et n'autorise pas l'exercice d'un emploi rémunéré.",
+    "overviewTitle": "Aperçu de la demande de visa d'affaires",
+    "p2": "Les demandes peuvent être déposées en ligne via le portail d'IRCC ou dans un Centre de Réception des Demandes de Visa (CRDV). Vous devez démontrer clairement à l'agent d'immigration que votre séjour est de courte durée, que vous quitterez le Canada une fois vos activités professionnelles terminées, et que vous disposez de ressources financières suffisantes pour couvrir vos frais de voyage et de séjour. La présentation de preuves de vos liens commerciaux ou professionnels dans votre pays d'origine, comme un enregistrement d'entreprise, des contrats ou des justificatifs d'emploi, est fortement requise.",
+    "p3": "Les délais de traitement varient selon le pays de résidence et la période de l'année. Étant donné que les données biométriques (empreintes digitales et photo) sont obligatoires pour la plupart des demandeurs, il est vivement recommandé de soumettre la demande plusieurs semaines avant la date prévue du voyage. Une demande complète et sincère augmente considérablement les chances d'approbation.",
+    "preChecklist": "Pour demander un visa d'affaires canadien, préparez les documents suivants :",
+    "checklist": [
+      "Formulaire de demande de visa de visiteur (IMM 5257) dûment rempli en précisant le but professionnel",
+      "Passeport valide d'au moins six mois et contenant des pages vierges",
+      "Deux photos récentes au format passeport répondant aux spécifications canadiennes",
+      "Preuve de soutien financier (relevés bancaires, comptes professionnels, lettre de parrainage)",
+      "Lettre d'invitation d'un partenaire commercial canadien, d'un organisateur de conférence ou d'un salon professionnel",
+      "Documents attestant de votre statut professionnel ou entrepreneurial dans votre pays d'origine (enregistrement de société, attestation d'emploi, contrats signés)",
+      "Preuves de vos attaches dans votre pays d'origine, garantissant votre retour après le séjour"
+    ]
+  },
+        "education": {
+          "title": "Permis d'études pour le Canada",
+          "p1": "Un permis d'études est un document délivré par IRCC qui permet aux ressortissants étrangers d'étudier dans des établissements d'enseignement désignés (EED) au Canada. La plupart des étudiants internationaux ont besoin d'un permis d'études pour étudier au Canada. Assurez-vous d'avoir tous les documents nécessaires avant de présenter votre demande.",
+          "overviewTitle": "Aperçu de la demande de permis d'études",
+          "p2": "La première étape consiste à obtenir une lettre d'acceptation d'un établissement d'enseignement désigné (EED). Une fois celle-ci obtenue, vous pouvez demander votre permis d'études en ligne ou auprès d'un CRDV. Vous devez prouver que vous disposez des fonds nécessaires pour payer vos frais de scolarité, vos frais de subsistance et votre transport de retour.",
+          "p3": "Les candidats de certains pays peuvent bénéficier d'un traitement accéléré grâce au Volet direct pour les études (VDE). Vous devez présenter votre demande avant votre arrivée au Canada. Un permis d'études n'est pas un visa ; vous pourriez également avoir besoin d'un visa de visiteur ou d'une AVE pour entrer au Canada.",
+          "preChecklist": "Pour demander un permis d'études, préparez :",
+          "checklist": [
+            "Preuve d'acceptation d'un EED",
+            "Passeport ou document de voyage valide",
+            "Preuve de fonds (CIG, relevés, bourse)",
+            "Lettre d'explications",
+            "Examen médical (si requis)",
+            "Données biométriques",
+            "Preuve de compétence linguistique (si exigée)"
+          ]
+        },
+        "tourist": {
+          "title": "Visa touristique pour le Canada",
+          "p1": "Un visa de touriste pour le Canada est identique à un visa de visiteur (visa de résident temporaire – VRT). Il est destiné aux personnes qui souhaitent entrer au Canada à des fins touristiques, par exemple pour visiter des sites touristiques, passer des vacances ou rendre visite à des amis ou à des proches. Vous devez convaincre un agent que vous quitterez le Canada à la fin de votre séjour.",
+          "overviewTitle": "Aperçu de la demande de visa touristique",
+          "p2": "La procédure de demande nécessite la soumission de formulaires et de pièces justificatives spécifiques pour prouver votre éligibilité. Il s'agit notamment de prouver que vous disposez de fonds suffisants pour votre voyage, d'un itinéraire de voyage clair et de liens solides avec votre pays d'origine qui garantiront votre retour.",
+          "p3": "Il est essentiel de fournir une demande honnête et complète. Toute fausse déclaration peut entraîner un refus et une interdiction de présenter une demande pendant plusieurs années. Les citoyens des pays exemptés de visa ont besoin d'une autorisation de voyage électronique (AVE) pour prendre l'avion ou transiter par un aéroport canadien.",
+          "preChecklist": "Pour demander un visa touristique canadien, préparez :",
+          "checklist": [
+            "Passeport valide avec au moins deux pages libres",
+            "Formulaire IMM 5257 rempli et signé",
+            "Photos récentes conformes",
+            "Preuve de moyens financiers",
+            "Itinéraire détaillé (vols, hôtels)",
+            "Lettre d'invitation (si applicable)",
+            "Preuve de liens avec votre pays"
+          ]
+        }
+      },
+      "china": {
+  "breadcrumbTitle": "Chine",
+  "sidebar": { "current": "China" },
+  "downloads": {
+    "link1": { "label": "Online Application", "meta": "CVASC" },
+    "link2": { "label": "Appointment & Status", "meta": "CVASC" }
+  },
+  "working": {
+    "title": "Visa de travail (Z) pour la Chine",
+    "p1": "Le visa Z est délivré aux ressortissants étrangers qui ont l'intention de travailler en Chine. Ce visa est le permis d'entrée initial ; à l'arrivée, le titulaire doit demander un permis de séjour temporaire dans les 30 jours pour pouvoir travailler et vivre légalement en Chine. Le processus est lancé par l'employeur en Chine.",
+    "overviewTitle": "Aperçu de la demande de visa Z",
+    "p2": "Un employeur chinois doit d'abord obtenir une « Lettre de notification du permis de travail pour étranger » auprès des autorités locales. Avec cette lettre, le demandeur peut ensuite solliciter le visa Z auprès d'une ambassade ou d'un consulat de Chine dans son pays de résidence. Un formulaire de demande en ligne et un rendez-vous sont généralement requis.",
+    "p3": "Après l'entrée en Chine avec le visa Z, le salarié doit passer un examen médical et demander le permis de séjour auprès du Bureau de la sécurité publique (PSB) — Administration des entrées-sorties locale.",
+    "preChecklist": "Pour demander un visa Z chinois, préparez les éléments suivants :",
+    "checklist": [
+      "Original passport with at least six months of remaining validity",
+      "Completed Visa Application Form of the People's Republic of China",
+      "A recent, color passport photo against a light background",
+      "Notification Letter of Foreigner's Work Permit",
+      "Proof of legal stay or residence status (if applying outside your country of citizenship)",
+      "Previous Chinese passports or visas (if applicable)"
+    ]
+  },
+  "business": {
+  "title": "Visa d'Affaires (M) pour la Chine",
+  "p1": "Le visa de type M est délivré aux ressortissants étrangers qui souhaitent se rendre en Chine pour des activités commerciales, des échanges économiques ou des négociations liées au commerce. Pour obtenir ce visa, les demandeurs doivent fournir des documents justificatifs tels qu'une lettre d'invitation officielle d'un partenaire commercial chinois, une confirmation d'inscription à un salon professionnel, ou encore une preuve claire de leurs activités commerciales prévues pendant la durée du séjour.",
+  "overviewTitle": "Aperçu de la demande de visa M",
+  "p2": "Les demandeurs doivent remplir le formulaire de demande de visa en ligne et prendre rendez-vous auprès du Centre de Service de Demande de Visa Chinois (CVASC) ou à l'Ambassade. Ils devront présenter leur passeport, la lettre d'invitation officielle ainsi que tous les documents justificatifs requis lors du rendez-vous. Dans la plupart des cas, les empreintes digitales des demandeurs sont collectées.",
+  "p3": "Les délais de traitement peuvent varier selon la charge de travail du service consulaire. Il est donc fortement recommandé de déposer la demande au moins un mois avant la date prévue du voyage. La validité du visa, la durée de séjour autorisée ainsi que le nombre d'entrées accordées seront déterminés par l'officier consulaire en fonction des documents fournis et de l'objet de la visite.",
+  "preChecklist": "Pour demander un visa M pour la Chine, préparez les documents suivants :",
+  "checklist": [
+    "Passeport original comportant au moins deux pages vierges pour le visa",
+    "Formulaire de demande de visa en ligne dûment rempli et page de confirmation imprimée",
+    "Photographie d'identité récente respectant les normes officielles",
+    "Lettre d'invitation officielle délivrée par un partenaire commercial ou une organisation chinoise",
+    "Documents justificatifs relatifs aux activités commerciales ou de négociation prévues (par exemple : contrats signés, preuve d'inscription à un salon professionnel)",
+    "Une preuve de ressources financières suffisantes pour couvrir les dépenses du voyage d'affaires peut être demandée"
+  ]
+},
+  "education": {
+    "title": "Visa étudiant (X) pour la Chine",
+    "p1": "Le visa X est destiné aux ressortissants étrangers venant en Chine pour des études académiques. Il est divisé en deux catégories : X1 pour les études de longue durée (plus de 180 jours) et X2 pour les études de courte durée (jusqu'à 180 jours). Les titulaires d'un visa X1 doivent demander un permis de séjour temporaire dans les 30 jours suivant l'entrée.",
+    "overviewTitle": "Aperçu de la demande de visa X",
+    "p2": "Les futurs étudiants doivent d'abord être acceptés par un établissement d'enseignement reconnu en Chine. L'établissement fournira un avis d'admission et le formulaire « Visa Application for Study in China » (JW201 ou JW202). Ces documents sont essentiels pour la demande de visa, qui est déposée au CVASC ou à l'ambassade.",
+    "p3": "Comme pour les autres types de visa, une demande en ligne et un rendez-vous sont nécessaires. Les étudiants titulaires d'un visa X1 doivent passer un examen médical après l'arrivée pour finaliser leur demande de permis de séjour.",
+    "preChecklist": "Pour demander un visa X, préparez :",
+    "checklist": [
+      "Original passport with more than six months of validity",
+      "Completed online visa application form",
+      "A recent, compliant passport photograph",
+      "Original and photocopy of the Admission Notice from the school",
+      "Original and photocopy of 'Visa Application for Study in China' (Form JW201 or JW202)",
+      "Proof of financial support may be required"
+    ]
+  },
+  "tourist": {
+  "title": "Visa Touristique (L) pour la Chine",
+  "p1": "Le visa L est délivré à ceux qui souhaitent se rendre en Chine pour le tourisme, les visites touristiques ou pour rendre visite à leur famille et à leurs amis. Il est strictement réservé aux séjours de loisirs et aux visites personnelles, et n’autorise aucun travail ni activité commerciale.",
+  "overviewTitle": "Aperçu de la demande de visa L",
+  "p2": "Le document principal pour une demande de visa L est la preuve des dispositions de voyage ou une lettre d’invitation. Pour les touristes, cela peut inclure des réservations de vols confirmées, des réservations d’hôtel ou un itinéraire détaillé. Pour les visites à la famille ou aux amis, une lettre d’invitation de l’hôte en Chine, accompagnée de sa pièce d’identité ou de ses informations de résidence, est requise.",
+  "p3": "La procédure de demande suit les étapes standard consistant à remplir le formulaire en ligne, prendre un rendez-vous et soumettre les documents requis au CVASC ou à l’ambassade désignés.",
+  "preChecklist": "Pour demander un visa L chinois, préparez les éléments suivants :",
+  "checklist": [
+    "Passeport original avec au moins six mois de validité",
+    "Formulaire de demande de visa en ligne dûment rempli",
+    "Une photo d’identité récente et conforme aux exigences",
+    "Preuve des dispositions de voyage (billets d’avion et réservations d’hôtel) ou une lettre d’invitation",
+    "En cas de visite à la famille/aux amis, inclure une copie de leur carte d’identité chinoise ou de leur permis de résidence",
+    "Itinéraire de voyage ou documents justificatifs montrant l’objet de la visite"
+  ]
+}
+},
+      "germany": {
+  "breadcrumbTitle": "Allemagne",
+  "sidebar": { "current": "Allemagne" },
+  "downloads": {
+    "link1": { "label": "Formulaires de demande", "meta": "VIDEX" },
+    "link2": { "label": "Vérifier le statut", "meta": "VIDEX" }
+  },
+  "working": {
+    "title": "Visa de travail pour l'Allemagne",
+    "p1": "L'Allemagne propose plusieurs options de visa pour les professionnels qualifiés cherchant un emploi, y compris la Carte Bleue de l'UE pour les personnes hautement qualifiées. Une offre d'emploi concrète d'un employeur allemand et la reconnaissance officielle de vos qualifications professionnelles sont généralement les principales conditions préalables pour obtenir un visa de travail.",
+    "overviewTitle": "Aperçu de la demande de visa de travail",
+    "p2": "Le processus commence par l'obtention d'un contrat de travail. Votre diplôme universitaire étranger ou votre qualification professionnelle doit être reconnu en Allemagne. Vous devez ensuite demander un visa national auprès de l'ambassade ou du consulat d'Allemagne dans votre pays. Après votre arrivée en Allemagne, vous devez enregistrer votre adresse et demander un titre de séjour auprès de l'autorité locale pour les étrangers (Ausländerbehörde).",
+    "preChecklist": "Pour demander un visa de travail allemand, préparez :",
+    "checklist": [
+      "Passeport national valide et deux photos biométriques récentes",
+      "Formulaire de demande de visa national (VIDEX)",
+      "Contrat signé par un employeur allemand",
+      "Preuve de reconnaissance de vos qualifications (extrait Anabin ou attestation ZAB)",
+      "Preuve d'assurance santé voyage pour la période initiale",
+      "CV et lettre de motivation"
+    ]
+  },
+  "business": {
+  "title": "Visa d'Affaires pour l'Allemagne",
+  "p1": "Un visa d'affaires pour l'Allemagne permet aux ressortissants étrangers de séjourner en Allemagne et dans l'ensemble de l'espace Schengen pour des périodes courtes allant jusqu'à 90 jours sur une période de 180 jours. Ce visa est exclusivement destiné aux activités professionnelles telles que la participation à des réunions d'entreprise, des conférences internationales, des salons professionnels, des formations spécialisées, ou encore la négociation et la signature de contrats. Si l'Allemagne constitue votre principale destination pour vos activités d'affaires, la demande doit être déposée auprès du consulat allemand ou de son prestataire officiel mandaté.",
+  "overviewTitle": "Aperçu de la Demande de Visa d'Affaires",
+  "p2": "Les demandeurs doivent soumettre leur dossier de visa soit auprès de la mission diplomatique allemande, soit par l'intermédiaire d'un prestataire agréé tel que VFS Global dans leur pays de résidence. Les documents essentiels comprennent un itinéraire détaillé de voyage professionnel, une preuve d'hébergement pour toute la durée du séjour, ainsi qu'une preuve solide de ressources financières suffisantes pour couvrir toutes les dépenses liées au voyage. De plus, une lettre d'invitation officielle de la part d'un partenaire commercial allemand, de l'organisateur de la conférence ou de l'autorité du salon est généralement exigée. Une assurance voyage couvrant l'ensemble de l'espace Schengen, avec une couverture minimale obligatoire de 30 000 €, est impérative. Il est fortement conseillé de déposer la demande bien en amont de la date prévue du voyage, mais pas plus de six mois avant le départ envisagé.",
+  "preChecklist": "Pour faire une demande de visa d'affaires pour l'Allemagne, préparez les documents suivants :",
+  "checklist": [
+    "Formulaire de demande de visa dûment rempli et signé",
+    "Passeport valide comportant au moins deux pages vierges",
+    "Deux photos biométriques récentes conformes aux normes",
+    "Preuves de voyage (réservations de vols) et d'hébergement (réservations d'hôtel)",
+    "Preuves de ressources financières (par exemple relevés bancaires ou prise en charge par l'employeur)",
+    "Lettre d'invitation officielle d'un partenaire commercial allemand ou de l'organisateur de l'événement",
+    "Assurance voyage conforme aux exigences Schengen (couverture minimale de 30 000 €)",
+    "Lettre de motivation précisant l'objet professionnel et la durée du séjour"
+  ]
+},
+  "education": {
+    "title": "Visa étudiant pour l'Allemagne",
+    "p1": "Les étudiants internationaux acceptés dans un établissement d'enseignement allemand doivent demander un visa national pour études. Ce visa vous permet d'entrer en Allemagne puis de demander un titre de séjour couvrant la durée de vos études.",
+    "overviewTitle": "Aperçu de la demande de visa étudiant",
+    "p2": "Après avoir reçu votre lettre d'admission d'une université allemande, vous devez prouver que vous disposez de ressources financières suffisantes. Cela se fait généralement en déposant le montant requis sur un compte bloqué (Sperrkonto). Avec ces documents, vous demandez le visa auprès de l'ambassade allemande de votre pays. À l'arrivée, enregistrez votre adresse et convertissez votre visa en titre de séjour.",
+    "preChecklist": "Pour demander un visa étudiant allemand, préparez :",
+    "checklist": [
+      "Passeport valide et deux photos biométriques",
+      "Formulaire de demande de visa national complété",
+      "Lettre d'admission d'une université allemande",
+      "Preuve de ressources financières (confirmation de compte bloqué)",
+      "Preuve de qualification d'entrée à l'université (ex. diplôme secondaire)",
+      "Preuve d'assurance santé",
+      "Lettre de motivation et CV"
+    ]
+  },
+  "tourist": {
+    "title": "Visa de regroupement familial et touristique pour l'Allemagne",
+    "p1": "Ce visa permet aux conjoints et aux enfants mineurs de rejoindre des membres de leur famille vivant en Allemagne ou permet aux touristes de visiter le pays. Le membre de la famille en Allemagne doit détenir un titre de séjour valide et disposer de revenus et d'un logement suffisants pour subvenir à la famille. Les conjoints doivent souvent prouver des compétences linguistiques de base en allemand.",
+    "overviewTitle": "Aperçu de la demande de visa de regroupement familial",
+    "p2": "La demande doit être déposée à l'ambassade ou au consulat allemand de votre pays. Vous devrez fournir des documents officiels tels que des actes de mariage et de naissance, qui nécessitent généralement une apostille ou une légalisation. Le processus comprend la vérification des documents et des conditions de logement du membre de la famille en Allemagne. Les délais de traitement peuvent prendre plusieurs semaines, voire plusieurs mois.",
+    "preChecklist": "Pour demander un visa de regroupement familial, préparez :",
+    "checklist": [
+      "Passeport valide et demande nationale complétée",
+      "Deux photos biométriques récentes",
+      "Acte de mariage / acte de naissance (original avec apostille)",
+      "Preuve de compétences de base en allemand (certificat A1) pour les conjoints",
+      "Copie du passeport et du titre de séjour du membre de la famille en Allemagne",
+      "Preuve d'un logement suffisant en Allemagne (ex. contrat de location)"
+    ]
+  }
+},
+      "australia": {
+  "breadcrumbTitle": "Australie",
+  "sidebar": { "current": "Australie" },
+  "downloads": {
+    "link1": { "label": "Formulaires de demande", "meta": "Home Affairs" },
+    "link2": { "label": "Vérifier le statut", "meta": "Home Affairs" }
+  },
+  "working": {
+    "title": "Visas de travail pour l'Australie",
+    "p1": "L'Australie propose une gamme d'options de visa pour les personnes qualifiées souhaitant travailler. Ces visas sont généralement soumis à un test de points ou parrainés par un employeur. Les voies courantes incluent le visa Temporary Skill Shortage (TSS), le visa Skilled Independent et les visas nominés par l'État. Une évaluation positive des compétences et une maîtrise suffisante de l'anglais sont des exigences fondamentales pour la plupart des visas qualifiés.",
+    "overviewTitle": "Aperçu de la demande de migration qualifiée",
+    "p2": "Le processus commence généralement par vérifier si votre profession figure sur la liste des professions qualifiées concernées. Vous devez ensuite obtenir une évaluation positive des compétences auprès d'une autorité désignée. Pour les visas à points (comme les sous-classes 189 ou 190), vous soumettez une Expression of Interest (EOI) dans SkillSelect et attendez une invitation à soumettre une demande. Pour les visas parrainés par un employeur (comme la sous-classe 482), votre employeur doit d'abord devenir un sponsor approuvé puis vous nommer pour le poste.",
+    "preChecklist": "Pour demander un visa de travail australien, les documents clés incluent souvent :",
+    "checklist": [
+      "Passeport valide et photos d'identité récentes",
+      "Rapport d'évaluation positive des compétences",
+      "Résultats des tests de langue anglaise (par ex., IELTS, PTE Academic)",
+      "Certificats de qualification et relevés de notes",
+      "Références professionnelles et preuves d'expérience de travail",
+      "Documents de santé et de moralité (certificats de police)"
+    ]
+  },
+  "business": {
+  "title": "Visa d'affaires (sous-classe 600) pour l'Australie",
+  "p1": "Le visa de visiteur d'affaires (sous-classe 600) vous permet de voyager en Australie pour des activités professionnelles de courte durée. Ces activités peuvent inclure la participation à des conférences, salons ou séminaires, la tenue de négociations commerciales, la réalisation d'études de marché ou encore la recherche de futures opportunités professionnelles. Il est essentiel de comprendre que ce visa n'autorise pas à exercer un emploi en Australie ni à fournir directement des services rémunérés à une entreprise locale.",
+  "overviewTitle": "Aperçu de la demande de visa d'affaires",
+  "p2": "Les demandes se déposent généralement en ligne via ImmiAccount. Vous devez prouver que vous êtes un visiteur temporaire authentique, c'est-à-dire que votre objectif principal est uniquement de mener des activités professionnelles légitimes et limitées dans le temps, et que vous quitterez l'Australie à l'expiration de votre séjour. Pour cela, il est crucial de démontrer que vous disposez de ressources financières suffisantes pour subvenir à vos besoins pendant la durée de votre voyage, ainsi que de liens solides avec votre pays d'origine (emploi stable, responsabilités familiales, biens ou affaires en cours) garantissant votre retour.",
+  "p3": "Les délais de traitement peuvent varier de manière significative selon le volume des demandes et la complexité de votre dossier. Il est donc fortement recommandé de soumettre votre demande bien avant la date prévue de votre voyage afin d'éviter tout retard imprévu.",
+  "preChecklist": "Pour demander un visa de visiteur d'affaires australien, préparez les éléments suivants :",
+  "checklist": [
+    "Formulaire de demande complété en ligne via ImmiAccount",
+    "Passeport valide avec au moins six mois de validité",
+    "Photographie récente, nette et de type passeport",
+    "Preuve de ressources financières suffisantes (par exemple relevés bancaires, bulletins de salaire)",
+    "Documents justificatifs concernant vos activités professionnelles (par exemple inscription à une conférence, lettre d'invitation d'une société australienne)",
+    "Preuves de vos attaches avec votre pays d'origine (contrat de travail, preuve de propriété d'entreprise, obligations familiales)",
+    "Lettre d'invitation d'une organisation australienne, le cas échéant"
+  ]
+},
+  "education": {
+    "title": "Visa étudiant (sous-classe 500) pour l'Australie",
+    "p1": "Le visa étudiant (sous-classe 500) vous permet de rester en Australie pour étudier à temps plein dans un cursus enregistré. Vous pouvez généralement rester pour la durée de votre cours plus une courte période supplémentaire. Vous devez être inscrit dans un cursus en Australie et détenir la couverture santé pour étudiants étrangers (OSHC).",
+    "overviewTitle": "Aperçu de la demande de visa étudiant",
+    "p2": "Une fois accepté par un établissement australien, celui-ci vous délivrera une Confirmation of Enrolment (CoE). Vous utiliserez ce CoE pour demander votre visa en ligne. Vous devez également fournir la preuve de votre capacité financière, la maîtrise de l'anglais et rédiger une déclaration Genuine Temporary Entrant (GTE) expliquant vos raisons d'étudier en Australie.",
+    "preChecklist": "Pour demander un visa étudiant australien, préparez ce qui suit :",
+    "checklist": [
+      "Passeport valide et photo numérique",
+      "Confirmation of Enrolment (CoE) pour tous les cours",
+      "Déclaration Genuine Temporary Entrant (GTE)",
+      "Preuve de fonds suffisants pour les frais, le voyage et le coût de la vie",
+      "Preuve de compétences en anglais (par ex., IELTS)",
+      "Preuve d'OSHC",
+      "Documents de santé et de moralité"
+    ]
+  },
+  "tourist": {
+    "title": "Visas touristiques et familiaux pour l'Australie",
+    "p1": "Cette catégorie couvre principalement le visa de visiteur (sous-classe 600), qui permet de visiter pour le tourisme ou pour rendre visite à la famille et aux amis. Le volet touristique est destiné aux vacances et aux loisirs. Le volet famille parrainée s'adresse aux personnes ayant un membre de la famille éligible en Australie pour les parrainer. Pour les partenaires souhaitant vivre en Australie, une voie spécifique et plus complexe existe (visa de partenaire).",
+    "overviewTitle": "Aperçu de la demande de visa touristique et familial",
+    "p2": "Vous devez demander ce visa depuis l'extérieur de l'Australie. L'essentiel est de prouver que votre intention de visite est sincère et temporaire. Pour le volet famille parrainée, votre sponsor doit être citoyen australien ou résident permanent et peut être tenu de verser une caution. Vous devez démontrer que vous disposez de fonds suffisants pour votre séjour et d'un motif de retour.",
+    "p3": "Consultez les dernières exigences sur le <a href=\"https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder\" target=\"_blank\">site du Department of Home Affairs</a> car les conditions de visa peuvent changer.",
+    "preChecklist": "Pour demander un visa de la catégorie Touriste ou Famille, préparez les documents suivants :",
+    "checklist": [
+      "Passeport valide et formulaire de demande rempli",
+      "Une photo récente au format passeport",
+      "Preuve de fonds (relevés bancaires) pour couvrir votre séjour",
+      "Lettre d'invitation de la famille/des amis en Australie",
+      "Preuve du statut de votre sponsor (pour le volet famille parrainée)",
+      "Itinéraire prévu de vos activités",
+      "Preuve de votre intention de retourner dans votre pays (emploi, propriété, etc.)"
+    ]
+  }
+},
+      "spain": {
+  "breadcrumbTitle": "Espagne",
+  "sidebar": { "current": "Espagne" },
+  "downloads": {
+    "link1": { "label": "Formulaires de demande", "meta": "Ministère des Affaires étrangères" },
+    "link2": { "label": "Prendre rendez-vous", "meta": "Services consulaires" }
+  },
+  "working": {
+    "title": "Visas de travail pour l'Espagne",
+    "p1": "Pour travailler en Espagne en tant que ressortissant non-UE, vous devez obtenir un visa de long séjour qui fait également office de titre de séjour. Le processus exige généralement que votre employeur en Espagne obtienne d'abord une autorisation de travail en votre nom auprès des autorités espagnoles. Une fois l'autorisation accordée, vous pouvez demander votre visa de travail auprès du consulat ou de l'ambassade d'Espagne dans votre pays de résidence.",
+    "overviewTitle": "Aperçu de la demande de visa de travail",
+    "p2": "Il existe plusieurs types de visas de travail, notamment pour les professionnels hautement qualifiés, les travailleurs saisonniers et les travailleurs indépendants (autónomos). L'élément clé est le contrat de travail et le permis de travail approuvé par la Délégation ou la Sous-délégation du Gouvernement dans la province où l'emploi sera exercé. La demande doit être déposée en personne par le demandeur.",
+    "preChecklist": "Pour demander un visa de travail en Espagne, les documents suivants sont généralement requis :",
+    "checklist": [
+      "National visa application form, completed and signed",
+      "Valid passport and a recent passport-sized photograph",
+      "Copy of the work and residence authorization",
+      "Employment contract stamped by the Foreigners' Office",
+      "Police clearance certificates from the last 5 years",
+      "Medical certificate proving you are free of quarantinable diseases"
+    ]
+  },
+  "business": {
+  "title": "Visa Schengen d'Affaires pour l'Espagne",
+  "p1": "En tant que membre de l'Espace Schengen, l'Espagne délivre le visa Schengen d'affaires uniforme permettant des séjours de courte durée allant jusqu'à 90 jours sur une période de 180 jours. Ce type de visa est exclusivement destiné aux activités professionnelles telles que la participation à des réunions, conférences, salons commerciaux, foires internationales ou encore des négociations contractuelles. Il ne permet pas l'exercice d'un emploi salarié ni un séjour de longue durée. Les titulaires de ce visa peuvent également circuler librement dans les 27 pays de l'Espace Schengen pendant la période autorisée.",
+  "overviewTitle": "Aperçu de la Demande de Visa Schengen d'Affaires",
+  "p2": "Les demandeurs doivent déposer leur dossier auprès du Consulat ou de l'Ambassade d'Espagne dans leur pays de résidence, ou bien auprès du centre officiel de dépôt des visas (tel que BLS International). Si vous prévoyez de vous rendre dans plusieurs pays de l'Espace Schengen pour des raisons professionnelles, vous devez obligatoirement déposer votre demande auprès du consulat du pays dans lequel vous passerez le plus de temps à exercer vos activités d'affaires. Le dossier doit démontrer de manière précise l'objet du déplacement professionnel, fournir des justificatifs de ressources financières suffisantes pour couvrir les frais du séjour et prouver votre intention ferme de quitter l'Espace Schengen avant l'expiration du visa.",
+  "preChecklist": "Pour demander un visa Schengen d'affaires pour l'Espagne, préparez les documents suivants :",
+  "checklist": [
+    "Formulaire de demande de visa Schengen d'affaires dûment rempli et signé",
+    "Passeport valide comportant une validité d'au moins 3 mois après la fin du séjour prévu",
+    "Deux photos d'identité récentes et conformes aux normes Schengen",
+    "Preuve d'une assurance médicale de voyage couvrant un minimum de 30 000 €",
+    "Réservation de vol aller-retour ainsi que confirmation d'hébergement",
+    "Justificatifs de ressources financières suffisantes pour la durée du déplacement professionnel",
+    "Lettre d'invitation officielle émanant d'une entreprise ou d'un partenaire commercial en Espagne précisant clairement le but de la visite"
+  ]
+},
+  "education": {
+    "title": "Visa étudiant pour l'Espagne",
+    "p1": "Si vous prévoyez d'étudier en Espagne pendant plus de 90 jours, vous devez demander un visa étudiant de long séjour. Ce visa vous permet de résider en Espagne pendant la durée de vos études. Vous devez d'abord être admis dans un établissement d'enseignement reconnu en Espagne avant d'entamer la procédure de demande de visa.",
+    "overviewTitle": "Aperçu de la demande de visa étudiant",
+    "p2": "La demande doit être déposée bien à l'avance de la date prévue de voyage auprès du consulat ou de l'ambassade d'Espagne dans votre pays. Vous devrez fournir des documents complets prouvant votre inscription, votre stabilité financière et votre état de santé. Une fois en Espagne, vous devez demander une carte de séjour étudiante (TIE) dans le mois qui suit votre arrivée.",
+    "preChecklist": "Pour demander un visa étudiant espagnol, préparez les documents suivants :",
+    "checklist": [
+      "National visa application form, completed and signed",
+      "Valid passport and a recent passport-sized photograph",
+      "Letter of acceptance from the Spanish educational institution",
+      "Proof of sufficient funds to cover your expenses",
+      "Proof of private or public health insurance",
+      "Medical certificate and police clearance certificate",
+      "Proof of accommodation in Spain"
+    ]
+  },
+  "tourist": {
+    "title": "Visas touristiques et de regroupement familial pour l'Espagne",
+    "p1": "Pour le tourisme ou pour rendre visite à de la famille pendant jusqu'à 90 jours, vous aurez besoin d'un visa Schengen (comme détaillé dans l'onglet « Visas Schengen »). Pour des séjours plus longs visant à rejoindre un membre de la famille qui réside en Espagne, vous devez demander un visa de regroupement familial de long séjour. La procédure pour le visa de long séjour est initiée par votre proche en Espagne.",
+    "overviewTitle": "Aperçu de la demande de visa touristique et familial",
+    "p2": "Pour un visa touristique de court séjour, vous devez fournir un itinéraire détaillé, des réservations d'hôtel et une preuve de fonds. Si vous rendez visite à de la famille, une lettre d'invitation officielle ('Carta de Invitación') délivrée par la police en Espagne est souvent requise à la place des réservations d'hôtel. Pour les visas familiaux de long séjour, votre proche en Espagne doit d'abord obtenir une autorisation de regroupement familial avant que vous puissiez déposer votre demande au consulat.",
+    "preChecklist": "Pour demander un visa pour le volet Tourisme ou Famille (Schengen), préparez les documents suivants :",
+    "checklist": [
+      "Schengen visa application form and a passport-style photo",
+      "Valid passport and copies of previous visas",
+      "Travel medical insurance with minimum €30,000 coverage",
+      "Round-trip flight reservation",
+      "Proof of accommodation (hotel bookings or 'Carta de Invitación')",
+      "Proof of financial means to support your stay",
+      "Proof of civil status (marriage certificate, birth certificates of children)"
+    ]
+  }
+},
+      "turkey": {
+  "breadcrumbTitle": "Turquie",
+  "sidebar": { "current": "Turquie" },
+  "downloads": {
+    "link1": { "label": "Pré-demande", "meta": "Système consulaire" },
+    "link2": { "label": "Demander un e-Visa", "meta": "Système e-Visa" }
+  },
+  "working": {
+    "title": "Visas de travail pour la Turquie",
+    "p1": "Les ressortissants étrangers doivent obtenir un permis de travail avant de pouvoir commencer à travailler en Turquie. La demande est généralement déposée par l'employeur auprès du Ministère de la Famille, du Travail et des Services sociaux. Parallèlement, le salarié doit également demander un visa de travail auprès d'une ambassade ou d'un consulat de Turquie dans son pays de résidence ou de séjour légal, en présentant son propre dossier complet de pièces justificatives.",
+    "overviewTitle": "Aperçu de la demande de visa de travail",
+    "p2": "Une fois la demande de l'employeur approuvée par le Ministère, le salarié se voit délivrer un visa de travail. Dès l'arrivée en Turquie — et avant de commencer à exercer — le salarié doit s'enregistrer auprès des autorités locales et demander un titre de séjour (permis de résidence). Le permis de travail est généralement accordé pour une durée initiale d'un an et peut ensuite être renouvelé selon les conditions applicables.",
+    "preChecklist": "Pour demander un visa de travail turc, les documents clés à fournir comprennent :",
+    "checklist": [
+      "Formulaire de demande de visa et passeport valide",
+      "Photo biométrique récente",
+      "Copie du contrat de travail ou de l'offre d'emploi",
+      "Lettre de l'employeur",
+      "Certificat de casier judiciaire",
+      "Preuve des qualifications professionnelles (souvent traduites)"
+    ]
+  },
+  "business": {
+  "title": "Visa d'Affaires pour la Turquie",
+  "p1": "Pour les professionnels, dirigeants et entrepreneurs, l'obtention d'un visa d'affaires pour la Turquie constitue une étape indispensable afin de participer à des réunions officielles, assister à des conférences internationales ou développer des partenariats commerciaux. Selon votre nationalité, vous pouvez être éligible à un e-Visa d'affaires qui autorise généralement un séjour de 30 ou 90 jours. Si vous n'êtes pas éligible à l'e-Visa, vous devrez alors déposer une demande de visa autocollant auprès d'un consulat turc. Il est vivement recommandé de vérifier votre admissibilité sur les plateformes officielles avant toute planification de voyage.",
+  "overviewTitle": "Aperçu de la Demande de Visa d'Affaires (e-Visa & Visa Autocollant)",
+  "p2": "La demande d'e-Visa d'affaires se réalise entièrement en ligne en quelques minutes sur www.evisa.gov.tr à l'aide d'un passeport valide, d'une adresse e-mail fonctionnelle et d'une carte bancaire (crédit ou débit). Pour un visa autocollant, il est nécessaire d'enregistrer au préalable votre demande sur le site des Procédures Consulaires (www.konsolosluk.gov.tr), puis de vous présenter à un rendez-vous consulaire muni de vos pièces justificatives. Contrairement à l'e-Visa, le visa autocollant exige un dossier plus complet comprenant notamment la preuve de ressources financières suffisantes, une assurance santé voyage, une lettre d'invitation officielle d'une entreprise turque, ainsi que des réservations de logement et de vol. Cette procédure plus détaillée vise à garantir que votre séjour professionnel respecte pleinement les exigences de l'immigration turque.",
+  "preChecklist": "Pour déposer une demande de Visa d'Affaires pour la Turquie, préparez les documents suivants :",
+  "checklist": [
+    "Passeport valide pour au moins 6 mois",
+    "(Pour l'e-Visa) Une adresse e-mail valide et une carte bancaire",
+    "(Pour le Visa Autocollant) Formulaire de demande rempli et photo",
+    "(Pour le Visa Autocollant) Justificatifs de revenus et de moyens financiers",
+    "(Pour le Visa Autocollant) Réservations de vol et d'hôtel",
+    "(Pour le Visa Autocollant) Assurance santé voyage",
+    "(Pour un séjour professionnel) Lettre d'invitation d'une entreprise turque"
+  ]
+},
+  "education": {
+    "title": "Visa étudiant pour la Turquie",
+    "p1": "Les étudiants étrangers souhaitant étudier en Turquie doivent obtenir un visa étudiant auprès d'un consulat de Turquie dans leur pays d'origine avant de voyager. Cela concerne tous les niveaux d'enseignement, y compris les cursus de premier cycle, de cycle supérieur et les cours de langue. Il n'est pas possible d'entrer en Turquie avec un visa touristique puis de convertir ce statut en titre de séjour étudiant sur place.",
+    "overviewTitle": "Aperçu de la demande de visa étudiant",
+    "p2": "Tout d'abord, vous devez être accepté par un établissement d'enseignement turc et recevoir une lettre d'admission officielle. Vous utiliserez ensuite cette lettre pour demander votre visa étudiant auprès de la mission diplomatique turque la plus proche. Après votre arrivée en Turquie muni du visa étudiant, vous devez vous enregistrer auprès de la Direction provinciale de la gestion des migrations dans les 30 jours afin d'obtenir le titre de séjour étudiant.",
+    "preChecklist": "Pour demander un visa étudiant turc, préparez les documents suivants :",
+    "checklist": [
+      "Formulaire de demande de visa rempli et passeport valide",
+      "Photo biométrique récente",
+      "Lettre d'acceptation officielle de l'établissement turc",
+      "Preuve de fonds suffisants pour financer études et séjour",
+      "Preuve d'une assurance maladie valide pour la Turquie",
+      "Preuve d'hébergement (par ex. confirmation de résidence universitaire)",
+      "Copies des diplômes et certificats antérieurs"
+    ]
+  },
+  "tourist": {
+    "title": "Visas famille & autres pour la Turquie",
+    "p1": "La Turquie propose des visas de longue durée pour les personnes souhaitant rejoindre des membres de leur famille. Le plus courant est le visa de regroupement familial, destiné aux époux étrangers ou aux enfants à charge d'un citoyen turc ou d'un ressortissant étranger résidant légalement en Turquie. D'autres visas de longue durée existent pour des motifs tels que des soins médicaux ou des séjours de recherche scientifique.",
+    "overviewTitle": "Aperçu du visa familial",
+    "p2": "La demande de visa familial se fait auprès d'un consulat de Turquie à l'étranger. Le membre de la famille parrainant la demande en Turquie (le « garant ») doit remplir certaines conditions, notamment justifier de revenus suffisants et d'un logement adapté. Le demandeur doit fournir des documents officiels prouvant le lien familial, comme un acte de mariage ou un acte de naissance reconnus internationalement.",
+    "preChecklist": "Pour demander un visa de regroupement familial, préparez les documents suivants :",
+    "checklist": [
+      "Formulaire de demande de visa, passeport valide et photo biométrique",
+      "Acte de mariage original et copie (pour les conjoints)",
+      "Acte de naissance original et copie (pour les enfants)",
+      "Copie de la carte d'identité turque ou du titre de séjour/travail du garant",
+      "Preuve des revenus suffisants et réguliers du garant",
+      "Preuve d'une assurance santé couvrant tous les membres de la famille",
+      "Certificat de police / extrait de casier judiciaire pour le demandeur"
+    ]
+  }
+}
+}
+  }}

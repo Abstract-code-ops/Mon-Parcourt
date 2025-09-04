@@ -1,0 +1,247 @@
+{
+  "about": {
+    "subtitle": "À propos de notre agence",
+    "title": "Entreprise leader pour les services de conseil en immigration.",
+    "tagline": "Depuis 1985, Reliable Service est au service de ses clients...",
+    "description": "Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum.Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor tempus feugiat dolor and lacinia"
+  },
+  "funfact": {
+    "offices": "Bureaux dans le monde",
+    "team": "Membres de l'équipe",
+    "visa": "Visas traités"
+  },
+  "chooseus": {
+    "subtitle": "Pourquoi nous choisir",
+    "title1": "Nous offrons des services sur mesure que",
+    "title2": "nos clients ont besoin.",
+    "blocks": {
+      "1":{
+        "title": "Entretiens directs",
+        "description": "Nous vous connectons directement avec les employeurs, en évitant les étapes inutiles du processus d'embauche."
+      },
+      "2":{
+        "title": "Traitement plus rapide",
+        "description": "Nos systèmes rationalisés garantissent que votre demande est traitée rapidement et efficacement."
+      },
+      "3":{
+        "title": "Assistance Visa",
+        "description": "Nos experts vous guident à chaque étape du processus de visa, le rendant fluide et sans stress."
+      },
+      "4":{
+        "title": "Rentable",
+        "description": "Nous fournissons des services de premier ordre à des prix compétitifs, assurant une grande valeur pour votre investissement."
+      }
+    }
+  },
+  "clients": {
+    "subtitle": "Nos Partenaires",
+    "title": "Certaines des entreprises et marques avec lesquelles nous sommes partenaires."
+  },
+  "coaching": {
+    "subtitle": "COMMENT NOUS AIDONS LES CLIENTS",
+    "title1": "Votre test de langue d'immigration est juste ",
+    "title2": "Ici avec tout ce dont vous avez besoin.",
+    "blocks": [
+      {
+        "image1": "assets/images/resource/coaching-1.jpg",
+        "image2": "assets/images/resource/coaching-2.jpg",
+        "staticTitle": "TOFEL <br />Coaching",
+        "overlayTitle": "Coaching TOFEL",
+        "description": "Le test TOEFL mesure la maîtrise de l'anglais pour les locuteurs non natifs souhaitant étudier ou travailler dans des environnements anglophones.",
+        "link": "coaching-details-3"
+      },
+      {
+        "image1": "assets/images/resource/coaching-3.jpg",
+        "image2": "assets/images/resource/coaching-4.jpg",
+        "staticTitle": "PTE <br />Coaching",
+        "overlayTitle": "Coaching PTE",
+        "description": "Le test PTE évalue les compétences en anglais des locuteurs non natifs qui envisagent d'étudier, de travailler ou d'immigrer dans des pays anglophones.",
+        "link": "coaching-details-2"
+      },
+      {
+        "image1": "assets/images/resource/coaching-5.jpg",
+        "image2": "assets/images/resource/coaching-6.jpg",
+        "staticTitle": "DAF <br />Coaching",
+        "overlayTitle": "Coaching DAF",
+        "description": "Un examen standardisé conçu pour les locuteurs non natifs de l'allemand qui souhaitent étudier ou travailler en Allemagne, en particulier dans les universités.",
+        "link": "coaching-details-4"
+      }
+    ]
+  },
+  "countries":{
+    "subtitle": "Pays que nous proposons",
+    "title": "Meilleurs pays où voyager"
+  },
+  "banner": {
+    "slides": [
+      {
+        "title": "Accédez aux universités <0>du monde entier</0> !...",
+        "description": "Mon expérience ouvre des portes pour vous."
+      },
+      {
+        "title": "Votre <0>visa</0>, notre engagement !...",
+        "description": "Profitez de réductions exclusives de 30% à 50% sur vos billets d'avion."
+      },
+      {
+        "title": "Restez <0>informé</0> avec nos <0>Blogs & Événements</0> !",
+        "description": "Tenez-vous informé et participez à nos événements exclusifs."
+      },
+      {
+        "title": "Nous offrons des services de <0>coaching</0> de première qualité !",
+        "description": "Gérez vos réservations d'examen et profitez de notre accompagnement personnalisé."
+      }
+    ],
+    "cta": "Plus de détails",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram"
+    },
+    "experience": {
+      "years": "3+ ans",
+      "label": "Expérience"
+    }
+  },
+  "donation": {
+    "title": "Aidez-nous à réaliser des rêves",
+    "description": "Votre généreuse contribution aide des personnes et des familles à atteindre leurs objectifs d'immigration. Chaque don apporte de l'espoir et ouvre des portes à de nouvelles opportunités.",
+    "stats": {
+      "lives": { "number": "2,500+", "label": "Vies transformées" },
+      "success": { "number": "95%", "label": "Taux de réussite" }
+    },
+    "buttonText": "Faire un don",
+    "modalTitle": "Soutenez notre mission",
+    "modalDescription": "Votre don nous aide à fournir une assistance gratuite en immigration aux personnes dans le besoin. Ensemble, nous pouvons faire la différence !",
+    "securityNote": "Paiement sécurisé"
+  },
+  "dream": {
+    "subtitle": "Atteignez votre rêve",
+    "title": "Obtenez la bonne aide",
+    "description": "Notre objectif est de devenir le pont entre vous et le lieu de votre avenir.",
+    "items": [
+      "Entrer et sortir du pays",
+      "Aide et assistance",
+      "Citoyenneté du pays"
+    ],
+    "imageAlt": "Personne atteignant son rêve"
+  },
+  "education": {
+    "title": "Vous cherchez une <0>éducation</0> de qualité à l'étranger ?",
+    "description": "Explorez les pays pour lesquels nous fournissons des services et trouvez la meilleure éducation pour vous.",
+    "imageAlt": "Étudiant explorant des options d'études",
+    "countries": [
+      { "name": "États-Unis", "link": "countries-details", "flag": "/assets/images/icons/flag-17.png" },
+      { "name": "Canada", "link": "countries-details-3", "flag": "/assets/images/icons/flag-2.png" },
+      { "name": "Chine", "link": "countries-details-4", "flag": "/assets/images/icons/flag-3.png" },
+      { "name": "Australie", "link": "countries-details-6", "flag": "/assets/images/icons/flag-4.png" }
+    ]
+  },
+  "features": {
+    "items": [
+      {
+        "title": "Visa",
+        "description": "Nous proposons des visas d'affaires, des visas étudiants, des visas touristiques et plus encore."
+      },
+      {
+        "title": "Passeport",
+        "description": "Nous pouvons gérer les passeports de plus de <0>112+</0> pays"
+      },
+      {
+        "title": "Immigration",
+        "description": "Nous rendons le processus d'immigration plus facile et fluide pour vous."
+      },
+      {
+        "title": "Traduction",
+        "description": "Nous aidons à combler la barrière linguistique pour faciliter la communication."
+      }
+    ]
+  },
+  "passport": {
+    "subtitle": "Qui sommes-nous ?",
+    "title": "Votre agent de connexion",
+    "paragraphs": [
+      "Voulez-vous vous connecter à un lieu spécifique, une université, une organisation, une entreprise ou un pays ? Nommez l'endroit et nous vous le livrerons. Nous sommes partenaires de grandes entreprises et rapprochons la distance entre vous et le lieu où vous souhaitez être.",
+      "Voici quelques-unes des universités avec lesquelles nous avons des partenariats pour vous mettre en relation. Pour des services plus personnalisés, contactez-nous pour vous aider."
+    ],
+    "appointment": "Rendez-vous"
+  },
+  "news": {
+    "subtitle": "Mises à jour",
+    "title": "Derniers articles et annonces",
+    "readMore": "Lire la suite",
+    "admin": "Admin"
+  },
+  "team": {
+    "subtitle": "Rencontrez le fondateur",
+    "title": "Je suis Fabrice Fosso,",
+    "p1": "Fondateur et Consultant en immigration avec plus de 4 ans d'expérience. Mon engagement est d'aider les individus et les familles à concrétiser leurs ambitions de s'établir à l'étranger.",
+    "p2": "Mon approche repose sur l'empathie et une expertise pointue pour garantir un service sur mesure. Chaque dossier est unique, c'est pourquoi je fournis un accompagnement personnalisé et un soutien indéfectible à mes clients, de la consultation initiale à la réalisation de leur projet. Ma mission est de vous ouvrir les portes vers de nouvelles opportunités et de vous permettre de démarrer un nouveau chapitre de votre vie, partout dans le monde.",
+    "cta": "Plus de détails"
+  },
+  "visa": {
+    "subtitle": "Catégories de visa",
+    "title": "Nous vous aidons à remplir les conditions d'éligibilité <br />pour l'enregistrement des immigrants."
+  },
+  "visaSlider": {
+    "student": {
+      "alt": "Visa étudiant",
+      "title": "Visa étudiant",
+      "description": "Bien que les exigences exactes varient selon les pays, la plupart des demandes de visa étudiant dans le monde partagent ces trois exigences fondamentales :",
+      "items": [
+        "Vous devez être admis dans un programme à temps plein dans une université ou un collège reconnu par le gouvernement.",
+        "Vous devez démontrer que vous pouvez payer les frais de scolarité, les dépenses de subsistance et parfois les frais de retour.",
+        "Votre passeport doit être valide pendant toute la durée de votre séjour."
+      ]
+    },
+    "residence": {
+      "alt": "Visa de résidence",
+      "title": "Visa de résidence",
+      "description": "Les visas de résidence sont généralement délivrés pour des raisons telles que le travail, le regroupement familial, les études ou l'investissement. Bien que les règles varient selon les pays, les 3 exigences universelles principales sont :",
+      "items": [
+        "Justification liée à l'objectif (emploi, famille, études, etc.)",
+        "Les candidats doivent démontrer qu'ils peuvent subvenir à leurs besoins sans recourir aux fonds publics",
+        "Passeport valide et contrôles d'antécédents/santé"
+      ]
+    },
+    "business": {
+      "alt": "Visa d'affaires",
+      "title": "Visa d'affaires",
+      "description": "Un visa d'affaires permet d'entrer temporairement dans un pays pour des activités professionnelles — comme assister à des réunions. Il n'autorise généralement pas un emploi à temps plein. Les 3 exigences les plus courantes sont :",
+      "items": [
+        "Une lettre d'invitation officielle d'une entreprise hôte ou d'un partenaire commercial dans le pays de destination.",
+        "Des documents montrant votre poste dans votre entreprise actuelle",
+        "Documents de voyage, financiers et d'identité"
+      ]
+    },
+    "tourist": {
+      "alt": "Visa touristique",
+      "title": "Visa touristique",
+      "description": "Un visa touristique est délivré pour les voyages de loisirs, les visites touristiques ou les visites familiales. Il n'autorise pas le travail ni les activités professionnelles. Les 3 exigences les plus courantes sont :",
+      "items": [
+        "Preuve d'hébergement ou réservations d'hôtel pendant votre séjour.",
+        "Réservation de vol aller-retour ou itinéraire de voyage.",
+        "Passeport valide, justificatifs financiers et assurance voyage."
+      ]
+    },
+    "working": {
+      "alt": "Visa de travail",
+      "title": "Visa de travail",
+      "description": "Un visa de travail permet de vivre et de travailler légalement dans un pays étranger. Les 3 exigences les plus courantes sont :",
+      "items": [
+        "Offre d'emploi officielle ou contrat de travail d'une entreprise reconnue.",
+        "Passeport valide avec une durée de validité suffisante pour la durée du visa.",
+        "Demande de permis de travail ou approbation du pays de destination."
+      ]
+    },
+    "family": {
+      "alt": "Visa conjoint/famille",
+      "title": "Visa conjoint/famille",
+      "description": "Un visa conjoint ou familial permet de rejoindre son partenaire ou sa famille résidant légalement dans un autre pays. Les 3 exigences les plus courantes sont :",
+      "items": [
+        "Acte de mariage ou preuve de lien familial.",
+        "Preuve de la résidence légale du sponsor et de sa capacité financière.",
+        "Passeport valide, dossier de demande complet et certificat médical."
+      ]
+    }
+  }
+}

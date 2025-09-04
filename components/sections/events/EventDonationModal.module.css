@@ -1,0 +1,780 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999999;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.overlay.animating {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.modal {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.modal.animating {
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.closeButton:hover {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  margin: 0 !important;
+  color: var(--main-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.errorMessage {
+  background: #fff2f0;
+  border: 1px solid #ffccc7;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  color: #a8071a;
+  font-size: 0.9rem;
+}
+
+.paymentOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.paymentCard {
+  border-radius: 12px;
+  border: 2px solid #f0f0f0;
+  transition: all 0.3s ease;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+.paymentCard:hover {
+  border-color: var(--main-color);
+  box-shadow: 0 4px 12px rgba(3, 43, 102, 0.15);
+  transform: translateY(-2px);
+}
+
+.cardIcon {
+  font-size: 3rem;
+  color: var(--main-color);
+}
+
+.mobileIcon {
+  font-size: 3rem;
+  color: #52c41a;
+}
+
+.cardTitle {
+  margin: 0 !important;
+  color: var(--main-color);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.mobileTitle {
+  margin: 0 !important;
+  color: #52c41a;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.cardDescription {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.backButton {
+  margin-bottom: 1.5rem;
+  padding: 0;
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.backButton:hover {
+  color: var(--secondary-color);
+}
+
+.formHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.formIcon {
+  font-size: 3rem;
+  color: #52c41a;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.formTitle {
+  margin: 0 !important;
+  color: #52c41a;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.formDescription {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.input {
+  border-radius: 8px;
+  border: 1.5px solid #d9d9d9;
+  transition: all 0.3s ease;
+}
+
+.input:hover {
+  border-color: var(--secondary-color);
+}
+
+.input:focus,
+.input:focus-within {
+  border-color: var(--main-color);
+  box-shadow: 0 0 0 3px rgba(3, 43, 102, 0.1);
+}
+
+.submitButton {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.mobileSubmitButton {
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #52c41a;
+  border-color: #52c41a;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.mobileSubmitButton:hover {
+  background: #389e0d;
+  border-color: #389e0d;
+  transform: translateY(-1px);
+}
+
+.cardRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.cardSubmitButton {
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  background: linear-gradient(135deg, var(--main-color) 0%, var(--secondary-color) 100%);
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.cardSubmitButton:hover {
+  background: linear-gradient(135deg, #021f4d 0%, #4a6387 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(3, 43, 102, 0.4);
+}
+
+/* Bank Details Styles */
+.bankDetails {
+  max-width: 400px;
+  margin: 0 auto 2rem;
+}
+
+.detailCard {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e9ecef;
+}
+
+.bankTitle {
+  margin: 0 0 1rem 0 !important;
+  color: var(--main-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bankItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.bankItem:last-child {
+  border-bottom: none;
+}
+
+.bankLabel {
+  font-weight: 500;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.bankValue {
+  font-weight: 600;
+  color: var(--main-color);
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.amountSection {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, var(--main-color) 0%, var(--secondary-color) 100%);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amountLabel {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.amountValue {
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.instructionsCard {
+  background: #fff7e6;
+  border: 1px solid #ffd591;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.instructionsTitle {
+  margin: 0 0 0.8rem 0 !important;
+  color: #d46b08;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.instructionsList {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #ad6800;
+}
+
+.instructionsList li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.instructionsList li:last-child {
+  margin-bottom: 0;
+}
+
+.doneButton {
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  background: linear-gradient(135deg, #52c41a 0%, #389e0d 100%);
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.doneButton:hover {
+  background: linear-gradient(135deg, #389e0d 0%, #237804 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(82, 196, 26, 0.4);
+}
+
+/* Thank You Step Styles */
+.thankYouHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.successIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #52c41a 0%, #389e0d 100%);
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 8px 24px rgba(82, 196, 26, 0.3);
+  animation: successPulse 1.5s ease-in-out;
+}
+
+@keyframes successPulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.thankYouTitle {
+  margin: 0 0 1rem 0 !important;
+  color: var(--main-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.thankYouDescription {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.thankYouMessage {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  display: block;
+}
+
+.donationDetails {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border: 1px solid #e9ecef;
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.detailItem:last-child {
+  border-bottom: none;
+}
+
+.detailLabel {
+  font-weight: 500;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.detailValue {
+  font-weight: 600;
+  color: var(--main-color);
+  font-size: 0.9rem;
+}
+
+.continueButton {
+  width: 100%;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  background: linear-gradient(135deg, var(--main-color) 0%, var(--secondary-color) 100%);
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.continueButton:hover {
+  background: linear-gradient(135deg, #021f4d 0%, #4a6387 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(3, 43, 102, 0.4);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .overlay {
+    padding: 0.5rem;
+  }
+
+  .modal {
+    max-height: 95vh;
+    border-radius: 12px;
+  }
+
+  .content {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .paymentCard {
+    padding: 1.2rem;
+  }
+
+  .cardIcon,
+  .mobileIcon,
+  .formIcon {
+    font-size: 2.5rem;
+  }
+
+  .cardTitle,
+  .mobileTitle {
+    font-size: 1.2rem;
+  }
+
+  .formTitle {
+    font-size: 1.3rem;
+  }
+
+  .cardDescription,
+  .formDescription {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay {
+    padding: 0.25rem;
+  }
+
+  .modal {
+    max-height: 98vh;
+    border-radius: 8px;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+
+  .paymentCard {
+    padding: 1rem;
+  }
+
+  .cardIcon,
+  .mobileIcon,
+  .formIcon {
+    font-size: 2rem;
+  }
+
+  .cardTitle,
+  .mobileTitle {
+    font-size: 1.1rem;
+  }
+
+  .formTitle {
+    font-size: 1.2rem;
+  }
+
+  .closeButton {
+    width: 28px;
+    height: 28px;
+    font-size: 1.3rem;
+  }
+
+  .mobileSubmitButton {
+    height: 48px;
+    font-size: 0.95rem;
+  }
+
+  .cardSubmitButton {
+    height: 48px;
+    font-size: 0.95rem;
+  }
+
+  .cardRow {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .detailCard {
+    padding: 1.2rem;
+  }
+
+  .bankItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+    padding: 0.6rem 0;
+  }
+
+  .bankValue {
+    text-align: left;
+    font-size: 0.85rem;
+  }
+
+  .bankLabel {
+    font-size: 0.85rem;
+  }
+
+  .amountSection {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .instructionsCard {
+    padding: 1rem;
+  }
+
+  .instructionsList li {
+    font-size: 0.85rem;
+  }
+
+  .doneButton {
+    height: 48px;
+    font-size: 0.95rem;
+  }
+
+  .successIcon {
+    width: 70px;
+    height: 70px;
+    font-size: 2.5rem;
+  }
+
+  .thankYouTitle {
+    font-size: 1.5rem;
+  }
+
+  .thankYouDescription {
+    font-size: 1rem;
+  }
+
+  .thankYouMessage {
+    font-size: 0.9rem;
+  }
+
+  .donationDetails {
+    padding: 1.2rem;
+  }
+
+  .continueButton {
+    height: 48px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .overlay {
+    padding: 0;
+  }
+
+  .modal {
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 0;
+  }
+
+  .content {
+    padding: 0.8rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .paymentCard {
+    padding: 0.8rem;
+  }
+
+  .cardIcon,
+  .mobileIcon,
+  .formIcon {
+    font-size: 1.8rem;
+  }
+
+  .cardTitle,
+  .mobileTitle {
+    font-size: 1rem;
+  }
+
+  .formTitle {
+    font-size: 1.1rem;
+  }
+
+  .cardDescription,
+  .formDescription {
+    font-size: 0.8rem;
+  }
+
+  .mobileSubmitButton {
+    height: 46px;
+    font-size: 0.9rem;
+  }
+
+  .cardSubmitButton {
+    height: 46px;
+    font-size: 0.9rem;
+  }
+
+  .detailCard {
+    padding: 1rem;
+  }
+
+  .bankTitle {
+    font-size: 1.1rem;
+  }
+
+  .bankItem {
+    padding: 0.5rem 0;
+  }
+
+  .bankLabel,
+  .bankValue {
+    font-size: 0.8rem;
+  }
+
+  .amountLabel,
+  .amountValue {
+    font-size: 0.9rem;
+  }
+
+  .instructionsTitle {
+    font-size: 0.9rem;
+  }
+
+  .instructionsList li {
+    font-size: 0.8rem;
+  }
+
+  .doneButton {
+    height: 46px;
+    font-size: 0.9rem;
+  }
+
+  .successIcon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+
+  .thankYouTitle {
+    font-size: 1.3rem;
+  }
+
+  .thankYouDescription {
+    font-size: 0.9rem;
+  }
+
+  .thankYouMessage {
+    font-size: 0.85rem;
+  }
+
+  .donationDetails {
+    padding: 1rem;
+  }
+
+  .detailLabel,
+  .detailValue {
+    font-size: 0.85rem;
+  }
+
+  .continueButton {
+    height: 46px;
+    font-size: 0.9rem;
+  }
+}
