@@ -9,7 +9,7 @@ const nextConfig = {
   // Security headers and proper CORS for Sanity Studio
   async headers() {
     // Replace with your actual production domain
-    const PRODUCTION_DOMAIN = 'https://yourproductiondomain.com';
+    const PRODUCTION_DOMAIN = 'https://monparcourtkf.netlify.app/';
     const ALLOWED_ORIGINS = [PRODUCTION_DOMAIN, 'http://localhost:3000']; 
     
     return [

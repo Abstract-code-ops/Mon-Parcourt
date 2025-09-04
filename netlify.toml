@@ -23,11 +23,11 @@
   status = 200
   
 # Uncomment and customize these redirects when you have your final domain
-# [[redirects]]
-#   from = "https://www.yourdomain.com/*"
-#   to = "https://yourdomain.com/:splat"
-#   status = 301
-#   force = true
+ [[redirects]]
+  from = "https://monparcourtkf.netlify.app/*"
+  to = "https://monparcourtkf.netlify.app/:splat"
+  status = 301
+  force = true
 
 # Cache optimization for static assets
 [[headers]]

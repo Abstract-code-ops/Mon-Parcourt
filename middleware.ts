@@ -17,8 +17,8 @@ export function middleware(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith('/studio')) {
     // Replace with your production and staging domains
     const allowedOrigins = process.env.NODE_ENV === 'production'
-      ? ['https://yourdomain.com']  // Replace with your domain
-      : ['https://yourdomain.com', 'http://localhost:3000']; // For development
+      ? ['https://monparcourtkf.netlify.app/']  // Replace with your domain
+      : ['https://monparcourtkf.netlify.app/', 'http://localhost:3000']; // For development
       
     const origin = request.headers.get('origin');
     
