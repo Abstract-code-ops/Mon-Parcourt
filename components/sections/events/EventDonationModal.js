@@ -100,7 +100,7 @@ const EventDonationModal = ({
     <div className={styles.content}>
       <div className={styles.header}>
         <Image 
-          src="assets/images/logo.png" 
+          src="/assets/images/logo.png" 
           alt="logo" 
           width={80} 
           height={61}

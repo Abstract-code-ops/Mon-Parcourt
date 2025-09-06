@@ -62,7 +62,7 @@ export default function VisaSlider() {
                 <SwiperSlide className="slide-item">
                     <div className="visa-block-one">
                         <div className="inner-box">
-                            <figure className="image-box"><Image src="assets/images/resource/visa-1.jpg" alt={t('visaSlider.student.alt')} width={453} height={330} /></figure>
+                            <figure className="image-box"><Image src="/assets/images/resource/visa-1.jpg" alt={t('visaSlider.student.alt')} width={453} height={330} /></figure>
                             <div className="lower-content">
                                 <div className="icon-box"><i className="icon-12"></i></div>
                                 <h3><Link href="visa-details-4">{t('visaSlider.student.title')}</Link></h3>
@@ -82,7 +82,7 @@ export default function VisaSlider() {
                 <SwiperSlide className="slide-item">
                     <div className="visa-block-one">
                         <div className="inner-box">
-                            <figure className="image-box"><Image src="assets/images/resource/visa-2.jpg" alt={t('visaSlider.residence.alt')} width={453} height={330} /></figure>
+                            <figure className="image-box"><Image src="/assets/images/resource/visa-2.jpg" alt={t('visaSlider.residence.alt')} width={453} height={330} /></figure>
                             <div className="lower-content">
                                 <div className="icon-box"><i className="icon-13"></i></div>
                                 <h3><Link href="visa-details-3">{t('visaSlider.residence.title')}</Link></h3>
@@ -102,7 +102,7 @@ export default function VisaSlider() {
                 <SwiperSlide className="slide-item">
                     <div className="visa-block-one">
                         <div className="inner-box">
-                            <figure className="image-box"><Image src="assets/images/resource/visa-3.jpg" alt={t('visaSlider.business.alt')} width={453} height={330} /></figure>
+                            <figure className="image-box"><Image src="/assets/images/resource/visa-3.jpg" alt={t('visaSlider.business.alt')} width={453} height={330} /></figure>
                             <div className="lower-content">
                                 <div className="icon-box"><i className="icon-14"></i></div>
                                 <h3><Link href="visa-details">{t('visaSlider.business.title')}</Link></h3>
@@ -122,7 +122,7 @@ export default function VisaSlider() {
                 <SwiperSlide className="slide-item">
                     <div className="visa-block-one">
                         <div className="inner-box">
-                            <figure className="image-box"><Image src="assets/images/resource/visa-custom.jpg" alt={t('visaSlider.tourist.alt')} width={453} height={330} /></figure>
+                            <figure className="image-box"><Image src="/assets/images/resource/visa-custom.jpg" alt={t('visaSlider.tourist.alt')} width={453} height={330} /></figure>
                             <div className="lower-content">
                                 <div className="icon-box"><i className="icon-14"></i></div>
                                 <h3><Link href="visa-details">{t('visaSlider.tourist.title')}</Link></h3>
@@ -143,7 +143,7 @@ export default function VisaSlider() {
                     <div className="visa-block-one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <Image src="assets/images/resource/visa-custom-2.jpg" alt={t('visaSlider.working.alt')} width={453} height={330} />
+                                <Image src="/assets/images/resource/visa-custom-2.jpg" alt={t('visaSlider.working.alt')} width={453} height={330} />
                             </figure>
                             <div className="lower-content">
                                 <div className="icon-box"><i className="icon-14"></i></div>
@@ -164,7 +164,7 @@ export default function VisaSlider() {
                 <SwiperSlide className="slide-item">
                     <div className="visa-block-one">
                         <div className="inner-box">
-                            <figure className="image-box"><Image src="assets/images/resource/visa-custom-3.jpg" alt={t('visaSlider.family.alt')} width={453} height={330} /></figure>
+                            <figure className="image-box"><Image src="/assets/images/resource/visa-custom-3.jpg" alt={t('visaSlider.family.alt')} width={453} height={330} /></figure>
                             <div className="lower-content">
                                 <div className="icon-box"><i className="icon-14"></i></div>
                                 <h3><Link href="visa-details">{t('visaSlider.family.title')}</Link></h3>
