@@ -8,9 +8,9 @@ const nextConfig = {
   },
   // Netlify already handles image optimization or can serve original files.
   // Disable Next/Image optimizer to avoid /_next/image issues on Netlify.
-  images: {
-    unoptimized: true,
-  },
+  // images: {
+  //   unoptimized: true,
+  // },
   // Security headers and proper CORS for Sanity Studio
   async headers() {
     // Replace with your actual production domain

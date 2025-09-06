@@ -18,13 +18,7 @@
 
 ## NOTE: Do not add SPA catch-all redirects for Next.js apps.
 ## The Netlify Next.js plugin manages routing, including SSR/ISR and assets.
-  
-# Uncomment and customize these redirects when you have your final domain
- [[redirects]]
-  from = "https://monparcourtkf.netlify.app/*"
-  to = "https://monparcourtkf.netlify.app/:splat"
-  status = 301
-  force = true
+
 
 # Cache optimization for static assets
 [[headers]]
@@ -50,12 +44,5 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: blob:; font-src 'self' data: https:; connect-src 'self' https: wss:; frame-src 'self' https:; media-src 'self' https:; object-src 'none'; base-uri 'self';"
 
-# Environment variable configuration hints (these are commented out, add your values in Netlify UI)
 [build.environment]
-  # Use these environment variables in the Netlify UI, not here
-  # NEXT_PUBLIC_SANITY_PROJECT_ID = "your-project-id"
-  # NEXT_PUBLIC_SANITY_DATASET = "production"
-  # NEXT_PUBLIC_SANITY_API_VERSION = "2025-07-09"
-  
-  # Specify Node version for build
   NODE_VERSION = "18"
