@@ -84,7 +84,7 @@ export default function AppointmentPopup({ isPopup, handlePopup }) {
                 onClick={(e) => e.stopPropagation()}
             >
                 <div className="top-box mb_20" style={{ width: '100%' }}>
-                    <figure className="logo-box pull-left"><Link href="/"><Image src="assets/images/logo.png" alt="Mon Parcourt" width={120} height={34} /></Link></figure>
+                    <figure className="logo-box pull-left"><Link href="/"><Image src="/assets/images/logo.png" alt="Mon Parcourt" width={120} height={34} /></Link></figure>
                     <div className="close-search pull-right" onClick={handlePopup} style={{ cursor: 'pointer' }}>
                         <span className="fa fa-times"></span>
                     </div>

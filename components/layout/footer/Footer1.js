@@ -14,7 +14,7 @@ export default function Footer1() {
             <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
               <div className="footer-widget logo-widget">
                 <figure className="footer-logo">
-                  <Link href="/"><Image src="assets/images/footer-logo.png" alt="Mon Parcourt" width={357} height={146} /></Link>
+                  <Link href="/"><Image src="/assets/images/footer-logo.png" alt="Mon Parcourt" width={357} height={146} /></Link>
                 </figure>
                 <div className="text mb_25 mt_10">
                   <p style={{ fontSize: '0.8em' }}>{t('footer.tagline')}</p>

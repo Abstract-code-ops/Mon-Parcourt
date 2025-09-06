@@ -1,5 +1,6 @@
 import "../public/assets/css/bootstrap.css"
 import "../public/assets/css/style.css"
+import "../public/assets/css/custom.css"
 import 'swiper/css'
 import "swiper/css/navigation"
 import "swiper/css/pagination"

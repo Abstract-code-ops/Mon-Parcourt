@@ -17,8 +17,8 @@ export default function Team() {
           </div>
           <div className="content_block_two" style={{ position: 'relative' }}>
             {/* top-left and top-right logos */}
-            <img src="assets/images/logo.png" alt="logo" style={{ position: 'absolute', top: '-70px', left: '10px', width: '80px', height: 'auto', zIndex: 5 }} />
-            <img src="assets/images/KFFP.png" alt="KFFP" style={{ position: 'absolute', top: '-50px', right: '10px', width: '80px', height: 'auto', zIndex: 5 }} />
+            <img src="/assets/images/logo.png" alt="logo" style={{ position: 'absolute', top: '-70px', left: '10px', width: '80px', height: 'auto', zIndex: 5 }} />
+            <img src="/assets/images/KFFP.png" alt="KFFP" style={{ position: 'absolute', top: '-50px', right: '10px', width: '80px', height: 'auto', zIndex: 5 }} />
             <div className="content-box p_relative d_block">
               <div className="sec-title light mb_20">
                 <span className="sub-title">{t('team.subtitle')}</span>
