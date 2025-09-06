@@ -13,7 +13,6 @@ import ImageLoadingWrapper from "@/components/layout/ImageLoadingWrapper";
 
 export default function BlogDetailClient({ post, isEvent, loading=false }) {
     const { t } = useTranslation('blog');
-    
     return (
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle={t('breadcrumb.blogDetail')} bgImage="url(/assets/images/background/blog-breadcrumb.jpg)">
@@ -57,7 +56,7 @@ export default function BlogDetailClient({ post, isEvent, loading=false }) {
                                     </div>
                                 </div>
                                 {isEvent ? 
-                                <EventsComponent /> :""}
+                                <EventsComponent sheetID={post.sheetID} /> :""}
                                 <div className="post-share-option mb_65">
                                     <ul className="post-tags clearfix">
                                         <li><h5>{t('post.tags')}</h5></li>

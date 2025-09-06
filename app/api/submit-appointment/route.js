@@ -1,4 +1,3 @@
-import { google } from 'googleapis';
 import { NextResponse } from 'next/server';
 import * as emailjs from '@emailjs/nodejs';
 import { rateLimiter } from '../middleware/rateLimit';

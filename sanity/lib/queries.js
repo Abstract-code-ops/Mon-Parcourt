@@ -132,6 +132,7 @@ export async function getPost(slug, language = 'en') {
       type,
       publishedAt,
       "categories": categories[]->title,
+      "sheetID": sheetID,
       "authorName": author->name,
       "authorImage": author->image,
       body
@@ -282,6 +283,7 @@ export async function getEvents() {
       mainImage,
       date,
       location,
+      sheetID,
       "categories": categories[]->title,
       description,
       body
@@ -299,6 +301,7 @@ export async function getEvent(slug) {
       mainImage,
       date,
       location,
+      sheetID,
       "categories": categories[]->title,
       description,
       body

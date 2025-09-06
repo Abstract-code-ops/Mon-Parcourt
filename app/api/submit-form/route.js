@@ -24,6 +24,10 @@ function validateFormData(data) {
     errors.push('Residence is required');
   }
   
+  if (!data.dob) {
+    errors.push('Date of birth is required');
+  }
+
   if (!data.hasPassport) {
     errors.push('Passport information is required');
   } else if (data.hasPassport === 'yes') {
@@ -61,7 +65,7 @@ export async function POST(request) {
         }, { status: 400 });
       }
       
-      const { email, firstName, surname, residence, hasPassport, passportIssuanceDate, passportExpiryDate } = body;
+      const { email, firstName, surname, residence, dob, hasPassport, passportIssuanceDate, passportExpiryDate, eventSheetID } = body;
 
       // --- Google Sheets set up ---
       const auth = new google.auth.GoogleAuth({
@@ -73,8 +77,19 @@ export async function POST(request) {
       });
 
       const sheets = google.sheets({ version: 'v4', auth });
-      const spreadsheetId = process.env.GOOGLE_SHEET_ID;
-
+      
+      
+      // Validate that we have a spreadsheet ID from somewhere
+      if (!eventSheetID) {
+        console.error('Missing spreadsheetId: No event sheet ID or default sheet ID provided');
+        return NextResponse.json({ 
+          message: 'Configuration error: No spreadsheet ID available' 
+        }, { status: 500 });
+      }
+      
+      // Use the event-specific sheetID if provided, otherwise fall back to the default
+      const spreadsheetId = eventSheetID;
+      
       const getRows = await sheets.spreadsheets.values.get({
         spreadsheetId,
         range: 'Sheet1!B:G', // Fetches columns B through G
@@ -102,7 +117,7 @@ export async function POST(request) {
 
       // 1. Google Sheets Append Operation
       const appendToSheetPromise = sheets.spreadsheets.values.append({
-        spreadsheetId: process.env.GOOGLE_SHEET_ID,
+        spreadsheetId, // Use the validated spreadsheetId variable
         range: 'Sheet1!A:I',
         valueInputOption: 'USER_ENTERED',
         resource: {

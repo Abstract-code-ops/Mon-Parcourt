@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Alert, Button, Steps } from 'antd';
 import { useTranslation } from 'react-i18next';
 import { CloseOutlined } from '@ant-design/icons';
@@ -12,7 +12,7 @@ import styles from './EventFormOverlay.module.css';
 
 const { Step } = Steps;
 
-export default function EventFormOverlay({ isOpen, onClose, onSubmit }) {
+export default function EventFormOverlay({ isOpen, onClose, onSubmit, eventSheetID }) {
   const { t } = useTranslation('events');
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState({
@@ -20,9 +20,11 @@ export default function EventFormOverlay({ isOpen, onClose, onSubmit }) {
     firstName: '',
     surname: '',
     residence: '',
+    dob: '',
     hasPassport: '',
     passportIssuanceDate: '',
     passportExpiryDate: '',
+    eventSheetID: eventSheetID || null, // Add the eventSheetID to the form data with null fallback
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState(null);
@@ -50,6 +52,7 @@ export default function EventFormOverlay({ isOpen, onClose, onSubmit }) {
   const handleFinalSubmit = async () => {
     setError(null);
     setIsSubmitting(true);
+    console.log('Submitting form data:', formData);
     try {
       const response = await fetch('/api/submit-form', {
         method: 'POST',

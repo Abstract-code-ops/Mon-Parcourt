@@ -35,7 +35,7 @@ export default function BlogPostWrapper({ initialPost, slug, isEvent, initialLan
         
         updatePostForLanguage();
     }, [currentLanguage, lastFetchedLanguage, slug]);
-    
+
     return (
         <BlogDetailClient 
             post={post} 

@@ -10,14 +10,6 @@ const { Title, Paragraph } = Typography;
 
 export default function Step2({ onNext, onChange, data, onPrev }) {
   const { t } = useTranslation('events');
-  const handleDateChange = (date, name) => {
-    if (date) {
-      const formattedDate = date.format('YYYY-MM-DD');
-      onChange({ target: { name, value: formattedDate } });
-    } else {
-      onChange({ target: { name, value: '' } });
-    }
-  };
   
   return (
     <div className={styles.stepContainer}>
@@ -61,6 +53,31 @@ export default function Step2({ onNext, onChange, data, onPrev }) {
               </div>
               
         <Form.Item label={t('step2.residence')} className={styles.formItem}>
+                <Input
+                  name="residence"
+                  placeholder={t('step2.residence')}
+                  value={data.residence}
+                  onChange={onChange}
+                  prefix={<HomeOutlined className={styles.inputIcon} />}
+                  size="large"
+                  className={styles.input}
+                />
+              </Form.Item>
+
+          <Form.Item label={t('step2.dob')} className={styles.formItem}>
+                <DatePicker
+                  name="dob"
+                  style={{ width: '50%' }}
+                  value={dayjs(data.dob).toDate()}
+                  onChange={onChange}
+                  format="YYYY-MM-DD"
+                  inputReadOnly={false}
+                  allowInput
+                  allowClear
+                  />
+              </Form.Item>
+
+            <Form.Item label={t('step2.residence')} className={styles.formItem}>
                 <Input
                   name="residence"
           placeholder={t('step2.residence')}

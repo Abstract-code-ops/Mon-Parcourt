@@ -59,6 +59,39 @@ export const postType = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+          name: 'sheetID',
+          title: 'Google Sheet ID',
+          type: 'string',
+          description: 'The ID of the Google Sheet to store form submissions for this event',
+          validation: rule => rule.custom(async (value, context) => {
+            
+            // Get the actual category documents to check their titles
+            const {getClient} = context;
+            const client = getClient({apiVersion: '2023-01-01'});
+            
+            // Fetch all the referenced categories
+            const categoryIds = context.document.categories.map(cat => cat._ref).filter(Boolean);
+            if (!categoryIds.length) return true;
+            
+            const categories = await client.fetch(
+              `*[_type == "category" && _id in $ids]{title}`,
+              {ids: categoryIds}
+            );
+            
+            // Check if any category has "event" in its title (case-insensitive)
+            const hasEventCategory = categories.some(cat => 
+              cat.title && cat.title.toLowerCase().includes('event')
+            );
+            
+            // If event category is selected but no sheetID, show validation error
+            if (hasEventCategory && !value) {
+              return 'Sheet ID is required for events';
+            }
+            
+            return true;
+          }),
+        }),
+    defineField({
       name: 'publishedAt',
       type: 'datetime',
       validation: (rule) => rule.required(),

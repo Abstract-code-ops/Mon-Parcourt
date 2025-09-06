@@ -1,8 +1,8 @@
 import { getPost, getFeaturedPosts } from "/sanity/lib/queries";
 import BlogPostWrapper from "./BlogPostWrapper";
 
-// Enable incremental static regeneration with a 60-second revalidation period
-export const revalidate = 60; 
+// Enable incremental static regeneration with a 500-second revalidation period
+export const revalidate = 500; 
 
 // This function generates the static paths for each post at build time
 export async function generateStaticParams() {

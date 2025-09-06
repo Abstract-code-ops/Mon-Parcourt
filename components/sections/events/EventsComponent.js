@@ -6,7 +6,7 @@ import EventFormOverlay from './EventFormOverlay';
 import ThankYouModal from './finishModal';
 import AntdRegistry from './AntdRegistry';
 
-const EventsComponent = () => {
+const EventsComponent = ({ sheetID }) => {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [showThankYou, setShowThankYou] = useState(false);
 
@@ -56,6 +56,7 @@ const EventsComponent = () => {
           isOpen={isFormOpen}
           onClose={() => setIsFormOpen(false)}
           onSubmit={handleFormSubmit}
+          eventSheetID={sheetID}
         />
 
         <ThankYouModal
