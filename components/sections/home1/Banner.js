@@ -10,7 +10,7 @@ const swiperOptions = {
     slidesPerView: 1,
     spaceBetween: 0,
     autoplay: {
-        delay: 5000,
+        delay: 50000,
         disableOnInteraction: false,
     },
     loop: true,
@@ -56,8 +56,7 @@ export default function Banner() {
         <>
            <section className="banner-section p_relative">
                 <div className="pattern-layer">
-                    <div className="pattern-1" style={{ backgroundImage: "url(/assets/images/banner/object1.png)" }}></div>
-                    {/* <div className="pattern-2" style={{ backgroundImage: "url(assets/images/banner/right-shape-blue.png)" }}></div> */}
+                    <div className="pattern-custom" style={{ backgroundImage: "url(/assets/images/banner/object1.png)" }}></div>
                 </div>
                 <Swiper {...swiperOptions} className="banner-carousel owl-theme owl-carousel owl-dots-none">
                     {slides.map((slide, index) => (
@@ -76,10 +75,10 @@ export default function Banner() {
                                 <div className="content-box">
                                     <div className="experience-inner">
                                         <figure className="logo-imgag">
-                                            <Image src="/assets/images/icons/logo-1.png" alt="Experience Logo" width={222} height={222} />
+                                            <Image src="/assets/images/icons/logo-1.png" alt="Experience Logo" width={150} height={150} priority unoptimized />
                                         </figure>
-                                        <div className="text" style={{ bottom: '25px' }}>{t('banner.experience.years')}</div>
-                                        <span style={{ bottom: '10px' }}>{t('banner.experience.label')}</span>
+                                        <div className="text">{t('banner.experience.years')}</div>
+                                        <span>{t('banner.experience.label')}</span>
                                     </div>
                                     <h2>
                                         <Trans i18nKey={`banner.slides.${index}.title`} ns="home" components={{ 0: <span /> }} />

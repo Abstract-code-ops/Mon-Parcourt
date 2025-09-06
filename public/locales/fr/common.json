@@ -16,7 +16,9 @@
     "blogEvents": "Blog & Événements",
     "about": "À propos",
     "faq": "FAQ",
-    "contactUs": "Contact"
+    "contactUs": "Contact",
+    "appointment": "Rendez-vous",
+    "contactInfo": "Contactez-nous"
   },
   "breadcrumb": {
     "home": "Accueil"

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTranslation } from 'react-i18next';
 
 export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar, handleAppointmentPopup }) {
-  const { i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
   const [isActive, setIsActive] = useState({
     status: false,
     key: "",
@@ -49,7 +49,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar,
           <div className="mobile-top-controls mb_20">
             <div>
               <button className="custom-theme-btn appointment-link" onClick={() => { handleAppointmentPopup(); handleMobileMenu(); }}>
-                Appointment
+                {t('menu.appointment')}
               </button>
             </div>
             <div className="mobile-lang">
@@ -62,40 +62,40 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar,
               className="collapse navbar-collapse show clearfix"
               id="navbarSupportedContent">
               <ul className="navigation clearfix">
-                <li><Link href="/">Home</Link></li>
+                <li><Link href="/" onClick={()=>handleMobileMenu()}>{t('menu.home')}</Link></li>
 
                 <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
-                  <Link href="#" onClick={() => handleToggle(1)}>Visa Services</Link>
+                  <Link href="#" onClick={() => handleToggle(1)}>{t('menu.visaServices')}</Link>
                   <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                     <li className={isActive.subMenuKey == 1 ? "dropdown current" : "dropdown"}>
                       <Link href="#" onClick={() => handleToggle(1, 1)}>Visa</Link>
                       <ul style={{ display: `${isActive.subMenuKey == 1 ? "block" : "none"}` }}>
-                        <li><Link href="/visa" onClick={handleMobileMenu}>Visa Overview</Link></li>
-                        <li><Link href="/visa-details" onClick={handleMobileMenu}>Business Visa</Link></li>
-                        <li><Link href="/visa-details-2" onClick={handleMobileMenu}>Working Visas</Link></li>
-                        <li><Link href="/visa-details-3" onClick={handleMobileMenu}>Residence Visas</Link></li>
-                        <li><Link href="/visa-details-4" onClick={handleMobileMenu}>Student Visas</Link></li>
-                        <li><Link href="/visa-details-5" onClick={handleMobileMenu}>Spouse/Family Visas</Link></li>
-                        <li><Link href="/visa-details-6" onClick={handleMobileMenu}>Tourist Visas</Link></li>
+                        <li><Link href="/visa" onClick={()=>handleMobileMenu()}>{t('menu.visaOverview')}</Link></li>
+                        <li><Link href="/visa-details" onClick={()=>handleMobileMenu()}>{t('visas.business')}</Link></li>
+                        <li><Link href="/visa-details-2" onClick={()=>handleMobileMenu()}>{t('visas.working')}</Link></li>
+                        <li><Link href="/visa-details-3" onClick={()=>handleMobileMenu()}>{t('visas.residence')}</Link></li>
+                        <li><Link href="/visa-details-4" onClick={()=>handleMobileMenu()}>{t('visas.student')}</Link></li>
+                        <li><Link href="/visa-details-5" onClick={()=>handleMobileMenu()}>{t('visas.spouseFamily')}</Link></li>
+                        <li><Link href="/visa-details-6" onClick={()=>handleMobileMenu()}>{t('visas.tourist')}</Link></li>
                       </ul>
                       <div className={isActive.subMenuKey == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1, 1)}><span className="fa fa-angle-right" /></div>
                     </li>
                     <li className={isActive.subMenuKey == 2 ? "dropdown current" : "dropdown"}>
-                      <Link href="#" onClick={() => handleToggle(1, 2)}>Countries</Link>
+                      <Link href="#" onClick={() => handleToggle(1, 2)}>{t('menu.countries')}</Link>
                       <ul style={{ display: `${isActive.subMenuKey == 2 ? "block" : "none"}` }}>
-                        <li><Link href="/countries" onClick={handleMobileMenu}>Countries Overview</Link></li>
-                        <li><Link href="/countries-details" onClick={handleMobileMenu}>United States</Link></li>
-                        <li><Link href="/countries-details-2" onClick={handleMobileMenu}>Luxembourg</Link></li>
-                        <li><Link href="/countries-details-3" onClick={handleMobileMenu}>Canada</Link></li>
-                        <li><Link href="/countries-details-4" onClick={handleMobileMenu}>China</Link></li>
-                        <li><Link href="/countries-details-5" onClick={handleMobileMenu}>Germany</Link></li>
-                        <li><Link href="/countries-details-6" onClick={handleMobileMenu}>Australia</Link></li>
-                        <li><Link href="/countries-details-7" onClick={handleMobileMenu}>Spain</Link></li>
-                        <li><Link href="/countries-details-8" onClick={handleMobileMenu}>Turkey</Link></li>
-                        <li><Link href="/countries-details-12" onClick={handleMobileMenu}>North Cyprus</Link></li>
-                        <li><Link href="/countries-details-9" onClick={handleMobileMenu}>Lithuania</Link></li>
-                        <li><Link href="/countries-details-10" onClick={handleMobileMenu}>France</Link></li>
-                        <li><Link href="/countries-details-11" onClick={handleMobileMenu}>UAE</Link></li>
+                        <li><Link href="/countries" onClick={()=>handleMobileMenu()}>{t('menu.countriesOverview')}</Link></li>
+                        <li><Link href="/countries-details" onClick={()=>handleMobileMenu()}>{t('countriesList.unitedStates')}</Link></li>
+                        <li><Link href="/countries-details-2" onClick={()=>handleMobileMenu()}>{t('countriesList.luxembourg')}</Link></li>
+                        <li><Link href="/countries-details-3" onClick={()=>handleMobileMenu()}>{t('countriesList.canada')}</Link></li>
+                        <li><Link href="/countries-details-4" onClick={()=>handleMobileMenu()}>{t('countriesList.china')}</Link></li>
+                        <li><Link href="/countries-details-5" onClick={()=>handleMobileMenu()}>{t('countriesList.germany')}</Link></li>
+                        <li><Link href="/countries-details-6" onClick={()=>handleMobileMenu()}>{t('countriesList.australia')}</Link></li>
+                        <li><Link href="/countries-details-7" onClick={()=>handleMobileMenu()}>{t('countriesList.spain')}</Link></li>
+                        <li><Link href="/countries-details-8" onClick={()=>handleMobileMenu()}>{t('countriesList.turkey')}</Link></li>
+                        <li><Link href="/countries-details-12" onClick={()=>handleMobileMenu()}>{t('countriesList.northCyprus')}</Link></li>
+                        <li><Link href="/countries-details-9" onClick={()=>handleMobileMenu()}>{t('countriesList.lithuania')}</Link></li>
+                        <li><Link href="/countries-details-10" onClick={()=>handleMobileMenu()}>{t('countriesList.france')}</Link></li>
+                        <li><Link href="/countries-details-11" onClick={()=>handleMobileMenu()}>{t('countriesList.uae')}</Link></li>
                       </ul>
                       <div className={isActive.subMenuKey == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1, 2)}><span className="fa fa-angle-right" /></div>
                     </li>
@@ -104,24 +104,24 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar,
                 </li>
                 
                 <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}>
-                    <Link href="#" onClick={() => handleToggle(3)}>Coaching</Link>
+                    <Link href="#" onClick={() => handleToggle(3)}>{t('menu.coaching')}</Link>
                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                               <li><Link href="/coaching" onClick={handleMobileMenu}>Coaching Overview</Link></li>
-                                <li><Link href="/coaching-details" onClick={handleMobileMenu}>IELTS Coaching </Link></li>
-                                <li><Link href="/coaching-details-2" onClick={handleMobileMenu}>PTE Coaching</Link></li>
-                                <li><Link href="/coaching-details-3" onClick={handleMobileMenu}>TOFEL Coaching</Link></li>
-                                <li><Link href="/coaching-details-4" onClick={handleMobileMenu}>DAF Coaching</Link></li>
-                                <li><Link href="/coaching-details-5" onClick={handleMobileMenu}>TCF Coaching</Link></li>
-                                <li><Link href="/coaching-details-6" onClick={handleMobileMenu}>SAT Coaching</Link></li>
+                               <li><Link href="/coaching" onClick={()=>handleMobileMenu()}>{t('menu.coachingOverview')}</Link></li>
+                                <li><Link href="/coaching-details" onClick={()=>handleMobileMenu()}>IELTS Coaching </Link></li>
+                                <li><Link href="/coaching-details-2" onClick={()=>handleMobileMenu()}>PTE Coaching</Link></li>
+                                <li><Link href="/coaching-details-3" onClick={()=>handleMobileMenu()}>TOFEL Coaching</Link></li>
+                                <li><Link href="/coaching-details-4" onClick={()=>handleMobileMenu()}>DAF Coaching</Link></li>
+                                <li><Link href="/coaching-details-5" onClick={()=>handleMobileMenu()}>TCF Coaching</Link></li>
+                                <li><Link href="/coaching-details-6" onClick={()=>handleMobileMenu()}>SAT Coaching</Link></li>
                     </ul>
                     <div className={isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
                 </li>
 
-                <li><Link href="/blog">Blogs & Events</Link></li>
+                <li><Link href="/blog" onClick={()=>handleMobileMenu()}>{t('menu.blogEvents')}</Link></li>
                
-                <li><Link href="/about-us">About</Link></li>
+                <li><Link href="/about-us" onClick={()=>handleMobileMenu()}>{t('menu.about')}</Link></li>
 
-                <li><Link href="/contact" onClick={handleMobileMenu} >Contact</Link></li>
+                <li><Link href="/contact" onClick={()=>handleMobileMenu()} >Contact</Link></li>
               </ul>
             </div>
           </div>
@@ -131,7 +131,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar,
             </button>
           </div> */}
           <div className="contact-info">
-                    <h4>Contact Info</h4>
+                    <h4>{t('menu.contactInfo')}</h4>
           <ul>
             <li>87 Boulevard Diderot 75012 Paris</li>
             <li><Link href="tel:+33613800304">+33 613800304</Link></li>

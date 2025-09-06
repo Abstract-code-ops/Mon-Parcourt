@@ -3,10 +3,13 @@
 .banner-section{
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  /* allow the banner height to adapt to the background image and content
+     instead of forcing a full viewport height which can cause empty patches */
+  height: auto;
+  min-height: 100vh;
 }
 
-.banner-section .pattern-layer .pattern-1{
+.banner-section .pattern-layer .pattern-custom{
   position: absolute;
   left: 30px;
   top: 0;
@@ -16,6 +19,17 @@
   background-repeat: no-repeat;
   background-position: center;
   z-index: 2;
+}
+
+.banner-section .pattern-layer .pattern-1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner-section .pattern-layer .pattern-2{
@@ -78,7 +92,7 @@
   max-width: 650px;
   width: 100%;
   z-index: 5;
-  padding-top: 2em;
+  padding: 2rem 0 0 2rem; /* small horizontal padding */
 }
 
 .banner-carousel .content-box .experience-inner{
@@ -101,7 +115,7 @@
 .banner-carousel .content-box .experience-inner .text{
   position: absolute;
   left: 0px;
-  bottom: 70px;
+  bottom: 25px;
   width: 100%;
   text-align: center;
   font-size: 18px;
@@ -113,7 +127,8 @@
 .banner-carousel .content-box .experience-inner span{
   position: absolute;
   left: 0px;
-  bottom: 70px;
+  bottom: 10px;
+  width: 0px;
   width: 100%;
   text-align: center;
   font-size: 12px;
@@ -149,16 +164,18 @@
   transition-delay: 200ms;
 }
 
-.banner-carousel .content-box h2{
+.banner-carousel .content-box h2,
+.banner-carousel .content-box h3{
   position: relative;
   display: block;
-  font-size: 60px;
-  line-height: 90px;
+  /* responsive font sizing: scales between 30px and 60px depending on viewport */
+  font-size: clamp(30px, 6vw, 60px);
+  line-height: clamp(36px, 8vw, 90px);
   font-weight: 700;
   color: var(--white-color);
   opacity: 0;
-  margin-bottom: 21px;
-  margin-top: -1.25em;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
   -webkit-transform: translateY(60px);
   -moz-transform: translateY(60px);
   -ms-transform: translateY(60px);
@@ -208,7 +225,9 @@
 .banner-carousel .content-box p{
   font-weight: 500;
   color: var(--white-color);
-  margin-bottom: 40px;
+  margin-bottom: 1.5rem;
+  /* responsive paragraph sizing */
+  font-size: clamp(14px, 2.2vw, 18px);
   opacity: 1;
   -webkit-transform: translateY(60px);
   -moz-transform: translateY(60px);

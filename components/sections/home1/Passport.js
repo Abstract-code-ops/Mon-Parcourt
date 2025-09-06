@@ -17,7 +17,7 @@ export default function Passport() {
   ];
 
   return (
-    <section className="dream-style-two sec-pad p_relative mt_80"  style={{backgroundColor: 'transparent'}}>
+    <section className="dream-style-two sec-pad p_relative mt_80"  style={{backgroundColor: 'transparent', marginBottom: '20px'}}>
       <div className="outer-container clearfix">
         <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/resource/connections.jpg)', height: '80%', top: '10%'}}></div>
         <div className="content-column">
@@ -27,7 +27,7 @@ export default function Passport() {
           </div>
           <div className="content_block_two">
             <div className="content-box p_relative">
-              <div className="sec-title mb_30">
+              <div className="sec-title mb_30 flex-column centred">
                 <span className="sub-title" style={{color: 'black'}}>{t('passport.subtitle', { defaultValue: 'Who are we ?' })}</span>
                 <h2 className='mt_20' style={{color: 'var(--title-color)'}}>{t('passport.title', { defaultValue: 'Your Connection Agent' })}</h2>
               </div>

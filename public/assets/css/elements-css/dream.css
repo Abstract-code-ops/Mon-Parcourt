@@ -88,6 +88,7 @@
 
 .dream-style-two{
   background: var(--main-color);
+  margin-bottom: 150px;
 }
 
 .dream-style-two .bg-layer{
@@ -100,6 +101,63 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* responsive adjustments for banner image */
+@media (max-width: 768px) {
+  .dream-style-two .content-column{ padding-left: 60px; }
+}
+
+@media (max-width: 766px) {
+  .dream-style-two{
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .dream-style-two .content-column{ padding-left: 40px; }
+}
+
+@media (max-width: 425px) {
+  .dream-style-two .content-column{
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: -20px; /* lift content into the banner area if desired */
+  }
+}
+
+@media (max-width: 320px) {
+  .dream-style-two .content-column{ padding-left: 12px; }
+}
+
+/* logo group: absolute on desktop, inline next to subtitle on smaller screens or when bg-layer hidden */
+.content_block_two .logo-group{
+  position: absolute;
+  top: -70px;
+  left: 50;
+  z-index: 5;
+}
+.content_block_two .logo-group .logo{
+  display: inline-block;
+  width: 80px;
+  height: auto;
+  margin-right: 15px;
+}
+
+/* when .bg-layer is hidden (mobile styles in main style.css), flow logos inline next to subtitle */
+
+
+@media (max-width: 768px) {
+  .content_block_two .logo-group{
+    position: static;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .content_block_two .logo-group .logo{ width: 56px; }
+  .dream-style-two .content-box .sec-title{ display: flex; align-items: center; gap: 12px; }
+  .dream-style-two .content-box .sec-title .sub-title{ margin: 0; }
+}
+
 
 .dream-style-two .content-column{
   position: relative;

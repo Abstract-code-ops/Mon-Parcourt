@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next'
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
     autoplay: {
         delay: 2500,
@@ -47,11 +47,11 @@ const swiperOptions = {
             spaceBetween: 30,
         },
         1199: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 30,
         },
         1350: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 30,
         },
     }
@@ -65,7 +65,7 @@ export default function News() {
     useEffect(() => {
         async function fetchPosts() {
             // Use the improved helper function to get featured posts
-            const fetchedPosts = await getFeaturedPosts(3);
+            const fetchedPosts = await getFeaturedPosts(6);
             setPosts(fetchedPosts || []);
         }
         fetchPosts();
