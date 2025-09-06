@@ -6,7 +6,6 @@ import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import { heebo, maven_pro } from '@/lib/font';
 import I18nProviderWrapper from '@/components/layout/I18nProviderWrapper';
-import NonCriticalStyles from '@/components/layout/NonCriticalStyles';
 
 
 export const metadata = {
@@ -24,7 +23,6 @@ export default function RootLayout({ children }) {
         <html lang="en" className={`${maven_pro.variable} ${heebo.variable}`}>
             <body>
                     <I18nProviderWrapper>
-                            <NonCriticalStyles />
                             {children}
                     </I18nProviderWrapper>
             </body>
