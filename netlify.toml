@@ -16,11 +16,8 @@
   status = 301
   force = true
 
-# Redirect for SPA fallback (needed for client-side routing)
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+## NOTE: Do not add SPA catch-all redirects for Next.js apps.
+## The Netlify Next.js plugin manages routing, including SSR/ISR and assets.
   
 # Uncomment and customize these redirects when you have your final domain
  [[redirects]]

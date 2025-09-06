@@ -5,9 +5,9 @@ export default function Countries1() {
   return (
     <section className="countries-style-three sec-pad">
             <div className="pattern-layer">
-                <div className="pattern-1" style={{ backgroundImage: ' url(assets/images/shape/shape-33.png)' }}></div>
-                <div className="pattern-2" style={{ backgroundImage: ' url(assets/images/shape/shape-34.png)' }}></div>
-                <div className="pattern-3" style={{ backgroundImage: ' url(assets/images/shape/shape-35.png)' }}></div>
+                <div className="pattern-1" style={{ backgroundImage: ' url(/assets/images/shape/shape-33.png)' }}></div>
+                <div className="pattern-2" style={{ backgroundImage: ' url(/assets/images/shape/shape-34.png)' }}></div>
+                <div className="pattern-3" style={{ backgroundImage: ' url(/assets/images/shape/shape-35.png)' }}></div>
             </div>     
             <div className="auto-container">
                 <div className="title-inner mb_50">
@@ -46,12 +46,12 @@ export default function Countries1() {
                                         <div className="inner-box">
                                             <div className="content-box">
                                                 <div className="title-box">
-                                                    <div className="flag"><img src="assets/images/icons/flag-5.png" alt="" /></div>
+                                                    <div className="flag"><img src="/assets/images/icons/flag-5.png" alt="" /></div>
                                                     <Link href="index-2">United Kingdom</Link>
                                                 </div>
                                                 <p>It's problematic to accommodate the migration part.</p>
                                             </div>
-                                            <figure className="image-box"><img src="assets/images/resource/countries-1.png" alt="" /></figure>
+                                            <figure className="image-box"><img src="/assets/images/resource/countries-1.png" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -60,12 +60,12 @@ export default function Countries1() {
                                         <div className="inner-box">
                                             <div className="content-box">
                                                 <div className="title-box">
-                                                    <div className="flag"><img src="assets/images/icons/flag-6.png" alt="" /></div>
+                                                    <div className="flag"><img src="/assets/images/icons/flag-6.png" alt="" /></div>
                                                     <Link href="index-2">Bahamas</Link>
                                                 </div>
                                                 <p>It's problematic to accommodate the migration part.</p>
                                             </div>
-                                            <figure className="image-box"><img src="assets/images/resource/countries-2.png" alt="" /></figure>
+                                            <figure className="image-box"><img src="/assets/images/resource/countries-2.png" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -74,12 +74,12 @@ export default function Countries1() {
                                         <div className="inner-box">
                                             <div className="content-box">
                                                 <div className="title-box">
-                                                    <div className="flag"><img src="assets/images/icons/flag-7.png" alt="" /></div>
+                                                    <div className="flag"><img src="/assets/images/icons/flag-7.png" alt="" /></div>
                                                     <Link href="index-2">Canada</Link>
                                                 </div>
                                                 <p>It's problematic to accommodate the migration part.</p>
                                             </div>
-                                            <figure className="image-box"><img src="assets/images/resource/countries-3.png" alt="" /></figure>
+                                            <figure className="image-box"><img src="/assets/images/resource/countries-3.png" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -88,12 +88,12 @@ export default function Countries1() {
                                         <div className="inner-box">
                                             <div className="content-box">
                                                 <div className="title-box">
-                                                    <div className="flag"><img src="assets/images/icons/flag-8.png" alt="" /></div>
+                                                    <div className="flag"><img src="/assets/images/icons/flag-8.png" alt="" /></div>
                                                     <Link href="index-2">Brazil</Link>
                                                 </div>
                                                 <p>It's problematic to accommodate the migration part.</p>
                                             </div>
-                                            <figure className="image-box"><img src="assets/images/resource/countries-4.png" alt="" /></figure>
+                                            <figure className="image-box"><img src="/assets/images/resource/countries-4.png" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -102,12 +102,12 @@ export default function Countries1() {
                                         <div className="inner-box">
                                             <div className="content-box">
                                                 <div className="title-box">
-                                                    <div className="flag"><img src="assets/images/icons/flag-9.png" alt="" /></div>
+                                                    <div className="flag"><img src="/assets/images/icons/flag-9.png" alt="" /></div>
                                                     <Link href="index-2">India</Link>
                                                 </div>
                                                 <p>It's problematic to accommodate the migration part.</p>
                                             </div>
-                                            <figure className="image-box"><img src="assets/images/resource/countries-5.png" alt="" /></figure>
+                                            <figure className="image-box"><img src="/assets/images/resource/countries-5.png" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -116,12 +116,12 @@ export default function Countries1() {
                                         <div className="inner-box">
                                             <div className="content-box">
                                                 <div className="title-box">
-                                                    <div className="flag"><img src="assets/images/icons/flag-10.png" alt="" /></div>
+                                                    <div className="flag"><img src="/assets/images/icons/flag-10.png" alt="" /></div>
                                                     <Link href="index-2">China</Link>
                                                 </div>
                                                 <p>It's problematic to accommodate the migration part.</p>
                                             </div>
-                                            <figure className="image-box"><img src="assets/images/resource/countries-6.png" alt="" /></figure>
+                                            <figure className="image-box"><img src="/assets/images/resource/countries-6.png" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -130,12 +130,12 @@ export default function Countries1() {
                                         <div className="inner-box">
                                             <div className="content-box">
                                                 <div className="title-box">
-                                                    <div className="flag"><img src="assets/images/icons/flag-11.png" alt="" /></div>
+                                                    <div className="flag"><img src="/assets/images/icons/flag-11.png" alt="" /></div>
                                                     <Link href="index-2">Australia</Link>
                                                 </div>
                                                 <p>It's problematic to accommodate the migration part.</p>
                                             </div>
-                                            <figure className="image-box"><img src="assets/images/resource/countries-7.png" alt="" /></figure>
+                                            <figure className="image-box"><img src="/assets/images/resource/countries-7.png" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -144,12 +144,12 @@ export default function Countries1() {
                                         <div className="inner-box">
                                             <div className="content-box">
                                                 <div className="title-box">
-                                                    <div className="flag"><img src="assets/images/icons/flag-12.png" alt="" /></div>
+                                                    <div className="flag"><img src="/assets/images/icons/flag-12.png" alt="" /></div>
                                                     <Link href="index-2">North Korea</Link>
                                                 </div>
                                                 <p>It's problematic to accommodate the migration part.</p>
                                             </div>
-                                            <figure className="image-box"><img src="assets/images/resource/countries-8.png" alt="" /></figure>
+                                            <figure className="image-box"><img src="/assets/images/resource/countries-8.png" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>

@@ -8,7 +8,7 @@ export default function Visa() {
   const { t } = useTranslation('home');
   return (
     <section className="visa-section sec-pad">
-      <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-5.png)' }}></div>
+  <div className="pattern-layer" style={{ backgroundImage: 'url(/assets/images/shape/shape-5.png)' }}></div>
       <div className="auto-container">
         <div className="sec-title centred mb_50">
           <span className="sub-title">{t('visa.subtitle')}</span>

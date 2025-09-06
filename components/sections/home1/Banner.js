@@ -56,7 +56,7 @@ export default function Banner() {
         <>
            <section className="banner-section p_relative">
                 <div className="pattern-layer">
-                    <div className="pattern-1" style={{ backgroundImage: "url(assets/images/banner/object1.png)" }}></div>
+                    <div className="pattern-1" style={{ backgroundImage: "url(/assets/images/banner/object1.png)" }}></div>
                     {/* <div className="pattern-2" style={{ backgroundImage: "url(assets/images/banner/right-shape-blue.png)" }}></div> */}
                 </div>
                 <Swiper {...swiperOptions} className="banner-carousel owl-theme owl-carousel owl-dots-none">

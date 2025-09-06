@@ -57,11 +57,11 @@ export default function VisaSlider() {
         <>
            <Swiper {...swiperOptions} className="banner-carousel owl-theme owl-carousel owl-dots-none">                    
                     <SwiperSlide className="slide-item p_relative">
-                    <figure className="image-layer"><img src="assets/images/banner/banner-img-1.png" alt="" /></figure>
+                    <figure className="image-layer"><img src="/assets/images/banner/banner-img-1.png" alt="" /></figure>
                   <div className="auto-container">
                     <div className="content-box">
                     <div className="experience-inner">
-                                <figure className="logo-imgag"><img src="assets/images/icons/logo-1.png" alt="" /></figure>
+                                <figure className="logo-imgag"><img src="/assets/images/icons/logo-1.png" alt="" /></figure>
                                 <div className="text">30 Years</div>
                                 <span>Experience</span>
                             </div>
@@ -74,11 +74,11 @@ export default function VisaSlider() {
                   </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                    <figure className="image-layer"><img src="assets/images/banner/banner-img-1.png" alt="" /></figure>
+                    <figure className="image-layer"><img src="/assets/images/banner/banner-img-1.png" alt="" /></figure>
                     <div className="auto-container">
                         <div className="content-box">
                             <div className="experience-inner">
-                                <figure className="logo-imgag"><img src="assets/images/icons/logo-1.png" alt="" /></figure>
+                                <figure className="logo-imgag"><img src="/assets/images/icons/logo-1.png" alt="" /></figure>
                                 <div className="text">30 Years</div>
                                 <span>Experience</span>
                             </div>
@@ -91,11 +91,11 @@ export default function VisaSlider() {
                     </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                    <figure className="image-layer"><img src="assets/images/banner/banner-img-1.png" alt="" /></figure>
+                    <figure className="image-layer"><img src="/assets/images/banner/banner-img-1.png" alt="" /></figure>
                     <div className="auto-container">
                         <div className="content-box">
                             <div className="experience-inner">
-                                <figure className="logo-imgag"><img src="assets/images/icons/logo-1.png" alt="" /></figure>
+                                <figure className="logo-imgag"><img src="/assets/images/icons/logo-1.png" alt="" /></figure>
                                 <div className="text">30 Years</div>
                                 <span>Experience</span>
                             </div>

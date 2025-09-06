@@ -61,7 +61,7 @@ export default function CountriesSlider() {
                 <SwiperSlide className="slide-item">
                 <div className="countries-block-four">
                   <div className="inner-box">
-                    <div className="flag"><img src="assets/images/icons/flag-19.png" alt="" /></div>
+                    <div className="flag"><img src="/assets/images/icons/flag-19.png" alt="" /></div>
           <h3><Link href="countries-details">{t('slider.usa.name')}</Link></h3>
           <p>{t('slider.usa.description')}</p>
           <div className="text">{t('slider.visaType')}</div>
@@ -72,7 +72,7 @@ export default function CountriesSlider() {
                 <SwiperSlide className="slide-item">
                 <div className="countries-block-four">
             <div className="inner-box">
-              <div className="flag"><img src="assets/images/icons/flag-14.png" alt="" /></div>
+              <div className="flag"><img src="/assets/images/icons/flag-14.png" alt="" /></div>
         <h3><Link href="countries-details-2">{t('slider.luxembourg.name')}</Link></h3>
         <p>{t('slider.luxembourg.description')}</p>
         <div className="text">{t('slider.visaType')}</div>
@@ -83,7 +83,7 @@ export default function CountriesSlider() {
                 <SwiperSlide className="slide-item">
                 <div className="countries-block-four">
             <div className="inner-box">
-              <div className="flag"><img src="assets/images/icons/flag-15.png" alt="" /></div>
+              <div className="flag"><img src="/assets/images/icons/flag-15.png" alt="" /></div>
         <h3><Link href="countries-details-3">{t('slider.canada.name')}</Link></h3>
         <p>{t('slider.canada.description')}</p>
         <div className="text">{t('slider.visaType')}</div>
@@ -94,7 +94,7 @@ export default function CountriesSlider() {
                 <SwiperSlide className="slide-item">
                 <div className="countries-block-four">
             <div className="inner-box">
-              <div className="flag"><img src="assets/images/icons/flag-20.png" alt="" /></div>
+              <div className="flag"><img src="/assets/images/icons/flag-20.png" alt="" /></div>
         <h3><Link href="countries-details-5">{t('slider.germany.name')}</Link></h3>
         <p>{t('slider.germany.description')}</p>
         <div className="text">{t('slider.visaType')}</div>
@@ -105,7 +105,7 @@ export default function CountriesSlider() {
                 <SwiperSlide className="slide-item">
                 <div className="countries-block-four">
             <div className="inner-box">
-              <div className="flag"><img src="assets/images/icons/flag-23.png" alt="" /></div>
+              <div className="flag"><img src="/assets/images/icons/flag-23.png" alt="" /></div>
         <h3><Link href="countries-details-7">{t('slider.spain.name')}</Link></h3>
         <p>{t('slider.spain.description')}</p>
         <div className="text">{t('slider.visaType')}</div>
@@ -116,7 +116,7 @@ export default function CountriesSlider() {
                 <SwiperSlide className="slide-item">
                 <div className="countries-block-four">
             <div className="inner-box">
-              <div className="flag"><img src="assets/images/icons/flag-25.png" alt="" /></div>
+              <div className="flag"><img src="/assets/images/icons/flag-25.png" alt="" /></div>
         <h3><Link href="countries-details-8">{t('slider.turkey.name')}</Link></h3>
         <p>{t('slider.turkey.description')}</p>
         <div className="text">{t('slider.visaType')}</div>
@@ -127,7 +127,7 @@ export default function CountriesSlider() {
                 <SwiperSlide className="slide-item">
                 <div className="countries-block-four">
             <div className="inner-box">
-              <div className="flag"><img src="assets/images/icons/flag-22.png" alt="" /></div>
+              <div className="flag"><img src="/assets/images/icons/flag-22.png" alt="" /></div>
         <h3><Link href="countries-details-6">{t('slider.australia.name')}</Link></h3>
         <p>{t('slider.australia.description')}</p>
         <div className="text">{t('slider.visaType')}</div>
@@ -138,7 +138,7 @@ export default function CountriesSlider() {
                 <SwiperSlide className="slide-item">
                 <div className="countries-block-four">
             <div className="inner-box">
-              <div className="flag"><img src="assets/images/icons/flag-21.png" alt="" /></div>
+              <div className="flag"><img src="/assets/images/icons/flag-21.png" alt="" /></div>
         <h3><Link href="countries-details-4">{t('slider.china.name')}</Link></h3>
         <p>{t('slider.china.description')}</p>
         <div className="text">{t('slider.visaType')}</div>

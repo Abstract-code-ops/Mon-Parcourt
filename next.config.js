@@ -6,6 +6,11 @@ const nextConfig = {
     NEXT_PUBLIC_SANITY_DATASET: process.env.NEXT_PUBLIC_SANITY_DATASET,
     NEXT_PUBLIC_SANITY_API_VERSION: process.env.NEXT_PUBLIC_SANITY_API_VERSION,
   },
+  // Netlify already handles image optimization or can serve original files.
+  // Disable Next/Image optimizer to avoid /_next/image issues on Netlify.
+  images: {
+    unoptimized: true,
+  },
   // Security headers and proper CORS for Sanity Studio
   async headers() {
     // Replace with your actual production domain
