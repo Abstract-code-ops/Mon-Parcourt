@@ -35,6 +35,13 @@ export const optimizedBlogDetailImage = (source, width = 1200) => {
     .url();
 }
 
+// Helper to normalize sheet IDs by removing trailing slashes
+export const formatSheetID = (id) => {
+  if (id === undefined || id === null) return id
+  // remove any trailing forward slashes
+  return String(id).replace(/\/+$/, '')
+}
+
 // Helper to get all posts with pagination and filtering options
 export async function getPosts(options = {}) {
   const { 
@@ -146,7 +153,8 @@ export async function getPost(slug, language = 'en') {
   return {
     ...post,
     title: post.title && getLocalizedField(post.title, language),
-    body: post.body && getLocalizedField(post.body, language)
+  body: post.body && getLocalizedField(post.body, language),
+  sheetID: formatSheetID(post.sheetID)
   };
 }
 
@@ -275,7 +283,7 @@ export async function getCategoryPosts(category, limit = 6, offset = 0, language
 
 // Helper to get all events
 export async function getEvents() {
-  return await client.fetch(
+  const events = await client.fetch(
     `*[_type == "event"] | order(date desc) {
       _id,
       title,
@@ -289,11 +297,16 @@ export async function getEvents() {
       body
     }`
   )
+
+  return events.map(ev => ({
+    ...ev,
+    sheetID: formatSheetID(ev.sheetID)
+  }))
 }
 
 // Helper to get a single event by slug
 export async function getEvent(slug) {
-  return await client.fetch(
+  const event = await client.fetch(
     `*[_type == "event" && slug.current == $slug][0] {
       _id,
       title,
@@ -308,6 +321,13 @@ export async function getEvent(slug) {
     }`,
     { slug }
   )
+
+  if (!event) return null
+
+  return {
+    ...event,
+    sheetID: formatSheetID(event.sheetID)
+  }
 }
 
 // Get all categories

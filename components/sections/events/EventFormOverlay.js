@@ -17,14 +17,20 @@ export default function EventFormOverlay({ isOpen, onClose, onSubmit, eventSheet
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState({
     email: '',
+    phoneNumber: '',
     firstName: '',
     surname: '',
     residence: '',
     dob: '',
+    occupationType: '',
+    educationStatus: '',
     hasPassport: '',
     passportIssuanceDate: '',
     passportExpiryDate: '',
     eventSheetID: eventSheetID || null, // Add the eventSheetID to the form data with null fallback
+    haveLanguageExam: '',
+    languageExam: '',
+    examGrade: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState(null);
@@ -52,21 +58,36 @@ export default function EventFormOverlay({ isOpen, onClose, onSubmit, eventSheet
   const handleFinalSubmit = async () => {
     setError(null);
     setIsSubmitting(true);
-    console.log('Submitting form data:', formData);
+
+    let newPhone = formData.phoneNumber;
+    newPhone = `"${newPhone}"`; // Ensure phone number is treated as text in Sheets to preserve formatting
+    newPhone = newPhone.replace(/[^0-9"+]/g, ''); // Sanitize phone number input
+    
+    const dataToSend = {
+    ...formData,
+    phoneNumber: newPhone,
+    };
+    console.log('Submitting form data:', dataToSend);
+
     try {
       const response = await fetch('/api/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(dataToSend),
       });
 
       if (response.ok) {
         onSubmit();
       } else {
         const errorData = await response.json();
-        setError(errorData.message || t('errors.submitUnexpected'));
+        // If API returned a list of validation errors, store them so we can render details
+        if (errorData.errors && Array.isArray(errorData.errors) && errorData.errors.length) {
+          setError({ message: errorData.message || t('errors.submitUnexpected'), details: errorData.errors });
+        } else {
+          setError(errorData.message || t('errors.submitUnexpected'));
+        }
       }
     } catch (error) {
       setError(t('errors.networkError'));
@@ -123,7 +144,16 @@ export default function EventFormOverlay({ isOpen, onClose, onSubmit, eventSheet
         {/* Error Message */}
         {error && (
           <Alert
-            message={error}
+            message={typeof error === 'string' ? error : error.message}
+            description={
+              typeof error === 'object' && error.details ? (
+                <ul style={{ margin: 0, paddingLeft: 18 }}>
+                  {error.details.map((d, i) => (
+                    <li key={i}>{d}</li>
+                  ))}
+                </ul>
+              ) : null
+            }
             type="error"
             showIcon
             closable

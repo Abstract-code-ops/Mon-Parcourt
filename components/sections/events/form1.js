@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Input, Button, Typography, Form, Space } from "antd";
-import { MailOutlined } from '@ant-design/icons';
+import { MailOutlined, PhoneOutlined } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import styles from './FormSteps.module.css';
 
@@ -56,6 +56,22 @@ export default function Step1({ onNext, onChange, data }) {
                 prefix={<MailOutlined className={styles.inputIcon} />}
                 size="large"
                 className={styles.input}
+              />
+            </Form.Item>
+
+            <Form.Item
+              label={t('step1.phoneNumberLabel')}
+              className={styles.formItem}
+            >
+              <Input
+                name="phoneNumber"
+                placeholder={t('step1.phoneNumberPlaceholder')}
+                value={data.phoneNumber}
+                onChange={onChange}
+                size="large"
+                className={styles.input}
+                prefix={<PhoneOutlined className={styles.inputIcon} />}
+                type="tel"
               />
             </Form.Item>
             

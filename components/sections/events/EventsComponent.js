@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { Button } from 'antd';
 import EventFormOverlay from './EventFormOverlay';
@@ -7,6 +8,7 @@ import ThankYouModal from './finishModal';
 import AntdRegistry from './AntdRegistry';
 
 const EventsComponent = ({ sheetID }) => {
+  const { t } = useTranslation('events');
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [showThankYou, setShowThankYou] = useState(false);
 
@@ -49,7 +51,7 @@ const EventsComponent = ({ sheetID }) => {
             e.target.style.boxShadow = '0 4px 12px rgba(3, 43, 102, 0.3)';
           }}
         >
-          Register for Event
+          {t('registerButton')}
         </Button>
         
         <EventFormOverlay

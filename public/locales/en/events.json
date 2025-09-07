@@ -1,4 +1,5 @@
 {
+  "registerButton": "Register for Event",
   "overlay": {
     "title": "Event Registration",
     "donationTitle": "Support Our Cause",
@@ -29,6 +30,8 @@
     "emailPlaceholder": "your.email@example.com",
     "emailRequired": "Email address is required.",
     "emailInvalid": "Please enter a valid email address.",
+    "phoneNumberLabel": "Phone Number",
+    "phoneNumberPlaceholder": "your phone number (+country code-phone number)",
     "continue": "Continue"
   },
   "step2": {
@@ -43,9 +46,14 @@
     "passportIssuance": "Passport Issuance Date",
     "passportExpiry": "Passport Expiry Date",
     "back": "Back",
-    "continue": "Continue"
-  }
-  ,
+    "continue": "Continue",
+    "dob": "Date of Birth",
+    "occupation": "Occupation (Student/Employed/Unemployed etc.)",
+    "educationStatus": "Education Status",
+    "haveLanguageExam": "Have you taken a language exam?",
+    "languageExam": "Language exam taken ?",
+    "examGrade": "Grade achieved"
+  },
   "cardForm": {
     "title": "Bank Transfer Details",
     "description": "Please transfer your donation amount to the account details below",

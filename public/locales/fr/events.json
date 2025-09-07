@@ -1,4 +1,5 @@
 {
+  "registerButton": "S'inscrire à l'événement",
   "overlay": {
     "title": "Inscription à l'événement",
     "donationTitle": "Soutenez notre cause",
@@ -29,6 +30,8 @@
     "emailPlaceholder": "votre.email@exemple.com",
     "emailRequired": "L'adresse e-mail est requise.",
     "emailInvalid": "Veuillez entrer une adresse e-mail valide.",
+    "phoneNumberPlaceholder": "votre numéro de téléphone",
+    "phoneNumberLabel": "Numéro de téléphone (+code pays-numero de téléphone)",
     "continue": "Continuer"
   },
   "step2": {
@@ -43,7 +46,13 @@
     "passportIssuance": "Date de délivrance du passeport",
     "passportExpiry": "Date d'expiration du passeport",
     "back": "Retour",
-    "continue": "Continuer"
+    "continue": "Continuer",
+    "dob": "Date de naissance",
+    "occupation": "Profession (Étudiant/Employé/Chômeur etc.)",
+    "educationStatus": "Niveau d'éducation",
+    "haveLanguageExam": "Avez-vous passé un examen de langue ?",
+    "languageExam": "type d'examen linguistique passé ? ",
+    "examGrade": "Niveau obtenu"
   }
   ,
   "cardForm": {

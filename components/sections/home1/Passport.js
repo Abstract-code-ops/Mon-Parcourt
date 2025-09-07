@@ -23,7 +23,7 @@ export default function Passport() {
         <div className="content-column">
           <div className="pattern-layer">
             <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-68.png)' }}></div>
-            <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-67.png)' }}></div>
+            <div className="pattern-2" style={{ backgroundImage: 'url(/assets/images/shape/shape-67.png)' }}></div>
           </div>
           <div className="content_block_two">
             <div className="content-box p_relative">

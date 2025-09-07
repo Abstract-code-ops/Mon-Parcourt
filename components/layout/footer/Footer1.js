@@ -7,7 +7,7 @@ export default function Footer1() {
     return (
         <>
       <footer className="main-footer" id="footer">
-      <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}></div>
+  <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-25.png)" }}></div>
       <div className="auto-container">
         <div className="widget-section">
           <div className="row clearfix">

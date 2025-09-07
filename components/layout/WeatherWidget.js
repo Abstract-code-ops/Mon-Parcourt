@@ -30,8 +30,8 @@ export default function WeatherWidget() {
     const [weather, setWeather] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [city, setCity] = useState("Nicosia"); // Default city
-    const [searchTerm, setSearchTerm] = useState("Nicosia");
+    const [city, setCity] = useState("France"); // Default city
+    const [searchTerm, setSearchTerm] = useState("France");
 
     // Function to fetch weather for a given latitude and longitude
     const fetchWeather = (latitude, longitude, cityName) => {
@@ -55,7 +55,7 @@ export default function WeatherWidget() {
 
     // Initial load for the default city
     useEffect(() => {
-        handleSearch(null, "Nicosia");
+        handleSearch(null, "France");
     }, []);
 
     // Function to handle the search submission
