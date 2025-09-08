@@ -131,7 +131,7 @@ export default function Home() {
                                         </li>
                                         <li>
                                         <h5>{t('contactBox.emailLabel')}</h5>
-                                        <p><Link href="mailto:contact@monparcourt.com">contact@monparcourt.com</Link></p>
+                                        <p><Link href="mailto:monparcourt.1er@gmail.com">monparcourt.1er@gmail.com</Link></p>
                                         </li>
                                     </ul>
                                     </div>

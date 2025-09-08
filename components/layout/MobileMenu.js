@@ -2,10 +2,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useTranslation } from 'react-i18next';
-import { i18n } from '../../i18n';
 
 export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar, handleAppointmentPopup }) {
-  const { t } = useTranslation('common');
+  const { t, i18n } = useTranslation('common');
   const [isActive, setIsActive] = useState({
     status: false,
     key: "",
@@ -136,7 +135,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar,
           <ul>
             <li>87 Boulevard Diderot 75012 Paris</li>
             <li><Link href="tel:+33613800304">+33 613800304</Link></li>
-            <li><Link href="mailto:contact@monparcourt.com">contact@monparcourt.com</Link></li>
+            <li><Link href="mailto:monparcourt.1er@gmail.com">monparcourt.1er@gmail.com</Link></li>
           </ul>
                 </div>
           {/*Social Links*/}

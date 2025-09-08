@@ -4,9 +4,55 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import ChainedBackend from 'i18next-chained-backend';
 import LocalStorageBackend from 'i18next-localstorage-backend';
 import HttpBackend from 'i18next-http-backend';
+import resourcesToBackend from 'i18next-resources-to-backend';
+
+import enAbout from "../public/locales/en/about.json";
+import enBlog from "../public/locales/en/blog.json";
+import enCoaching from "../public/locales/en/coaching.json";
+import enCommon from "../public/locales/en/common.json";
+import enContact from "../public/locales/en/contact.json";
+import enCountries from "../public/locales/en/countries.json";
+import enEvents from "../public/locales/en/events.json";
+import enHome from "../public/locales/en/home.json";
+import enVisa from "../public/locales/en/visa.json";
+
+import frAbout from "../public/locales/fr/about.json";
+import frBlog from "../public/locales/fr/blog.json";
+import frCoaching from "../public/locales/fr/coaching.json";
+import frCommon from "../public/locales/fr/common.json";
+import frContact from "../public/locales/fr/contact.json";
+import frCountries from "../public/locales/fr/countries.json";
+import frEvents from "../public/locales/fr/events.json";
+import frHome from "../public/locales/fr/home.json";
+import frVisa from "../public/locales/fr/visa.json";
 
 const isServer = typeof window === 'undefined';
 const isDevelopment = process.env.NODE_ENV === 'development';
+
+const resources = {
+  en: {
+    about: enAbout,
+    blog: enBlog,
+    coaching: enCoaching,
+    common: enCommon,
+    contact: enContact,
+    countries: enCountries,
+    events: enEvents,
+    home: enHome,
+    visa: enVisa,
+  },
+  fr: {
+    about: frAbout,
+    blog: frBlog,
+    coaching: frCoaching,
+    common: frCommon,
+    contact: frContact,
+    countries: frCountries,
+    events: frEvents,
+    home: frHome,
+    visa: frVisa,
+  },
+};
 
 if (!isServer) {
   i18n.use(LanguageDetector);
@@ -23,17 +69,15 @@ i18n
     fallbackLng: 'en',
     interpolation: {escapeValue: false}, // not needed for react as it escapes by default,
     react: {useSuspense: false}, // Disable suspense to prevent hydration issues
-  ns: ['common', 'home', 'visa', 'countries', 'about', 'contact', 'coaching', 'blog', 'events'],
+    ns: ['common', 'home', 'visa', 'countries', 'about', 'contact', 'coaching', 'blog', 'events'],
     defaultNS: 'common',
     backend: {
       backends: isServer
-        ? [HttpBackend]
+        ? [resourcesToBackend(resources)]
         : [LocalStorageBackend, HttpBackend],
 
       backendOptions: isServer
-        ? [{
-            loadPath: './public/locales/{{lng}}/{{ns}}.json',
-          }]
+        ? []
         : [
             // LocalStorageBackend options
         {
@@ -48,8 +92,6 @@ i18n
         }
       ]
     },
-    // Preload languages/namespaces commonly used to avoid transient missingKey logs
-    preload: isServer ? ['en', 'fr'] : [],
 
     detection: {
       // Order and from where user language should be detected
@@ -59,10 +101,6 @@ i18n
       lookupCookie: 'i18next',
       lookupLocalStorage: 'i18nextLng',
     },
-
-    // Load namespaces synchronously to reduce loading flicker
-    // load: 'languageOnly',
-    // cleanCode: true,
   });
 
 export default i18n;
