@@ -1,7 +1,8 @@
 import { google } from 'googleapis';
 import { NextResponse } from 'next/server';
-import * as emailjs from '@emailjs/nodejs';
 import { rateLimiter } from '../middleware/rateLimit';
+import { Resend } from 'resend';
+import EventEmailTemplate from '@/components/elements/eventEmailTemplate';
 
 // Form validator function
 function validateFormData(data) {
@@ -77,6 +78,7 @@ export async function POST(request) {
     
     try {
       // In the App Router, we get the JSON body by awaiting request.json()
+      const resend = new Resend(process.env.KFFP_RESEND_API_KEY);
       const body = await request.json();
       
       // Enhanced validation
@@ -113,14 +115,11 @@ export async function POST(request) {
       // Use the event-specific sheetID if provided, otherwise fall back to the default
       const spreadsheetId = eventSheetID;
       
-
-      console.log('Using spreadsheetId:', spreadsheetId, "to get existing rows");
       const getRows = await sheets.spreadsheets.values.get({
         spreadsheetId,
         range: 'Sheet1!B:G', // Fetches columns B through G
       });
 
-      console.log('Existing rows fetched:', getRows.data.values ? getRows.data.values.length : 0);
 
       const rows = getRows.data.values || [];
       const existingEmails = new Set(rows.map(row => row[0])); // Column B is the first column in our range
@@ -152,36 +151,43 @@ export async function POST(request) {
 
 
       // 1. Google Sheets Append Operation
-      console.log('Using spreadsheetId:', spreadsheetId, "to append new row");
       const appendToSheetPromise = sheets.spreadsheets.values.append({
         spreadsheetId, // Use the validated spreadsheetId variable
         range: 'Sheet1!A:M', // Adjust range to include all columns A to N
         valueInputOption: 'USER_ENTERED',
         resource: {
-          values: [[new Date().toISOString(), email, phoneNumber, firstName, surname, residence, hasPassport, number, passportIssuanceDate, passportExpiryDate, dob, occupationType, educationStatus, languageExam, examGrade]],
+          values: [[
+            new Date().toISOString(),
+            email,
+            phoneNumber,
+            firstName,
+            surname,
+            residence,
+            hasPassport,
+            number,
+            passportIssuanceDate,
+            passportExpiryDate,
+            dob,
+            occupationType,
+            educationStatus,
+            languageExam,
+            examGrade,
+          ]],
         },
       });
 
       // --- Send confirmation email ---
-      const sendEmailPromise = emailjs.send(
-      process.env.EMAILJS_SERVICE_ID,
-      process.env.EMAILJS_TEMPLATE_ID,
-      {
-        email: email,
-        // FIX: Correctly concatenate first and last name using a template literal
-        name: `${firstName} ${surname}`,
-        number: number,
-      },
-      {
-        // For the server-side SDK, you must provide public and private keys
-        publicKey: process.env.EMAILJS_PUBLIC_KEY,
-        privateKey: process.env.EMAILJS_PRIVATE_KEY, // This is your EmailJS "API Key"
-      }
-    );
+      const sendEmailPromise = resend.emails.send({
+        from: 'contact.kffp@monparcourt.com',
+        to: [email.toString()],
+        subject: 'Event Registration Confirmation',
+        react: EventEmailTemplate({ firstName, lastName: surname, eventName: 'the event', number }),
+      });
 
-    await Promise.all([appendToSheetPromise, sendEmailPromise]);
+      // Run both operations in parallel and wait for results
+      await Promise.all([appendToSheetPromise, sendEmailPromise]);
 
-    return NextResponse.json({ message: 'Success' }, { status: 200 });
+      return NextResponse.json({ message: 'Success' }, { status: 200 });
     } catch (error) {
     console.error('Error in submit-form API:', error);
 

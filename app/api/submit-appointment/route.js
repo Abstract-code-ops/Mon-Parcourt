@@ -1,12 +1,13 @@
 import { NextResponse } from 'next/server';
-import * as emailjs from '@emailjs/nodejs';
 import { rateLimiter } from '../middleware/rateLimit';
+import AppointmentEmailTemplate from '@/components/elements/appointmentEmailTemplate';
+import { Resend } from 'resend';
 
 // Appointment validator function
 function validateAppointmentData(data) {
   const errors = [];
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  const phoneRegex = /^\+?[0-9\s-()]{8,20}$/; // Basic international phone format
+
   
   if (!data.firstName || data.firstName.length < 2) {
     errors.push('First name is required (min 2 characters)');
@@ -20,9 +21,9 @@ function validateAppointmentData(data) {
     errors.push('Valid email address is required');
   }
   
-  if (!data.phoneNumber || !phoneRegex.test(data.phoneNumber)) {
-    errors.push('Valid phone number is required');
-  }
+  // if (!data.phoneNumber || !phoneRegex.test(data.phoneNumber)) {
+  //   errors.push('Valid phone number is required');
+  // }
   
   // Appointment date is optional, but if provided, it must be valid
   if (data.appointmentDate) {
@@ -63,7 +64,7 @@ export async function POST(request) {
             errors: validation.errors 
           }, { status: 400 });
         }
-        
+        const resend = new Resend(process.env.KFFP_RESEND_API_KEY);
         const {
             firstName,
             lastName,
@@ -77,21 +78,12 @@ export async function POST(request) {
         // --- 4. Send confirmation email via EmailJS ---
         // IMPORTANT: Create a new template in EmailJS for appointments
         // and add its ID to your .env.local file as EMAILJS_APPOINTMENT_TEMPLATE_ID
-        const sendEmailPromise = emailjs.send(
-            process.env.EMAILJS_SERVICE_ID,
-            process.env.EMAILJS_APPOINTMENT_TEMPLATE_ID,
-            {
-                name: `${firstName} ${lastName}`,
-                email: email,
-                phone_number: phoneNumber,
-                appointment_date: appointmentDate || 'Not specified',
-                appointment_time: appointmentTime || 'Not specified',
-                message: message || 'No additional message provided.',
-            }, {
-                publicKey: process.env.EMAILJS_PUBLIC_KEY,
-                privateKey: process.env.EMAILJS_PRIVATE_KEY,
-            }
-        );
+        const sendEmailPromise = resend.emails.send({
+          from: 'contact.kffp@monparcourt.com',
+          to: "monparcourt.1er@gmail.com",
+          subject: 'Client Appointment Request Received',
+          react: AppointmentEmailTemplate({ firstName, lastName, phoneNumber, email, appointmentDate, appointmentTime, message  }),
+        });
 
         // --- 5. Execute both promises concurrently ---
         await Promise.all([sendEmailPromise]);

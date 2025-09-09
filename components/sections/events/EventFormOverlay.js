@@ -70,7 +70,7 @@ export default function EventFormOverlay({ isOpen, onClose, onSubmit, eventSheet
     console.log('Submitting form data:', dataToSend);
 
     try {
-      const response = await fetch('/api/submit-form', {
+      const response = await fetch('/api/submit-event-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
