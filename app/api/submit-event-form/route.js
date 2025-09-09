@@ -1,8 +1,8 @@
-import { google } from 'googleapis';
 import { NextResponse } from 'next/server';
 import { rateLimiter } from '../middleware/rateLimit';
 import { Resend } from 'resend';
 import EventEmailTemplate from '@/components/elements/EventEmailTemplate';
+import { client } from '@/sanity/lib/client';
 
 // Form validator function
 function validateFormData(data) {
@@ -92,89 +92,63 @@ export async function POST(request) {
       
       const { email, phoneNumber, firstName, surname, residence, dob, hasPassport, passportIssuanceDate, passportExpiryDate, eventSheetID, occupationType, educationStatus, languageExam, examGrade } = body;
 
-      // --- Google Sheets set up ---
-      const auth = new google.auth.GoogleAuth({
-        credentials: {
-          client_email: process.env.GOOGLE_CLIENT_EMAIL,
-          private_key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n'),
-        },
-        scopes: ['https://www.googleapis.com/auth/spreadsheets'],
-      });
+      // --- Sanity check for existing user ---
+      const existingUser = await client.fetch(
+        `*[_type == "eventRegistration" && (email == $email || phoneNumber == $phoneNumber)]`,
+        { email, phoneNumber }
+      );
 
-      const sheets = google.sheets({ version: 'v4', auth });
-      
-      
-      // Validate that we have a spreadsheet ID from somewhere
-      if (!eventSheetID) {
-        console.error('Missing spreadsheetId: No event sheet ID or default sheet ID provided');
-        return NextResponse.json({ 
-          message: 'Configuration error: No spreadsheet ID available' 
-        }, { status: 500 });
+      if (existingUser && existingUser.length > 0) {
+        const userExistsByEmail = existingUser.some(user => user.email === email);
+        if (userExistsByEmail) {
+          return NextResponse.json(
+            { message: 'This email has already been registered./Cet email a déjà été enregistré.' },
+            { status: 409 }
+          );
+        }
+        const userExistsByPhone = existingUser.some(user => user.phoneNumber === phoneNumber);
+        if (userExistsByPhone) {
+          return NextResponse.json(
+            { message: 'This phone number has already been registered./Ce numéro de téléphone a déjà été enregistré.' },
+            { status: 409 }
+          );
+        }
       }
       
-      // Use the event-specific sheetID if provided, otherwise fall back to the default
-      const spreadsheetId = eventSheetID;
-      
-      const getRows = await sheets.spreadsheets.values.get({
-        spreadsheetId,
-        range: 'Sheet1!B:G', // Fetches columns B through G
-      });
-
-
-      const rows = getRows.data.values || [];
-      const existingEmails = new Set(rows.map(row => row[0])); // Column B is the first column in our range
-      const existingPhones = new Set(rows.map(row => row[1])); // Column C is the 6th column (index 5)
-      const existingNumbers = new Set(rows.map(row => row[5])); // Column G is the 6th column (index 5)
-
-      if (existingEmails.has(email)) {
-        // Return a 409 Conflict error if the email is already registered.
-        // The frontend will display this message to the user.
-        return NextResponse.json(
-          { message: 'This email has already been registered./Cet email a déjà été enregistré.' },
-          { status: 409 }
-        );
-      }
-      if (existingPhones.has(phoneNumber)) {
-        // Return a 409 Conflict error if the phone number is already registered.
-        // The frontend will display this message to the user.
-        return NextResponse.json(
-          { message: 'This phone number has already been registered./Ce numéro de téléphone a déjà été enregistré.' },
-          { status: 409 }
-        );
-      }
-
-      // --- 2. Generate a unique number ---
+      // --- Generate a unique number ---
       let number;
+      let existingNumbers;
       do {
         number = Math.floor(Math.random() * 1000000);
-      } while (existingNumbers.has(number.toString()));
+        existingNumbers = await client.fetch(`*[_type == "eventRegistration" && registrationNumber == $number]`, { number });
+      } while (existingNumbers && existingNumbers.length > 0);
 
 
-      // 1. Google Sheets Append Operation
-      const appendToSheetPromise = sheets.spreadsheets.values.append({
-        spreadsheetId, // Use the validated spreadsheetId variable
-        range: 'Sheet1!A:M', // Adjust range to include all columns A to N
-        valueInputOption: 'USER_ENTERED',
-        resource: {
-          values: [[
-            new Date().toISOString(),
-            email,
-            phoneNumber,
-            firstName,
-            surname,
-            residence,
-            hasPassport,
-            number,
-            passportIssuanceDate,
-            passportExpiryDate,
-            dob,
-            occupationType,
-            educationStatus,
-            languageExam,
-            examGrade,
-          ]],
-        },
-      });
+      // 1. Sanity Create Operation
+      const doc = {
+        _type: 'eventRegistration',
+        email,
+        phoneNumber,
+        firstName,
+        surname,
+        residence,
+        dob,
+        hasPassport,
+        registrationNumber: number,
+        passportIssuanceDate,
+        passportExpiryDate,
+        occupationType,
+        educationStatus,
+        languageExam,
+        examGrade,
+        // Add a reference to the event if you have event documents
+        // event: {
+        //   _type: 'reference',
+        //   _ref: eventSheetID, // Assuming eventSheetID is the Sanity document ID for the event
+        // },
+      };
+
+      const createDocumentPromise = client.create(doc);
 
       // --- Send confirmation email ---
       const sendEmailPromise = resend.emails.send({
@@ -185,7 +159,7 @@ export async function POST(request) {
       });
 
       // Run both operations in parallel and wait for results
-      await Promise.all([appendToSheetPromise, sendEmailPromise]);
+      await Promise.all([createDocumentPromise, sendEmailPromise]);
 
       return NextResponse.json({ message: 'Success' }, { status: 200 });
     } catch (error) {
@@ -194,10 +168,10 @@ export async function POST(request) {
     // Provide more specific error feedback
     let errorMessage = 'An error occurred while processing your request.';
     if (error.response?.data?.error) {
-      // Google API error
-      errorMessage = 'Failed to save data to the spreadsheet.';
+      // Sanity API error
+      errorMessage = 'Failed to save data.';
     } else if (error.status) {
-      // EmailJS error
+      // Resend error
       errorMessage = 'Failed to send the confirmation email.';
     }
     return NextResponse.json({ message: errorMessage, error: error.message }, { status: 500 });

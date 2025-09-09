@@ -8,11 +8,7 @@ export default defineCloudflareConfig({
     // and instead loaded at runtime.
     dependencies: {
       external: [
-        "@sanity/vision",
-        "googleapis",
         "antd",
-        "google-spreadsheet",
-        "next-intl",
         "resend",
       ],
     },
