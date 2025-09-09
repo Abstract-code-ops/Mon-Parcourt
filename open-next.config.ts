@@ -7,7 +7,14 @@ export default defineCloudflareConfig({
     // These packages are large and can be excluded from the server bundle
     // and instead loaded at runtime.
     dependencies: {
-      external: ["@sanity/vision", "googleapis"],
+      external: [
+        "@sanity/vision",
+        "googleapis",
+        "antd",
+        "google-spreadsheet",
+        "next-intl",
+        "resend",
+      ],
     },
     // Minify the server bundle to reduce its size
     minify: true,
