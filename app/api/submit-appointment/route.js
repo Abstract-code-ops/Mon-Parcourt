@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { rateLimiter } from '../middleware/rateLimit';
-import AppointmentEmailTemplate from '@/components/elements/appointmentEmailTemplate';
+import AppointmentEmailTemplate from '@/components/elements/AppointmentEmailTemplate';
 import { Resend } from 'resend';
 
 // Appointment validator function

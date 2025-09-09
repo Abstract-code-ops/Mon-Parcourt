@@ -2,7 +2,7 @@ import { google } from 'googleapis';
 import { NextResponse } from 'next/server';
 import { rateLimiter } from '../middleware/rateLimit';
 import { Resend } from 'resend';
-import EventEmailTemplate from '@/components/elements/eventEmailTemplate';
+import EventEmailTemplate from '@/components/elements/EventEmailTemplate';
 
 // Form validator function
 function validateFormData(data) {
