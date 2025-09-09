@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Layout from "@/components/layout/Layout"
 import PartnersSlider from "@/components/slider/partnersSlider";
-// Import slick-carousel styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ContactExp from "@/components/elements/contactExp";
