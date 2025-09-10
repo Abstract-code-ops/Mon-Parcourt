@@ -13,9 +13,12 @@ const config = {
     NEXT_PUBLIC_SANITY_DATASET: process.env.NEXT_PUBLIC_SANITY_DATASET,
     NEXT_PUBLIC_SANITY_API_VERSION: process.env.NEXT_PUBLIC_SANITY_API_VERSION,
   },
-  experimental: {
-    // Helps Next transform member imports automatically where possible
-    optimizePackageImports: ['antd', 'dayjs'],
+
+  // Moved to the top level (no longer experimental)
+  optimizePackageImports: ['antd', 'dayjs'],
+
+  // 'modularizeImports' now lives inside the 'compiler' option
+  compiler: {
     modularizeImports: {
       antd: {
         transform: 'antd/es/{{member}}',

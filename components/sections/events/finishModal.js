@@ -4,7 +4,7 @@ import { Button, Typography, Space } from 'antd';
 import { CheckCircleOutlined, HeartOutlined, MailOutlined } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import dynamic from 'next/dynamic';
-const Confetti = dynamic(() => import('react-dom-confetti'), { ssr: false });
+const Confetti = dynamic(() => import('@/components/elements/Confetti'), { ssr: false });
 import "@/public/assets/css/custom.css";
 
 const { Title, Paragraph } = Typography;
