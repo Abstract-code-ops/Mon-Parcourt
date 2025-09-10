@@ -167,6 +167,7 @@ export async function POST(request) {
 
     // Provide more specific error feedback
     let errorMessage = 'An error occurred while processing your request.';
+    console.log(error);
     if (error.response?.data?.error) {
       // Sanity API error
       errorMessage = 'Failed to save data.';

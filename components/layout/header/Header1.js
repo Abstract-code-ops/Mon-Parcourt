@@ -34,7 +34,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                 <div className="header-lower">
                   <div className="outer-box clearfix">
                     <div className="logo-box" style={{marginRight: '20px', paddingTop: '10px', paddingBottom: '20px'}}>
-                      <figure className="logo"><Link href="/"><Image src="/assets/images/logo.png" alt="Mon Parcourt logo" width={140} height={40} priority /></Link></figure>
+                      <figure className="logo"><Link href="/"><Image src="/assets/images/logo.png" alt="Mon Parcourt logo" width={100} height={60} priority /></Link></figure>
                     </div>
                     <div className="nav-outer"  style={{width: 'calc(100% - 200px)', height: '100%'}}>
                       <div className="menu-area clearfix">

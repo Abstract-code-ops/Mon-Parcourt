@@ -43,7 +43,6 @@ export default function Home() {
         language: language // Pass the current language
       });
       setPosts(fetchedPosts);
-      console.log("Fetched posts with language:", language);
     }
     
     // Add a small debounce for search to prevent excessive API calls
@@ -75,7 +74,6 @@ export default function Home() {
 
   const currentPosts = sortedFilteredPosts.slice(indexOfFirstPost, indexOfLastPost);
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
-  console.log(filteredPosts);
 
   // Declare state for event posts to avoid filtering on every render
   const [eventPosts, setEventPosts] = useState([]);
@@ -86,7 +84,6 @@ export default function Home() {
       const language = i18n.language || 'en';
       const events = await getCategoryPosts("event", 3, 0, language);
       setEventPosts(events);
-      console.log("Fetched event posts with language:", language);
     }
     fetchEventPosts();
   }, [currentLanguage, i18n.language]);
