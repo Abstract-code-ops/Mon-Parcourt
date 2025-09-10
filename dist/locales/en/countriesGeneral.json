@@ -1,0 +1,83 @@
+{
+  "title": "Our Countries",
+  "subtitle": "Explore popular destinations",
+  "coursesLabel": "Courses",
+  "visaAltLabel": "Visa",
+  "slider": {
+    "visaType": "Visa Type :",
+    "usa": {
+      "name": "USA",
+      "description": "Most requests are from people looking to work",
+      "visas": "Working Visa, Job Visa"
+    },
+    "luxembourg": {
+      "name": "Luxembourg",
+      "description": "Most requests come from students looking for scholarships",
+      "visas": "Education Visa, Only System"
+    },
+    "canada": {
+      "name": "Canada",
+      "description": "Most requests come from people wanting to immigrate",
+      "visas": "Resident Visa, Job Visa"
+    },
+    "germany": {
+      "name": "Germany",
+      "description": "Most requests are from people looking to work",
+      "visas": "Working Visa, Job Visa"
+    },
+    "spain": {
+      "name": "Spain",
+      "description": "Most requests come from students looking for scholarships",
+      "visas": "Education Visa, Only System"
+    },
+    "turkey": {
+      "name": "Turkey",
+      "description": "Most requests come from people wanting to settle into the country",
+      "visas": "Resident Visa, Job Visa"
+    },
+    "australia": {
+      "name": "Australia",
+      "description": "Most requests come from students looking for scholarships",
+      "visas": "Student Visa & Admission, Visitor Visa"
+    },
+    "china": {
+      "name": "China",
+      "description": "Most requests come from students looking for scholarships",
+      "visas": "Student Visa & Admission, Visitor Visa"
+    }
+  },
+  "cards": {
+    "ielts": "IELTS",
+    "toefl": "TOEFL",
+    "daf": "DAF",
+    "tcf": "TCF"
+  }
+
+  ,"page": {
+    "breadcrumbTitle": "Countries Overview",
+    "section1": {
+      "subtitle": "Countries We Offer",
+      "title_html": "Our most popular countries <br />By number of requests."
+    },
+    "section2": {
+      "subtitle": "Countries We Offer",
+      "title": "Immigration Officials approvals for foreign citizens can vary by country.",
+      "paragraph": "There are different requirements for different visa types and countries. For a smoother experience contact us for more information",
+      "contactLinkText": "Here"
+    },
+    "countries": {
+      "usa": { "name": "United States of America", "description": "Move to the United States of America." },
+      "luxembourg": { "name": "Luxembourg", "description": "Move to Luxembourg." },
+      "canada": { "name": "Canada", "description": "Move to Canada." },
+      "lithuania": { "name": "Lithuania", "description": "Move to Lithuania." },
+      "germany": { "name": "Germany", "description": "Move to Germany." },
+      "china": { "name": "China", "description": "Move to China." },
+      "australia": { "name": "Australia", "description": "Move to Australia." },
+      "spain": { "name": "Spain", "description": "Move to Spain." },
+      "turkey": { "name": "Turkey", "description": "Move to Turkey." },
+      "trnc": { "name": "TRNC(KTTC)", "description": "Move to TRNC." },
+      "france": { "name": "France", "description": "Move to France." },
+      "uae": { "name": "UAE", "description": "Move to UAE." }
+    }
+  }
+}

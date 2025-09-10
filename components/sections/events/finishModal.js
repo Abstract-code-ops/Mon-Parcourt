@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react';
 import { Button, Typography, Space } from 'antd';
 import { CheckCircleOutlined, HeartOutlined, MailOutlined } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
-import Confetti from '../../elements/Confetti';
+import dynamic from 'next/dynamic';
+const Confetti = dynamic(() => import('react-dom-confetti'), { ssr: false });
 import "@/public/assets/css/custom.css";
 
 const { Title, Paragraph } = Typography;

@@ -2,7 +2,9 @@
 import Link from "next/link";
 import Layout from "@/components/layout/Layout"
 import ExamCalendar from '@/components/elements/ExamCalendar';
-import TestCenterMap from '@/components/elements/TestCenterMap';
+import dynamic from 'next/dynamic';
+// Load TestCenterMap only when user reaches its section
+const TestCenterMap = dynamic(() => import('@/components/elements/TestCenterMap'), { ssr: false });
 
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'

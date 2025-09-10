@@ -1,24 +1,46 @@
+/**
+ * Unified Next.js configuration with:
+ * - Environment variable passthrough
+ * - Bundle analyzer (enable with ANALYZE=1)
+ * - modularizeImports to tree‑shake heavy libs (antd, icons)
+ * - optimizePackageImports to reduce bundle surface
+ */
+
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const config = {
   env: {
-    // Explicitly include environment variables
     NEXT_PUBLIC_SANITY_PROJECT_ID: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
     NEXT_PUBLIC_SANITY_DATASET: process.env.NEXT_PUBLIC_SANITY_DATASET,
     NEXT_PUBLIC_SANITY_API_VERSION: process.env.NEXT_PUBLIC_SANITY_API_VERSION,
   },
+  experimental: {
+    // Helps Next transform member imports automatically where possible
+    optimizePackageImports: ['antd', 'dayjs'],
+    modularizeImports: {
+      antd: {
+        transform: 'antd/es/{{member}}',
+        preventFullImport: true,
+      },
+      '@ant-design/icons': {
+        transform: '@ant-design/icons/{{member}}',
+        preventFullImport: true,
+      },
+      '@sanity/icons': {
+        transform: '@sanity/icons/{{member}}',
+        preventFullImport: true,
+      },
+    }
+  }
 };
 
-// If the OpenNext Cloudflare dev helper is available, initialize it.
-// Wrapped in try/catch so this file remains valid if the package isn't installed
-// or when running in environments that don't support it.
+// Optional OpenNext Cloudflare dev helper init (kept after config definition)
 try {
-  // Use require to stay in CommonJS context
-  const { initOpenNextCloudflareForDev } = require("@opennextjs/cloudflare");
-  if (typeof initOpenNextCloudflareForDev === "function") {
+  const { initOpenNextCloudflareForDev } = require('@opennextjs/cloudflare');
+  if (typeof initOpenNextCloudflareForDev === 'function') {
     initOpenNextCloudflareForDev();
   }
-} catch (err) {
-  // ignore: optional dev helper
+} catch (_) {
+  // silent noop
 }
 
-module.exports = nextConfig;
+module.exports = config;

@@ -1,0 +1,166 @@
+{
+  "breadcrumb": {
+    "visaOverview": "Aperçu des visas",
+    "businessVisa": "Visa d'affaires",
+    "workingVisas": "Visas de travail",
+    "residenceVisas": "Visas de résidence",
+    "studentVisas": "Visas d'études",
+    "spouseFamilyVisas": "Visas conjoint/famille",
+    "touristVisas": "Visas touristiques"
+  },
+  "about": {
+    "title": "Comprendre les procédures de visa : un aperçu général",
+    "p1": "Les procédures de visa peuvent varier considérablement selon le pays et le type de visa demandé. Bien qu'il existe des étapes communes — comme la soumission de documents, les vérifications d'antécédents ou les entretiens — chaque pays applique ses propres règles et exigences.",
+    "p2": "Cette section fournit une compréhension générale du fonctionnement des demandes de visa. En raison des différences entre les politiques d'immigration, tous les détails ne peuvent pas être couverts ici.",
+    "p3_prefix": "Pour des conseils plus précis et complets, veuillez consulter la section ",
+    "p3_link": "Pays",
+    "p3_suffix": " où nous présentons les procédures et exigences spécifiques à chaque pays. Examiner les informations relatives à votre destination est essentiel pour une demande réussie.",
+    "p4": "Nous proposons également du coaching sur de nombreux sujets pour vous préparer aux démarches de candidature."
+  },
+  "coaching": {
+    "subtitle": "NOTRE COACHING",
+    "title": "Votre chemin vers l'excellence commence ici.",
+    "items": {
+      "toefl": {
+        "title": "Coaching TOEFL",
+        "desc": "Test d'anglais de la langue étrangère, un test standardisé d'anglais académique."
+      },
+      "german": {
+        "title": "Deutsch als Fremdsprache",
+        "desc": "Test d'allemand pour les personnes souhaitant aller en Allemagne."
+      },
+      "sat": {
+        "title": "Scholastic Apti",
+        "desc": "Un test standardisé reconnu mondialement, principalement utilisé pour l'admission à l'université, notamment aux États-Unis."
+      },
+      "tcf": {
+        "title": "Test de Connaissance du Français",
+        "desc": "Évalue les compétences générales en français et est utilisé pour l'immigration, les études et le monde professionnel."
+      }
+    }
+  },
+  "visa": {
+    "subtitle": "Catégories de visa",
+    "title": "MonParcourt offre des services d'immigration <br/>complets.",
+    "items": {
+      "student": {
+        "title": "Visa étudiant",
+        "desc": "Nous proposons des visas d'études dans divers pays pour les étudiants méritants.",
+        "readMore": "En savoir plus"
+      },
+      "business": {
+        "title": "Visa d'affaires",
+        "desc": "Nous fournissons des visas d'affaires aux personnes dans un pays étranger.",
+        "readMore": "En savoir plus"
+      },
+      "tourist": {
+        "title": "Visa touristique",
+        "desc": "Nous délivrons des visas touristiques pour les visites à l'étranger.",
+        "readMore": "En savoir plus"
+      },
+      "working": {
+        "title": "Visa de travail",
+        "desc": "Nous proposons des visas de travail aux personnes souhaitant travailler à l'étranger.",
+        "readMore": "En savoir plus"
+      },
+      "residence": {
+        "title": "Visa de résidence",
+        "desc": "Nous proposons des visas de résidence aux personnes souhaitant vivre à l'étranger.",
+        "readMore": "En savoir plus"
+      },
+      "visit": {
+        "title": "Visa de visite",
+        "desc": "Nous délivrons des visas de visite aux personnes souhaitant se rendre à l'étranger pour des raisons touristiques ou professionnelles.",
+        "readMore": "En savoir plus"
+      }
+    }
+  },
+  "testimonial": {
+    "subtitle": "Témoignages",
+    "title": "Ce que les gens disent <br/>de nous"
+  },
+  "sidebar": {
+    "travelPass": "Pass voyage",
+    "applicationForm": "Formulaire de demande",
+    "checklist": "Liste de contrôle",
+    "guidelines": "Directives",
+    "eligibilityTitle": "Éligibilité au visa / <br/>Prise de rendez-vous en ligne",
+    "eligibility": "Éligibilité au visa",
+    "externalLink": "lien externe",
+    "onlineAppointment": "Prise de rendez-vous en ligne"
+  },
+  "pages": {
+    "business": {
+      "title": "Visa d'affaires",
+      "intro": "La demande d'un visa d'affaires implique plusieurs étapes clés et nécessite généralement la préparation de documents détaillés pour établir le but et les moyens de votre voyage. Bien que le processus puisse légèrement varier selon le pays.",
+      "lower": "Voici la procédure générale où 60 % des voyageurs souhaitant se rendre dans un pays étranger pour des affaires temporaires doivent généralement demander un visa d'affaires, sauf exemption par des accords bilatéraux ou des programmes spéciaux. Comprendre les étapes communes peut rationaliser votre demande, quelle que soit votre destination.",
+      "leftTitle": "Processus général pour une demande de visa d'affaires",
+      "leftP1": "La plupart des demandes de visa d'affaires suivent ces étapes clés :",
+      "leftP2": " D'abord, <strong style=\"color: black\">identifiez le type de visa d'affaires</strong>. Ensuite, <strong style=\"color: black\">rassemblez les documents requis</strong>, notamment : formulaire de demande, passeport valide avec durée de validité suffisante, photos récentes, lettre d'invitation de l'entreprise hôte, et enfin <strong style=\"color: black\">soumettez votre demande</strong>.",
+      "rightTitle": "Exemples d'affaires temporaires :",
+      "r1": "1. Participation à des réunions ou consultations",
+      "r2": "2. Participation à une convention ou conférence",
+      "r3": "3. Négociation de contrats"
+    },
+    "working": {
+      "title": "Visa de travail",
+      "intro": "La demande d'un visa de travail exige une préparation attentive et la soumission de documents spécifiques prouvant votre intention et votre éligibilité à travailler à l'étranger. Chaque pays ayant son propre processus, ce guide décrit les étapes généralement requises.",
+      "lower": "Les étrangers souhaitant occuper un emploi temporaire ou permanent à l'étranger ont généralement besoin d'un visa de travail, sauf exemption ou accord particulier. Comprendre les étapes aide à assurer une demande réussie.",
+      "leftTitle": "Processus général pour une demande de visa de travail",
+      "leftP1": "La plupart des demandes de visa de travail suivent ces étapes clés :",
+      "leftP2": "D'abord, <strong style=\"color: black\">déterminez le type de visa de travail</strong> applicable à votre situation. Ensuite, <strong style=\"color: black\">rassemblez les documents requis</strong> : offre d'emploi/contrat, formulaire complété, passeport valide, photos d'identité, preuves de qualifications/expérience, et <strong style=\"color: black\">soumettez votre demande</strong> à l'ambassade/au consulat.",
+      "rightTitle": "Exemples d'activités professionnelles :",
+      "r1": "1. Emploi à temps plein ou partiel dans une entreprise",
+      "r2": "2. Participation à un programme de travailleurs qualifiés",
+      "r3": "3. Travail saisonnier temporaire ou sous contrat"
+    },
+    "residence": {
+      "title": "Visa de résidence",
+      "intro": "Demander un visa de résidence vous permet de rester légalement dans un pays étranger pour une longue durée, souvent pour le travail, la famille, la retraite ou des études longues. Chaque pays a ses propres critères, mais le processus général partage des exigences communes.",
+      "lower": "Les personnes souhaitant vivre dans un autre pays pour une durée moyenne ou longue ont généralement besoin d'un visa de résidence. Comprendre le processus et rassembler les documents nécessaires est essentiel pour une approbation fluide.",
+      "leftTitle": "Processus général pour une demande de visa de résidence",
+      "leftP1": "La plupart des demandes de visa de résidence suivent ces étapes clés :",
+      "leftP2": " D'abord, <strong style=\"color: black\">identifiez le type de visa de résidence approprié</strong> selon votre objectif (travail, famille, études, retraite). Puis, <strong style=\"color: black\">rassemblez les documents requis</strong> : formulaire de demande, passeport valide, preuve de logement, preuves de ressources, extrait de casier judiciaire, assurance santé. Enfin, <strong style=\"color: black\">soumettez votre demande</strong> au consulat/à l'autorité d'immigration.",
+      "rightTitle": "Exemples d'objectifs de visa de résidence :",
+      "r1": "1. Rejoindre un conjoint ou un membre de la famille à l'étranger",
+      "r2": "2. Emploi de longue durée ou transfert intra-entreprise",
+      "r3": "3. Retraite ou résidence fondée sur des revenus passifs"
+    },
+    "student": {
+      "title": "Visa étudiant",
+      "intro": "La demande d'un visa étudiant est une étape essentielle pour les étudiants internationaux souhaitant poursuivre leurs études à l'étranger. Ce visa vous permet de résider dans un pays étranger pendant la durée de vos études. Bien que chaque pays ait ses exigences, le processus global suit une logique similaire.",
+      "lower": "Les personnes souhaitant suivre des programmes académiques, des cours de langue ou une formation professionnelle à l'étranger doivent généralement demander un visa étudiant. Préparer les bons documents et comprendre le processus facilite grandement votre projet d'études à l'étranger.",
+      "leftTitle": "Processus général pour une demande de visa étudiant",
+      "leftP1": "La plupart des demandes de visa étudiant suivent ces étapes clés :",
+      "leftP2": "D'abord, <strong style=\"color: black\">postulez et recevez une admission d'un établissement reconnu</strong>. Puis, <strong style=\"color: black\">rassemblez les documents requis</strong> : lettre d'admission officielle, formulaire de demande de visa, passeport valide, preuve de ressources suffisantes, photos d'identité et lettre de motivation. Enfin, <strong style=\"color: black\">soumettez votre demande</strong> à l'ambassade ou au centre de traitement compétent.",
+      "rightTitle": "Exemples d'objectifs d'études :",
+      "r1": "1. Suivre un programme universitaire ou de grande école",
+      "r2": "2. S'inscrire à des cours de langue",
+      "r3": "3. Participer à des programmes d'échange ou de bourses"
+    },
+    "spouse": {
+      "title": "Visa conjoint/famille",
+      "intro": "La demande d'un visa conjoint ou familial permet aux membres éligibles d'une famille de se réunir et de résider ensemble à l'étranger. Ce visa concerne généralement les conjoints, les enfants ou autres personnes à charge de résidents légaux ou de citoyens. Chaque pays a des critères spécifiques, mais les étapes restent globalement similaires.",
+      "lower": "La réunification familiale est un motif fréquent d'immigration. Que vous rejoigniez un conjoint, un parent ou un enfant, la demande de visa familial implique de prouver votre relation, votre intention de vivre ensemble et vos capacités financières. Comprendre les étapes nécessaires augmente vos chances de succès.",
+      "leftTitle": "Processus général pour une demande de visa conjoint/famille",
+      "leftP1": "La plupart des demandes de visa conjoint/famille suivent ces étapes clés :",
+      "leftP2": " D'abord, <strong style=\"color: black\">déterminez le type de visa familial</strong> correspondant à votre relation (conjoint, enfant, parent à charge). Puis, <strong style=\"color: black\">rassemblez les documents requis</strong> : formulaire de demande, passeport valide, acte de mariage ou de naissance, preuve de relation, preuve de logement et moyens financiers. Enfin, <strong style=\"color: black\">soumettez votre demande</strong> auprès de l'ambassade ou de l'autorité d'immigration.",
+      "rightTitle": "Exemples de liens éligibles :",
+      "r1": "1. Conjoint légal ou partenaire civil",
+      "r2": "2. Enfants mineurs ou adoptés",
+      "r3": "3. Parents âgés ou autres personnes à charge"
+    },
+    "tourist": {
+      "title": "Visa touristique",
+      "intro": "Un visa touristique permet de visiter un pays étranger pour les loisirs, le tourisme ou pour rendre visite à des proches. Ces visas sont généralement de courte durée et n'autorisent ni l'emploi ni les séjours prolongés. Bien que le processus varie selon les pays, la structure reste souvent similaire.",
+      "lower": "Les personnes souhaitant découvrir temporairement un autre pays pour le tourisme doivent généralement demander un visa touristique, sauf exemption. Préparer les bons documents et comprendre les étapes garantit une expérience de voyage plus sereine.",
+      "leftTitle": "Processus général pour une demande de visa touristique",
+      "leftP1": "La plupart des demandes de visa touristique suivent ces étapes clés :",
+      "leftP2": " D'abord, <strong style=\"color: black\">choisissez votre destination et examinez les exigences</strong>. Puis, <strong style=\"color: black\">rassemblez les pièces requises</strong> : formulaire de demande, passeport valide, photos récentes, itinéraire de voyage, réservations d'hôtel, preuve de fonds et billet retour. Enfin, <strong style=\"color: black\">soumettez votre demande</strong> en ligne ou auprès de l'ambassade/du consulat.",
+      "rightTitle": "Exemples d'activités touristiques :",
+      "r1": "1. Visites et découvertes de villes ou de sites naturels",
+      "r2": "2. Visites à des amis ou à la famille",
+      "r3": "3. Participation à des événements culturels ou de loisirs"
+    }
+  }
+}

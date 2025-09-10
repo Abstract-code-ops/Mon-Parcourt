@@ -7,7 +7,12 @@ import { optimizedBlogDetailImage } from "/sanity/lib/queries";
 import PortableTextComponents from "@/components/portableText/blogDetailsPortableComponenets";
 import CalendarWidget from "@/components/layout/CalendarWidget";
 import WeatherWidget from "@/components/layout/WeatherWidget";
-import EventsComponent from "@/components/sections/events/EventsComponent";
+// Dynamically load heavy EventsComponent (antd + form logic) only when needed
+import dynamic from 'next/dynamic';
+const EventsComponent = dynamic(() => import('@/components/sections/events/EventsComponent'), {
+    ssr: false,
+    loading: () => null,
+});
 import { useTranslation } from 'react-i18next';
 import ImageLoadingWrapper from "@/components/layout/ImageLoadingWrapper";
 

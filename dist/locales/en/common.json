@@ -1,0 +1,103 @@
+{
+  "welcome_message": "Welcome to our immigration services",
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "We are sorry, the page you are looking for could not be found.",
+    "button": "Back to Homepage"
+  },
+  "menu": {
+    "home": "Home",
+    "visaServices": "Visa Services",
+    "visaOverview": "Visa Overview",
+    "countries": "Countries",
+    "countriesOverview": "Countries Overview",
+    "coaching": "Coaching",
+    "coachingOverview": "Coaching Overview",
+    "blogEvents": "Blog & Events",
+    "about": "About",
+    "faq": "Faq's",
+    "contactUs": "Contact Us",
+    "appointment": "Appointment",
+    "contactInfo": "Contact Info"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "visas": {
+    "business": "Business Visa",
+    "working": "Working Visa",
+    "residence": "Residence Visa",
+    "student": "Student Visas",
+    "tourist": "Tourist Visas",
+    "spouseFamily": "Spouse/Family Visas"
+  },
+  "countriesList": {
+    "unitedStates": "United States",
+    "luxembourg": "Luxembourg",
+    "canada": "Canada",
+    "china": "China",
+    "germany": "Germany",
+    "australia": "Australia",
+    "spain": "Spain",
+    "turkey": "Turkey",
+    "northCyprus": "North Cyprus",
+    "lithuania": "Lithuania",
+    "france": "France",
+    "uae": "UAE"
+  },
+  "coaching": {
+    "ielts": "IELTS Coaching",
+    "pte": "PTE Coaching",
+    "tofel": "TOFEL Coaching",
+    "daf": "DAF Coaching",
+    "tcf": "TCF Coaching",
+    "sat": "SAT Coaching"
+  },
+  "header": {
+    "appointment": "Appointment",
+    "enquiries": "Enquiries"
+  },
+  "footer": {
+    "tagline": "Build the bridge between you and your goals.",
+    "visaServices": "Visa Services",
+    "quickLinks": "Quick Links",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe to our newsletter to get the latest updates and offers.",
+    "newsletterPrivacy": "We respect your privacy. You can unsubscribe at any time.",
+  "subscribe": "Subscribe",
+  "emailPlaceholder": "Enter your email"
+  },
+  "appointment": {
+    "make": "Make Your Appointment",
+    "emailPrivacy": "Your email address will not be shared.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number (e.g. +1234567890)",
+  "firstNameRequired": "First name is required",
+  "lastNameRequired": "Last name is required",
+  "validEmail": "Please enter a valid email address",
+  "validPhone": "Please enter a valid phone number",
+    "selectDate": "Select Date:",
+    "selectTime": "Select Time:",
+    "additionalMessage": "Additional Message:",
+    "placeholderMessage": "Enter any additional details...",
+    "submit": "Submit Request",
+    "submitting": "Submitting...",
+    "success": "Appointment request sent! We will get back to you shortly.",
+  "successTitle": "Appointment Submitted",
+    "error": "Failed to send. Please try again later."
+  },
+  "contact": {
+    "subtitle": "Let’s Connect",
+    "title": "Get a Call From Experts",
+    "name": "Your Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Your Enquiry",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "success": "Your message has been sent successfully!",
+    "error": "Failed to send your message. Please check try again."
+  }
+}

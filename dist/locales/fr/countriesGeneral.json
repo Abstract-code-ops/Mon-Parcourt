@@ -1,0 +1,83 @@
+{
+  "title": "Nos pays",
+  "subtitle": "Explorez les destinations populaires",
+  "coursesLabel": "Cours",
+  "visaAltLabel": "Visa",
+  "slider": {
+    "visaType": "Type de visa :",
+    "usa": {
+      "name": "États-Unis",
+      "description": "La plupart des demandes proviennent de personnes cherchant du travail",
+      "visas": "Visa de travail, Visa d'emploi"
+    },
+    "luxembourg": {
+      "name": "Luxembourg",
+      "description": "La plupart des demandes proviennent d'étudiants recherchant des bourses",
+      "visas": "Visa d'études, Système uniquement"
+    },
+    "canada": {
+      "name": "Canada",
+      "description": "La plupart des demandes proviennent de personnes souhaitant immigrer",
+      "visas": "Visa de résident, Visa de travail"
+    },
+    "germany": {
+      "name": "Allemagne",
+      "description": "La plupart des demandes proviennent de personnes cherchant du travail",
+      "visas": "Visa de travail, Visa d'emploi"
+    },
+    "spain": {
+      "name": "Espagne",
+      "description": "La plupart des demandes proviennent d'étudiants recherchant des bourses",
+      "visas": "Visa d'études, Système uniquement"
+    },
+    "turkey": {
+      "name": "Turquie",
+      "description": "La plupart des demandes proviennent de personnes souhaitant s'installer dans le pays",
+      "visas": "Visa de résident, Visa de travail"
+    },
+    "australia": {
+      "name": "Australie",
+      "description": "La plupart des demandes proviennent d'étudiants recherchant des bourses",
+      "visas": "Visa étudiant & admission, Visa visiteur"
+    },
+    "china": {
+      "name": "Chine",
+      "description": "La plupart des demandes proviennent d'étudiants recherchant des bourses",
+      "visas": "Visa étudiant & admission, Visa visiteur"
+    }
+  },
+  "cards": {
+    "ielts": "IELTS",
+    "toefl": "TOEFL",
+    "daf": "DAF",
+    "tcf": "TCF"
+  }
+
+  ,"page": {
+    "breadcrumbTitle": "Aperçu des pays",
+    "section1": {
+      "subtitle": "Pays que nous proposons",
+      "title_html": "Nos pays les plus populaires <br />Par nombre de demandes."
+    },
+    "section2": {
+      "subtitle": "Pays que nous proposons",
+      "title": "Les approbations des autorités d'immigration pour les citoyens étrangers peuvent varier selon le pays.",
+      "paragraph": "Il existe différentes exigences selon les types de visa et les pays. Pour une expérience plus fluide, contactez-nous pour plus d'informations",
+      "contactLinkText": "ici"
+    },
+    "countries": {
+      "usa": { "name": "États-Unis d'Amérique", "description": "Déménagez aux États-Unis d'Amérique." },
+      "luxembourg": { "name": "Luxembourg", "description": "Déménagez au Luxembourg." },
+      "canada": { "name": "Canada", "description": "Déménagez au Canada." },
+      "lithuania": { "name": "Lituanie", "description": "Déménagez en Lituanie." },
+      "germany": { "name": "Allemagne", "description": "Déménagez en Allemagne." },
+      "china": { "name": "Chine", "description": "Déménagez en Chine." },
+      "australia": { "name": "Australie", "description": "Déménagez en Australie." },
+      "spain": { "name": "Espagne", "description": "Déménagez en Espagne." },
+      "turkey": { "name": "Turquie", "description": "Déménagez en Turquie." },
+      "trnc": { "name": "TRNC(KTTC)", "description": "Déménagez à TRNC." },
+      "france": { "name": "France", "description": "Déménagez en France." },
+      "uae": { "name": "ÉAU", "description": "Déménagez aux ÉAU." }
+    }
+  }
+}

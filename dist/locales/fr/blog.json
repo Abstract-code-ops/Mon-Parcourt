@@ -1,0 +1,39 @@
+{
+  "currentLanguage": "fr",
+  "breadcrumb": {
+    "blogList": "Blog & Evénements",
+    "blogDetail": "Article de Blog"
+  },
+  "search": {
+    "title": "Recherche",
+    "placeholder": "Mot-clé ..."
+  },
+  "categories": {
+    "title": "Catégorie",
+    "clear": "Effacer",
+    "blog": "Article de Blog",
+    "announcement": "Annonce",
+    "event": "Événement"
+  },
+  "affiliates": {
+    "title": "Affiliés",
+    "partner": "Partenaire",
+    "sponsor": "Sponsor"
+  },
+  "pagination": {
+    "prev": "Précédent",
+    "next": "Suivant"
+  },
+  "post": {
+    "readMore": "Lire la suite",
+    "tags": "Étiquettes :",
+    "author": "Administrateur",
+    "externalLink": "lien externe"
+  },
+  "meta": {
+    "blogListTitle": "Blog & Annonces - Services d'Immigration",
+    "blogListDescription": "Restez informé avec les dernières nouvelles d'immigration, annonces et articles de blog utiles sur les services de visa, programmes de coaching et informations sur les pays.",
+    "blogDetailTitle": "{{title}} - Blog d'Immigration",
+    "blogDetailDescription": "Lisez notre article de blog détaillé sur {{title}} et restez informé sur les services d'immigration et les opportunités."
+  }
+}

@@ -1,10 +1,11 @@
 /**
-* This configuration file lets you run `$ sanity [command]` in this folder
-* Go to https://www.sanity.io/docs/cli to learn more.
-**/
-import { defineCliConfig } from 'sanity/cli'
+ * Sanity CLI configuration (root).
+ * Uses values from ./sanity/env.js which provides safe fallbacks.
+ * Ensures projectId & dataset are always defined for commands like `sanity deploy`.
+ */
+import {defineCliConfig} from 'sanity/cli'
+import {projectId, dataset} from './sanity/env.js'
 
-const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET
-
-export default defineCliConfig({ api: { projectId, dataset } })
+export default defineCliConfig({
+	api: {projectId, dataset}
+})

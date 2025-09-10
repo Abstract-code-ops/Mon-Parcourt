@@ -1,0 +1,48 @@
+{
+  "breadcrumbTitle": "À propos de nous",
+  "yearsExperience": "Années d'expérience",
+  "whoWeAre": "Qui sommes-nous ?",
+  "leadingFirm": "Leader en services d'immigration.",
+  "aboutParagraph": "Dans notre service, nous sommes spécialisés dans les services d'immigration adaptés à vos besoins. Que vous recherchiez un visa, une résidence ou la citoyenneté, notre équipe dédiée vous accompagne à chaque étape. Forts d'années d'expérience, nous assurons des demandes fluides et réussies en naviguant efficacement dans les exigences juridiques complexes. Notre approche personnalisée garantit une communication claire et des mises à jour rapides, pour un parcours d'immigration serein. Faites-nous confiance pour gérer vos démarches avec professionnalisme et attention. Ouvrons ensemble la porte à de nouvelles opportunités et un avenir plus radieux.",
+  "bullet": {
+    "overseasEducation": "Conseillers pour études à l'étranger et visas d'étude.",
+    "topUniversities": "Admissions dans des universités de premier plan."
+  },
+  "moreDetails": "Plus de détails",
+  "feature": {
+    "visaTitle": "Visa",
+    "visaDesc": "Nous fournissons des visas d'affaires, d'études, de tourisme et plus encore.",
+    "coachingTitle": "Coaching",
+    "coachingDesc": "Nous vous aidons à acquérir les bonnes compétences pour voyager.",
+    "immigrationTitle": "Immigration",
+    "immigrationDesc": "Nous rendons votre processus d'immigration plus simple et fluide.",
+    "englishTrainingTitle": "Formation en anglais",
+    "englishTrainingDesc": "Nous levons la barrière de la langue pour faciliter la communication."
+  },
+  "countriesWeOffer": "Pays que nous proposons",
+  "comprehensiveImmigration": "Immigration complète",
+  "categories": "Catégories",
+  "visaConsultation": "Consultation et services de visa.",
+  "competitivePrices": "Nos prix compétitifs nous placent au sommet.",
+  "percentagesNote": "Ci-dessous les pourcentages de consultations de visa réalisées au fil des années.",
+  "progress": {
+    "studentVisa": "Visa étudiant",
+    "businessVisa": "Visa d'affaires",
+    "workingVisa": "Visa de travail",
+    "touristVisa": "Visa touristique"
+  },
+  "meetFounder": "Rencontrez le fondateur", 
+  "founderName": "Je suis Fabrice Fosso,",
+  "founderParagraph1": "Fondateur et Consultant en immigration avec plus de 4 ans d'expérience. Mon engagement est d'aider les individus et les familles à concrétiser leurs ambitions de s'établir à l'étranger.",
+  "founderParagraph2": "Mon approche repose sur l'empathie et une expertise pointue pour garantir un service sur mesure. Chaque dossier est unique, c'est pourquoi je fournis un accompagnement personnalisé et un soutien indéfectible à mes clients, de la consultation initiale à la réalisation de leur projet. Ma mission est de vous ouvrir les portes vers de nouvelles opportunités et de vous permettre de démarrer un nouveau chapitre de votre vie, partout dans le monde.",
+  "ourPartners": "Nos partenaires",
+  "partnersHeadline": "Quelques entreprises et marques avec lesquelles nous sommes partenaires.",
+  "letsConnect": "Entrons en contact",
+  "callFromExperts": "Recevoir un appel d'experts",
+  "form": {
+    "yourName": "Votre nom",
+    "emailAddress": "Adresse e-mail",
+    "phoneNumber": "Numéro de téléphone",
+    "submit": "Envoyer"
+  }
+}
