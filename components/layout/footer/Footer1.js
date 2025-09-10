@@ -21,7 +21,7 @@ export default function Footer1() {
                 </div>
                 <ul className="info clearfix mb_30">
                   <li><i className="icon-29"></i><Link href="tel:+33613800304">+33 613800304</Link></li>
-                  <li><i className="icon-1"></i><Link href="mailto:monparcourt.1er@gmail.com">monparcourt.1er@gmail.com</Link></li>
+                  <li><i className="icon-1"></i><Link href="mailto:contact.kffp@monparcourt.com">contact.kffp@monparcourt.com</Link></li>
                   <li><i className="icon-2"></i>87 Boulevard Diderot 75012 Paris</li>
                 </ul>
                 <ul className="social-links clearfix">

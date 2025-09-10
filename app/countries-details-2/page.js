@@ -9,7 +9,6 @@ export default function Home() {
     const { t } = useTranslation('countries')
     const common = 'details.common'
     const pageKey = 'details.pages.luxembourg'
-    console.log(t(`${pageKey}.working.checklist`))
   const [activeIndex, setActiveIndex] = useState(1)
   const handleOnClick = (index) => {
       setActiveIndex(index)

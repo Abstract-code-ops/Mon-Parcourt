@@ -12,9 +12,6 @@ export default function CalendarWidget() {
   // This function is called when the user clicks a date
   const onChange = (newDate) => {
     setDate(newDate);
-    // You can add logic here to do something with the selected date,
-    // like filtering posts or navigating to a specific day's archive.
-    console.log(newDate);
   };
 
   return (

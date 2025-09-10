@@ -2,6 +2,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import React, { useState } from 'react'
+import dayjs from 'dayjs'
 import { useTranslation } from 'react-i18next';
 import { Form, Input, DatePicker, TimePicker, Button, Row, Col, message, Modal } from 'antd'
 import { RightOutlined } from '@ant-design/icons'
@@ -119,30 +120,82 @@ export default function AppointmentPopup({ isPopup, handlePopup }) {
 
                     <Row gutter={16}>
                         <Col span={12}>
-                            <Form.Item name="appointmentDate" label={t('appointment.selectDate')} rules={[{ required: true, message: t('appointment.dateRequired') || 'Please select a date' }]}>
-                                <DatePicker
-                                    style={{ width: '100%' }}
-                                    format="YYYY-MM-DD"
-                                    allowClear
-                                    inputReadOnly={false}
-                                    allowInput
-                                    getPopupContainer={() => document.getElementById('appointment-popup-container') || document.body}
-                                    placeholder={t('appointment.selectDate')}
-                                />
-                            </Form.Item>
+                                <Form.Item
+                                    name="appointmentDate"
+                                    label={t('appointment.selectDate')}
+                                    rules={[{ required: true, message: t('appointment.dateRequired') || 'Please select a date' }]}
+                                >
+                                    <DatePicker
+                                        style={{ width: '100%' }}
+                                        format="YYYY-MM-DD"
+                                        allowClear
+                                        inputReadOnly={false}
+                                        allowInput
+                                        // disable selecting past dates (yesterday and earlier)
+                                        // and disable today if current time is after 18:00
+                                        disabledDate={(current) => {
+                                            if (!current) return false
+                                            const now = dayjs()
+                                            const after18 = now.hour() > 18 || (now.hour() === 18 && now.minute() > 0)
+                                            if (current.isBefore(now.startOf('day'), 'day')) return true
+                                            if (current.isSame(now, 'day') && after18) return true
+                                            return false
+                                        }}
+                                        getPopupContainer={() => document.getElementById('appointment-popup-container') || document.body}
+                                        placeholder={t('appointment.selectDate')}
+                                    />
+                                </Form.Item>
                         </Col>
                         <Col span={12}>
-                            <Form.Item name="appointmentTime" label={t('appointment.selectTime')} rules={[{ required: true, message: t('appointment.timeRequired') || 'Please select a time' }]}>
-                                <TimePicker
-                                    style={{ width: '100%' }}
-                                    format="HH:mm"
-                                    allowClear
-                                    inputReadOnly={false}
-                                    allowInput
-                                    getPopupContainer={() => document.getElementById('appointment-popup-container') || document.body}
-                                    placeholder={t('appointment.selectTime')}
-                                />
-                            </Form.Item>
+                                <Form.Item
+                                    name="appointmentTime"
+                                    label={t('appointment.selectTime')}
+                                    rules={[{ required: true, message: t('appointment.timeRequired') || 'Please select a time' }]}
+                                >
+                                    <TimePicker
+                                        style={{ width: '100%' }}
+                                        format="HH:mm"
+                                        allowClear
+                                        inputReadOnly={false}
+                                        allowInput
+                                        // restrict hours to business hours: 09:00 - 18:00
+                                        disabledHours={() => {
+                                            const disabled = []
+                                            for (let i = 0; i < 24; i++) {
+                                                if (i < 9 || i > 18) disabled.push(i)
+                                            }
+                                            // if selected date is today, also disable hours earlier than now
+                                            const apptDate = form.getFieldValue('appointmentDate')
+                                            if (apptDate && apptDate.isSame(dayjs(), 'day')) {
+                                                const currentHour = dayjs().hour()
+                                                for (let h = 9; h < currentHour; h++) {
+                                                    if (!disabled.includes(h)) disabled.push(h)
+                                                }
+                                            }
+                                            return disabled.sort((a, b) => a - b)
+                                        }}
+                                        // hide disabled options so the picker only displays allowed hours/minutes
+                                        hideDisabledOptions={true}
+                                        disabledMinutes={(hour) => {
+                                            // allow only 18:00 (no minutes > 0 for hour 18)
+                                            if (hour === 18) return Array.from({ length: 59 }, (_, i) => i + 1)
+
+                                            // if selected date is today and hour is current hour, disable minutes earlier than now
+                                            const apptDate = form.getFieldValue('appointmentDate')
+                                            if (apptDate && apptDate.isSame(dayjs(), 'day')) {
+                                                const currentHour = dayjs().hour()
+                                                const currentMinute = dayjs().minute()
+                                                if (hour === currentHour) {
+                                                    return Array.from({ length: currentMinute }, (_, i) => i)
+                                                }
+                                            }
+
+                                            return []
+                                        }}
+                                        getPopupContainer={() => document.getElementById('appointment-popup-container') || document.body}
+                                        placeholder={t('appointment.selectTime')}
+                                    />
+                                </Form.Item>
                         </Col>
                     </Row>
 

@@ -10,7 +10,7 @@ const swiperOptions = {
     slidesPerView: 1,
     spaceBetween: 0,
     autoplay: {
-        delay: 50000,
+        delay: 5000,
         disableOnInteraction: false,
     },
     loop: true,
@@ -43,7 +43,6 @@ export default function Banner() {
     // Ensure we have an array to map over. If translation is missing or malformed, fall back to using
     // slideMeta length and read individual title/description keys with t(). This prevents `slides.map is not a function`.
     const slideCount = Array.isArray(rawSlides) ? rawSlides.length : slideMeta.length
-    console.log("slideCount", slideCount, rawSlides)
     const slides = Array.from({ length: slideCount }).map((_, i) => {
         if (Array.isArray(rawSlides)) return rawSlides[i]
         return {

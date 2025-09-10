@@ -67,7 +67,6 @@ export default function EventFormOverlay({ isOpen, onClose, onSubmit, eventSheet
     ...formData,
     phoneNumber: newPhone,
     };
-    console.log('Submitting form data:', dataToSend);
 
     try {
       const response = await fetch('/api/submit-event-form', {

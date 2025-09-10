@@ -135,7 +135,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar,
           <ul>
             <li>87 Boulevard Diderot 75012 Paris</li>
             <li><Link href="tel:+33613800304">+33 613800304</Link></li>
-            <li><Link href="mailto:monparcourt.1er@gmail.com">monparcourt.1er@gmail.com</Link></li>
+            <li><Link href="mailto:contact.kffp@monparcourt.com">contact.kffp@monparcourt.com</Link></li>
           </ul>
                 </div>
           {/*Social Links*/}

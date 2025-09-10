@@ -227,6 +227,39 @@ export default function Step2({ onNext, onChange, data, onPrev }) {
               )}
             </Space>
             
+            {/* subscribe / follow notice */}
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: 16,
+              padding: '12px 16px',
+              borderRadius: 8,
+              background: 'linear-gradient(135deg, var(--main-color) 0%, var(--secondary-color) 100%)',
+              border: '1px solid rgba(255,255,255,0.06)',
+              margin: '12px 0'
+            }}>
+              <div style={{display: 'flex', flexDirection: 'column'}}>
+                <strong style={{fontSize: '1rem'}}>{t('subscribePrompt') || 'Like our content? Follow us on social media'}</strong>
+                <span style={{fontSize: '0.9rem', color: 'rgba(255,255,255,0.85)'}}>{t('subscribeSubtext') || 'Subscribe to our channels for updates, tips and offers.'}</span>
+              </div>
+
+              <div style={{display: 'flex', gap: 12, alignItems: 'center'}}>
+                <a href="https://www.facebook.com/profile.php?id=61550292352529" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style={{color: 'inherit'}}>
+                  <i className="icon-4" style={{fontSize: 20}}></i>
+                </a>
+                <a href="https://www.instagram.com/_monparcourt_" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style={{color: 'inherit'}}>
+                  <i className="icon-5" style={{fontSize: 20}}></i>
+                </a>
+                <a href="https://www.tiktok.com/@alexandris70?_t=ZM-8zGMc0C8ht7&_r=1" target="_blank" rel="noopener noreferrer" aria-label="TikTok" style={{color: 'inherit'}}>
+                  <i className="icon-6" style={{fontSize: 20}}></i>
+                </a>
+                <a href="https://www.youtube.com/@monparcourt2813" target="_blank" rel="noopener noreferrer" aria-label="YouTube" style={{color: 'inherit'}}>
+                  <i className="icon-7" style={{fontSize: 20}}></i>
+                </a>
+              </div>
+            </div>
+
             <div className={styles.buttonRow}>
               <Button 
                 onClick={onPrev} 

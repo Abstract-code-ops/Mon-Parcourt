@@ -95,7 +95,9 @@
     "message2": "A confirmation email has been sent to your address with all the details you need.",
     "goodLuck": "Good luck and we look forward to seeing you win!",
     "emailLabel": "For more updates and information, please follow our email:",
-    "emailAddress": "monparcourt.1er@gmail.com",
+    "emailAddress": "contact.kffp@monparcourt.com",
     "continue": "Continue"
-  }
+  },
+  "subscribePrompt": "Like our content? Follow us on social media",
+  "subscribeSubtext": "to stay updated with the latest news and updates!"
 }
