@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Layout from "@/components/layout/Layout"
 import ExamCalendar from '@/components/elements/ExamCalendar';
+import dynamic from 'next/dynamic';
 const TestCenterMap = dynamic(() => import('@/components/elements/TestCenterMap'), { ssr: false });
 
 import { useState } from 'react'
