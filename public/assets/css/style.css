@@ -971,9 +971,9 @@ img {
 .header-lower .nav-outer{
   position: relative;
   float: left;
-  width: calc(100% - 361px);
-  padding-right: 100px;
-  padding-left: 55px;
+  width: calc(100% - 160px);
+  padding-right: 20px;
+  padding-left: 25px;
   background: var(--white-color);
   border-bottom-left-radius: 20px;
   display: flex;
@@ -1055,7 +1055,7 @@ img {
   position:inherit;
   float:left;
   z-index:2;
-  margin: 0px 25px;
+  margin: 0px 15px;
   -webkit-transition:all 300ms ease;
   -moz-transition:all 300ms ease;
   -ms-transition:all 300ms ease;
@@ -2772,9 +2772,10 @@ div#mCSB_1_container{
 
   .header-lower .nav-outer{
     float: none;
-    width: 100%;
+    /* width: 100%; */
     background: transparent;
-    display: block;
+    /* display: block; */
+    justify-content: space-around;
   }
 
   .main-header .outer-box{
@@ -2784,7 +2785,7 @@ div#mCSB_1_container{
   }
 
   .main-menu{
-    float: right;
+    float: left;
   }
 
   .header-top{
@@ -2818,11 +2819,20 @@ div#mCSB_1_container{
     height: 230px;
   }
 
+  .menu-area{
+    width: fit-content;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .custom-theme-btn{
+    font-size: 0.9rem;
+  }
+
 }
 
 
-
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1240px){
 
   .main-menu,
   .sticky-header,
@@ -2972,6 +2982,7 @@ div#mCSB_1_container{
 
 
 
+
 @media only screen and (min-width: 768px){
   .main-menu .navigation > li > ul,
   .main-menu .navigation > li > ul > li > ul,
@@ -2982,7 +2993,17 @@ div#mCSB_1_container{
   }
 }
 
+@media only screen and (max-width: 800px) {
 
+  .header-lower .nav-outer{
+    justify-content: flex-end;
+  }
+
+  .menu-area{
+    float: right;
+  }
+  
+}
 
 @media only screen and (max-width: 991px){
 
@@ -4015,26 +4036,7 @@ div#mCSB_1_container{
 /* Responsive Css */
 
 
-@media only screen and (max-width: 1699px){
 
-  .header-lower{
-    padding-left: 30px;
-  }
-
-  .header-lower .nav-outer{
-    padding-right: 30px;
-  }
-
-  .header-style-four .header-lower{
-    padding: 0px 30px;
-  }
-
-  .banner-section .social-links,
-  .banner-section .pattern-layer .pattern-4{
-    display: none;
-  }
-
-}
 
 
 @media only screen and (max-width: 1499px){
@@ -4058,215 +4060,11 @@ div#mCSB_1_container{
 }
 
 
-@media only screen and (max-width: 1399px){
-
-  .header-lower .logo-box{
-    margin-right: 30px;
-  }
-
-  .main-header .support-box{
-    display: none;
-  }
-
-  .header-lower .nav-outer{
-    float: none;
-    width: 100%;
-    background: transparent;
-    display: block;
-  }
-
-  .main-header .outer-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .main-menu{
-    float: right;
-  }
-
-  .header-top{
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .header-top .top-inner{
-    display: block;
-    text-align: center;
-  }
-
-  .header-top .top-left .info li{
-    float: none;
-  }
-
-  .header-top .top-left .info li:before{
-    display: none;
-  }
-
-  .header-top .top-left{
-    margin-bottom: 10px;
-  }
-
-  .header-top .top-right{
-    justify-content: center;
-  }
-
-  .countries-block-two .inner-box .image-box{
-    width: 230px;
-    height: 230px;
-  }
-
-}
 
 
 
-@media only screen and (max-width: 1200px){
-
-  .main-menu,
-  .sticky-header,
-  .main-header.style-one .outer-container:before{
-    display: none !important;
-  }
-
-  .menu-area .mobile-nav-toggler {
-    display: block;
-    padding: 10px;
-  }
-
-  .megamenu ul li:first-child{
-    display: none;
-  }
-
-  .banner-section .social-links{
-    display: none;
-  }
-
-  .content_block_one .content-box,
-  .image_block_one .image-box{
-    margin: 0px;
-  }
-
-  .header-style-four .header-lower .menu-area{
-    background: transparent;
-    box-shadow: none;
-  }
-
-  .feature-section .inner-container{
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-
-  .dream-section .image-layer{
-    display: none;
-  }
-
-  .education-section .image-layer{
-    right: 0px;
-  }
-
-  .education-section .pattern-layer .pattern-1,
-  .education-section .pattern-layer .pattern-2{
-    display: none;
-  }
-
-  .banner-section .slide-item .image-layer{
-    display: none;
-  }
-
-  .header-top .social-links:before{
-    display: none;
-  }
-
-  .countries-style-three .pattern-layer{
-    display: none;
-  }
-
-  .banner-style-three .pattern-layer .pattern-2,
-  .about-style-three .image-layer{
-    display: none;
-  }
-
-  .banner-style-three .image-layer,
-  .skills-section.alternat-2 .image-layer{
-    right: 0px;
-  }
-
-  .coaching-block-three .inner-box .content-box{
-    padding-left: 30px;
-    padding-right: 30px;
-    bottom: 30px;
-  }
-
-  .dream-style-two .content-column{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .header-style-four .header-lower .menu-area{
-    padding: 15px 30px;
-  }
-
-  .banner-style-four .content-box h2 span:before,
-  .banner-style-four .image-box .image-2,
-  .banner-style-four .pattern-layer,
-  .image_block_two .image-box .image-shape{
-    display: none;
-  }
-
-  .banner-style-four .image-box .text-box{
-    right: 0px;
-  }
-
-  .image_block_two .image-box{
-    padding: 0px;
-  }
-
-  .skills-style-two .image-box{
-    padding-left: 0px;
-  }
-
-  .content_block_five .content-box{
-    padding-right: 0px;
-  }
-
-  .countries-block-four .inner-box{
-    padding: 50px 30px;
-  }
-
-  .news-block-one .inner-box .lower-content{
-    padding: 35px 30px;
-  }
-
-  .page-title .pattern-layer,
-  .testimonial-section .owl-nav,
-  .testimonial-section .thumb-box{
-    display: none;
-  }
-
-  .team-details-content .content-box{
-    padding: 80px 30px;
-  }
-
-  .blog-sidebar{
-    margin-left: 0px;
-  }
-
-  .blog-sidebar .sidebar-widget{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .countries-details-content .tab-btns li{
-    margin-bottom: 30px;
-  }
-
-  .countries-details-content .tab-btn-box{
-    padding-bottom: 30px;
-  }
 
 
-
-}
 
 
 
@@ -5301,26 +5099,7 @@ div#mCSB_1_container{
 /* Responsive Css */
 
 
-@media only screen and (max-width: 1699px){
 
-  .header-lower{
-    padding-left: 30px;
-  }
-
-  .header-lower .nav-outer{
-    padding-right: 30px;
-  }
-
-  .header-style-four .header-lower{
-    padding: 0px 30px;
-  }
-
-  .banner-section .social-links,
-  .banner-section .pattern-layer .pattern-4{
-    display: none;
-  }
-
-}
 
 
 @media only screen and (max-width: 1499px){
@@ -5344,215 +5123,11 @@ div#mCSB_1_container{
 }
 
 
-@media only screen and (max-width: 1399px){
-
-  .header-lower .logo-box{
-    margin-right: 30px;
-  }
-
-  .main-header .support-box{
-    display: none;
-  }
-
-  .header-lower .nav-outer{
-    float: none;
-    width: 100%;
-    background: transparent;
-    display: block;
-  }
-
-  .main-header .outer-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .main-menu{
-    float: right;
-  }
-
-  .header-top{
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .header-top .top-inner{
-    display: block;
-    text-align: center;
-  }
-
-  .header-top .top-left .info li{
-    float: none;
-  }
-
-  .header-top .top-left .info li:before{
-    display: none;
-  }
-
-  .header-top .top-left{
-    margin-bottom: 10px;
-  }
-
-  .header-top .top-right{
-    justify-content: center;
-  }
-
-  .countries-block-two .inner-box .image-box{
-    width: 230px;
-    height: 230px;
-  }
-
-}
 
 
 
-@media only screen and (max-width: 1200px){
-
-  .main-menu,
-  .sticky-header,
-  .main-header.style-one .outer-container:before{
-    display: none !important;
-  }
-
-  .menu-area .mobile-nav-toggler {
-    display: block;
-    padding: 10px;
-  }
-
-  .megamenu ul li:first-child{
-    display: none;
-  }
-
-  .banner-section .social-links{
-    display: none;
-  }
-
-  .content_block_one .content-box,
-  .image_block_one .image-box{
-    margin: 0px;
-  }
-
-  .header-style-four .header-lower .menu-area{
-    background: transparent;
-    box-shadow: none;
-  }
-
-  .feature-section .inner-container{
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-
-  .dream-section .image-layer{
-    display: none;
-  }
-
-  .education-section .image-layer{
-    right: 0px;
-  }
-
-  .education-section .pattern-layer .pattern-1,
-  .education-section .pattern-layer .pattern-2{
-    display: none;
-  }
-
-  .banner-section .slide-item .image-layer{
-    display: none;
-  }
-
-  .header-top .social-links:before{
-    display: none;
-  }
-
-  .countries-style-three .pattern-layer{
-    display: none;
-  }
-
-  .banner-style-three .pattern-layer .pattern-2,
-  .about-style-three .image-layer{
-    display: none;
-  }
-
-  .banner-style-three .image-layer,
-  .skills-section.alternat-2 .image-layer{
-    right: 0px;
-  }
-
-  .coaching-block-three .inner-box .content-box{
-    padding-left: 30px;
-    padding-right: 30px;
-    bottom: 30px;
-  }
-
-  .dream-style-two .content-column{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .header-style-four .header-lower .menu-area{
-    padding: 15px 30px;
-  }
-
-  .banner-style-four .content-box h2 span:before,
-  .banner-style-four .image-box .image-2,
-  .banner-style-four .pattern-layer,
-  .image_block_two .image-box .image-shape{
-    display: none;
-  }
-
-  .banner-style-four .image-box .text-box{
-    right: 0px;
-  }
-
-  .image_block_two .image-box{
-    padding: 0px;
-  }
-
-  .skills-style-two .image-box{
-    padding-left: 0px;
-  }
-
-  .content_block_five .content-box{
-    padding-right: 0px;
-  }
-
-  .countries-block-four .inner-box{
-    padding: 50px 30px;
-  }
-
-  .news-block-one .inner-box .lower-content{
-    padding: 35px 30px;
-  }
-
-  .page-title .pattern-layer,
-  .testimonial-section .owl-nav,
-  .testimonial-section .thumb-box{
-    display: none;
-  }
-
-  .team-details-content .content-box{
-    padding: 80px 30px;
-  }
-
-  .blog-sidebar{
-    margin-left: 0px;
-  }
-
-  .blog-sidebar .sidebar-widget{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .countries-details-content .tab-btns li{
-    margin-bottom: 30px;
-  }
-
-  .countries-details-content .tab-btn-box{
-    padding-bottom: 30px;
-  }
 
 
-
-}
 
 
 
@@ -6580,26 +6155,7 @@ div#mCSB_1_container{
 
 /* rispincive-css */
 
-@media only screen and (max-width: 1699px){
 
-  .header-lower{
-    padding-left: 30px;
-  }
-
-  .header-lower .nav-outer{
-    padding-right: 30px;
-  }
-
-  .header-style-four .header-lower{
-    padding: 0px 30px;
-  }
-
-  .banner-section .social-links,
-  .banner-section .pattern-layer .pattern-4{
-    display: none;
-  }
-
-}
 
 
 @media only screen and (max-width: 1499px){
@@ -6623,215 +6179,11 @@ div#mCSB_1_container{
 }
 
 
-@media only screen and (max-width: 1399px){
-
-  .header-lower .logo-box{
-    margin-right: 30px;
-  }
-
-  .main-header .support-box{
-    display: none;
-  }
-
-  .header-lower .nav-outer{
-    float: none;
-    width: 100%;
-    background: transparent;
-    display: block;
-  }
-
-  .main-header .outer-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .main-menu{
-    float: right;
-  }
-
-  .header-top{
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .header-top .top-inner{
-    display: block;
-    text-align: center;
-  }
-
-  .header-top .top-left .info li{
-    float: none;
-  }
-
-  .header-top .top-left .info li:before{
-    display: none;
-  }
-
-  .header-top .top-left{
-    margin-bottom: 10px;
-  }
-
-  .header-top .top-right{
-    justify-content: center;
-  }
-
-  .countries-block-two .inner-box .image-box{
-    width: 230px;
-    height: 230px;
-  }
-
-}
 
 
 
-@media only screen and (max-width: 1200px){
-
-  .main-menu,
-  .sticky-header,
-  .main-header.style-one .outer-container:before{
-    display: none !important;
-  }
-
-  .menu-area .mobile-nav-toggler {
-    display: block;
-    padding: 10px;
-  }
-
-  .megamenu ul li:first-child{
-    display: none;
-  }
-
-  .banner-section .social-links{
-    display: none;
-  }
-
-  .content_block_one .content-box,
-  .image_block_one .image-box{
-    margin: 0px;
-  }
-
-  .header-style-four .header-lower .menu-area{
-    background: transparent;
-    box-shadow: none;
-  }
-
-  .feature-section .inner-container{
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-
-  .dream-section .image-layer{
-    display: none;
-  }
-
-  .education-section .image-layer{
-    right: 0px;
-  }
-
-  .education-section .pattern-layer .pattern-1,
-  .education-section .pattern-layer .pattern-2{
-    display: none;
-  }
-
-  .banner-section .slide-item .image-layer{
-    display: none;
-  }
-
-  .header-top .social-links:before{
-    display: none;
-  }
-
-  .countries-style-three .pattern-layer{
-    display: none;
-  }
-
-  .banner-style-three .pattern-layer .pattern-2,
-  .about-style-three .image-layer{
-    display: none;
-  }
-
-  .banner-style-three .image-layer,
-  .skills-section.alternat-2 .image-layer{
-    right: 0px;
-  }
-
-  .coaching-block-three .inner-box .content-box{
-    padding-left: 30px;
-    padding-right: 30px;
-    bottom: 30px;
-  }
-
-  .dream-style-two .content-column{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .header-style-four .header-lower .menu-area{
-    padding: 15px 30px;
-  }
-
-  .banner-style-four .content-box h2 span:before,
-  .banner-style-four .image-box .image-2,
-  .banner-style-four .pattern-layer,
-  .image_block_two .image-box .image-shape{
-    display: none;
-  }
-
-  .banner-style-four .image-box .text-box{
-    right: 0px;
-  }
-
-  .image_block_two .image-box{
-    padding: 0px;
-  }
-
-  .skills-style-two .image-box{
-    padding-left: 0px;
-  }
-
-  .content_block_five .content-box{
-    padding-right: 0px;
-  }
-
-  .countries-block-four .inner-box{
-    padding: 50px 30px;
-  }
-
-  .news-block-one .inner-box .lower-content{
-    padding: 35px 30px;
-  }
-
-  .page-title .pattern-layer,
-  .testimonial-section .owl-nav,
-  .testimonial-section .thumb-box{
-    display: none;
-  }
-
-  .team-details-content .content-box{
-    padding: 80px 30px;
-  }
-
-  .blog-sidebar{
-    margin-left: 0px;
-  }
-
-  .blog-sidebar .sidebar-widget{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .countries-details-content .tab-btns li{
-    margin-bottom: 30px;
-  }
-
-  .countries-details-content .tab-btn-box{
-    padding-bottom: 30px;
-  }
 
 
-
-}
 
 
 

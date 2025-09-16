@@ -59,17 +59,17 @@ const swiperOptions = {
 
 
 export default function News() {
-    const { t } = useTranslation('home')
+    const { t, i18n } = useTranslation('home')
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
         async function fetchPosts() {
-            // Use the improved helper function to get featured posts
-            const fetchedPosts = await getFeaturedPosts(6);
+            // Use the improved helper function to get featured posts with current language
+            const fetchedPosts = await getFeaturedPosts(6, null, i18n.language);
             setPosts(fetchedPosts || []);
         }
         fetchPosts();
-    }, []);
+    }, [i18n.language]);
 
     const safeLink = (post) => {
         if (!post) return '#';

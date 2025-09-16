@@ -469,13 +469,6 @@ main.main-custom {
 
 /* Mobile / tablet: move appointment and lang into side nav and hide header's copies */
 @media (max-width: 1200px){
-  /* hide header placement for language toggle and appointment so they don't duplicate */
-  .header-lower .top-left,
-  .header-lower .custom-theme-btn.appointment-link,
-  .sticky-header .top-left,
-  .sticky-header .custom-theme-btn.appointment-link{
-    display: none !important;
-  }
 
   /* style mobile controls inside MobileMenu.js */
   .mobile-top-controls{
@@ -501,6 +494,16 @@ main.main-custom {
     border: 1px solid rgba(0,0,0,0.06);
     background: #fff;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  .header-lower .top-left,
+  .header-lower .custom-theme-btn.appointment-link,
+  .sticky-header .top-left,
+  .sticky-header .custom-theme-btn.appointment-link{
+    display: none !important;
+  }
+  
 }
 
 /* blog posts */

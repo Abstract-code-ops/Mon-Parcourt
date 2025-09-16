@@ -36,7 +36,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                     <div className="logo-box" style={{marginRight: '20px', paddingTop: '10px', paddingBottom: '20px'}}>
                       <figure className="logo"><Link href="/"><Image src="/assets/images/logo.png" alt="Mon Parcourt logo" width={100} height={60} priority /></Link></figure>
                     </div>
-                    <div className="nav-outer"  style={{width: 'calc(100% - 200px)', height: '100%'}}>
+                    <div className="nav-outer">
                       <div className="menu-area clearfix">
                         {/* Mobile Navigation Toggler */}
                         <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
@@ -50,7 +50,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                           </div>
                         </nav>
                       </div>
-                      <button className="custom-theme-btn appointment-link ml_20" onClick={handleAppointmentPopup} style={{ padding: '7px 14px' }}>
+                      <button className="custom-theme-btn appointment-link mr_10" onClick={handleAppointmentPopup} style={{ padding: '7px 14px' }}>
                         {t('header.appointment')}
                       </button>
                       <div className="support-box">
