@@ -12,6 +12,7 @@ export default function AppointmentPopup({ isPopup, handlePopup }) {
     const { t } = useTranslation('common');
     const [form] = Form.useForm()
     const [loading, setLoading] = useState(false)
+    const [selectedDate, setSelectedDate] = useState(null)
 
     const onFinish = async (values) => {
         // values.appointmentDate is a Dayjs/moment object; convert to ISO date string
@@ -141,6 +142,11 @@ export default function AppointmentPopup({ isPopup, handlePopup }) {
                                             if (current.isSame(now, 'day') && after18) return true
                                             return false
                                         }}
+                                        onChange={(date) => {
+                                            setSelectedDate(date)
+                                            // Clear the time when date changes to force re-evaluation
+                                            form.setFieldValue('appointmentTime', null)
+                                        }}
                                         getPopupContainer={() => document.getElementById('appointment-popup-container') || document.body}
                                         placeholder={t('appointment.selectDate')}
                                     />
@@ -153,45 +159,46 @@ export default function AppointmentPopup({ isPopup, handlePopup }) {
                                     rules={[{ required: true, message: t('appointment.timeRequired') || 'Please select a time' }]}
                                 >
                                     <TimePicker
+                                        key={selectedDate ? selectedDate.format('YYYY-MM-DD') : 'no-date'}
                                         style={{ width: '100%' }}
                                         format="HH:mm"
                                         allowClear
                                         inputReadOnly={false}
                                         allowInput
                                         // restrict hours to business hours: 09:00 - 18:00
-                                        disabledHours={() => {
-                                            const disabled = []
-                                            for (let i = 0; i < 24; i++) {
-                                                if (i < 9 || i > 18) disabled.push(i)
-                                            }
-                                            // if selected date is today, also disable hours earlier than now
-                                            const apptDate = form.getFieldValue('appointmentDate')
-                                            if (apptDate && apptDate.isSame(dayjs(), 'day')) {
-                                                const currentHour = dayjs().hour()
-                                                for (let h = 9; h < currentHour; h++) {
-                                                    if (!disabled.includes(h)) disabled.push(h)
+                                        disabledTime={() => ({
+                                            disabledHours: () => {
+                                                const disabled = []
+                                                for (let i = 0; i < 24; i++) {
+                                                    if (i < 9 || i > 18) disabled.push(i)
                                                 }
+                                                // if selected date is today, also disable hours earlier than now
+                                                if (selectedDate && selectedDate.isSame(dayjs(), 'day')) {
+                                                    const currentHour = dayjs().hour()
+                                                    for (let h = 9; h < currentHour; h++) {
+                                                        if (!disabled.includes(h)) disabled.push(h)
+                                                    }
+                                                }
+                                                return disabled.sort((a, b) => a - b)
+                                            },
+                                            disabledMinutes: (hour) => {
+                                                // allow only 18:00 (no minutes > 0 for hour 18)
+                                                if (hour === 18) return Array.from({ length: 59 }, (_, i) => i + 1)
+
+                                                // if selected date is today and hour is current hour, disable minutes earlier than now
+                                                if (selectedDate && selectedDate.isSame(dayjs(), 'day')) {
+                                                    const currentHour = dayjs().hour()
+                                                    const currentMinute = dayjs().minute()
+                                                    if (hour === currentHour) {
+                                                        return Array.from({ length: currentMinute }, (_, i) => i)
+                                                    }
+                                                }
+
+                                                return []
                                             }
-                                            return disabled.sort((a, b) => a - b)
-                                        }}
+                                        })}
                                         // hide disabled options so the picker only displays allowed hours/minutes
                                         hideDisabledOptions={true}
-                                        disabledMinutes={(hour) => {
-                                            // allow only 18:00 (no minutes > 0 for hour 18)
-                                            if (hour === 18) return Array.from({ length: 59 }, (_, i) => i + 1)
-
-                                            // if selected date is today and hour is current hour, disable minutes earlier than now
-                                            const apptDate = form.getFieldValue('appointmentDate')
-                                            if (apptDate && apptDate.isSame(dayjs(), 'day')) {
-                                                const currentHour = dayjs().hour()
-                                                const currentMinute = dayjs().minute()
-                                                if (hour === currentHour) {
-                                                    return Array.from({ length: currentMinute }, (_, i) => i)
-                                                }
-                                            }
-
-                                            return []
-                                        }}
                                         getPopupContainer={() => document.getElementById('appointment-popup-container') || document.body}
                                         placeholder={t('appointment.selectTime')}
                                     />

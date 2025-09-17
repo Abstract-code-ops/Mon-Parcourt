@@ -25,10 +25,10 @@ export default function Footer1() {
                   <li><i className="icon-2"></i>87 Boulevard Diderot 75012 Paris</li>
                 </ul>
                 <ul className="social-links clearfix">
-                  <li><Link href="https://www.facebook.com/profile.php?id=61550292352529"><i className="icon-4"></i></Link></li>
-                  <li><Link href="https://www.instagram.com/_monparcourt_"><i className="icon-5"></i></Link></li>
-                  <li><Link href="https://www.tiktok.com/@alexandris70?_t=ZM-8zGMc0C8ht7&_r=1"><i className="icon-6"></i></Link></li>
-                  <li><Link href="https://www.youtube.com/@monparcourt2813"><i className="icon-7"></i></Link></li>
+                  <li><Link href="https://www.facebook.com/share/1FLBsHSkKJ/" target="_blank"><i className="icon-4"></i></Link></li>
+                  <li><Link href="https://www.instagram.com/_monparcourt_" target="_blank"><i className="icon-5"></i></Link></li>
+                  <li><Link href="http://tiktok.com/@monparcourt.1er" target="_blank"><i className="icon-6"></i></Link></li>
+                  <li><Link href="https://www.youtube.com/channel/UCKwdTvulmAw2DKGOo8wM65Q" target="_blank"><i className="icon-7"></i></Link></li>
                 </ul>
               </div>
             </div>

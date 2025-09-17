@@ -82,11 +82,14 @@
     "selectTime": "Sélectionnez l'heure :",
     "additionalMessage": "Message supplémentaire :",
     "placeholderMessage": "Entrez des détails supplémentaires...",
+    "messageTooLong": "Le message est trop long (maximum 500 caractères)",
     "submit": "Envoyer la demande",
     "submitting": "Envoi...",
     "success": "Demande de rendez-vous envoyée ! Nous vous répondrons rapidement.",
   "successTitle": "Rendez-vous envoyé",
-    "error": "Échec de l'envoi. Veuillez réessayer plus tard."
+    "error": "Échec de l'envoi. Veuillez réessayer plus tard.",
+  "dateRequired": "Veuillez sélectionner une date",
+  "timeRequired": "Veuillez sélectionner une heure"
   },
   "contact": {
     "subtitle": "Restons en contact",

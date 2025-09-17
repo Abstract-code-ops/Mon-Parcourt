@@ -245,16 +245,16 @@ export default function Step2({ onNext, onChange, data, onPrev }) {
               </div>
 
               <div style={{display: 'flex', gap: 12, alignItems: 'center'}}>
-                <a href="https://www.facebook.com/profile.php?id=61550292352529" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style={{color: 'inherit'}}>
+                <a href="https://www.facebook.com/share/1FLBsHSkKJ/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style={{color: 'inherit'}}>
                   <i className="icon-4" style={{fontSize: 20}}></i>
                 </a>
                 <a href="https://www.instagram.com/_monparcourt_" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style={{color: 'inherit'}}>
                   <i className="icon-5" style={{fontSize: 20}}></i>
                 </a>
-                <a href="https://www.tiktok.com/@alexandris70?_t=ZM-8zGMc0C8ht7&_r=1" target="_blank" rel="noopener noreferrer" aria-label="TikTok" style={{color: 'inherit'}}>
+                <a href="http://tiktok.com/@monparcourt.1er" target="_blank" rel="noopener noreferrer" aria-label="TikTok" style={{color: 'inherit'}}>
                   <i className="icon-6" style={{fontSize: 20}}></i>
                 </a>
-                <a href="https://www.youtube.com/@monparcourt2813" target="_blank" rel="noopener noreferrer" aria-label="YouTube" style={{color: 'inherit'}}>
+                <a href="https://www.youtube.com/channel/UCKwdTvulmAw2DKGOo8wM65Q" target="_blank" rel="noopener noreferrer" aria-label="YouTube" style={{color: 'inherit'}}>
                   <i className="icon-7" style={{fontSize: 20}}></i>
                 </a>
               </div>

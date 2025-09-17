@@ -141,10 +141,10 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar,
           {/*Social Links*/}
           <div className="social-links">
           <ul className="clearfix">
-            <li><Link href="https://www.tiktok.com/@alexandris70?_t=ZM-8zGMc0C8ht7&_r=1"><span className="icon-6"></span></Link></li>
-            <li><Link href="https://www.facebook.com/profile.php?id=61550292352529"><span className="icon-4"></span></Link></li>
-            <li><Link href="https://www.instagram.com/_monparcourt_"><span className="icon-5"></span></Link></li>
-            <li><Link href="https://www.youtube.com/@monparcourt2813"><span className="icon-7"></span></Link></li>
+            <li><Link href="http://tiktok.com/@monparcourt.1er" target="_blank"><span className="icon-6"></span></Link></li>
+            <li><Link href="https://www.facebook.com/share/1FLBsHSkKJ/" target="_blank"><span className="icon-4"></span></Link></li>
+            <li><Link href="https://www.instagram.com/_monparcourt_" target="_blank"><span className="icon-5"></span></Link></li>
+            <li><Link href="https://www.youtube.com/channel/UCKwdTvulmAw2DKGOo8wM65Q" target="_blank"><span className="icon-7"></span></Link></li>
           </ul>
           </div>
         </nav>

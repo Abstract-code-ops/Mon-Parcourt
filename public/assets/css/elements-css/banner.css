@@ -70,22 +70,22 @@
 
 .slide-item.one{
   background-size:cover;
-  background-image: url('/assets/images/banner/banner-1.jpg');
+  background-image: url('/assets/images/banner/banner-1.webp');
 }
 
 .slide-item.two{
   background-size:cover;
-  background-image: url('/assets/images/banner/banner-2.jpg');
+  background-image: url('/assets/images/banner/banner-2.webp');
 }
 
 .slide-item.three{
   background-size:cover;
-  background-image: url('/assets/images/banner/banner-3.jpg');
+  background-image: url('/assets/images/banner/banner-3.webp');
 }
 
 .slide-item.four{
   background-size:cover;
-  background-image: url('/assets/images/banner/banner-4.jpg');
+  background-image: url('/assets/images/banner/banner-4.webp');
 }
 
 .banner-carousel .content-box{

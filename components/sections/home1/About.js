@@ -17,7 +17,7 @@ export default function about() {
             <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                         <figure className="image-box">
-                            <Image src="/assets/images/resource/about-1.png" alt="About Mon Parcourt" width={834} height={923} />
+                            <Image src="/assets/images/resource/about-1.webp" alt="About Mon Parcourt" width={834} height={923} />
                         </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
