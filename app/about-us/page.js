@@ -206,7 +206,7 @@ export default function Home() {
                               <img src="/assets/images/KFFP.png" alt="KFFP" className="logo logo-kffp" />
                             </div>
                             <div className="content-box p_relative d_block">
-                              <div className="sec-title light mb_20 flex-column centred">
+                              <div className="sec-title light mb_20 flex-column">
                                 <span className="sub-title">{t('meetFounder')}</span>
                                 <h2>{t('founderName')}</h2>
                               </div>

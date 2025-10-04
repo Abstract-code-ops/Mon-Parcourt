@@ -3,15 +3,70 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from "swiper/react"
 
-const swiperOptions = {
+const clientsData = [
+    {
+        id: 1,
+        src: 'assets/images/custom_images/Ekta.png',
+        alt: '',
+        name: 'EKTA',
+        url: 'https://tp.media/click?shmarker=676005&promo_id=7358&source_type=link&type=click&campaign_id=225&trs=462962'
+    },
+    {
+        id: 2,
+        src: 'assets/images/custom_images/kiwi.png',
+        alt: '',
+        name: 'Kiwi.com',
+        url: 'https://tp.media/click?shmarker=676005&promo_id=8912&source_type=link&type=click&campaign_id=111&trs=462962'
+    },
+    {
+        id: 3,
+        src: 'assets/images/custom_images/airalo.png',
+        alt: '',
+        name: 'Airalo',
+        url: 'https://tp.media/click?shmarker=676005&promo_id=8405&source_type=link&type=click&campaign_id=541&trs=462962'
+    },
+    {
+        id: 4,
+        src: 'assets/images/custom_images/airhelp.png',
+        alt: '',
+        name: 'Airhelp',
+        url: 'https://airhelp.tpx.lt/hnWUPwCS'
+    },
+    {
+        id: 5,
+        src: 'assets/images/custom_images/compensair.png',
+        alt: '',
+        name: 'Compensair',
+        url: 'https://compensair.tpx.lt/YvnqmSxu'
+    },
+    {
+        id: 6,
+        src: 'assets/images/custom_images/saily.png',
+        alt: '',
+        name: 'Saily',
+        url: 'https://tp.media/click?shmarker=676005&promo_id=8978&source_type=link&type=click&campaign_id=629&trs=462962'
+    }
+]
+
+const innerBox = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+}
+
+export default function PartnersSlider() {
+
+    const hasEnoughSlides = clientsData.length > 3;
+
+    const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
-    slidesPerView: 4,
+    slidesPerView: 3,
     spaceBetween: 30,
     autoplay: {
         delay: 2500,
         disableOnMaven_Proaction: false,
     },
-    loop: true,
+    loop: hasEnoughSlides,
 
     // Navigation
     navigation: {
@@ -43,96 +98,15 @@ const swiperOptions = {
             // spaceBetween: 30,
         },
         1199: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             // spaceBetween: 30,
         },
         1350: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             // spaceBetween: 30,
         },
     }
 }
-
-const clientsData = [
-    {
-        id: 1,
-        src: 'assets/images/custom_images/turkish-airlines.png',
-        alt: '',
-        name: 'Turkish Airlines',
-        url: 'https://www.turkishairlines.com/'
-    },
-    {
-        id: 2,
-        src: 'assets/images/custom_images/airbnb.png',
-        alt: '',
-        name: 'Airbnb',
-        url: 'https://www.airbnb.com/'
-    },
-    {
-        id: 3,
-        src: 'assets/images/custom_images/skyscanner.png',
-        alt: '',
-        name: 'Skyscanner',
-        url: 'https://www.skyscanner.com/'
-    },
-    {
-        id: 4,
-        src: 'assets/images/custom_images/idp-education.png',
-        alt: '',
-        name: 'Idp Education',
-        url: 'https://www.idp-education.com/'
-    },
-    {
-        id: 6,
-        src: 'assets/images/custom_images/booking-com.png',
-        alt: '',
-        name: 'Booking.com',
-        url: 'https://www.booking.com/'
-    },
-    {
-        id: 7,
-        src: 'assets/images/custom_images/british-council.png',
-        alt: '',
-        name: 'British Council',
-        url: 'https://www.britishcouncil.org/'
-    },
-    {
-        id: 8,
-        src: 'assets/images/custom_images/applyboard.png',
-        alt: '',
-        name: 'Applyboard',
-        url: 'https://www.applyboard.com/'
-    },
-    {
-        id: 9,
-        src: 'assets/images/custom_images/wise-transferwise.png',
-        alt: '',
-        name: 'Wise',
-        url: 'https://www.wise.com/'
-    },
-    {
-        id: 10,
-        src: 'assets/images/custom_images/turing.png',
-        alt: '',
-        name: 'Turing',
-        url: 'https://www.turing.com/jobs'
-    },
-    {
-        id: 11,
-        src: 'assets/images/custom_images/trip-advisor.png',
-        alt: '',
-        name: 'Trip Advisor',
-        url: 'https://www.tripadvisor.com/'
-    }
-]
-
-const innerBox = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-}
-
-export default function PartnersSlider() {
     return (
         <>
             <Swiper {...swiperOptions} className="four-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">

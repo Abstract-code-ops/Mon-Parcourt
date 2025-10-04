@@ -134,7 +134,7 @@
 .content_block_two .logo-group{
   position: absolute;
   top: -70px;
-  left: 50;
+  left: 0;
   z-index: 5;
 }
 .content_block_two .logo-group .logo{

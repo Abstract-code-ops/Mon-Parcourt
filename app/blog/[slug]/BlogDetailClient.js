@@ -16,6 +16,51 @@ const EventsComponent = dynamic(() => import('@/components/sections/events/Event
 import { useTranslation } from 'react-i18next';
 import ImageLoadingWrapper from "@/components/layout/ImageLoadingWrapper";
 
+const clientsData = [
+    {
+        id: 1,
+        src: '/assets/images/custom_images/Ekta.png',
+        alt: '',
+        name: 'EKTA',
+        url: 'https://tp.media/click?shmarker=676005&promo_id=7358&source_type=link&type=click&campaign_id=225&trs=462962'
+    },
+    {
+        id: 2,
+        src: '/assets/images/custom_images/kiwi.png',
+        alt: '',
+        name: 'Kiwi.com',
+        url: 'https://tp.media/click?shmarker=676005&promo_id=8912&source_type=link&type=click&campaign_id=111&trs=462962'
+    },
+    {
+        id: 3,
+        src: '/assets/images/custom_images/airalo.png',
+        alt: '',
+        name: 'Airalo',
+        url: 'https://tp.media/click?shmarker=676005&promo_id=8405&source_type=link&type=click&campaign_id=541&trs=462962'
+    },
+    {
+        id: 4,
+        src: '/assets/images/custom_images/airhelp.png',
+        alt: '',
+        name: 'Airhelp',
+        url: 'https://airhelp.tpx.lt/hnWUPwCS'
+    },
+    {
+        id: 5,
+        src: '/assets/images/custom_images/compensair.png',
+        alt: '',
+        name: 'Compensair',
+        url: 'https://compensair.tpx.lt/YvnqmSxu'
+    },
+    {
+        id: 6,
+        src: '/assets/images/custom_images/saily.png',
+        alt: '',
+        name: 'Saily',
+        url: 'https://tp.media/click?shmarker=676005&promo_id=8978&source_type=link&type=click&campaign_id=629&trs=462962'
+    }
+]
+
 export default function BlogDetailClient({ post, isEvent, loading=false }) {
     const { t } = useTranslation('blog');
     return (
@@ -86,21 +131,14 @@ export default function BlogDetailClient({ post, isEvent, loading=false }) {
                                                     <h3>{t('affiliates.title')}</h3>
                                                 </div>
                                                 <div className="post-inner">
-                                                    <div className="post">
-                                                        <figure className="post-thumb"><Link href="https://www.tripadvisor.com/"><img src="/assets/images/custom_images/tripAdvisor.png" alt="" /></Link></figure>
-                                                        <h5><Link href="https://www.tripadvisor.com/">Trip Advisor</Link></h5>
-                                                        <span className="post-date">{t('affiliates.partner')}</span>
-                                                    </div>
-                                                    <div className="post">
-                                                        <figure className="post-thumb"><Link href="blog-details"><img src="/assets/images/custom_images/kayak.png" alt="" /></Link></figure>
-                                                        <h5><Link href="https://www.kayak.com/">Kayak</Link></h5>
-                                                        <span className="post-date">{t('affiliates.sponsor')}</span>
-                                                    </div>
-                                                    <div className="post">
-                                                        <figure className="post-thumb"><Link href="blog-details"><img src="/assets/images/custom_images/booking.png" alt="" /></Link></figure>
-                                                        <h5><Link href="https://www.booking.com/">Booking.com</Link></h5>
-                                                        <span className="post-date">{t('affiliates.partner')}</span>
-                                                    </div>
+                                                    {/* Partners Slider */}
+                                                    {clientsData.map((client) => (
+                                                        <div className="post" key={client.id}>
+                                                            <figure className="post-thumb"><Link href="blog-details"><img src={client.src} alt={client.alt} /></Link></figure>
+                                                            <h5><Link href={client.url}>{client.name}</Link></h5>
+                                                            <span className="post-date">{t('affiliates.sponsor')}</span>
+                                                        </div>
+                                                    ))}
                                                 </div>
                                             </div>
                                             
