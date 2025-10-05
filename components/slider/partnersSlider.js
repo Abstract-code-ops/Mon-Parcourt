@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 const clientsData = [
     {
         id: 1,
-        src: 'assets/images/custom_images/Ekta.png',
+        src: 'assets/images/custom_images/ekta.png',
         alt: '',
         name: 'EKTA',
         url: 'https://tp.media/click?shmarker=676005&promo_id=7358&source_type=link&type=click&campaign_id=225&trs=462962'
